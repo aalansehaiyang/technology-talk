@@ -10,11 +10,15 @@
 * 	[java](basic-knowledge/java.md)
 *  	spring
 *	ibatis
+*	Quartz
+*	HttpClient
+*	常用的设计模式
 
 
 ### 数据库
-目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，依然可以有强大的输出能力。
+目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
+*	数据库连接池
 * 	锁机制
 * 	分库分表
 
@@ -26,9 +30,9 @@
 * zookeeper
 * cobar
 
-## 开源框架
+### 开源框架
 
-* [Goole Guava](open-source-framework/Goole-Guava.md)
+* [Google Guava](open-source-framework/Goole-Guava.md)
 * redis
 * memcache
 * fastJson
@@ -38,8 +42,19 @@
 
 ### 系统架构 
 
+* 负载均衡
+* CDN
+* Nginx
+
 
 
 ### 运维
-* 快速排查线上问题
-*  
+
+*	快速排查线上问题
+*	常用的linux命令
+*	域名劫持
+
+
+### 其它
+
+*	抓包软件（charles）
