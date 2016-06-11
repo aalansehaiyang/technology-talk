@@ -15,20 +15,20 @@
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，依然可以有强大的输出能力。
 
-1. 锁机制
-2. 分库分表
+* 	锁机制
+* 	分库分表
 
 
 ### 中间件
 
-* dubbo
+* [dubbo](middle-software/dubbo.md)
 * kafka
 * zookeeper
 * cobar
 
 ## 开源框架
 
-* [Goole Guava](Goole-Guava/简介.md)
+* [Goole Guava](open-source-framework/Goole-Guava.md)
 * redis
 * memcache
 * fastJson
