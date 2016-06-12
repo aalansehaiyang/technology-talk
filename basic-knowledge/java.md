@@ -4,6 +4,7 @@
 
 ### 基础：
 * 	[jdk并发包里常用的类](concurrent-class.md)
+* 	[java8函数编程](java8-stream.md)
 * 	java的线程状态
 * 	ThreadLocal原理机制
 * 	HashMap的扩容机制
