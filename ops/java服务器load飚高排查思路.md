@@ -9,7 +9,6 @@ Load 是指对计算机干活多少的度量（WikiPedia：the system load is a 
 
 ```
 top -p 28174 –H  
-
 ```
 
 ```
@@ -36,15 +35,13 @@ top -p 28174 –H
 
 ```
 jstack 28174 >> stack.log 
- 
 ```
 
 
 4.将cpu消耗高的线程的pid换算为16进制
 
 ```
- printf 0x%x 32694
- 
+printf 0x%x 32694
 ```
 
 转换后的16进制为 0x7fb6
@@ -53,7 +50,6 @@ jstack 28174 >> stack.log
 
 ```
 grep 0x7fb6  stack.log -a3
-
 ```   
 
 ```
@@ -69,12 +65,10 @@ grep 0x7fb6  stack.log -a3
 
 ```
 grep RUNNABLE stack.log  -a1   
-
 ```
 ![image](img/1364394978_1570.jpg)
 
 ```
 less a.log |awk '{FS="java.lang.Thread.State:";print $2}'|sort |uniq -c |sort -nr  
-
 ```
 ![image](img/20130812130234781.jpeg)
