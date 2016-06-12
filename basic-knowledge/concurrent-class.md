@@ -78,8 +78,9 @@ Unlock方法，释放锁
 * ReentrantReadWriteLock
 
 	与ReentrantLock没有任何继承关系，提供了读锁和写锁，在读多写少的场景中大幅度提升性能。
-持有读锁时，不能直接调用写锁的lock方法。
-
+	
+	持有读锁时，不能直接调用写锁的lock方法。
+	
 	持有写锁时，其他线程的读或写都会被阻塞。
 	
 	ReentrantReadWriteLock  lock=new ReentrantReadWriteLock();
