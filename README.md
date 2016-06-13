@@ -14,6 +14,8 @@
 *	HttpClient
 *	常用的设计模式
 
+### 进阶知识
+*	[一致性hash算法](advanced-knowledge/一致性hash.md)
 
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
