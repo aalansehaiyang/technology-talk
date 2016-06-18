@@ -45,6 +45,7 @@
 * 负载均衡
 * CDN
 * Nginx
+* [性能优化之Qps](system-architecture/性能优化之Qps.md)
 
 
 
