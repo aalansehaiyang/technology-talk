@@ -12,7 +12,7 @@
 *	ibatis
 *	Quartz
 *	HttpClient
-*	常用的设计模式
+*	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
 
 ### 数据库
@@ -46,6 +46,8 @@
 * CDN
 * Nginx
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
+* [cache相关](system-architecture/cache相关.md)
+* [架构原则](system-architecture/架构原则.md)
 
 
 
@@ -54,6 +56,10 @@
 *	[快速排查线上问题](ops/online-question.md)
 *	常用的linux命令
 *	域名劫持
+
+### 项目管理
+
+* 
 
 
 ### 其它
