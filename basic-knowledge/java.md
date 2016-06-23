@@ -1,6 +1,6 @@
 ## java相关
 
-====
+---
 
 ### 基础：
 * 	[jdk并发包里常用的类](concurrent-class.md)

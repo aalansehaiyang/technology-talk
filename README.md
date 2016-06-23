@@ -20,7 +20,8 @@
 
 *	数据库连接池
 * 	[锁机制](data-base/锁机制.md)
-* 	分库分表
+* 	[分库分表](data-base/分库分表.md)
+* 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 
 
 ### 中间件
@@ -33,7 +34,7 @@
 ### 开源框架
 
 * [Google Guava](open-source-framework/Goole-Guava.md)
-* redis
+* [redis](open-source-framework/redis.md)
 * memcache
 * fastJson
 * log4J
@@ -59,10 +60,10 @@
 
 ### 项目管理
 
-* 
+* [程序员素养](project-management/程序员素养.md)
 
 
 ### 其它
 
-*	抓包软件（charles）
+*	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
