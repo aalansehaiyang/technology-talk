@@ -1,6 +1,6 @@
 ## 技术心得
 
-===
+---
 
 有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于吃技术这碗饭也有一定的心得体会，虽然在专业领域精通很难，但达到入门级别甚至应付日常的工作，还是很容易的。
 
@@ -38,6 +38,7 @@
 * memcache
 * fastJson
 * log4J
+* [Apache common](open-source-framework/Apache-common.md)
 
 
 
@@ -67,3 +68,5 @@
 
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
+*	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
+
