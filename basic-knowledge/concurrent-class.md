@@ -1,7 +1,6 @@
 ### jdk并发包里常用的类
+
 ---
-
-
 
 
 * ConcurrentHashMap
@@ -19,13 +18,90 @@
 
 * CountdownLatch
 
+	闭锁，确保一个服务不会开始，直到它依赖的其他服务都已近开始，它允许一个或多个线程，等待一个事件集的发生。
 	通过减计数的方式，控制多个线程同时开始某个动作。当计数为0时，await后的代码才会被执行。
 提供await（）和countDown（）两个方法。
 
 * CyclicBarrier
 
-	与countDownLatch不同，cyclicBarrier是当await的数量达到了设定的数量后，才继续往下执行。
-await方法首先进行加锁操作，然后对count属性执行减1操作，如果减后的值等于0，则执行传入的Runnable对象。
+	cyclicBarrier中的await方法会对count值减1，并阻塞当前线程，直到直到count==0时先调用CyclicBarrier内部的Runnable任务，然后当前线程才继续往下执行，然后进入下一轮循环。
+	
+	与CountdownLatch不同的是，它可以循环重用。
+	
+```
+import java.util.concurrent.CyclicBarrier;
+
+public class TestCyclicBarrier {
+
+    private static final int THREAD_NUM = 5;
+
+    public static class WorkerThread implements Runnable {
+
+        CyclicBarrier barrier;
+
+        public WorkerThread(CyclicBarrier b){
+            this.barrier = b;
+        }
+
+        @Override
+        public void run() {
+            try {
+                System.out.println("Worker's waiting");
+                // 线程在这里等待，直到所有线程都到达barrier。
+                barrier.await();
+                System.out.println("ID:" + Thread.currentThread().getId() + " Working");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+        CyclicBarrier cb = new CyclicBarrier(THREAD_NUM, new Runnable() {
+
+            // 当所有线程到达barrier时执行
+            @Override
+            public void run() {
+                System.out.println("Inside Barrier");
+            }
+        });
+
+        for (int i = 0; i < 10; i++) {
+            new Thread(new WorkerThread(cb)).start();
+        }
+    }
+
+}
+```
+结果：
+
+```
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Inside Barrier
+ID:13 Working
+ID:9 Working
+ID:12 Working
+ID:11 Working
+ID:10 Working
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Worker's waiting
+Inside Barrier
+ID:18 Working
+ID:14 Working
+ID:16 Working
+ID:15 Working
+ID:17 Working
+
+```
+
 
 * AtomicInteger
 
@@ -86,4 +162,9 @@ Unlock方法，释放锁
 WriteLock  writeLock=lock.writeLock();
 ReadLock   readLock=lock.readLock();
 《分布式java应用》P165
+
+
+#### 汇总
+
+![image](img/Snip20160628_32.png)
 
