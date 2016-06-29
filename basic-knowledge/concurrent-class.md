@@ -24,7 +24,7 @@
 
 * CyclicBarrier
 
-	cyclicBarrier中的await方法会对count值减1，并阻塞当前线程，直到直到count==0时先调用CyclicBarrier内部的Runnable任务，然后当前线程才继续往下执行，然后进入下一轮循环。
+	cyclicBarrier中的await方法会对count值减1，并阻塞当前线程（java.util.concurrent.locks.Condition.await()），如果count==0时先执行CyclicBarrier内部的Runnable任务（java.lang.Runnable.run()），然后唤醒所有阻塞的线程（java.util.concurrent.locks.Condition.signalAll()），count恢复初始值（可以进入下一轮循环）。
 	
 	与CountdownLatch不同的是，它可以循环重用。
 	

@@ -11,6 +11,7 @@
 * 	NIO
 * 	ClassLoader
 * 	[java修饰词](java修饰词.md)
+* 	[各种坑](各种坑.md)
 
 
 ### 进阶

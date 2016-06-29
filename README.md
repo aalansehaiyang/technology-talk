@@ -38,7 +38,8 @@
 * memcache
 * fastJson
 * log4J
-* [Apache common](open-source-framework/Apache-common.md)
+* [commons-codec](open-source-framework/commons-codec.md)
+* [commons-lang3](open-source-framework/commons-lang3.md)
 
 
 
