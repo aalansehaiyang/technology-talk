@@ -11,7 +11,7 @@
 *  	spring
 *	ibatis
 *	Quartz
-*	HttpClient
+*	[HttpClient](basic-knowledge/HttpClient.md)
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
 

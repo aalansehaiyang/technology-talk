@@ -32,7 +32,7 @@ volatile是java最轻量级的同步机制。
 public synchronized void method(int i);  
 ```
 
-每个类实例对应一把锁，类实例中所有的synchronized方法共用这一把锁，锁的范围有点大。
+每个类实例对应一把锁，类的两个实例没有这个限制。类实例中所有的synchronized方法共用这一把锁，锁的范围有点大。
 
 
 * 同步块

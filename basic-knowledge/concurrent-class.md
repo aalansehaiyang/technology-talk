@@ -118,6 +118,8 @@ unit： 线程池维护线程所允许的空闲时间的单位
 workQueue： 线程池所使用的缓冲队列
 handler： 线程池对拒绝任务的处理策略
 
+![image](img/Snip20160701_52.png)
+
 * Executors
 	
 	线程执行器。
@@ -162,6 +164,18 @@ Unlock方法，释放锁
 WriteLock  writeLock=lock.writeLock();
 ReadLock   readLock=lock.readLock();
 《分布式java应用》P165
+
+* 如何避免死锁
+
+	1.制定锁的顺序，来避免死锁（先A后B，避免A->B和B->A同时存在）；
+	
+	2.尝试使用定时锁（lock.tryLock(timeout)）
+	
+	3.在持有锁的方法中进行其他方法的调用，尽量使用开放调用（当调用方法不需要持有锁时，叫做开放调用）
+	
+	4.减少锁的持有时间、减小锁代码块的粒度。
+
+
 
 
 #### 汇总
