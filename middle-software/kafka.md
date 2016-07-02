@@ -14,7 +14,7 @@ Producer向broker push消息；Consumer从broker pull消息（pull模式则可�
 * 同时支持离线数据处理和实时数据处理。
 
 
-** 核心组件：**
+**核心组件：**
 
 * 	Broker
 
