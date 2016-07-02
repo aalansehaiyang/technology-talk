@@ -44,6 +44,8 @@ Producer向broker push消息；Consumer从broker pull消息（pull模式则可�
 
 	每个Consumer属于一个特定的Consumer Group（可为每个Consumer指定group name，若不指定group name则属于默认的group），会维护一个索引，用于标识一个消费集群的消费位置。为了对减小一个consumer group中不同consumer之间的分布式协调开销，指定partition为最小的并行消费单位，即一个group内的consumer只能消费不同的partition。
 	
+---
+
 ![image](img/Snip20160702_54.png)
 	
 发到某个topic的消息会被均匀的分布到多个Partition上（随机或根据用户指定的回调函数进行分布），broker收到发布消息往对应Partition的最后一个segment上添加该消息，segment达到一定的大小后将不会再往该segment写数据，broker会创建新的segment。
