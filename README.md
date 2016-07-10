@@ -18,10 +18,11 @@
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
-*	数据库连接池
+*	[数据库连接池](data-base/数据库连接池.md)
 * 	[锁机制](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
+* 	master和slaver
 
 
 ### 中间件
@@ -57,6 +58,10 @@
 * [架构原则](system-architecture/架构原则.md)
 
 
+### web
+
+*	http协议
+
 
 ### 运维
 
@@ -74,4 +79,4 @@
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
-
+*	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)

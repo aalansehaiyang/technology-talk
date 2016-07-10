@@ -48,9 +48,15 @@ com.google.common.collect.Lists.newArrayList(E... elements)
 
 ##### 2.创建指定容量大小的集合
 
+注：避免使用过程中，容量不足引发的扩容带来的性能损耗。
+
 com.google.common.collect.Lists.newArrayListWithCapacity(int)
 
-注：避免使用过程中，容量不足引发的扩容带来的性能损耗。
+创建指定大小的的List；
+
+com.google.common.collect.Maps.newHashMapWithExpectedSize(int)
+
+创建指定大小的的Map；
 
 ##### 3.连接器[Joiner]
 
