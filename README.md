@@ -29,7 +29,7 @@
 
 * [dubbo](middle-software/dubbo.md)
 * [kafka](middle-software/kafka.md)
-* zookeeper
+* [zookeeper](middle-software/zookeeper.md)
 * cobar
 * Storm
 * [Elasticsearch](middle-software/elasticsearch.md)
