@@ -41,7 +41,7 @@
 * [Google Guava](open-source-framework/Goole-Guava.md)
 * [redis](open-source-framework/redis.md)
 * memcache
-* fastJson
+* [fastJson](open-source-framework/fastJson.md)
 * log4J
 * [commons-codec](open-source-framework/commons-codec.md)
 * [commons-lang3](open-source-framework/commons-lang3.md)
