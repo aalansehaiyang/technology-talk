@@ -21,6 +21,7 @@
 *	[数据库连接池](data-base/数据库连接池.md)
 * 	[锁机制](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
+* 	[id生成器](data-base/id生成器.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 * 	master和slaver
 

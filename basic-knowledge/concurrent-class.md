@@ -8,6 +8,8 @@
 	是线程安全的。
 	
 	Put方法，首先是对key.hashCode进行hash操作，得到hash值。然后获取对应的segment对象，接着调用Segment对象的put方法完成当前操作。当调用put方法时，首先lock操作，完成操作后再释放锁。
+	
+	http://ifeve.com/concurrenthashmap/
 
 * Semaphore
 
