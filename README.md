@@ -8,7 +8,7 @@
 
 ### 基础知识
 * 	[java](basic-knowledge/java.md)
-*  	spring
+*  	[spring](basic-knowledge/spring.md)
 *	ibatis
 *	Quartz
 *	[HttpClient](basic-knowledge/HttpClient.md)
