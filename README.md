@@ -31,7 +31,7 @@
 * [dubbo](middle-software/dubbo.md)
 * [kafka](middle-software/kafka.md)
 * [zookeeper](middle-software/zookeeper.md)
-* cobar
+* [cobar](http://hualong.iteye.com/blog/2102798)
 * Storm
 * [Elasticsearch](middle-software/elasticsearch.md)
 
@@ -82,3 +82,4 @@
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
+*	[分布式数据库同步系统](https://github.com/alibaba/otter)
