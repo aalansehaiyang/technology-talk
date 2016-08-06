@@ -39,6 +39,12 @@ Stream流生成一个List列表
 
 Collectors.toSet() ，生成set集合。
 
+```
+Collectors.toMap(MemberModel::getUid, Function.identity())
+
+Function.identity() 表示遍历的对象
+```
+
 Collectors里提供了很多方法，比如字符串拼接。
 
 #####2.map
