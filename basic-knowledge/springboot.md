@@ -74,7 +74,7 @@ c）设置main方法的定义类
 </dependency>
 ```
 
-2.得到一个直接可执行的web应用，当前项目下直接运行mvn sping-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。
+2.得到一个直接可执行的web应用，当前项目下直接运行mvn spring-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。
 
 默认访问地址：http://localhost:8080
 
