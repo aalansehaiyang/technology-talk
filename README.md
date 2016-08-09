@@ -33,6 +33,7 @@
 
 * [dubbo](middle-software/dubbo.md)
 * [kafka](middle-software/kafka.md)
+* [redis](open-source-framework/redis.md)
 * [zookeeper](middle-software/zookeeper.md)
 * [cobar](http://hualong.iteye.com/blog/2102798)
 * Storm
@@ -40,11 +41,9 @@
 
 
 
-### 开源框架
+### 常用三方工具包
 
 * [Google Guava](open-source-framework/Goole-Guava.md)
-* [redis](open-source-framework/redis.md)
-* memcache
 * [fastJson](open-source-framework/fastJson.md)
 * log4J
 * [commons-codec](open-source-framework/commons-codec.md)
