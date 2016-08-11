@@ -13,8 +13,6 @@
 *  	[spring](basic-knowledge/spring.md)
 *  	[springboot](basic-knowledge/springboot.md)
 *	ibatis
-*	Quartz
-*	[HttpClient](basic-knowledge/HttpClient.md)
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
 
@@ -48,6 +46,8 @@
 * log4J
 * [commons-codec](open-source-framework/commons-codec.md)
 * [commons-lang3](open-source-framework/commons-lang3.md)
+*  Quartz
+* [HttpClient](open-source-framework/HttpClient.md)
 
 
 
