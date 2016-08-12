@@ -20,7 +20,7 @@
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
 *	[数据库连接池](data-base/数据库连接池.md)
-* 	[锁机制](data-base/锁机制.md)
+* 	[数据库并发锁机制](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
@@ -53,12 +53,12 @@
 
 ### 系统架构 
 
+* [架构经验](system-architecture/架构经验.md)
 * 负载均衡
 * CDN
 * Nginx
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
 * [cache相关](system-architecture/cache相关.md)
-* [架构原则](system-architecture/架构原则.md)
 * [经典案例](system-architecture/经典案例.md)
 
 
