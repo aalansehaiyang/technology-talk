@@ -28,7 +28,36 @@
 
 <br/>
 
-参考资料：
+#### 常见问题：
+
+1、dubbo默认有重试机制（2次），结合自己的业务是否需要重试，不必要的重试可能会导致脏数据。
+如果服务提供方响应速度慢，不断的重试，会额外加重系统负担。
+
+```
+<dubbo:reference id="privateMessageService" interface="com.wacai.bbs.service.PrivateMessageService"  retries="0" />
+```
+
+2.启动时服务是否注册检查，这种情况一般在预发环境遇到，有些业务部门的服务没有布预发环境，会导致我们的应用在预发环境启动不了。启动时需要取消检查
+
+```
+//单个服务维度
+ <dubbo:reference id="stockService" interface="com.wacai.stock.service.StockService" check="false"  />
+ 
+//全局维度
+<dubbo:consumer check="false" />
+
+```
+
+3.调用远程接口，如果因为非正常原因而响应慢会阻塞业务线程，此时需要及早结束。
+可以配置超时时间
+
+```
+ <dubbo:reference id="memberService" interface="com.wacai.bbs.service.MemberService" timeout="5000"  />
+```
+
+
+
+**参考资料**
 
 [http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l](http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l)
 
