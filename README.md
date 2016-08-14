@@ -72,7 +72,7 @@
 ### 运维
 
 *	[快速排查线上问题](ops/online-question.md)
-*	常用的linux命令
+*	[linux常用命令](http://blog.csdn.net/itomge/article/details/8797114)
 *	域名劫持
 
 ### 项目管理
