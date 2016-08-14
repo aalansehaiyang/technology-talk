@@ -15,6 +15,12 @@
 *	ibatis
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
+### web容器/网络
+
+*	[http协议](web/http协议.md)
+*	[tomcat](http://tomcat.apache.org/)
+*	Nginx
+
 
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
@@ -56,15 +62,10 @@
 * [架构经验](system-architecture/架构经验.md)
 * 负载均衡
 * CDN
-* Nginx
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
 * [cache相关](system-architecture/cache相关.md)
 * [经典案例](system-architecture/经典案例.md)
 
-
-### web
-
-*	[http协议](web/http协议.md)
 
 
 ### 运维

@@ -55,6 +55,11 @@
  <dubbo:reference id="memberService" interface="com.wacai.bbs.service.MemberService" timeout="5000"  />
 ```
 
+4.dubbo默认是随机路由方式，如果消费方只有一台机器，服务提供方有多台，1对多关系，可能会产生负载不均衡，导致大量请求压到一台机器，把一台机器压死，进而引发雪崩效应。可以调整路由策略，改为轮询方式。
+
+```
+<dubbo:reference id="***" interface="******" loadbalance="roundrobin" /> 
+```
 
 
 **参考资料**
