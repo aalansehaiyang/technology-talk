@@ -49,7 +49,7 @@
 
 * [Google Guava](open-source-framework/Goole-Guava.md)
 * [fastJson](open-source-framework/fastJson.md)
-* log4J
+* [log4J](http://blog.csdn.net/itomge/article/details/17913607)
 * [commons-codec](open-source-framework/commons-codec.md)
 * [commons-lang3](open-source-framework/commons-lang3.md)
 *  Quartz
