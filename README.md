@@ -54,7 +54,7 @@
 * [commons-lang3](open-source-framework/commons-lang3.md)
 *  Quartz
 * [HttpClient](open-source-framework/HttpClient.md)
-* Javassist
+* [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
 
 
 
