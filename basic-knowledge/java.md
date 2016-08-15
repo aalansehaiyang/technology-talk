@@ -13,9 +13,9 @@
 * 	[各种坑](各种坑.md)
 
 
-### 进阶
+### 进阶：
 
 * 	[类加载器](类加载器.md)
 *  	[jvm 内存结构](jvm内存结构.md)
-*  	[jvm 性能调优](jvm性能调优.md)
-* 	常用的jdk命令
+*  	[jvm 性能调优（jvm参数、垃圾回收）](jvm性能调优.md)
+* 	[常用jdk命令](http://blog.csdn.net/itomge/article/details/9904555)
