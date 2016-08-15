@@ -3,6 +3,8 @@
 ---
 
 ### 基础：
+
+*	[java的System.getProperty()方法使用](http://blog.csdn.net/itomge/article/details/9098207)
 * 	[jdk并发包里常用的类](concurrent-class.md)
 * 	[java8函数编程](java8-stream.md)
 * 	[java的线程状态](java的线程状态.md)
