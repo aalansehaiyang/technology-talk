@@ -10,6 +10,52 @@
 
 ---
 
+```
+用的比较多的redis客户端jedis：
+https://github.com/xetorthio/jedis
+```
+
+####核心逻辑：
+
+```
+ protected Connection sendCommand(final Command cmd, final byte[]... args) {
+	try {
+		//建立连接，包装RedisOutputStream和RedisInputStream
+	    connect();
+	    //发送执行命令
+	    Protocol.sendCommand(outputStream, cmd, args);
+	    lastAccessTime = System.currentTimeMillis();
+	    pipelinedCommands++;
+	    return this;
+	} catch (JedisConnectionException ex) {
+		System.err.println(ex.getMessage());
+	    // Any other exceptions related to connection?
+	    broken = true;
+	    throw ex;
+	}
+    }
+
+```
+
+Command内提供了多种redis操作命令。
+
+```
+ public static enum Command {
+	PING, SET, GET, QUIT, EXISTS, DEL, TYPE, FLUSHDB, KEYS, RANDOMKEY, RENAME, RENAMENX, RENAMEX, DBSIZE, EXPIRE, EXPIREAT, TTL, SELECT, MOVE, FLUSHALL, GETSET, MGET, SETNX, SETEX, MSET, MSETNX, DECRBY, DECR, INCRBY, INCR, APPEND, SUBSTR, HSET, HGET, HSETNX, HMSET, HMGET, HINCRBY, HEXISTS, HDEL, HLEN, HKEYS, HVALS, HGETALL, RPUSH, LPUSH, LLEN, LRANGE, LTRIM, LINDEX, LSET, LREM, LPOP, RPOP, RPOPLPUSH, SADD, SMEMBERS, SREM, SPOP, SMOVE, SCARD, SISMEMBER, SINTER, SINTERSTORE, SUNION, SUNIONSTORE, SDIFF, SDIFFSTORE, SRANDMEMBER, ZADD, ZRANGE, ZREM, ZINCRBY, ZRANK, ZREVRANK, ZREVRANGE, ZCARD, ZSCORE, MULTI, DISCARD, EXEC, WATCH, UNWATCH, SORT, BLPOP, BRPOP, AUTH, SUBSCRIBE, PUBLISH, UNSUBSCRIBE, PSUBSCRIBE, PUNSUBSCRIBE, PUBSUB, ZCOUNT, ZRANGEBYSCORE, ZREVRANGEBYSCORE, ZREMRANGEBYRANK, ZREMRANGEBYSCORE, ZUNIONSTORE, ZINTERSTORE, ZLEXCOUNT, ZRANGEBYLEX, ZREMRANGEBYLEX, SAVE, BGSAVE, BGREWRITEAOF, LASTSAVE, SHUTDOWN, INFO, MONITOR, SLAVEOF, CONFIG, STRLEN, SYNC, LPUSHX, PERSIST, RPUSHX, ECHO, LINSERT, DEBUG, BRPOPLPUSH, SETBIT, GETBIT, BITPOS, SETRANGE, GETRANGE, EVAL, EVALSHA, SCRIPT, SLOWLOG, OBJECT, BITCOUNT, BITOP, SENTINEL, DUMP, RESTORE, PEXPIRE, PEXPIREAT, PTTL, INCRBYFLOAT, PSETEX, CLIENT, TIME, MIGRATE, HINCRBYFLOAT, SCAN, HSCAN, SSCAN, ZSCAN, WAIT, CLUSTER, ASKING, PFADD, PFCOUNT, PFMERGE;
+```
+
+
+```
+ public String set(final String key, final String value, final String nxxx,
+	    final String expx, final long time) {
+	checkIsInMulti();
+	client.set(key, value, nxxx, expx, time);
+	//返回结果
+	return client.getStatusCodeReply();
+    }
+```
+
+
 ####不同类型长度限制：
 
 * string 最大512M
