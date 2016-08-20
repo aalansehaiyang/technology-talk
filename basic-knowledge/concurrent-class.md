@@ -131,7 +131,7 @@ RejectExecutionHandler是针对任务无法处理时的一些自我保护处理�
 1.	Reject 直接抛出Reject exception
 2.	Discard 直接忽略该runnable，不建议使用
 3.	DiscardOldest 丢弃最早入队列的任务
-4.	CallsRun 直接让原先的client thread做为消费线程，象同步方式一样，自己来执行。
+4.	CallerRuns 直接让原先的client thread做为消费线程，象同步调用方式一样，自己来执行。
 
 ```
 
