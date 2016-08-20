@@ -120,6 +120,21 @@ unit： 线程池维护线程所允许的空闲时间的单位
 workQueue： 线程池所使用的缓冲队列
 handler： 线程池对拒绝任务的处理策略
 
+```
+block queue有以下几种实现：
+1. ArrayBlockingQueue：有界的数组队列
+2. LinkedBlockingQueue：可支持有界、无界的队列，使用链表实现
+3. PriorityBlockingQueue：优先队列，可对任务排序
+4. SynchronousQueue：队列长度为1的队列，和Array有点区别就是：client 线程提交到 block queue会是一个阻塞过程，直到有一个消费线程连接上来poll task
+
+RejectExecutionHandler是针对任务无法处理时的一些自我保护处理：
+1.	Reject 直接抛出Reject exception
+2.	Discard 直接忽略该runnable，不建议使用
+3.	DiscardOldest 丢弃最早入队列的任务
+4.	CallsRun 直接让原先的client thread做为消费线程，象同步方式一样，自己来执行。
+
+```
+
 ![image](img/Snip20160701_52.png)
 
 * Executors
