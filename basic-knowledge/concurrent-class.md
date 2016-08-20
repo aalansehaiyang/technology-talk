@@ -135,14 +135,17 @@ RejectExecutionHandler是针对任务无法处理时的一些自我保护处理�
 
 ```
 
-![image](img/Snip20160701_52.png)
+ ![image](img/Snip20160701_52.png)
 
 * Executors
 	
-	线程执行器。
-newFixedThreadPool(int) ,创建固定大小的线程池
-newSingleThreadPool(),创建大小为1的线程池,同一时刻执行的task只有一个，其它的都放在阻塞队列中。
-newScheduledThreadPool(int),适用于一些需要定时或延迟的任务。与Timer的区别：
+	工具类，提供大量管理线程执行器的工厂方法。
+
+	newFixedThreadPool(int) ,创建固定大小的线程池
+
+	newSingleThreadPool(),创建大小为1的线程池,同一时刻执行的task只有一个，其它的都放在阻塞队列中。
+
+	newScheduledThreadPool(int),适用于一些需要定时或延迟的任务。与Timer的区别：
 Timer是单线程，一旦一个task执行慢，将会影响其它任务。另外如果抛出异常，其它任务也不再执行。
 ScheduledThreadPoolExecutor可执行callable的task，执行完毕后得到执行结果。任务队列是基于DelayedWorkQueue实现，将有新task加入时，会按执行时间排序。
 
