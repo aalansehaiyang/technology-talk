@@ -62,7 +62,7 @@
 
 * [架构经验](system-architecture/架构经验.md)
 * 负载均衡
-* CDN
+* [CDN](system-architecture/CDN.md)
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
 * [cache相关](system-architecture/cache相关.md)
 * [经典案例](system-architecture/经典案例.md)
