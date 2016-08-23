@@ -52,7 +52,7 @@
 * [log4J](http://blog.csdn.net/itomge/article/details/17913607)
 * [commons-codec](open-source-framework/commons-codec.md)
 * [commons-lang3](open-source-framework/commons-lang3.md)
-*  Quartz
+*  [Quartz](open-source-framework/Quartz.md)
 * [HttpClient](open-source-framework/HttpClient.md)
 * [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
 
@@ -73,7 +73,7 @@
 
 *	[快速排查线上问题](ops/online-question.md)
 *	[linux常用命令](http://blog.csdn.net/itomge/article/details/8797114)
-*	域名劫持
+
 
 ### 项目管理
 
