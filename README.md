@@ -61,7 +61,7 @@
 ### 系统架构 
 
 * [架构经验](system-architecture/架构经验.md)
-* 负载均衡
+* [负载均衡之LVS](system-architecture/LVS.md)
 * [CDN](system-architecture/CDN.md)
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
 * [cache相关](system-architecture/cache相关.md)
