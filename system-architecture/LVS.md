@@ -30,6 +30,9 @@
 * RS接收到请求，验证ip、mac信息，都验证通过，处理业务
 * 将响应的数据包返回给源ip
 
+缺点：
+
+* LVS和RS必须在同一个VLAN；RS上绑vip，风险高
 
 ######2.NAT（Netowrk Address Translation）
 
@@ -45,7 +48,10 @@ LVS充当网关的角色，所有的网络报文的进出都要经过LVS
 
 ######3.Full-NAT
 
-主要是为了解决LVS和RS的跨VLAN的问题，LVS和RS不再存在VLAN的从属关系，做到多个LVS对应多个RS，从而解决水平扩容问题。
+主要是为了解决LVS和RS的跨VLAN的问题，LVS和RS不再存在VLAN的从属关系，做到多个LVS对应多个RS，从而解决水平扩容问题；另外in/out流都经过LVS。
+
+主要思想：
+引入local address(内网ip地址)，cip-vip转换为lip->rip，而lip和rip均为IDC内网ip，可以跨vlan通讯;
 
 过程：
 
@@ -55,6 +61,9 @@ LVS充当网关的角色，所有的网络报文的进出都要经过LVS
 * RS机器接收并处理完业务，响应数据包时，来源是RS的ip，目标是LVS的内网ip，
 * LVS接到响应包，经过SNAT+ DNAT，修改地址，来源为LVS的vip，目标是client ip
 
+示例：
+
+![image](img/3.png)
 
 ```
 注：
