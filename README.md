@@ -25,12 +25,12 @@
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
-*	[数据库连接池](data-base/数据库连接池.md)
-* 	[数据库并发锁机制](data-base/锁机制.md)
+*	[连接池](data-base/数据库连接池.md)
+* 	[并发锁机制](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
-* 	master和slaver
+* 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
 
 
 ### 中间件
