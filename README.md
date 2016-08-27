@@ -15,12 +15,6 @@
 *	ibatis
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
-### web容器/网络
-
-*	[http协议](web/http协议.md)
-*	[tomcat](http://tomcat.apache.org/)
-*	Nginx
-
 
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
@@ -31,6 +25,12 @@
 * 	[id生成器](data-base/id生成器.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
+
+### web容器/网络
+
+*	[http协议](web/http协议.md)
+*	[tomcat](http://tomcat.apache.org/)
+*	Nginx
 
 
 ### 中间件
