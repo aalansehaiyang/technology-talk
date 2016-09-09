@@ -79,6 +79,7 @@
 ### 项目管理
 
 * [程序员素养](project-management/程序员素养.md)
+* [git常用命令](project-management/git常用命令.md)
 
 
 ### 其它
@@ -88,4 +89,4 @@
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 *	[分布式数据库同步系统](https://github.com/alibaba/otter)
-*	[git常用命令](other/git常用命令.md)
+
