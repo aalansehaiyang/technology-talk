@@ -4,15 +4,15 @@
 
 有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为领域专家可能有些难度，但应付日常工作，甚至成为业务主力骨干，其实并不难。
 
-**多用用github.com，里面汇集了全球工程师的智慧！**
+**github.com很重要，里面汇集了全球工程师的智慧！**
 
-接下来列举工作中常用的一些技术，以及如何提升自己。
+下面列举工作了中常用的一些技术，以及如何培养架构能力。由于每个技术市面上基本都有对应的书籍资料，所以本文只是少篇幅列举工作中用到的核心知识点，更多是抛砖引玉，属于进阶型，不适用初学者。
 
 ### 基础知识
 * 	[java](basic-knowledge/java.md)
 *  	[spring](basic-knowledge/spring.md)
 *  	[springboot](basic-knowledge/springboot.md)
-*	ibatis
+*	[ibatis](basic-knowledge/ibatis.md)
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
 
 
@@ -88,3 +88,4 @@
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 *	[分布式数据库同步系统](https://github.com/alibaba/otter)
+*	[git常用命令](other/git常用命令.md)
