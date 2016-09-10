@@ -65,9 +65,12 @@ git push -u origin master
 	
 *	git reset --hard HEAD~3  
 
-	会将最新的3次提交全部重置，就像没有提交过一样
-
-	http://www.cnblogs.com/mliudong/archive/2013/04/08/3007303.html	
+	会将最新的3次提交全部重置，只在本地生效 （http://www.cnblogs.com/mliudong/archive/2013/04/08/3007303.html）
+	
+	git push -f origin 分支名 
+	
+	强制提交到远程服务器，此时回退了3个版本，git服务器的提交log也会清掉。
+		
 *	git branch 
 
 	查看所有本地分支，带*为当前分支	
