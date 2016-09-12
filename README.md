@@ -9,7 +9,7 @@
 下面列举工作了中常用的一些技术，以及如何培养架构能力。由于每个技术市面上基本都有对应的书籍资料，所以本文只是少篇幅列举工作中用到的核心知识点，更多是抛砖引玉，属于进阶型，不适用初学者。
 
 ### 基础知识
-* 	[java](./basic-knowledge/java.md)
+* 	[java](basic-knowledge/java.md)
 *  	[spring](basic-knowledge/spring.md)
 *  	[springboot](basic-knowledge/springboot.md)
 *	[ibatis](basic-knowledge/ibatis.md)
