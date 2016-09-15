@@ -10,6 +10,8 @@
 
 ####帮助手册
 
+* [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
+
 * [MAT使用教程](http://blog.csdn.net/itomge/article/details/48719527)
 
 * [排查问题常用命令](排查问题常用命令.md)
