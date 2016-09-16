@@ -16,4 +16,4 @@
 
 * [排查问题常用命令](排查问题常用命令.md)
 
-* [java系统诊断命令行工具](https://github.com/CSUG/HouseMD)
+* [java系统诊断命令行工具--HouseMD](https://github.com/CSUG/HouseMD)
