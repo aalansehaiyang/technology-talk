@@ -7,6 +7,7 @@
 
 * [APNS开源包的内存泄露问题](http://blog.csdn.net/itomge/article/details/48803575)
 
+* [服务器异常案例](服务器异常案例.md)
 
 ####帮助手册
 
