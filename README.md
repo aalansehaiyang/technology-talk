@@ -25,6 +25,7 @@
 * 	[id生成器](data-base/id生成器.md)
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
+* 	读写分离
 
 ### web容器/网络
 
