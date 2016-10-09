@@ -9,6 +9,9 @@
 
 * [服务器异常案例](服务器异常案例.md)
 
+* [jvm堆参数调整](jvm堆参数调整.md)
+
+
 ####帮助手册
 
 * [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
