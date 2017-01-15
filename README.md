@@ -27,12 +27,12 @@
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
 * 	读写分离
 
-### web容器/网络
+### web容器/协议/网络
 
-* [http协议](web/http协议.md)
-* [tomcat](http://tomcat.apache.org/)
-* Nginx
 * [负载均衡之LVS](system-architecture/LVS.md)
+* [Nginx]
+* [tomcat](http://tomcat.apache.org/)
+* [http协议](web/http协议.md)
 * [CDN](system-architecture/CDN.md)
 
 
@@ -65,11 +65,10 @@
 ### 系统架构 
 
 * [架构经验](system-architecture/架构经验.md)
-* [编码前3000问](system-architecture/编码前3000问.md)
 * [性能优化之Qps](system-architecture/性能优化之Qps.md)
 * [cache相关](system-architecture/cache相关.md)
 * [经典案例](system-architecture/经典案例.md)
-
+* [编码前3000问](system-architecture/编码前3000问.md)
 
 
 ### 运维
