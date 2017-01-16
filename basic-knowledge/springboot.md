@@ -128,3 +128,5 @@ http://www.jianshu.com/collection/f0cf6eae1754
 
 《SpringBoot揭秘--快速构建微服务体系》
 
+http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
+
