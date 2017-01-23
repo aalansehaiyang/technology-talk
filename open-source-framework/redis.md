@@ -311,6 +311,9 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
 	如果field不存在，初始值为0<br>
 
 	
+	
 **参考资料：**
 
 http://www.redis.cn/
+
+http://ifeve.com/category/redis/

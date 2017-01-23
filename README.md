@@ -14,6 +14,7 @@
 *  	[springboot](basic-knowledge/springboot.md)
 *	[ibatis](basic-knowledge/ibatis.md)
 *	[常用的设计模式](basic-knowledge/常用的设计模式.md)
+*	[java日志](basic-knowledge/Log4j.md)
 
 
 ### 数据库
@@ -43,8 +44,9 @@
 * [redis](open-source-framework/redis.md)
 * [zookeeper](middle-software/zookeeper.md)
 * [cobar](http://hualong.iteye.com/blog/2102798)
-* Storm
 * [Elasticsearch](middle-software/elasticsearch.md)
+* Storm
+* Hbase
 
 
 
@@ -56,7 +58,7 @@
 * [commons-codec](open-source-framework/commons-codec.md)
 * [commons-lang3](open-source-framework/commons-lang3.md)
 * [commons-io](open-source-framework/commons-io.md)
-*  [Quartz](open-source-framework/Quartz.md)
+* [Quartz](open-source-framework/Quartz.md)
 * [HttpClient](open-source-framework/HttpClient.md)
 * [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
 
