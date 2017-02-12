@@ -13,7 +13,7 @@
 *  	[spring](basic-knowledge/spring.md)
 *  	[springboot](basic-knowledge/springboot.md)
 *	[ibatis](basic-knowledge/ibatis.md)
-*	[常用的设计模式](basic-knowledge/常用的设计模式.md)
+*	[设计模式](basic-knowledge/常用的设计模式.md)
 *	[java日志](basic-knowledge/Log4j.md)
 
 
@@ -67,10 +67,12 @@
 ### 系统架构 
 
 * [架构经验](system-architecture/架构经验.md)
-* [性能优化之Qps](system-architecture/性能优化之Qps.md)
-* [cache相关](system-architecture/cache相关.md)
 * [经典案例](system-architecture/经典案例.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
+* [性能优化之Qps](system-architecture/性能优化之Qps.md)
+* [cache相关](system-architecture/cache相关.md)
+* [分布式锁](system-architecture/分布式锁.md)
+
 
 
 ### 运维
@@ -84,6 +86,7 @@
 
 * [程序员素养](project-management/程序员素养.md)
 * [git常用命令](project-management/git常用命令.md)
+* [代码规范](project-management/代码规范.md)
 
 
 ### 其它
