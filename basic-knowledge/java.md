@@ -31,8 +31,9 @@
 
 ### 重点：
 
-* 	[常用java类库](常用java类.md)
 * 	[java关键字](java修饰词.md)
+* 	[正则表达式](regex.md)
+* 	[常用java类库](常用java类.md)
 *	[java的System.getProperty()方法使用](http://blog.csdn.net/itomge/article/details/9098207)
 * 	[jdk并发包里常用的类](concurrent-class.md)
 * 	[java8函数编程](java8-stream.md)
@@ -41,6 +42,7 @@
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
 * 	[NIO](NIO.md)
 * 	[各种坑](各种坑.md)
+
 
 
 ### 进阶：
