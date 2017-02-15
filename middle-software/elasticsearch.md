@@ -77,6 +77,8 @@ curl 'http://192.168.3.216:9200/forum/user_member/_mapping'
 
 **参考资料：**
 
+https://github.com/elasticsearch-cn/elasticsearch-definitive-guide
+
 http://es.xiaoleilu.com/010_Intro/10_Installing_ES.html
 
 https://github.com/elasticsearch-cn
