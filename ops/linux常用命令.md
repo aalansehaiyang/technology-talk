@@ -256,7 +256,26 @@ find . -size +20M
 
 find -type f -printf '%s %p\n' |sort -nr | head  
 查找占用空间最大的10个文件```
----
+
+5、 tail
+
+从指定点开始将文件标准输出
+
+* 显示文件最后5行内容
+
+```
+tail -n 5 test.log
+```
+* 实时显示文件内容
+
+```
+tail -f test.log
+```
+```
+ping baidu.com > 1.txt &
+后台以守护进程的方式，将ping命令的返回结果写入 1.txt
+```
+---
 #### 更多资料：
 https://app.yinxiang.com/Home.action#n=b0fcd794-072a-4fab-9ac6-012b7b0ad147&ses=4&sh=2&sds=5&
 
