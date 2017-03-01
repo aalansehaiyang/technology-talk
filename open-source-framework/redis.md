@@ -6,9 +6,14 @@
 
 *	[redis缓存与memcache的区别](redis缓存与memcache的区别.md)
 *	[redis原生命令api](http://www.runoob.com/redis/redis-sorted-sets.html)
+*	[redis 命令参考](http://doc.redisfans.com/index.html)
 
 
 ---
+
+redis服务器是核心业务采用单线程模式，无锁竞争且基于内存操作，执行效率非常高。
+
+如果开启备份机制，会fork子线程来处理。
 
 ```
 用的比较多的redis客户端jedis：
@@ -232,23 +237,34 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
     排名以0为底，也就是说，score值最小的成员排名为0
 
 	
-*	Set<String> zrange(String key, int start, int end)
+*	Set\<String> zrange(String key, int start, int end)
 
 	返回索引区间之间的元素，最小元素索引号为0，[start,end]
 	
-*	Set<String> zrangeByScore(String key, double min, double max)
+*	Set\<String> zrangeByScore(String key, double min, double max)
 
 	返回分数之间的元素,[min,max]
+	
+*	Set\<String> zrangeByScore(String key, double min, double max, int offset, int count)
+
+	分数由小到大的顺序，取[min,max]之间的数据，offset表示取数据的开始位置（O：表示最小分数的那个位置），最多返回count个结果
+
 	
 *	long zrevrank(String key, String member) 
 
 	返回有序集key中成员member的排名。其中有序集成员按score值递减(从大到小)排序<BR>
     排名以0为底，也就是说，score值最大的成员排名为0
 
-*	Set<String> zrevrange(String key, int start, int end)
+*	Set\<String> zrevrange(String key, int start, int end)
 
 	返回索引区间之间的元素，最大元素索引号为0,[start,end]
 
+*  Set\<Tuple> zrevrangeByScoreWithScores(String key, double max,
+                                          double min, int offset, int count)
+   
+   分数按大到小的顺序，取[min,max]之间的数据，offset表示取数据的开始位置（O：表示最大分数的那个位置），最多返回count个结果，Tuple包含分数、value值等信息。                       
+                                   
+                                                                
 
 ###### 5.Hash
 
@@ -313,6 +329,11 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
 	
 	
 **参考资料：**
+
+ 
+http://zhangtielei.com/posts/server.html
+
+https://www.zhihu.com/question/19764056
 
 http://www.redis.cn/
 
