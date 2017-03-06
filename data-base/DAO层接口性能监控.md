@@ -21,7 +21,7 @@ public class DaoRTLogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger("daoRTLog");
 
-    @Pointcut("execution(public * com.wacai.bbs.dal.dao..*.*(..))")
+    @Pointcut("execution(public * com.onlyone.bbs.dal.dao..*.*(..))")
     public void daoLog() {
     }
 

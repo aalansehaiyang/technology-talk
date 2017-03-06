@@ -14,7 +14,7 @@
 
 	查看文件的修改状态 
 	
-*	git add src/main/java/com/wacai/csw/controllers/Test.java 
+*	git add src/main/java/com/onlyone/csw/controllers/Test.java 
 
 	标记需要提交的文件，支持*通配符
 	

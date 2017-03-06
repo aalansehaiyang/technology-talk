@@ -108,7 +108,7 @@
 #####3. 编写自己业务的jobdetail类，实现job接口
 
 ```
-<bean id="hotPostsCollectJob" class="com.wacai.bbs.task.job.HotPostsCollectJob" />
+<bean id="hotPostsCollectJob" class="com.onlyone.bbs.task.job.HotPostsCollectJob" />
 <bean id="hotPostsCollectJobDetail"	class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject" ref="hotPostsCollectJob" />
 		<property name="targetMethod" value="doHandle" />

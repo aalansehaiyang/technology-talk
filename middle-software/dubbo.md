@@ -34,14 +34,14 @@
 如果服务提供方响应速度慢，不断的重试，会额外加重系统负担。
 
 ```
-<dubbo:reference id="privateMessageService" interface="com.wacai.bbs.service.PrivateMessageService"  retries="0" />
+<dubbo:reference id="privateMessageService" interface="com.onlyone.bbs.service.PrivateMessageService"  retries="0" />
 ```
 
 2.启动时服务是否注册检查，这种情况一般在预发环境遇到，有些业务部门的服务没有布预发环境，会导致我们的应用在预发环境启动不了。启动时需要取消检查
 
 ```
 //单个服务维度
- <dubbo:reference id="stockService" interface="com.wacai.stock.service.StockService" check="false"  />
+ <dubbo:reference id="stockService" interface="com.onlyone.stock.service.StockService" check="false"  />
  
 //全局维度
 <dubbo:consumer check="false" />
@@ -52,7 +52,7 @@
 可以配置超时时间
 
 ```
- <dubbo:reference id="memberService" interface="com.wacai.bbs.service.MemberService" timeout="5000"  />
+ <dubbo:reference id="memberService" interface="com.onlyone.bbs.service.MemberService" timeout="5000"  />
 ```
 
 4.dubbo默认是随机路由方式，如果消费方只有一台机器，服务提供方有多台，1对多关系，可能会产生负载不均衡，导致大量请求压到一台机器，把一台机器压死，进而引发雪崩效应。可以调整路由策略，改为轮询方式。
