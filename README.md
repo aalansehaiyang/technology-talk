@@ -94,7 +94,7 @@
 
 ### 其它
 
-*   [Tom哥的读书单](other/book.md)
+*   [读书单](other/book.md)
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
