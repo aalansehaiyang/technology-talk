@@ -9,7 +9,7 @@ anatomy 是阿里同学开发的一款用于JVM进程执行过程中的异常诊
 * 方法级问题诊断
 * Groovy表达式展开变对象，方便你观察入参、出参、异常、当前对象的各种属性细节
 
-####接下来结合线上应用，列举常用的几个排查问题命令如何使用
+#### 接下来结合线上应用，列举常用的几个排查问题命令如何使用
 
 1、安装：
 
@@ -101,6 +101,6 @@ watch -s  *TimelineReadServiceImpl queryRecPageTimeLine  params[0]+returnObj 'pa
 查看当前JVM的信息，无参数
 
 
-####参考资料
+#### 参考资料
 
 https://github.com/oldmanpushcart/greys-anatomy/wiki/Commands#help
