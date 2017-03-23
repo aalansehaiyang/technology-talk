@@ -2,7 +2,7 @@
 
 ---
 
-
+##### 开源项目：https://www.oschina.net/p/super-diamond
 ##### 源码地址：https://github.com/melin/super-diamond
 
 #### 一、客户端部分
@@ -12,7 +12,7 @@
 <bean name="bbsWebPropertiesConfiguration" class="com.github.diamond.client.PropertiesConfigurationFactoryBean">
         <constructor-arg index="0" value="${config.server.ip}" />
         <constructor-arg index="1" value="${config.server.port}" />
-        <constructor-arg index="2" value="bbs-web" />
+        <constructor-arg index="2" value="应用名" />
         <constructor-arg index="3" value="${profiles.active}" />
     </bean>
 ```

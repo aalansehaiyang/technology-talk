@@ -85,12 +85,63 @@ RowKey尽量散列，可以保证数据都不在一个Region上，从而避免�
 RowKey的长度尽量短。
 
 
+#### Hbase支持的客户端
+
+* HBase提供的原生java客户端。涵盖了增、删、改、查等所有的API。
+* 使用HBase Shell来操作HBase
+* 使用Thrift客户端来访问HBase
+* 通过Rest客户端来访问HBase
 
 
+#### 过滤器
+
+过滤器可以根据列族、列、版本等更多的条件来对数据进行过滤，带有过滤条件的RPC查询请求会把过滤器分发到各个RegionServer中，可以降低网络传输的压力。
+
+* 比较器：作为过滤器的核心组成之一，用于处理具体的比较逻辑，例如字节级的比较、字符串级的比较。
+
+	* RegexStringComparator（正则表达式的值比较）
+	* SubstringComparator（用于检测一个子串是否存在于值中，不区分大小写）
+	* BinaryPrefixComparator
+	* BinaryComparator
+
+* 列值过滤器
+	* SingleColumnValueFilter
+	* SingleColumnValueExcludeFilter
+* 键值元数据过滤器
+	* FamilyFilter
+	* QualifierFileter
+	* ColumnPrefixFilter
+	* MultipleColumnPrefixFilter
+	* ColumnRangeFilter
+	* DependentColumnFilter
+* 行键过滤器
+	* RowFilter
+	* RandomRowFilter
+* 功能过滤器
+	* PageFilter
+	* FirstKeyOnlyFilter
+	* KeyOnlyFilter
+	* InclusiveStopFilter
+	* ColumnPaginationFilter
+
+#### Schema设计要点
+
+行键设计：
+
+* 避免单调递增行键。主要是为了防止数据过于集中在一个Region上。
+* 行键与列族的关系。行键与列族是一对多关系，同一个行键可以在同一个表的每个列族中存在而不会冲突。
+* 行键的长度
+* 行键永远不变
+* 尽量最小化行键长度
+
+列族的设计：
+
+* 列族的数量。尽量让你的列族数量少一些，通常只有一个
+* 列族名长度。尽量减少长度，最好是一个字符，比如“d”
+* 列族的基数（即行数）。如果表存在多个列族，列族A有100万行，列族B有10亿行，列族A可能被分散到很多Region中，导致扫描列族A时性能低下。
 
 
-
-
-
+#### 参考资料
+《HBase企业应用开发实战》
 	
 	

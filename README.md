@@ -4,7 +4,7 @@
 
 有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域专家可能会有些难度，但应付日常工作，甚至成为团队骨干，其实并不难。
 
-**多读书、多看报，github.com很重要，这里汇集了全球工程师的智慧！**
+**多读书、多看报，多研究常用开源框架的源码，比如：github.com，这里汇集了全球工程师的智慧！**
 
 言归正传，下文会列举工作中常用的一些技术，以及如何锻炼提升自己的架构能力。
 
@@ -29,6 +29,7 @@
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
+* 	[sql技巧](data-base/sql技巧.md)
 
 ### web容器/协议/网络
 
@@ -88,9 +89,18 @@
 
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
-	* [MogonDB]()
-	* [Storm]()
+	* [MogonDB](middle-software/MogonDB.md)
+	* [Storm](middle-software/Storm.md)
+	* [Spark](middle-software/Spark.md)
+	* [Hadoop](middle-software/Hadoop.md)
+	* [Hive](middle-software/Hive.md)
 	
+*   配置管理
+
+	* [super-diamond](other/super-diamond源码分析.md)
+	* [disconf](https://www.oschina.net/p/disconf)
+	
+
 *  其它
 	* [zookeeper](middle-software/zookeeper.md)
 	* [FastDFS(分布式文件系统)](https://www.oschina.net/p/fastdfs)
@@ -118,6 +128,5 @@
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 *	[分布式数据库同步系统](https://github.com/alibaba/otter)
-*	[super-diamond源码分析](other/super-diamond源码分析.md)
 *	[java面试题](other/java-interview.md)
 

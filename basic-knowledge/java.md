@@ -2,7 +2,7 @@
 
 ---
 
-### 基础：
+### 一、基础
 
 * 基本语法
 
@@ -29,14 +29,14 @@
 	提供api方法取得类的结构；调用类的方法；动态代理
 
 
-### 重点：
+### 二、进阶
 
 * 	[java关键字](java修饰词.md)
 * 	[正则表达式](regex.md)
 * 	[常用java类库](常用java类.md)
 *	[java的System.getProperty()方法使用](http://blog.csdn.net/itomge/article/details/9098207)
 * 	[jdk并发包里常用的类](concurrent-class.md)
-* 	[java8函数编程](java8-stream.md)
+* 	[java8函数编程（lambda表达式）](java8-stream.md)
 * 	[java的线程状态](java的线程状态.md)
 * 	[ThreadLocal原理机制](ThreadLocal原理机制.md)
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
@@ -45,7 +45,7 @@
 
 
 
-### 进阶：
+### 三、JVM虚拟机
 
 * 	[类加载器](类加载器.md)
 *  	[jvm 内存结构](jvm内存结构.md)
