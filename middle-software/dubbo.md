@@ -2,6 +2,13 @@
 
 ---
 
+##### [框架源码](https://github.com/alibaba/dubbo)
+
+##### [源码笔记](dubbo-sourcecode.md)
+
+---
+#### 简介
+
 随着互联网的发展，网站应用的规模不断扩大，常规的垂直应用架构已无法应对，分布式服务架构以及流动计算架构势在必行，亟需一个治理系统确保架构有条不紊的演进。
 
 ![image](img/dubbo-1.jpg)
@@ -26,7 +33,11 @@
 此时，用于提高机器利用率的 资源调度和治理中心(SOA) 是关键。
 
 
-<br/>
+#### 核心功能
+
+* 远程通讯: 提供对多种基于长连接的NIO框架抽象封装，包括多种线程模型，序列化，以及“请求-响应”模式的信息交换方式。
+* 集群容错: 提供基于接口方法的透明远程过程调用，包括多协议支持，以及软负载均衡，失败容错，地址路由，动态配置等集群支持。
+* 自动发现: 基于注册中心目录服务，使服务消费方能动态的查找服务提供方，使地址透明，使服务提供方可以平滑增加或减少机器。
 
 #### 常见问题：
 
@@ -62,10 +73,10 @@
 ```
 
 
-**参考资料**
+
+####  参考资料
 
 [http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l](http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l)
 
-[https://github.com/alibaba/dubbo](https://github.com/alibaba/dubbo)
 
 [http://dubbo.io/User+Guide-zh.htm](http://dubbo.io/User+Guide-zh.htm)
