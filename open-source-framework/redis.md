@@ -20,7 +20,7 @@ redis服务器是核心业务采用单线程模式，无锁竞争且基于内存
 https://github.com/xetorthio/jedis
 ```
 
-####核心逻辑：
+### 核心逻辑：
 
 ```
  protected Connection sendCommand(final Command cmd, final byte[]... args) {
@@ -61,7 +61,7 @@ Command内提供了多种redis操作命令。
 ```
 
 
-####不同类型长度限制：
+### 不同类型长度限制：
 
 * string 最大512M
 * List 最大长度 （2的32次方-1）,有序可重复
@@ -69,9 +69,9 @@ Command内提供了多种redis操作命令。
 * Sorted sets，同上，支持按score排序
 * Hashes kv对数（2的32次方-1）
 
-#### 内部方法详解：
+### 内部方法详解：
 
-###### 1.String
+#### 1.String
 
 * 	String setBin(String key, byte[] value) 
 
@@ -121,7 +121,7 @@ Command内提供了多种redis操作命令。
 
 	设置新值，并返回旧的值
 
-###### 2.List
+#### 2.List
 
 Redis lists基于Linked Lists实现。这意味着即使在一个list中有数百万个元素，在头部或尾部添加一个元素的操作，其时间复杂度也是常数级别的。用LPUSH 命令在十个元素的list头部添加新元素，和在千万元素list头部添加新元素的速度相同
 
@@ -178,7 +178,7 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
     count = 0: 移除表中所有与value相等的值 <BR>
 
 
-###### 3.Set
+#### 3.Set
 
 *	long sadd(String key, String member)
 
@@ -201,7 +201,7 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
 	返回set中的所有元素
 	
 
-###### 4.sorted set
+#### 4.sorted set
 
 *	long zadd(String key, double score, String member)
 
@@ -266,7 +266,7 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
                                    
                                                                 
 
-###### 5.Hash
+#### 5.Hash
 
 *	long hset(String key, String field, String value)
 
@@ -328,7 +328,7 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
 
 	
 	
-**参考资料：**
+### 参考资料
 
  
 http://zhangtielei.com/posts/server.html

@@ -2,9 +2,31 @@
 
 ---
 
-#### 框架总览
+#### 框架总体介绍
 
-各层说明：
+模块关系
+
+![image](img/dubbo-2.jpg)
+
+模块说明
+
+* dubbo-common 公共逻辑模块，包括Util类和通用模型。
+* dubbo-remoting 远程通讯模块，相当于Dubbo协议的实现，如果RPC用RMI协议则不需要使用此包。
+* dubbo-rpc 远程调用模块，抽象各种协议，以及动态代理，只包含一对一的调用，不关心集群的管理。
+* dubbo-cluster 集群模块，将多个服务提供方伪装为一个提供方，包括：负载均衡, 容错，路由等，集群的地址列表可以是静态配置的，也可以是由注册中心下发。
+* dubbo-registry 注册中心模块，基于注册中心下发地址的集群方式，以及对各种注册中心的抽象。
+* dubbo-monitor 监控模块，统计服务调用次数，调用时间的，调用链跟踪的服务。
+* dubbo-config 配置模块，是Dubbo对外的API，用户通过Config使用Dubbo，隐藏Dubbo所有细节。
+* dubbo-container 容器模块，是一个Standlone的容器，以简单的Main加载Spring启动，因为服务通常不需要Tomcat/JBoss等Web容器的特性，没必要用Web容器去加载服务。
+
+整体上按照分层结构进行分包，与分层的不同点在于：
+
+* container为服务容器，用于部署运行服务，没有在层中画出。
+* protocol层和proxy层都放在rpc模块中，这两层是rpc的核心，在不需要集群时(只有一个提供者)，可以只使用这两层完成rpc调用。
+* transport层和exchange层都放在remoting模块中，为rpc调用的通讯基础。
+* serialize层放在common模块中，以便更大程度复用。
+
+各层说明
 
 * config，配置层，对外配置接口，以ServiceConfig, ReferenceConfig为中心，可以直接new配置类，也可以通过spring解析配置生成配置类
 * proxy，服务代理层，服务接口透明代理，生成服务的客户端Stub和服务器端Skeleton，以ServiceProxy为中心，扩展接口为ProxyFactory
@@ -25,27 +47,6 @@
 * 而Remoting实现是Dubbo协议的实现，如果你选择RMI协议，整个Remoting都不会用上，Remoting内部再划为Transport传输层和Exchange信息交换层，Transport层只负责单向消息传输，是对Mina,Netty,Grizzly的抽象，它也可以扩展UDP传输，而Exchange层是在传输层之上封装了Request-Response语义。
 * Registry和Monitor实际上不算一层，而是一个独立的节点，只是为了全局概览，用层的方式画在一起。
 
-模块分包：
-
-![image](img/dubbo-2.jpg)
-
-模块说明：
-
-* dubbo-common 公共逻辑模块，包括Util类和通用模型。
-* dubbo-remoting 远程通讯模块，相当于Dubbo协议的实现，如果RPC用RMI协议则不需要使用此包。
-* dubbo-rpc 远程调用模块，抽象各种协议，以及动态代理，只包含一对一的调用，不关心集群的管理。
-* dubbo-cluster 集群模块，将多个服务提供方伪装为一个提供方，包括：负载均衡, 容错，路由等，集群的地址列表可以是静态配置的，也可以是由注册中心下发。
-* dubbo-registry 注册中心模块，基于注册中心下发地址的集群方式，以及对各种注册中心的抽象。
-* dubbo-monitor 监控模块，统计服务调用次数，调用时间的，调用链跟踪的服务。
-* dubbo-config 配置模块，是Dubbo对外的API，用户通过Config使用Dubbo，隐藏Dubbo所有细节。
-* dubbo-container 容器模块，是一个Standlone的容器，以简单的Main加载Spring启动，因为服务通常不需要Tomcat/JBoss等Web容器的特性，没必要用Web容器去加载服务。
-
-整体上按照分层结构进行分包，与分层的不同点在于：
-
-* container为服务容器，用于部署运行服务，没有在层中画出。
-* protocol层和proxy层都放在rpc模块中，这两层是rpc的核心，在不需要集群时(只有一个提供者)，可以只使用这两层完成rpc调用。
-* transport层和exchange层都放在remoting模块中，为rpc调用的通讯基础。
-* serialize层放在common模块中，以便更大程度复用。
 
 依赖关系：
 
@@ -153,7 +154,7 @@ dubbo://192.168.21.58:20130/com.alibaba.dubbo.demo.DemoService?anyhost=true&appl
 ```
 
 
-#### <dubbo:service/> 内部实现
+#### \<dubbo:service/\> 内部实现
 
 服务提供方暴露服务的初始化链，时序图如下：
 
@@ -198,7 +199,7 @@ Exporter实例。这样当网络通讯层收到一个请求后，会找到对应
 
 
 
-#### <dubbo:reference/> 内部实现
+#### \<dubbo:reference/\> 内部实现
 
 服务消费方引用服务的初始化链，时序图如下：
 
