@@ -4,9 +4,9 @@
 
 ####  附录
 
-[源码地址](https://github.com/alibaba/dubbo)
+* [源代码](https://github.com/alibaba/dubbo)
 
-[源码阅读笔记](dubbo-sourcecode.md)
+* [源码阅读笔记](dubbo-sourcecode.md)
 
 ---
 #### 简介

@@ -35,7 +35,7 @@
 
 * [负载均衡之LVS](system-architecture/LVS.md)
 * [Nginx](web/Nginx.md)
-* [tomcat](http://tomcat.apache.org/)
+* [tomcat](web/tomcat.md)
 * [http协议](web/http协议.md)
 * [CDN](system-architecture/CDN.md)
 
@@ -83,8 +83,8 @@
 	* [Elasticsearch](middle-software/elasticsearch.md)
 
 *   分布式数据框架
-	* [cobar](http://hualong.iteye.com/blog/2102798)
-	* [tsharding](https://www.oschina.net/p/TSharding-Client)
+	* [cobar](middle-software/cobar.md)
+	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
 
 *   大数据
@@ -106,18 +106,19 @@
 	* [FastDFS(分布式文件系统)](https://www.oschina.net/p/fastdfs)
 
 
+
+### 项目管理
+
+* [git常用命令](project-management/git常用命令.md)
+* [代码规范](project-management/代码规范.md)
+* [程序员素养](project-management/程序员素养.md)
+
 ### 运维
 
 *	[快速排查线上问题](ops/online-question.md)
 *	[linux常用命令](ops/linux常用命令.md)
 *	[本地代码调试](ops/本地代码调试.md)
 
-
-### 项目管理
-
-* [程序员素养](project-management/程序员素养.md)
-* [git常用命令](project-management/git常用命令.md)
-* [代码规范](project-management/代码规范.md)
 
 ### 学习网站
 

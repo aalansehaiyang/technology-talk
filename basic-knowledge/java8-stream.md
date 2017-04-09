@@ -157,6 +157,24 @@ List<Long> likeTidList = likeDOs.stream().map(LikeDO::getTid)
         });
  ```
  
+* 集合--》map
+ 
+```
+List<ImageModel> imageModelList = null;
+Map<Long, String> imagesMap = null;
+imagesMap = imageModelList.stream().collect(Collectors.toMap(ImageModel::getAid, o -> IMAGE_ADDRESS_PREFIX + o.getUrl()));
+              
+             
+
+Map<String, String> kvMap = postDetailCacheList.stream().collect(Collectors.toMap((detailCache) ->
+                getBbsSimplePostKey(detailCache.getTid()), JSON::toJSONString));
+
+
+Map<Long, Long> pidToTid；
+List<String> pidKeyList = pidToTid.entrySet().stream().map((o) -> getKeyBbsReplyPid(o.getValue(), o.getKey())).collect(Collectors.toList());
+
+```
+ 
  * DO模型---》Model模型
  
  ```

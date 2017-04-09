@@ -91,17 +91,21 @@ Command内提供了多种redis操作命令。
 
 *	long setnx(String key, String value)
 
-	将字符串值value关联到key，如果key已存在则不做任何改变
+	将字符串值value关联到key，如果key已存在则不做任何改变。返回1表示key不存在，第一次设置；返回0表示key已经存在
 	
 *	String setex(String key, int seconds, String value)
 
-	将值value关联到key，并将key的生命周期设为seconds(以秒为单位)。
+	将值value关联到key，并将key的生命周期设为seconds(以秒为单位)。如果key 已经存在，SETEX命令将覆写旧值。 
 
 *	long append(String key, String value)
 
 	如果key已经存在并且是一个字符串，APPEND命令将value追加到key原来的值之后<BR>
     如果key不存在，APPEND就简单地将给定key设为value，同 SET key value
 
+*	long strlen(String key) throws RedisException;
+
+	获取key所对应的value字符串长度
+	
 *	long incr(String key) 
 
 	将key中储存的数字值加1,如果key不存在,以0为key的初始值,然后执行INCR操作。线程安全
@@ -119,9 +123,21 @@ Command内提供了多种redis操作命令。
 	将key中储存的数字值减n,如果key不存在,以0为key的初始值,然后执行DECRBY操		
 *	String getSet(String key, String value) 
 
-	设置新值，并返回旧的值
+	设置key为当前值，并返回旧的值
+*   String set(String key, String value, String nxxx, String expx, long time) throws RedisException;
 
-#### 2.List
+```
+将字符串值value关联到key:
+nxxx：必须是NX或者XX，NX表示不存在则设置否则不做操作；XX表示存在才设置否则不做操作
+expx：过期时间单位必须是EX或PX，EX表示单位是“秒”，PX表示单位是“毫秒”
+time：过期时间，前一个参数是"EX"的话单位为“秒”，是"PX"的话单位为“毫秒”
+
+@return 操作成功的话返回字符串OK，否则返回null
+
+```
+
+
+### 2.List
 
 Redis lists基于Linked Lists实现。这意味着即使在一个list中有数百万个元素，在头部或尾部添加一个元素的操作，其时间复杂度也是常数级别的。用LPUSH 命令在十个元素的list头部添加新元素，和在千万元素list头部添加新元素的速度相同
 

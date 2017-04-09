@@ -28,6 +28,7 @@ Nginx使用epoll和kqueue网络的I/O模型，而apache使用的是传统的sele
 
 Nginx的主配置文件为nginx.conf，下面是Web Server的完整配置示例。
 
+
 ```
 #运行用户
 user www-data;    
