@@ -2,8 +2,13 @@
 
 ---
 
-##### 开源项目：https://www.oschina.net/p/super-diamond
-##### 源码地址：https://github.com/melin/super-diamond
+#### 附录
+
+* [项目文档](https://www.oschina.net/p/super-diamond)
+* [源代码](https://github.com/melin/super-diamond)
+
+---
+#### 源码笔记
 
 #### 一、客户端部分
 1.初始化xml配置

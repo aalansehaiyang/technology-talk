@@ -16,7 +16,7 @@
 *  	[springboot](basic-knowledge/springboot.md)
 *	[ibatis](basic-knowledge/ibatis.md)
 *	[设计模式](basic-knowledge/常用的设计模式.md)
-*	[java日志](basic-knowledge/Log4j.md)
+*	[Log4j](basic-knowledge/Log4j.md)
 
 
 ### 数据库
@@ -111,7 +111,9 @@
 
 * [git常用命令](project-management/git常用命令.md)
 * [代码规范](project-management/代码规范.md)
+* [项目生命周期](project-management/项目生命周期.md)
 * [程序员素养](project-management/程序员素养.md)
+
 
 ### 运维
 

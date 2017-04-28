@@ -3,7 +3,7 @@
 ---
 
 
-#### 一、CPU相关信息
+#### 一、CPU相关、进程
 
 1、 查看cpu硬件配置
 
@@ -12,19 +12,9 @@ less /proc/cpuinfo
 ```
 ![image](img/4.png)
 2、 top
-![image](img/7.png)
 
 ```
-第一行：当前时间：系统已运行时间：751天，目前4个用户，1、5、15分钟内的load分别是0.07、0.02 、0.00
-第二行：进程情况：总共148个，正在运行的有2个，休眠有139个，僵尸进程1个
-第三行：cpu的使用情况（按数字1显示所有cpu）
-第四行：内存情况
-第5行：虚拟内存情况
-然后：进程id，虚拟内存，驻留内存使用，cpu，内存使用百分比，运行时间,命令参数等。
-VIRT表示进程可以使用的内存总大小, 包括这个进程真实使用的内存, 映射过的文件, 和别的进程共享的内存等。 RES表示这个进程真实占用内存的大小。 SHR表示可以和别的进程共享的内存和库大小.
-```
-```
-备注：
+详细命令参数：
 h: 显示帮助
 c：显示详细的命令参数
 M：按照占用内存大小（%MEM 列）对进程排序；
@@ -32,12 +22,43 @@ P：按照 CPU 使用率( %CPU 列）对进程排序；
 u：显示指定用户的进程。默认显示所有进程；
 T：根据累计运行时间排序
 ```
-如果要查看具体某一个进程下的线程资源占用情况：
+![image](img/7.png)
 
 ```
-top -p 进程id -H  
-```* mpstat 1 / mpstat -P ALL 1* sar/sar-f /var/log/sa/saXX* w* uptime* top -H和ps -efL/-Tel  显示线程
-#### 二、内存相关信息 
+第一行：当前时间：系统已运行时间：751天，目前4个用户，1、5、15分钟内的load分别是0.07、0.02 、0.00
+第二行：进程情况：总共148个，正在运行的有2个，休眠有139个，僵尸进程1个
+第三行：cpu的使用情况（按数字1显示所有cpu）
+第四行：内存情况（buffers表示用作内核缓存的内存量）
+第五行：虚拟内存情况（系统的物理内存不够用的时候，把硬盘空间中的一部分空间释放出来，以供当前运行的程序使用）
+第六行：进程id，虚拟内存，驻留内存使用，cpu，内存使用百分比，运行时间,命令参数等。
+VIRT表示进程可以使用的内存总大小，VIRT=SWAP+RES，包括这个进程真实使用的内存, 映射过的文件, 和别的进程共享的内存等。 
+RES表示这个进程真实占用内存的大小，一般这个值和JVM的参数配置有关，如果%MEM使用过高则需要关注
+SHR表示可以和别的进程共享的内存和库大小。
+
+```
+
+* 某一个进程下的线程资源使用情况：
+
+```
+top -p {pid} -H  
+```* 查看系统load、cpu资源的其它命令
+
+``` mpstat 1 （汇总的）
+ mpstat -P ALL 1  （汇总的+每个cpu的） w uptime top -H 和 ps -efL/ -Tel  显示 线程
+```
+3、统计一个进程下的线程数
+```
+cat /proc/${pid}/status
+
+返回：
+...省略
+Threads:	74
+....省略
+
+其它命令：
+top -bH -d 3 -p {pid}
+pstree -p {pid} | wc -l
+pstack {pid} | head -1```#### 二、内存相关信息 
 1、vmstat
 
 Virtual Memory Statistics，统计进程、内存、io、cpu等的活动信息。对于多CPU系统，vmstat打印的是所有CPU的平均输出
@@ -159,6 +180,11 @@ netstat -i
 ```
 netstat -nat |awk '{print $6}'|sort|uniq -c
 ```
+* 应用连接Redis情况
+
+```
+netstat -anop | grep 6379
+```
 
 
 3、 iostat
@@ -228,14 +254,13 @@ iostat -k 3
 4、sar -b：磁盘状态历史记录
 
 
-#### 四、其它
+#### 四、文件
 1、 lsof
-可以列出当前系统进程与文件的关系
-```lsof sys.log 查看sys.log文件被哪个进程打开```![image](img/8.png)
-```lsof  -i：端口号         查看端口被哪个进程占用```![image](img/9.png)```
-lsof -n |awk '{print $2} " " $3'|sort|uniq -c |sort -nr|more
-查看各个进程打开的文件数据量
-````
+当前进程与文件的关系
+```## 查看sys.log文件被哪个进程打开lsof sys.log ```![image](img/8.png)
+```## 查看端口被哪个进程占用lsof  -i：端口号         ```![image](img/9.png)```
+// 查看各个进程打开的文件数量
+lsof -n |awk '{print $2} " " $3'|sort|uniq -c |sort -nr|more```
 2、 df```df -hl磁盘的使用情况
 ```![image](img/10.png)
 3、 du
@@ -275,7 +300,16 @@ tail -f test.log
 ping baidu.com > 1.txt &
 后台以守护进程的方式，将ping命令的返回结果写入 1.txt
 ```
----
+
+#### 五、其它
+
+对于Java应用从操作系统层面观察，就只有进程和线程两个指标，任何东西在操作系统层面都是以文件的形式存储的，进程也不例外。Linux上部署一个Tomcat程序产生一个进程，这个进程所有的东西都在这个目录下
+ll /proc/{pid}/
+
+```
+## 可以查看所有的socket连接
+ll /proc/{pid}/fd | grep socket   
+```---
 #### 更多资料：
 https://app.yinxiang.com/Home.action#n=b0fcd794-072a-4fab-9ac6-012b7b0ad147&ses=4&sh=2&sds=5&
 
