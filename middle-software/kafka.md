@@ -6,7 +6,7 @@
 Kafka是由LinkedIn开发的一个开源分布式基于发布/订阅的消息系统，Scala编写。
 Producer向broker push消息；Consumer从broker pull消息（pull模式则可以根据Consumer的消费能力以适当的速率消费消息）
 
-**目标：**
+#### 目标：
 
 * 以时间复杂度为O(1)的方式提供消息持久化能力，即使对TB级以上数据也能保证常数时间复杂度的访问性能。
 * 高吞吐率。即使在非常廉价的商用机器上也能做到单机支持每秒100K条以上消息的传输。
@@ -14,7 +14,7 @@ Producer向broker push消息；Consumer从broker pull消息（pull模式则可�
 * 同时支持离线数据处理和实时数据处理。
 
 
-**核心组件：**
+#### 核心组件：
 
 * 	Broker
 
@@ -58,12 +58,10 @@ Kafka集群会保留所有的消息，无论其被消费与否。两种策略删
 * 一基于时间的SLA(服务水平保证)，消息保存一定时间（通常为7天）后会被删除
 * 二是基于Partition文件大小，可以通过配置$KAFKA_HOME/config/server.properties
 
-	
-	
-	
-	
+
 
 	
-**参考资料：**
+#### 参考资料
 
-http://www.infoq.com/cn/articles/kafka-analysis-part-1
+* [Kafka高性能架构之道——Kafka设计解析](http://mp.weixin.qq.com/s/3i51S1jDXbqvi6fv1cuQSg)
+* http://www.infoq.com/cn/articles/kafka-analysis-part-1

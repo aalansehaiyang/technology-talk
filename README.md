@@ -69,6 +69,7 @@
 	* [dubbo](middle-software/dubbo.md)
 	* [dubbox](https://www.oschina.net/p/dubbox)
 	* [Thrift](https://github.com/apache/thrift)
+	* [RPC框架性能比较](http://mp.weixin.qq.com/s/iw9-UaZZl3gCqKAw2Mxz6A)
 
 *   MQ消息
 	* [kafka](middle-software/kafka.md)
@@ -104,11 +105,13 @@
 *  其它
 	* [zookeeper](middle-software/zookeeper.md)
 	* [FastDFS(分布式文件系统)](https://www.oschina.net/p/fastdfs)
-
+	* [mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
+	* [分布式数据库同步系统](https://github.com/alibaba/otter)
 
 
 ### 项目管理
 
+* [论需求调研的重要性](project-management/论需求调研的重要性.md)
 * [git常用命令](project-management/git常用命令.md)
 * [代码规范](project-management/代码规范.md)
 * [项目生命周期](project-management/项目生命周期.md)
@@ -138,7 +141,6 @@
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
-*	[mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
-*	[分布式数据库同步系统](https://github.com/alibaba/otter)
 *	[java面试题](other/java-interview.md)
+*	[回车与换行的区别](other/回车与换行的区别.md)
 
