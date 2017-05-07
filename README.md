@@ -117,7 +117,6 @@
 * [项目生命周期](project-management/项目生命周期.md)
 * [程序员素养](project-management/程序员素养.md)
 
-
 ### 运维
 
 *	[快速排查线上问题](ops/online-question.md)
@@ -137,6 +136,7 @@
 
 ### 其它
 
+*   [个人成长、职业规划](other/person.md)
 *   [读书单](other/book.md)
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)

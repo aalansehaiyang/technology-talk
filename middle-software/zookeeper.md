@@ -2,7 +2,7 @@
 
 ---
 
-**简介：**
+#### 简介
 
 zk为分布式应用提供了高效且可靠的分布式协调服务。用于解决数据同步、数据发布/订阅、集群管理、配置管理、分布式锁、命名服务、负载均衡等问题。最早由雅虎创建，具有以下特性：
 
@@ -34,7 +34,7 @@ zk支持单机、集群两种模式。
 *	Curator
 
 
-#### ZkClient 简介
+#### ZkClient 介绍
 
 ZkClient是github上一个开源的ZK客户端，在zookeeper原生API接口之上进行了包装，是一个更易用的ZK客户端。实现了如session超时重连、Watcher反复注册等功能，使得zookeeper客户端的繁琐细节工作对开发人员透明。
 
@@ -71,9 +71,9 @@ pom依赖
 </dependency>
 ```
 
-####代码示例：
+#### 代码示例：
 
-#####1.建立客户端连接
+##### 1.建立客户端连接
 
 ```
 /**
@@ -101,7 +101,7 @@ ZkClient 构造方法参数说明：
 |zkConnection|IZkConnection接口实现类，包含了增、删、改、查等一系列方法|
 
 	
-#####2.创建节点
+##### 2.创建节点
 
 ![image](img/3.png)
 
@@ -117,7 +117,7 @@ ZkClient 构造方法参数说明：
 zkClient.createPersistent("/root/provier", true);
 ```
 
-#####3.删除节点
+##### 3.删除节点
 
 ![image](img/4.png)
 
@@ -130,7 +130,7 @@ zkClient.createPersistent("/root/provier", true);
 zkClient.deleteRecursive("/root/provier");
 ```
 
-#####4.读取数据
+##### 4.读取数据
 
 * getChildren
 
@@ -193,7 +193,7 @@ zkClient.subscribeDataChanges("/root", new IZkDataListener() {
 ```
 
 
-#####5.更新数据
+##### 5.更新数据
 
 ![image](img/6.png)
 
@@ -203,14 +203,15 @@ zkClient.subscribeDataChanges("/root", new IZkDataListener() {
 |object|数据内容，可以是null|
 |expectedVersion|预期的数据版本，实现类似CAS的原子操作|
 
-#####6.检测节点是否存在
+##### 6.检测节点是否存在
 
 ```
 boolean isNodeExist = zkClient.exists("/root");
 ```
 
-**参考资料：**
+#### 资料
 
-https://github.com/apache/zookeeper
-
-https://github.com/llohellohe/zookeeper
+* https://github.com/apache/zookeeper
+* https://github.com/llohellohe/zookeeper
+* [zookeeper 入门系列 : 概述](http://mp.weixin.qq.com/s/pTXUAMgGpafhNNWfW2R_Cw)
+* [paxos 协议](http://mp.weixin.qq.com/s/a17RBmGABt8j_mmxgBN94w)

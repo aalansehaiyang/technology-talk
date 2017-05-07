@@ -342,7 +342,27 @@ Redis lists基于Linked Lists实现。这意味着即使在一个list中有数�
 	对哈希中的某个key对应的值增加计数，线程安全。<br>
 	如果field不存在，初始值为0<br>
 
-	
+### lua 脚本
+
+如果一次业务请求需要执行多条命令，可以借助lua脚本批量提交执行
+
+```
+// key：缓存键值； seconds：过期时间
+public static String luaScript(String key, long seconds) {
+	return "local currIncr = redis.call('INCR', '" + key + "') "
+			+ "if tonumber(currIncr) == 1 "
+			+ "then "
+			+ "redis.call('EXPIRE', '" + key + "', " + seconds + ") "
+			+ "end "
+			+ "return currIncr";
+}
+
+//寻找目标节点
+Node target = redisClient.getNodeByKey(key);
+
+//执行lua脚本命令
+Long count = (Long) redisClient.eval(target, luaScript方法返回的字符串命令);
+```
 	
 ### 参考资料
 
