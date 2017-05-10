@@ -50,3 +50,8 @@
 * 	[类加载器](类加载器.md)
 *  	[jvm 内存结构](jvm内存结构.md)
 *  	[jvm 性能调优（jvm参数、垃圾回收）](jvm性能调优.md)
+
+
+### 四、java 新特性
+
+* 	[Java 9 中的 9 个新特性](http://mp.weixin.qq.com/s/QqFG74zAuJe8uk2CWZiytw)

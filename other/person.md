@@ -5,6 +5,7 @@
 
 * [8年开发经验，网易Java开发工程师的成长感悟](http://mp.weixin.qq.com/s/Ck71qeyACk0Zn5j3ro87YQ)
 * [张一鸣：我遇到的优秀年轻人的5个特质](http://mp.weixin.qq.com/s/SayDuFnWFIRaKgVfd3Km7g)
+* [培养这些软技能，可以有效提升程序员的幸福感](http://mp.weixin.qq.com/s/FdmwguWsn28IutA8V70YbA)
 
 
 ### 转型
