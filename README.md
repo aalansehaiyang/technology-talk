@@ -126,7 +126,7 @@
 ### 个人成长
 
 *   [职业规划](other/person.md)
-*    学习网站
+*   学习网站
 	* [infoQ](http://www.infoq.com/cn/)
 	* [云栖社区](https://yq.aliyun.com/)
 	* [并发编程网](http://ifeve.com/)
