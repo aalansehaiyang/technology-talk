@@ -123,21 +123,21 @@
 *	[linux常用命令](ops/linux常用命令.md)
 *	[本地代码调试](ops/本地代码调试.md)
 
+### 个人成长
 
-### 学习网站
-
-* [infoQ](http://www.infoq.com/cn/)
-* [云栖社区](https://yq.aliyun.com/)
-* [并发编程网](http://ifeve.com/)
-* [开源中国](http://www.oschina.net/)
-* [stackoverflow](http://stackoverflow.com/)
-* [网易云课堂](http://study.163.com/)
+*   [职业规划](other/person.md)
+*    学习网站
+	* [infoQ](http://www.infoq.com/cn/)
+	* [云栖社区](https://yq.aliyun.com/)
+	* [并发编程网](http://ifeve.com/)
+	* [开源中国](http://www.oschina.net/)
+	* [stackoverflow](http://stackoverflow.com/)
+	* [网易云课堂](http://study.163.com/)
+*   [读书单](other/book.md)
 
 
 ### 其它
 
-*   [个人成长、职业规划](other/person.md)
-*   [读书单](other/book.md)
 *	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
