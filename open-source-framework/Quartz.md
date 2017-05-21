@@ -1,12 +1,12 @@
 ## Quartz
 ---
-###简介：
+### 简介：
 
 * 开源的任务调度框架，提供了强大的调度机制
 * 接口扩展性好，接入简单
 * 支持调度运行环境的持久化机制
 
-###基础结构：
+### 基础结构：
 
 * Job
 
@@ -65,7 +65,7 @@
 
 
 
-###pom依赖
+### pom依赖
 
 ```
 <dependency>
@@ -75,9 +75,9 @@
 </dependency>
 ```
 
-###代码示例：
+### 代码示例：
 
-#####1. 调度工厂配置，里面注册了所有的trigger触发器
+##### 1. 调度工厂配置，里面注册了所有的trigger触发器
 
 ```
 <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
@@ -95,7 +95,7 @@
 * 让Scheduler与Spring容器的生命周期建立关联
 * 通过属性配置部分或全部代替Quartz自身的配置文件
 
-#####2. trigger触发器，包含具体的任务和触发时间规则
+##### 2. trigger触发器，包含具体的任务和触发时间规则
 
 ```
 <bean id="hotPostsCollectTrigger"
@@ -105,7 +105,7 @@
 </bean>
 ```
 
-#####3. 编写自己业务的jobdetail类，实现job接口
+##### 3. 编写自己业务的jobdetail类，实现job接口
 
 ```
 <bean id="hotPostsCollectJob" class="com.onlyone.bbs.task.job.HotPostsCollectJob" />

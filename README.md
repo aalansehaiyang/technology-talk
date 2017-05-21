@@ -23,6 +23,7 @@
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
 *	[连接池](data-base/数据库连接池.md)
+* 	[事务](data-base/transaction.md)
 * 	[乐观锁&悲观锁](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
@@ -112,10 +113,10 @@
 ### 项目管理
 
 * [论需求调研的重要性](project-management/论需求调研的重要性.md)
-* [git常用命令](project-management/git常用命令.md)
-* [代码规范](project-management/代码规范.md)
 * [项目生命周期](project-management/项目生命周期.md)
-* [程序员素养](project-management/程序员素养.md)
+* [代码规范](project-management/代码规范.md)
+* [git常用命令](project-management/git常用命令.md)
+
 
 ### 运维
 
@@ -125,6 +126,7 @@
 
 ### 个人成长
 
+*   [程序员素养](project-management/程序员素养.md)
 *   [职业规划](other/person.md)
 *   学习网站
 	* [infoQ](http://www.infoq.com/cn/)
@@ -133,7 +135,7 @@
 	* [开源中国](http://www.oschina.net/)
 	* [stackoverflow](http://stackoverflow.com/)
 	* [网易云课堂](http://study.163.com/)
-*   [读书单](other/book.md)
+*   [Tom的读书单](other/book.md)
 
 
 ### 其它

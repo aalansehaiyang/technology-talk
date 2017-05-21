@@ -1,6 +1,11 @@
 ## Nginx
 
 ---
+##### 附录：
+
+[nginx+lua](http://jinnianshilongnian.iteye.com/blog/2186448)
+
+---
 
 ￼Nginx做为一款高性能的HTTP反向代理服务器，有极高的执行效率、简单灵活的配置。
 
