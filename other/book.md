@@ -23,6 +23,7 @@
 *	《Java性能优化权威指南》
 *	《Elasticsearch服务器开发（第2版）》
 *	《深入理解ElasticsSearch》
+*	《Elasticsearch技术解析与实战》
 *	《从Paxos到ZooKeeper》
 *	《Java8函数式编程》
 *	《ELKstack权威指南》
@@ -31,6 +32,8 @@
 *	《iBATIS实战》
 *	《java 数值计算法编程》
 *	《架构实战（软件架构设计的过程）》
+*	《尽在双11——阿里巴巴技术演进与超越》
+*	《亿级流量网站架构核心技术——跟开涛学搭建高可用高并发系统》
 
 
 

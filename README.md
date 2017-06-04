@@ -2,7 +2,7 @@
 
 ---
 
-有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域专家可能会有些难度，但应付日常工作，甚至成为团队骨干，其实并不难。
+有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作、成长为资深研发工程师、甚至成为小团队的Team Leader，其实并不难。
 
 **多读书、多看报，多研究常用开源框架的源码，比如：github.com，这里汇集了全球工程师的智慧！**
 
@@ -27,10 +27,11 @@
 * 	[乐观锁&悲观锁](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
-* 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](data-base/bigint类型.md)
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
 * 	[sql技巧](data-base/sql技巧.md)
+* 	[其它](data-base/other.md)
+
 
 ### web容器/协议/网络
 
@@ -64,6 +65,7 @@
 * [cache相关](system-architecture/cache相关.md)
 * [分布式锁](system-architecture/分布式锁.md)
 
+
 ### 中间件
 
 *	RPC框架
@@ -73,8 +75,8 @@
 	* [RPC框架性能比较](http://mp.weixin.qq.com/s/iw9-UaZZl3gCqKAw2Mxz6A)
 
 *   MQ消息
-	* [kafka](middle-software/kafka.md)
 	* [ActiveMQ](https://github.com/apache/activemq)
+	* [kafka](middle-software/kafka.md)
 	* [RocketMQ](https://github.com/apache/incubator-rocketmq)
 
 *   缓存
@@ -116,6 +118,7 @@
 * [项目生命周期](project-management/项目生命周期.md)
 * [代码规范](project-management/代码规范.md)
 * [git常用命令](project-management/git常用命令.md)
+* [项目管理案例](project-management/项目管理案例.md)
 
 
 ### 运维
@@ -126,8 +129,7 @@
 
 ### 个人成长
 
-*   [程序员素养](project-management/程序员素养.md)
-*   [职业规划](other/person.md)
+*   [个人成长与职业规划](other/person.md)
 *   学习网站
 	* [infoQ](http://www.infoq.com/cn/)
 	* [云栖社区](https://yq.aliyun.com/)
@@ -135,8 +137,8 @@
 	* [开源中国](http://www.oschina.net/)
 	* [stackoverflow](http://stackoverflow.com/)
 	* [网易云课堂](http://study.163.com/)
+*   [程序员素养](project-management/程序员素养.md)
 *   [Tom的读书单](other/book.md)
-
 
 ### 其它
 

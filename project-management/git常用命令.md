@@ -59,6 +59,10 @@ git push -u origin master
 
 	直接将两个分支上最新的提交做diff	
 	
+* 	git diff
+	
+	查看当前未提交的文件的改动点
+	
 *	git branch -v -v     
 
 	有【】的表示和服务器关联
