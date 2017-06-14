@@ -76,7 +76,8 @@
 
 *   MQ消息
 	* [ActiveMQ](https://github.com/apache/activemq)
-	* [kafka](middle-software/kafka.md)
+	* [RabbitMQ]()
+	* [Kafka](middle-software/kafka.md)
 	* [RocketMQ](https://github.com/apache/incubator-rocketmq)
 
 *   缓存
@@ -90,6 +91,7 @@
 	* [cobar](middle-software/cobar.md)
 	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
+	* [sharding-jdbc](https://www.slahser.com/2016/06/25/%E5%BD%93%E5%BD%93%E7%9A%84sharding-jdbc%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/)
 
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
@@ -98,6 +100,7 @@
 	* [Spark](middle-software/Spark.md)
 	* [Hadoop](middle-software/Hadoop.md)
 	* [Hive](middle-software/Hive.md)
+	* [oceanbase](https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4)
 	
 *   配置管理
 

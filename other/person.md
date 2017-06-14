@@ -11,6 +11,7 @@
 
 #### 转型提升
 
+* [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)
 * [从普通程序员到三百人团队CTO，技术人成长的易与不易](http://mp.weixin.qq.com/s/tyTrBg9vk5Ft16oWEb4-bA)
 * [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)

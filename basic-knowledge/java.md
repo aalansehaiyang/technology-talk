@@ -43,6 +43,9 @@
 * 	[NIO](NIO.md)
 * 	[各种坑](各种坑.md)
 
+* ###### 示例
+	* [epoll 浅析以及 nio 中的 Selector](https://mp.weixin.qq.com/s/RmONdyXuJZa8WyJCu2j7WA)
+	* [Linux IO模式及 select、poll、epoll详解](https://segmentfault.com/a/1190000003063859)
 
 
 ### 三、JVM虚拟机
@@ -54,5 +57,6 @@
 
 ### 四、java 新特性
 
+*   [JavaEE 7 正式发布](http://www.iteye.com/news/27980)
 *   [Java 的版本历史与特性](https://mp.weixin.qq.com/s/wcF14v11QaS21UFczqGbVg)
 * 	[Java 9 中的 9 个新特性](http://mp.weixin.qq.com/s/QqFG74zAuJe8uk2CWZiytw)
