@@ -26,3 +26,4 @@
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
 * [给我五分钟，带你走出迷茫！](https://mp.weixin.qq.com/s/L-bLtzThdBj_M2iBvXGlRg)
 * [思维的局限](https://mp.weixin.qq.com/s/ShqzvXI6L28Lxw5X61IfiA)
+* [7 年老员工的 6 点离职忠告：浮躁的年轻人请你读完](https://mp.weixin.qq.com/s/Az9y8HzdpGOOfR4JWcIVkA)

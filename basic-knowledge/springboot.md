@@ -1,6 +1,14 @@
 ## springboot
 
 ---
+#### 附录
+
+* https://github.com/aalansehaiyang/SpringBoot-Learning
+* https://github.com/JeffLi1993/springboot-learning-example
+* https://github.com/spring-projects/spring-boot
+* [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
+
+---
 
 #### 框架---模块---体系---生态
 
@@ -122,16 +130,12 @@ c）设置main方法的定义类
 上面只是介绍一些常用的组件，sping社区还有很多其它优秀的组件，可以根据自己的业务情况研究自取。
 
 
-#### 附录
-
-[eclipse中如何跑spring boot的单元测试](springboot-unit.md)
 
 
 #### 参考资料
 
 http://www.jianshu.com/collection/f0cf6eae1754
 
-《SpringBoot揭秘--快速构建微服务体系》
-
 http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
 
+《SpringBoot揭秘--快速构建微服务体系》

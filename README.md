@@ -2,7 +2,7 @@
 
 ---
 
-有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作、成长为资深研发工程师、甚至成为小团队的Team Leader，其实并不难。
+有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作，成长为资深研发工程师、技术专家、甚至成为小团队的Team Leader，其实并不难。
 
 **多读书、多看报，多研究常用开源框架的源码，比如：github.com，这里汇集了全球工程师的智慧！**
 
@@ -93,6 +93,9 @@
 	* [tddl](https://github.com/alibaba/tb_tddl)
 	* [sharding-jdbc](https://www.slahser.com/2016/06/25/%E5%BD%93%E5%BD%93%E7%9A%84sharding-jdbc%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/)
 
+*	分布式协调服务
+	* [zookeeper](middle-software/zookeeper.md)
+	
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
 	* [MogonDB](middle-software/MogonDB.md)
@@ -109,7 +112,6 @@
 	
 
 *  其它
-	* [zookeeper](middle-software/zookeeper.md)
 	* [FastDFS(分布式文件系统)](https://www.oschina.net/p/fastdfs)
 	* [mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 	* [分布式数据库同步系统](https://github.com/alibaba/otter)
@@ -145,7 +147,7 @@
 
 ### 其它
 
-*	[HTTPS 抓包工具（charles）](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
+*	[常用软件工具](other/tool.md)
 *	[一致性hash算法](other/一致性hash.md)
 *	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[java面试题](other/java-interview.md)
