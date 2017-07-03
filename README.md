@@ -55,17 +55,6 @@
 * [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
 
 
-
-### 系统架构 
-
-* [架构经验](system-architecture/架构经验.md)
-* [经典案例](system-architecture/经典案例.md)
-* [编码前3000问](system-architecture/编码前3000问.md)
-* [性能优化之Qps](system-architecture/性能优化之Qps.md)
-* [cache相关](system-architecture/cache相关.md)
-* [分布式锁](system-architecture/分布式锁.md)
-
-
 ### 中间件
 
 *	RPC框架
@@ -98,9 +87,9 @@
 	
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
+	* [Spark](middle-software/Spark.md)
 	* [MogonDB](middle-software/MogonDB.md)
 	* [Storm](middle-software/Storm.md)
-	* [Spark](middle-software/Spark.md)
 	* [Hadoop](middle-software/Hadoop.md)
 	* [Hive](middle-software/Hive.md)
 	* [oceanbase](https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4)
@@ -116,6 +105,15 @@
 	* [mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 	* [分布式数据库同步系统](https://github.com/alibaba/otter)
 
+### 系统架构 
+
+* [架构经验](system-architecture/架构经验.md)
+* [经典案例](system-architecture/经典案例.md)
+* [通用技术方案选型](system-architecture/technology-selection.md)
+* [编码前3000问](system-architecture/编码前3000问.md)
+* [性能优化之Qps](system-architecture/性能优化之Qps.md)
+* [cache相关](system-architecture/cache相关.md)
+* [分布式锁](system-architecture/分布式锁.md)
 
 ### 项目管理
 
@@ -134,6 +132,7 @@
 
 ### 个人成长
 
+*   [Tom的读书单](other/book.md)
 *   [个人成长与职业规划](other/person.md)
 *   学习网站
 	* [infoQ](http://www.infoq.com/cn/)
@@ -143,13 +142,11 @@
 	* [stackoverflow](http://stackoverflow.com/)
 	* [网易云课堂](http://study.163.com/)
 *   [程序员素养](project-management/程序员素养.md)
-*   [Tom的读书单](other/book.md)
 
 ### 其它
 
 *	[常用软件工具](other/tool.md)
 *	[一致性hash算法](other/一致性hash.md)
-*	[Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 *	[java面试题](other/java-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
 

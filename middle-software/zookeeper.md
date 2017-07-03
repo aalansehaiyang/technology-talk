@@ -33,7 +33,7 @@ zk支持单机、集群两种模式。
 **开源的客户端：**
 
 *	ZkClient
-*	Curator
+*	[Curator](http://blog.csdn.net/dc_726/article/details/46475633)
 
 
 #### ZkClient 介绍
