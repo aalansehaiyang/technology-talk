@@ -19,3 +19,13 @@
 * [Elastic-Job](https://github.com/dangdangdotcom/elastic-job)
 * [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
 * [pt-goodjob](https://github.com/wacai/pt-goodjob)
+
+
+##### 流量分发
+
+* [跟我学Nginx+Lua开发](http://www.iteye.com/blogs/subjects/nginx-lua)
+* [OpenResty官网](https://openresty.org/cn/)
+
+##### GateWay网关
+
+* [spring cloud 实现服务发现、网关路由、负载均衡](http://blog.csdn.net/zeb_perfect/article/details/52008192)

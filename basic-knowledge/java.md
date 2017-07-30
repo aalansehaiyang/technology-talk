@@ -46,6 +46,7 @@
 * ###### 示例
 	* [epoll 浅析以及 nio 中的 Selector](https://mp.weixin.qq.com/s/RmONdyXuJZa8WyJCu2j7WA)
 	* [Linux IO模式及 select、poll、epoll详解](https://segmentfault.com/a/1190000003063859)
+	* [JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介](https://mp.weixin.qq.com/s/FRF-c2t_Un1Krw29yuxyaw)
 
 
 ### 三、JVM虚拟机

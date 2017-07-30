@@ -3,10 +3,9 @@
 ---
 #### 附录
 
-* https://github.com/aalansehaiyang/SpringBoot-Learning
-* https://github.com/JeffLi1993/springboot-learning-example
-* https://github.com/spring-projects/spring-boot
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
+* [spring boot的java config配置](springboot-javaConfig.md)
+* [spring cloud 实例](https://github.com/aalansehaiyang/spring-cloud-example)
 
 ---
 
@@ -15,6 +14,13 @@
 #### 简介
 
 springboot是基于spring+java+web容器，微服务框架的杰出代表。微服务其实就是将服务粒度做小，使之可以独立承担对外服务的的职责。
+
+##### 特征
+* 遵循“约定胜于配置”的原则，使用spring boot只需要很少的配置，大部分时候可以使用默认配置
+* 项目快速搭建，可以配置整合第三方框架
+* 可完全不使用xml配置，借助java config
+* 内嵌Servlet（如 Tomcat）容器，可以jar包运行
+* 运行中的应用状态监控
 
 **微服务优势：**
 
@@ -134,8 +140,9 @@ c）设置main方法的定义类
 
 #### 参考资料
 
-http://www.jianshu.com/collection/f0cf6eae1754
-
-http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
-
-《SpringBoot揭秘--快速构建微服务体系》
+* https://github.com/aalansehaiyang/SpringBoot-Learning
+* https://github.com/JeffLi1993/springboot-learning-example
+* https://github.com/spring-projects/spring-boot
+* http://www.jianshu.com/collection/f0cf6eae1754
+* http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
+* 《SpringBoot揭秘--快速构建微服务体系》

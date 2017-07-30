@@ -3,6 +3,7 @@
 
 #### 个人成长
 
+* [程序员不能错过的28份技术知识图谱，你的进阶路上必备](https://mp.weixin.qq.com/s/trcK2J_a8h3C4fqPaKSc6g)
 * [8年开发经验，网易Java开发工程师的成长感悟](http://mp.weixin.qq.com/s/Ck71qeyACk0Zn5j3ro87YQ)
 * [张一鸣：我遇到的优秀年轻人的5个特质](http://mp.weixin.qq.com/s/SayDuFnWFIRaKgVfd3Km7g)
 * [培养这些软技能，可以有效提升程序员的幸福感](http://mp.weixin.qq.com/s/FdmwguWsn28IutA8V70YbA)
@@ -20,6 +21,7 @@
 * [技术专家 or 技术管理？程序员职场规划中如何定位？](https://mp.weixin.qq.com/s/v2kIPwjeYWY3JoPzBwQWrg)
 * [CTO不得不面对的9大困境](https://mp.weixin.qq.com/s/HLJ84XqmH_EzjRqni-3I9w)
 * [从大公司到创业公司，技术人转型怎样转变思路与处事之道？](https://mp.weixin.qq.com/s/xxwgs7wJR1O213VJsBammw)
+* [从来往到钉钉，从技术Leader到产品负责人，陶钧到底经历了什么？](https://mp.weixin.qq.com/s/C_p1hVzVwGEyj8udrgsjBw)
 
 
 #### 思考
