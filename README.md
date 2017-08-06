@@ -88,10 +88,10 @@
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
 	* [Spark](middle-software/Spark.md)
+	* [Hive](middle-software/Hive.md)
 	* [MogonDB](middle-software/MogonDB.md)
 	* [Storm](middle-software/Storm.md)
 	* [Hadoop](middle-software/Hadoop.md)
-	* [Hive](middle-software/Hive.md)
 	* [oceanbase](https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4)
 	
 *   配置管理
@@ -140,7 +140,10 @@
 	* [并发编程网](http://ifeve.com/)
 	* [开源中国](http://www.oschina.net/)
 	* [stackoverflow](http://stackoverflow.com/)
+*   视频网站
+	* [慕课网](http://www.imooc.com/)
 	* [网易云课堂](http://study.163.com/)
+	* [腾讯课堂](https://ke.qq.com/course/list/spark)
 *   [程序员素养](project-management/程序员素养.md)
 
 ### 其它

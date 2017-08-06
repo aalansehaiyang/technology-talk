@@ -22,6 +22,7 @@
 * [CTO不得不面对的9大困境](https://mp.weixin.qq.com/s/HLJ84XqmH_EzjRqni-3I9w)
 * [从大公司到创业公司，技术人转型怎样转变思路与处事之道？](https://mp.weixin.qq.com/s/xxwgs7wJR1O213VJsBammw)
 * [从来往到钉钉，从技术Leader到产品负责人，陶钧到底经历了什么？](https://mp.weixin.qq.com/s/C_p1hVzVwGEyj8udrgsjBw)
+* [如何成为一个合格的技术Leader？](https://mp.weixin.qq.com/s/LsLH1N6cFTpV_TyIqUqAvA)
 
 
 #### 思考
