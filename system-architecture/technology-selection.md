@@ -29,3 +29,8 @@
 ##### GateWay网关
 
 * [spring cloud 实现服务发现、网关路由、负载均衡](http://blog.csdn.net/zeb_perfect/article/details/52008192)
+
+##### 链路跟踪
+
+* [阿里鹰眼]()
+* [Zipkin](https://github.com/openzipkin/zipkin)
