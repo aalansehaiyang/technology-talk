@@ -11,6 +11,8 @@
 	
 	http://ifeve.com/concurrenthashmap/
 
+![image](img/17.png)
+
 * Semaphore
 
 	可以控制某资源同时被访问的个数。例如连接池中通常要控制创建连接的个数。
@@ -113,13 +115,15 @@ IncrementAndGet方法，关键是调用了compareAndSwap方法，是native方法
 * ThreadPoolExecutor
 
 	提供线程池服务，ThreadPoolExecutor（int corePoolSize, int maximumPoolSize,long keepAliveTime, TimeUnit unit,BlockingQueue<Runnable> workQueue,RejectedExecutionHandler handler）
+
+```
 corePoolSize： 线程池维护线程的最少数量
 maximumPoolSize：线程池维护线程的最大数量
 keepAliveTime： 线程池维护线程所允许的空闲时间
 unit： 线程池维护线程所允许的空闲时间的单位
 workQueue： 线程池所使用的缓冲队列
 handler： 线程池对拒绝任务的处理策略
-
+```
 ```
 block queue有以下几种实现：
 1. ArrayBlockingQueue：有界的数组队列
@@ -137,6 +141,26 @@ RejectExecutionHandler是针对任务无法处理时的一些自我保护处理�
 
  ![image](img/Snip20160701_52.png)
 
+
+**如何确定最大线程数？**
+
+确定线程数首先需要考虑到系统可用的处理器核心数：
+
+Runtime.getRuntime().availableProcessors();
+应用程序最小线程数应该等于可用的处理器核数。
+
+如果所有的任务都是计算密集型的，则创建处理器可用核心数这么多个线程就可以了，这样已经充分利用了处理器，也就是让它以最大火力不停进行计算。创建更多的线程对于程序性能反而是不利的，因为多个线程间频繁进行上下文切换对于程序性能损耗较大。
+
+如果任务都是IO密集型的，那我们就需要创建比处理器核心数大几倍数量的线程。为何？当一个任务执行IO操作时，线程将被阻塞，于是处理器可以立即进行上下文切换以便处理其他就绪线程。如果我们只有处理器核心数那么多个线程的话，即使有待执行的任务也无法调度处理了。
+
+因此，线程数与我们每个任务处于阻塞状态的时间比例相关。加入任务有50%时间处于阻塞状态，那程序所需线程数是处理器核心数的两倍。我们可以计算出程序所需的线程数，公式如下：
+
+线程数=CPU可用核心数/（1 - 阻塞系数），其中阻塞系数在在0到1范围内。
+
+计算密集型程序的阻塞系数为0，IO密集型程序的阻塞系数接近1。
+确定阻塞系数，我们可以先试着猜测，或者采用一些性能分析工具或java.lang.management API 来确定线程花在系统IO上的时间与CPU密集任务所耗的时间比值。
+         
+         
 * Executors
 	
 	工具类，提供大量管理线程执行器的工厂方法。
