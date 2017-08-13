@@ -13,6 +13,13 @@
 
 
 
+Phoenix
+
+* [源代码](https://github.com/apache/phoenix)
+* [官网地址](http://phoenix.apache.org/)
+* [Apache Phoenix介绍（SQL on HBase）](http://www.jianshu.com/p/d862337247b1)
+* [Phoenix使用指南](http://blog.csdn.net/huanggang028/article/details/12563481)
+* [使用Phoenix通过sql语句更新操作hbase数据](http://www.ixirong.com/2015/06/24/how-hbase-use-apache-phoenix/)
 
 -----
 
