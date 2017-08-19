@@ -8,3 +8,4 @@
 * [头脑风暴软件-----xmind](http://www.xmindchina.net/)
 * [统一建模语言画图------StarUML](http://www.chinapyg.com/forum.php?mod=viewthread&tid=79022&page=1)
 * [服务器界面式管理终端-------secureCRT]()
+* [编码工具-------intellij idea](intellij.md)
