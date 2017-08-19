@@ -49,6 +49,9 @@
 	* [Linux IO模式及 select、poll、epoll详解](https://segmentfault.com/a/1190000003063859)
 	* [JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介](https://mp.weixin.qq.com/s/FRF-c2t_Un1Krw29yuxyaw)
 
+* ###### netty	
+	* [Netty 长连接服务](https://www.dozer.cc/2014/12/netty-long-connection.html)
+
 
 ### 三、JVM虚拟机
 

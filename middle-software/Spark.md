@@ -7,6 +7,12 @@
 * [Spark Streaming中流式计算的困境与解决之道](http://mp.weixin.qq.com/s/URJg23Pz0rkFFAjWCdYB1w)
 * [Spark常用案例](http://blog.csdn.net/T1DMzks/article/category/7062215)
 * [Spark的一些调试程序](https://github.com/aalansehaiyang/spark-example)
+* [Spark入门实战系列](http://www.cnblogs.com/shishanyuan/p/4699644.html)
+
+Spark Stream
+
+* [Spark 安装、启动](Spark-stream.md)
+* [Spark Streaming笔记——技术点汇总](https://mp.weixin.qq.com/s/_pZ5U-UlZvhPeXuOepO9_w)
 
 ---
 
