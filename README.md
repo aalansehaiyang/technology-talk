@@ -151,6 +151,8 @@
 
 *	[常用软件工具](other/tool.md)
 *	[一致性hash算法](other/一致性hash.md)
-*	[java面试题](other/java-interview.md)
+*   面试
+	* [java面试题](other/java-interview.md)
+	* [大数据面试题](other/bigdata-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
 

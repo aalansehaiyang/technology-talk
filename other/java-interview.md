@@ -1,6 +1,12 @@
 ## 常见的java面试题
 
 ---
+### 附录
+
+* [如何面试工程师？](https://mp.weixin.qq.com/s/VDGXJeKZM_U_9tcZOb0q4Q)
+
+---
+
 
 1) 什么是线程？
 
@@ -249,3 +255,30 @@ fork join框架是JDK7中出现的一款高效的工具，Java开发人员可以
 53） Java多线程中调用wait() 和 sleep()方法有什么不同？
 
 Java程序中wait 和 sleep都会造成某种形式的暂停，它们可以满足不同的需要。wait()方法用于线程间通信，如果等待条件为真且其它线程被唤醒时它会释放锁，而sleep()方法仅仅释放CPU资源或者让当前线程停止执行一段时间，但不会释放锁。
+
+54）ArrayList、Vector、LinkedList 的区别及其优缺点？HashMap、HashTable 的区别及优缺点？
+
+```
+ArrayList 和 Vector 是采用数组方式存储数据的,是根据索引来访问元素的，都可以根据需要自动扩展内部数据长度，以便增加和插入元素，都允许直接序号索引元素，但是插入数据要涉及到数组元素移动等内存操作，所以索引数据快插入数据慢，他们最大的区别就是 synchronized 同步的使用。
+
+LinkedList 使用双向链表实现存储，按序号索引数据需要进行向前或向后遍历，但是插入数据时只需要记录本项的前后项即可，所以插入数度较快！如果只是查找特定位置的元素或只在集合的末端增加、移除元素，那么使用 Vector或 ArrayList 都可以。如果是对其它指定位置的插入、删除操作，最好选择 LinkedList
+
+
+HashMap、HashTable 的区别及其优缺点：
+
+HashTable 中的方法是同步的 HashMap 的方法在缺省情况下是非同步的 因此在多线程环境下需要做额外的同步机制。
+HashTable 不允许有 null 值 key 和 value 都不允许，而 HashMap 允许有 null 值 key和 value 都允许 因此 HashMap 使用 containKey（）来判断是否存在某个键。
+HashTable 使用 Enumeration ，而 HashMap 使用 iterator。
+Hashtable 是 Dictionary 的子类，HashMap 是 Map 接口的一个实现类。
+```
+
+55）Java中Class.forName和ClassLoader.loadClass的区别
+
+```
+Class.forName("xx.xx")等同于Class.forName("xx.xx",true,CALLClass.class.getClassLoader())，第二个参数(bool)表示装载类的时候是否初始化该类，即调用类的静态块的语句及初始化静态成员变量。
+
+ClassLoader loader = Thread.currentThread.getContextClassLoader(); //也可以用(ClassLoader.getSystemClassLoader())
+
+Class cls = loader.loadClass("xx.xx"); //这句话没有执行初始化
+forName可以控制是否初始化类，而loadClass加载时是没有初始化的。
+```

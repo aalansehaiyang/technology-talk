@@ -2,17 +2,28 @@
 
 ---
 
-##### 附录
+### 附录
 
-* [Spark Streaming中流式计算的困境与解决之道](http://mp.weixin.qq.com/s/URJg23Pz0rkFFAjWCdYB1w)
-* [Spark常用案例](http://blog.csdn.net/T1DMzks/article/category/7062215)
-* [Spark的一些调试程序](https://github.com/aalansehaiyang/spark-example)
-* [Spark入门实战系列](http://www.cnblogs.com/shishanyuan/p/4699644.html)
-
-Spark Stream
+入门
 
 * [Spark 安装、启动](Spark-stream.md)
+* [一些Spark demo程序](https://github.com/aalansehaiyang/spark-example)
+* [Spark常用案例](http://blog.csdn.net/T1DMzks/article/category/7062215)
+* [Spark入门实战系列](http://www.cnblogs.com/shishanyuan/p/4699644.html)
+
+Spark Streaming
+
+* [Spark Straming 实例讲解](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653159189&idx=1&sn=ae87942269773e8ef9bc39c344d6c5fa&scene=27#wechat_redirect)
 * [Spark Streaming笔记——技术点汇总](https://mp.weixin.qq.com/s/_pZ5U-UlZvhPeXuOepO9_w)
+* [Spark Streaming中流式计算的困境与解决之道](http://mp.weixin.qq.com/s/URJg23Pz0rkFFAjWCdYB1w)
+
+Spark sql
+
+其它
+
+* [架构原理](http://www.cnblogs.com/tgzhu/p/5818374.html)
+* [Spark从入门到调优，是否有捷径可走？](https://mp.weixin.qq.com/s/6dCZrPi9sI-BRX0L3F5z3g)
+* [以Flink为例，消除流处理常见的六大谬见](https://mp.weixin.qq.com/s/Mdcupaqfni_qPeZWUHxNVA)
 
 ---
 
@@ -103,3 +114,4 @@ yarn-cluster集群模式 连接到 YARN 集群。需要配置 HADOOP_CONF_DIR。
 
 * http://www.cnblogs.com/zhoudayang/p/5008010.html
 * http://www.cnblogs.com/tovin/p/3832405.html
+* [超实用的Spark数据倾斜解决姿势](https://mp.weixin.qq.com/s/QCtiRWZhy9xlTqUFUAx3EQ)

@@ -59,9 +59,20 @@ Kafka集群会保留所有的消息，无论其被消费与否。两种策略删
 * 二是基于Partition文件大小，可以通过配置$KAFKA_HOME/config/server.properties
 
 
+#### 消息的有序性
 
+* https://github.com/chenryn/logstash-best-practice-cn/blob/master/contrib_plugins/kafka.md
+* https://github.com/chenryn/ELKstack-guide-cn/blob/master/logstash/scale/kafka.md
+* http://blog.csdn.net/chunlongyu/article/details/53977819
+* http://www.cnblogs.com/intsmaze/p/6386616.html
+* http://zqhxuyuan.github.io/2016/02/20/Kafka-Consumer-New/
+* http://zqhxuyuan.github.io/2016/10/27/Kafka-Definitive-Guide-cn-04/
+
+ kafka 的消息模型是对 topic 分区以达到分布式效果。每个 topic 下的不同的 partitions (区)只能有一个 Owner 去消费。所以只有多个分区后才能启动多个消费者，对应不同的区去消费。其中协调消费部分是由 server 端协调而成。使用者不必考虑太多。只是消息的消费是无序的。
+ 
+总结：如果想保证消息的顺序，那就用一个 partition。 kafka 的每个 partition 只能同时被同一个 group 中的一个 consumer 消费。
 	
-#### 参考资料
+### 参考资料
 
 * [Kafka高性能架构之道——Kafka设计解析](http://mp.weixin.qq.com/s/3i51S1jDXbqvi6fv1cuQSg)
 * http://www.infoq.com/cn/articles/kafka-analysis-part-1
