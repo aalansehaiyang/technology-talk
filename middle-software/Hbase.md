@@ -11,7 +11,7 @@
 * [Hbase视频课程](https://edu.aliyun.com/course/73/learn?spm=0.0.0.0.k89hlH#lesson/978)
 * [HBase 深入浅出](https://www.ibm.com/developerworks/cn/analytics/library/ba-cn-bigdata-hbase/index.html)
 * [HBase详细概述](https://mp.weixin.qq.com/s/t6B0qcvq1PzkvXujv8jpUg)
-
+* [HBase全网学习资料汇总](https://mp.weixin.qq.com/s/-kNKEpsATKgr_66IMS7KEw)
 
 
 Phoenix
