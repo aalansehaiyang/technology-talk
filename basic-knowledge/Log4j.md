@@ -142,7 +142,7 @@ logger.fatal("Justtesting a log message with priority set to FATAL");
 
 #### 二、SLF4J
 
-Log4J 使用普遍，但是框架较重，引入了很多无用的包，相比SLF4J就灵活很多。SLF4J很好地解耦了API和实现，例如，你可以强制使用SLF4J的API，而保持生产环境中用了几年的旧的Log4J.properties文件。
+Log4J （Simple Logging Facade for Java）使用普遍，但是框架较重，引入了很多无用的包，相比SLF4J就灵活很多。SLF4J很好地解耦了API和实现，例如，你可以强制使用SLF4J的API，而保持生产环境中用了几年的旧的Log4J.properties文件。
 
 例如：
 

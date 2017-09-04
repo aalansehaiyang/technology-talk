@@ -88,12 +88,10 @@
 *   大数据
 	* [Hbase](middle-software/Hbase.md)
 	* [Spark](middle-software/Spark.md)
+	* [Hadoop](middle-software/Hadoop.md)
 	* [Hive](middle-software/Hive.md)
 	* [Flink](middle-software/Flink.md)
-	* [MogonDB](middle-software/MogonDB.md)
-	* [Storm](middle-software/Storm.md)
-	* [Hadoop](middle-software/Hadoop.md)
-	* [oceanbase](https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4)
+	* [other框架](middle-software/big-data.md)
 	
 *   配置管理
 
