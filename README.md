@@ -16,7 +16,7 @@
 *  	[springboot](basic-knowledge/springboot.md)
 *	[ibatis](basic-knowledge/ibatis.md)
 *	[设计模式](basic-knowledge/常用的设计模式.md)
-*	[Log4j](basic-knowledge/Log4j.md)
+*	[Log日志](basic-knowledge/Log4j.md)
 
 
 ### 数据库
@@ -154,4 +154,4 @@
 	* [java面试题](other/java-interview.md)
 	* [大数据面试题](other/bigdata-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
-
+*   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)

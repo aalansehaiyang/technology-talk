@@ -3,10 +3,11 @@
 ---
 #### 附录
 
-* [springboot 源代码](https://github.com/spring-projects/spring-boot)
+* [源代码](https://github.com/spring-projects/spring-boot)
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
-* [spring boot的java config配置](springboot-javaConfig.md)
-* [spring cloud 实例](https://github.com/aalansehaiyang/spring-cloud-example)
+* [java config配置](springboot-javaConfig.md)
+* [SpringCloud 构建微服务示例](https://github.com/aalansehaiyang/spring-cloud-example)
+* [SpringBoot 各种组件使用示例](https://github.com/aalansehaiyang/SpringBoot-Learning)
 
 ---
 

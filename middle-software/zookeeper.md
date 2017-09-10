@@ -4,7 +4,7 @@
 
 ### 附录
 
-* [安装](http://www.cnblogs.com/shishanyuan/p/6195868.html)
+* [安装](zookeeper-setup.md)
 
 ---
 

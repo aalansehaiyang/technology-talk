@@ -183,4 +183,25 @@ List<String> pidKeyList = pidToTid.entrySet().stream().map((o) -> getKeyBbsReply
                 .collect(Collectors.toList());
  
  ```
+ 
+ * phones 是一个List\<String>，将相同的元素分组、归类
+ 
+ ```
+List<String> phones=new ArrayList<String>();
+        phones.add("a");
+        phones.add("b");
+        phones.add("a");
+        phones.add("a");
+        phones.add("c");
+        phones.add("b");
+        Map<String, List<String>> phoneClassify = phones.stream().collect(Collectors.groupingBy(item -> item));
+        System.out.println(phoneClassify);
+        
+返回结果：
+{a=[a, a, a], b=[b, b], c=[c]}
+ ```
   
+### 参考资料
+
+* [http://blog.csdn.net/renfufei/article/details/24600507](http://blog.csdn.net/renfufei/article/details/24600507)
+* [http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html)
