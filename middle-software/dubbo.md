@@ -8,6 +8,12 @@
 
 * [源码阅读笔记](dubbo-sourcecode.md)
 
+* [dubbo用户手册](https://dubbo.gitbooks.io/dubbo-user-book/)
+
+* [dubbo管理员手册](https://dubbo.gitbooks.io/dubbo-admin-book/install/zookeeper.html)
+
+* [dubbo开发者手册](https://dubbo.gitbooks.io/dubbo-dev-book/)
+
 ---
 #### 简介
 
@@ -74,6 +80,16 @@
 <dubbo:reference id="***" interface="******" loadbalance="roundrobin" /> 
 ```
 
+5.[项目中使用注意事项](https://dubbo.gitbooks.io/dubbo-user-book/best-practice.html)
+
+* 分包
+* 粒度
+* 版本
+* 兼容性
+* 枚举值
+* 序列化
+* 异常
+* 调用 
 
 
 ####  参考资料

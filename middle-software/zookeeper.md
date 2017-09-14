@@ -144,7 +144,7 @@ zkClient.deleteRecursive("/root/provier");
 
 ```
 //获取指定节点的子节点列表，返回值为子节点的相对路径，结果 [provider,consumer]
-List<String> subNode = zkClient.getChildren("/root");
+List<String> subNode = zkClient.getChildren("/dubbo/interface_1.0.0");
 ```
 
 * subscribeChildChanges

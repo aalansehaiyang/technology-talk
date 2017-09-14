@@ -3,7 +3,7 @@
 
 ---
 
-##### 手记
+##### 笔记
 
 * [入门及安装](elasticsearch-setup.md)
 * [应用场景](elasticsearch-application.md)

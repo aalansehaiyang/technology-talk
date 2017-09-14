@@ -1,13 +1,15 @@
-## springboot
+## spring boot
 
 ---
 #### 附录
 
+
 * [源代码](https://github.com/spring-projects/spring-boot)
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
-* [java config配置](springboot-javaConfig.md)
-* [SpringCloud 构建微服务示例](https://github.com/aalansehaiyang/spring-cloud-example)
+* [java autoConfig配置](springboot-javaConfig.md)
 * [SpringBoot 各种组件使用示例](https://github.com/aalansehaiyang/SpringBoot-Learning)
+* [热部署](http://blog.csdn.net/l1028386804/article/details/69940574)
+
 
 ---
 

@@ -59,15 +59,16 @@ dataLogDir=/app/soft/zookeeper-3.4.8/log
 clientPort=2181
  
 //ZooKeeper集群相关配置信息
-server.1=master:2888:3888
-server.2=slave1:2888:3888
-server.3=slave2:2888:3888
+server.1=ip1:2888:3888
+server.2=ip2:2888:3888
+server.3=ip3:2888:3888
 配置中server.A=B：C：D含义如下
 
 * A为数字，表示这个是第几号服务器；
 * B 表示该服务器的 ip 地址；
 * C 表示该服务器与集群中的 Leader 服务器交换信息的端口；
 * D 表示的是万一集群中的 Leader 服务器挂了，需要一个端口来重新进行选举，选出一个新的 Leader，而这个端口就是用来执行选举时服务器相互通信的端口。
+
 如果是伪集群的配置方式，由于 B 都是一样，所以不同的 ZooKeeper 实例通信端口号不能一样，所以要给它们分配不同的端口号。
 ```
 
