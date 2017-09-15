@@ -61,6 +61,7 @@
 *	RPC框架
 	* [dubbo](middle-software/dubbo.md)
 	* [dubbox](https://www.oschina.net/p/dubbox)
+	* [motan](https://github.com/weibocom/motan)
 	* [Thrift](https://github.com/apache/thrift)
 	* [RPC框架性能比较](http://mp.weixin.qq.com/s/iw9-UaZZl3gCqKAw2Mxz6A)
 

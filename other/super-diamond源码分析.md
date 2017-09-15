@@ -4,8 +4,8 @@
 
 #### 附录
 
+* [源码](https://github.com/melin/super-diamond)
 * [项目文档](https://www.oschina.net/p/super-diamond)
-* [源代码](https://github.com/melin/super-diamond)
 
 ---
 #### 源码笔记

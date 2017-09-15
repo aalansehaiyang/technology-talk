@@ -4,11 +4,20 @@
 #### 附录
 
 
-* [源代码](https://github.com/spring-projects/spring-boot)
-* [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
+* [源码](https://github.com/spring-projects/spring-boot)
+* [SpringBoot 组件接入示例](https://github.com/aalansehaiyang/SpringBoot-Learning)
 * [java autoConfig配置](springboot-javaConfig.md)
-* [SpringBoot 各种组件使用示例](https://github.com/aalansehaiyang/SpringBoot-Learning)
 * [热部署](http://blog.csdn.net/l1028386804/article/details/69940574)
+* [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
+
+#### 学习资料
+
+* http://www.ityouknow.com/spring-boot
+* https://github.com/JeffLi1993/springboot-learning-example
+* https://github.com/spring-projects/spring-boot
+* http://www.jianshu.com/collection/f0cf6eae1754
+* http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
+* 《SpringBoot揭秘--快速构建微服务体系》* 
 
 
 ---
@@ -141,12 +150,3 @@ c）设置main方法的定义类
 
 
 
-
-#### 参考资料
-
-* https://github.com/aalansehaiyang/SpringBoot-Learning
-* https://github.com/JeffLi1993/springboot-learning-example
-* https://github.com/spring-projects/spring-boot
-* http://www.jianshu.com/collection/f0cf6eae1754
-* http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
-* 《SpringBoot揭秘--快速构建微服务体系》

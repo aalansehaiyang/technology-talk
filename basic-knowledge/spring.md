@@ -4,7 +4,7 @@
 
 #### 附录
 
-* [spring 源代码](https://github.com/spring-projects/spring-framework)
+* [源码](https://github.com/spring-projects/spring-framework)
 
 * [定时任务（复杂的场景还是要借助Quartz框架）](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/scheduling.html) 
 
