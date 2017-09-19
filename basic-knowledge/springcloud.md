@@ -4,10 +4,13 @@
 
 几大模块：服务发现（Eureka），断路器（Hystrix），智能路由（Zuul），客户端负载均衡（Ribbon）
 
+spring --> spring boot --> spring cloud
+
 ### 一、手册
 
 * [源码](https://github.com/spring-cloud/spring-cloud-netflix)
 * [中文社区](http://bbs.springcloud.com.cn/)
+* [源码分析](http://www.jianshu.com/u/6a622d516e32)
 * [推荐博客](http://www.ityouknow.com/springcloud/2016/12/30/springcloud-collect.html)
 * [Spring Cloud 构建微服务示例](https://github.com/aalansehaiyang/spring-cloud-example)
 * [spring Cloud 核心组件](https://github.com/ityouknow/spring-cloud-examples)
@@ -18,7 +21,11 @@
 	* [熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 	* [智能路由Zuul](https://mp.weixin.qq.com/s/5PQ9iyPfYCEcJ5W7q0T2oQ)
 		* 通过一个API网关根据请求的url，路由到相应的服务
-		
+	* Ribbon
+		* 客户端负载均衡的服务调用组件
+	* Feign
+		* 基于Ribbon和Hystrix的声明式服务调用组件 
+* [SpringCloud-Learning](https://github.com/dyc87112/SpringCloud-Learning)	
 
 ### 二、闲谈
 

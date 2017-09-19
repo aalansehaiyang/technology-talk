@@ -2,6 +2,10 @@
 
 ---
 
+* [https://mp.weixin.qq.com/s/3g3pd29Ju6MB0dOAOXkCtg](https://mp.weixin.qq.com/s/3g3pd29Ju6MB0dOAOXkCtg)
+
+---
+
 ### Hadoop部分
 
 * hadoop的map-reduce的实现原理？

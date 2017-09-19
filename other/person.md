@@ -9,6 +9,7 @@
 * [培养这些软技能，可以有效提升程序员的幸福感](http://mp.weixin.qq.com/s/FdmwguWsn28IutA8V70YbA)
 * [阿里人的进阶宝典：都是知识点](https://mp.weixin.qq.com/s/4UCZkOetWFrFRHZcAP0fQg)
 * [技术团队里什么样的人会被清除？抢老板的工作干合适吗？](https://mp.weixin.qq.com/s/Q7SDi-ZLA7p-mMp4Xz1L8w)
+* [互联网时代架构师的职责与思考](person-1.md)
 
 #### 转型提升
 
@@ -23,6 +24,7 @@
 * [从大公司到创业公司，技术人转型怎样转变思路与处事之道？](https://mp.weixin.qq.com/s/xxwgs7wJR1O213VJsBammw)
 * [从来往到钉钉，从技术Leader到产品负责人，陶钧到底经历了什么？](https://mp.weixin.qq.com/s/C_p1hVzVwGEyj8udrgsjBw)
 * [如何成为一个合格的技术Leader？](https://mp.weixin.qq.com/s/LsLH1N6cFTpV_TyIqUqAvA)
+* [技术人员的发展之路](https://mp.weixin.qq.com/s/A2v0gGIl09X6Bwz9L060aw)
 
 
 #### 思考
