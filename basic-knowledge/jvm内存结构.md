@@ -2,6 +2,8 @@
 
 ---
 
+[https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA](https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA)
+
 ####虚拟机运行时的数据区
 ![image](img/1.jpg)
 

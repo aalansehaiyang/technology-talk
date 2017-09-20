@@ -56,8 +56,10 @@
 ### 三、JVM虚拟机
 
 * 	[类加载器](类加载器.md)
-*  	[jvm 内存结构](jvm内存结构.md)
-*  	[jvm 性能调优（jvm参数、垃圾回收）](jvm性能调优.md)
+*  	[内存结构](jvm内存结构.md)
+*  	[垃圾回收](java-gc.md)
+*   [jvm参数](jvm性能调优.md)
+*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
 
 
 ### 四、java 新特性
