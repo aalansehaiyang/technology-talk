@@ -20,21 +20,19 @@ HttpClient是Apache Jakarta Common下的子项目，用来提供高效的、最�
 *	设置连接超时的能力。
 
 
-
-**下载地址：**
-
-```
-https://github.com/huainiu/commons-httpclient-3.1 
-（里面有源代码、examples、test、apidocs）
-```
-
 **pom依赖：**
 
 ```
+ <dependency>
+    <groupId>com.squareup.okhttp</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
 <dependency>
-	<groupId>commons-httpclient</groupId>
-	<artifactId>commons-httpclient</artifactId>
-	<version>3.1</version>
+	 <groupId>org.apache.httpcomponents</groupId>
+	 <artifactId>httpclient</artifactId>
+	 <version>4.5.3</version>
 </dependency>
 ```
 
@@ -42,118 +40,107 @@ https://github.com/huainiu/commons-httpclient-3.1
 **代码案例：**
 
 ```
+// http协议通讯工具类
+
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.HashMap;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.httpclient.Header;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpMethod;
-import org.apache.commons.httpclient.MultiThreadedHttpConnectionManager;
-import org.apache.commons.httpclient.NameValuePair;
-import org.apache.commons.httpclient.cookie.CookiePolicy;
-import org.apache.commons.httpclient.methods.GetMethod;
-import org.apache.commons.httpclient.methods.PostMethod;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 
-/**
- * httpclient测试类
- * 
- * @author onlyone
- */
-public class HttpClientTest {
+public class HttpServer {
 
-    private static HttpClient client    = null;
-    private int               max_bytes = 10240;
-    protected String          encoding  = "utf-8";
-
-    static {
-        MultiThreadedHttpConnectionManager connectionManager = new MultiThreadedHttpConnectionManager();
-        connectionManager.getParams().setConnectionTimeout(4 * 1000);
-        connectionManager.getParams().setSoTimeout(4 * 1000);
-        connectionManager.getParams().setDefaultMaxConnectionsPerHost(32);
-        connectionManager.getParams().setMaxTotalConnections(128);
-        connectionManager.getParams().setStaleCheckingEnabled(true);
-        client = new HttpClient(connectionManager);
-    }
-
-    public String doPost(String actionUrl, Map<String, String> params) throws Exception {
-        NameValuePair[] np = null;
-        if (params != null) {
-            np = new NameValuePair[params.size()];
-            int i = 0;
-            for (String s : params.keySet()) {
-                np[i] = new NameValuePair(s, params.get(s));
-                i++;
-            }
-        }
-
-        PostMethod method = new PostMethod(actionUrl);
-        String responseStr = "";
-        try {
-            setHeaders(method);
-            method.setRequestBody(np);
-            client.executeMethod(method);
-            responseStr = readInputStream(method.getResponseBodyAsStream());
-        } catch (Exception ex) { // java.net.SocketTimeoutException
-            throw new Exception(ex);
-        } finally {
-            method.releaseConnection();
-        }
-        return responseStr;
-    }
-
-    protected void setHeaders(HttpMethod method) {
-        method.setRequestHeader("Accept", "text/html,application/xhtml+xml,application/xml;");
-        method.setRequestHeader("Accept-Language", "zh-cn");
-        method.setRequestHeader("User-Agent",
-                                "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3");
-        // method.setRequestHeader("Accept-Charset", encoding);
-        // method.setRequestHeader("Keep-Alive", "300");
-        method.setRequestHeader("Connection", "Keep-Alive");
-        method.setRequestHeader("Cache-Control", "no-cache");
-    }
-
-    private String readInputStream(InputStream is) throws IOException {
-        return readInputStream(is, null);
+    public static HttpClient createHttpClient(int maxTotal, int maxPerRoute, int socketTimeout, int connectTimeout,
+                                              int connectionRequestTimeout) {
+        RequestConfig defaultRequestConfig = RequestConfig.custom().setSocketTimeout(socketTimeout).setConnectTimeout(connectTimeout).setConnectionRequestTimeout(connectionRequestTimeout).build();
+        PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager();
+        cm.setMaxTotal(maxTotal);
+        cm.setDefaultMaxPerRoute(maxPerRoute);
+        CloseableHttpClient httpClient = HttpClients.custom().setConnectionManager(cm).setDefaultRequestConfig(defaultRequestConfig).build();
+        return httpClient;
     }
 
     /**
-     * 将输入流按照特定的编码转换成字符串
-     *
-     * @param is 输入流
-     * @return 字符串
-     * @throws IOException
+     * 发送post请求
+     * 
+     * @param url 请求地址
+     * @param params 请求参数
+     * @param encoding 编码
      */
-    private String readInputStream(InputStream is, String encode) throws IOException {
-        byte[] b = new byte[max_bytes];
-        StringBuilder builder = new StringBuilder();
-        int bytesRead = 0;
-        while (true) {
-            bytesRead = is.read(b, 0, max_bytes);
-            if (bytesRead == -1) {
-                return builder.toString();
+    public static String sendPost(HttpClient httpClient, String url, Map<String, String> params, String cookie,
+                                  Charset encoding) {
+        String resp = "";
+        HttpPost httpPost = new HttpPost(url);
+        if (params != null && params.size() > 0) {
+            List<NameValuePair> formParams = new ArrayList<NameValuePair>();
+            Iterator<Map.Entry<String, String>> itr = params.entrySet().iterator();
+            while (itr.hasNext()) {
+                Map.Entry<String, String> entry = itr.next();
+                formParams.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
             }
-            builder.append(new String(b, 0, bytesRead, encode == null ? encoding : encode));
+            UrlEncodedFormEntity postEntity = new UrlEncodedFormEntity(formParams, encoding);
+            httpPost.setEntity(postEntity);
         }
-    }
 
-    public String doGet(String url) throws Exception {
-        String responseStr = "";
-        GetMethod method = new GetMethod(url);
+        httpPost.setHeader("Cookie", cookie);
+        CloseableHttpResponse response = null;
         try {
-            client.executeMethod(method);
-            responseStr = readInputStream(method.getResponseBodyAsStream(), null);
-        } catch (Exception ex) {
-            throw new Exception(ex);
+            response = (CloseableHttpResponse) httpClient.execute(httpPost);
+            resp = EntityUtils.toString(response.getEntity(), encoding);
+
+            // String setCookie = response.getFirstHeader("Set-Cookie").getValue();
+            // System.out.println("setCookie=" + setCookie);
+        } catch (Exception e) {
+            e.printStackTrace();
         } finally {
-            method.releaseConnection();
+            if (response != null) {
+                try {
+                    response.close();
+                } catch (IOException e) {
+                    // log
+                    e.printStackTrace();
+                }
+            }
         }
-        return responseStr;
+        return resp;
     }
+}
 
 ```
 
+```
+//测试类，访问HZ某网站
+
+HttpClient httpClient = HttpServer.createHttpClient(10, 10, 4000, 4000, 4000);
+
+//请求cookie,为了与验证码绑定（注意：分号要是英文格式）
+String cookie = "cust_type=2;JSESSIONID=1042CD46231F265585CE3D8D105741CD;_gscu_1827457641=573266013u4vos16";
+//验证码
+String code = "1674"; 
+
+String url = "http://www.hzgjj.gov.cn:8080/WebAccounts/userLogin.do";
+Map<String, String> params = new HashMap<>();
+params.put("cust_no", "用户名");
+params.put("password", "密码");
+params.put("validate_code", code);
+params.put("user_type", "3");
+params.put("cust_type", "2");
+
+String result = HttpServer.sendPost(httpClient, url, params, cookie, null);
+```
 
 
 
