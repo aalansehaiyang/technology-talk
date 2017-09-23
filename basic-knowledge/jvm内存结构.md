@@ -4,7 +4,8 @@
 
 [https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA](https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA)
 
-####虚拟机运行时的数据区
+#### 虚拟机运行时的数据区
+
 ![image](img/1.jpg)
 
 a）程序计数器（program counter register），一块较小的内存空间，可以看作当前线程所执行的字节码的行号指示器。由于java虚拟机是采用多线程，通过线程切换获得时间片得到cpu的控制权。为了线程切换后能恢复到正确的执行位置。
