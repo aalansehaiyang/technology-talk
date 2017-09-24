@@ -14,8 +14,11 @@
 ![image](img/19.png)
 
 
-即可实现开发过程中代码热部署！！！
+** 即可支持在编码过程中代码热部署！！！ **
 
+![image](img/20.png)
+
+** 另外支持 debug 模式！！！ Dubug As --》Java Application  **
 
 其它方式可参考：
 
