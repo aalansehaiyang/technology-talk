@@ -2,6 +2,11 @@
 
 ---
 
+* [apache官网](http://hc.apache.org/httpcomponents-client-4.5.x/index.html)
+* [httpcomponents-client-4.5.x的接口文档](http://hc.apache.org/httpcomponents-client-4.5.x/httpclient/apidocs/index.html)
+* [一些代码案例](https://github.com/aalansehaiyang/httpclient-example)
+
+---
 **简介：**
 
 HttpClient是Apache Jakarta Common下的子项目，用来提供高效的、最新的、功能丰富的支持HTTP协议的客户端编程工具包，并且它支持HTTP协议最新的版本和建议
