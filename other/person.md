@@ -25,6 +25,7 @@
 * [从来往到钉钉，从技术Leader到产品负责人，陶钧到底经历了什么？](https://mp.weixin.qq.com/s/C_p1hVzVwGEyj8udrgsjBw)
 * [如何成为一个合格的技术Leader？](https://mp.weixin.qq.com/s/LsLH1N6cFTpV_TyIqUqAvA)
 * [技术人员的发展之路](https://mp.weixin.qq.com/s/A2v0gGIl09X6Bwz9L060aw)
+* [从技术 Leader 到产品负责人](https://mp.weixin.qq.com/s/Yx1fXO9RfnLeBGZg_P-g3g)
 
 
 #### 思考

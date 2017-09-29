@@ -3,7 +3,7 @@
 ---
 
 
-#### 一、CPU相关、进程
+### 一、CPU相关、进程
 
 1、 查看cpu硬件配置
 
@@ -11,7 +11,15 @@
 less /proc/cpuinfo 
 ```
 ![image](img/4.png)
-2、 top
+
+
+```
+uname -a                查看内核/操作系统/CPU信息
+head -n 1 /etc/issue    查看操作系统版本
+less /proc/cpuinfo      查看CPU信息
+hostname                查看计算机名
+```2、 top  命令
+实时显示各种系统资源使用情况及进程状态
 
 ```
 详细命令参数：
@@ -58,7 +66,19 @@ Threads:	74
 其它命令：
 top -bH -d 3 -p {pid}
 pstree -p {pid} | wc -l
-pstack {pid} | head -1```#### 二、内存相关信息 
+pstack {pid} | head -1```
+4、查看所有进程
+```
+ps -ef
+ps -ef|grep java```
+5、对于Java应用从操作系统层面观察，就只有进程和线程两个指标，任何东西在操作系统层面都是以文件的形式存储的，进程也不例外。Linux上部署一个Tomcat程序产生一个进程，这个进程所有的东西都在这个目录下
+
+ll /proc/{pid}/
+
+```
+## 可以查看所有的socket连接
+ll /proc/{pid}/fd | grep socket   
+```                  ### 二、内存相关 
 1、vmstat
 
 Virtual Memory Statistics，统计进程、内存、io、cpu等的活动信息。对于多CPU系统，vmstat打印的是所有CPU的平均输出
@@ -98,7 +118,7 @@ wa: 等待IO时间
 ![image](img/5.png)
 
 
-#### 三、IO相关信息
+### 三、IO及网络
 1、 tsar --traffic：显示网络带宽2、 netstat 
 一般用于检验本机各端口的网络连接情况。netstat是在内核中访问网络及相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。
 **命令参数：**
@@ -153,37 +173,16 @@ CLOSED：没有任何连接状态
 netstat -anpt | grep ':20130'netstat -nat | grep "172.16.49.161:20130"
 ```
 
-* 在 netstat 输出中显示 PID 和进程名称
+*  其它使用场景
 
 ```
-netstat -pt
-```
-
-* 显示当前UDP连接状况
-
-```
-netstat -nu
-```
-* 显示当前TCP连接状况
-
-```
-netstat -nt
-```
-
-* 显示网卡列表
-
-```
-netstat -i
-```
-* 不同网络状态的数量统计
-
-```
-netstat -nat |awk '{print $6}'|sort|uniq -c
-```
-* 应用连接Redis情况
-
-```
-netstat -anop | grep 6379
+netstat -nat |awk '{print $6}'|sort|uniq -c    不同网络状态结果统计
+netstat -anop | grep 6379     应用连接Redis情况
+netstat -pt             输出中显示 PID 和进程名称
+netstat -s              查看网络统计信息
+netstat -nu             显示当前UDP连接状况
+netstat -nt             显示当前TCP连接状况
+netstat -i              显示网卡列表
 ```
 
 
@@ -254,11 +253,11 @@ iostat -k 3
 4、sar -b：磁盘状态历史记录
 
 
-#### 四、文件
+### 四、文件
 1、 lsof
 当前进程与文件的关系
-```## 查看sys.log文件被哪个进程打开lsof sys.log ```![image](img/8.png)
-```## 查看端口被哪个进程占用lsof  -i：端口号         ```![image](img/9.png)```
+```// 查看sys.log文件被哪个进程打开lsof sys.log ```![image](img/8.png)
+```// 查看端口被哪个进程占用lsof  -i：端口号         ```![image](img/9.png)```
 // 查看各个进程打开的文件数量
 lsof -n |awk '{print $2} " " $3'|sort|uniq -c |sort -nr|more```
 2、 df```df -hl磁盘的使用情况
@@ -301,15 +300,33 @@ ping baidu.com > 1.txt &
 后台以守护进程的方式，将ping命令的返回结果写入 1.txt
 ```
 
-#### 五、其它
-
-对于Java应用从操作系统层面观察，就只有进程和线程两个指标，任何东西在操作系统层面都是以文件的形式存储的，进程也不例外。Linux上部署一个Tomcat程序产生一个进程，这个进程所有的东西都在这个目录下
-ll /proc/{pid}/
+#### 五、用户
 
 ```
-## 可以查看所有的socket连接
-ll /proc/{pid}/fd | grep socket   
-```---
-#### 更多资料：
+w                       查看活动用户
+id <用户名>              查看指定用户信息
+last                    查看用户登录日志
+cut -d: -f1 /etc/passwd    查看系统所有用户
+cut -d: -f1 /etc/group     查看系统所有组
+crontab -l              查看当前用户的计划任务
+```
+
+### 六、其它
+
+1、查看所有安装的软件包
+
+```
+rpm -qa                 
+```
+
+2、查看环境变量
+
+```
+env                     
+```
+
+
+---
+### 更多资料：
 https://app.yinxiang.com/Home.action#n=b0fcd794-072a-4fab-9ac6-012b7b0ad147&ses=4&sh=2&sds=5&
 

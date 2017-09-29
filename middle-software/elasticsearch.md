@@ -3,14 +3,14 @@
 
 ---
 
-##### 笔记
+### 笔记
 
 * [入门及安装](elasticsearch-setup.md)
 * [应用场景](elasticsearch-application.md)
 * [进阶型原理](elasticsearch-theory.md)
 * [Restful命令](elasticsearch-rest.md)
 
-##### 社区资料
+### 社区资料
 
 * [Elasticsearch: 权威指南](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)（中文翻译版，主要讲一些基础知识）
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-ngram-tokenizer.html)（英文版，内容比较全）
