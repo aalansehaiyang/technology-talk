@@ -25,7 +25,6 @@
 
 *	[连接池](data-base/数据库连接池.md)
 * 	[事务](data-base/transaction.md)
-* 	[乐观锁&悲观锁](data-base/锁机制.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
 * 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
@@ -110,12 +109,11 @@
 ### 系统架构 
 
 * [架构经验](system-architecture/架构经验.md)
+* [锁相关](system-architecture/lock.md)
 * [经典案例](system-architecture/经典案例.md)
 * [通用技术方案选型](system-architecture/technology-selection.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
-* [性能优化之Qps](system-architecture/性能优化之Qps.md)
-* [cache相关](system-architecture/cache相关.md)
-* [分布式锁](system-architecture/分布式锁.md)
+
 
 ### 项目管理
 
@@ -128,6 +126,7 @@
 
 ### 运维
 
+* 	[Docker]()
 *	[快速排查线上问题](ops/online-question.md)
 *	[linux常用命令](ops/linux常用命令.md)
 *	[本地代码调试](ops/本地代码调试.md)
