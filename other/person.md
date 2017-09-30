@@ -1,7 +1,7 @@
-### 个人成长与职业规划
+## 个人成长与职业规划
 ---
 
-#### 个人成长
+### 个人成长
 
 * [程序员不能错过的28份技术知识图谱，你的进阶路上必备](https://mp.weixin.qq.com/s/trcK2J_a8h3C4fqPaKSc6g)
 * [8年开发经验，网易Java开发工程师的成长感悟](http://mp.weixin.qq.com/s/Ck71qeyACk0Zn5j3ro87YQ)
@@ -10,8 +10,12 @@
 * [阿里人的进阶宝典：都是知识点](https://mp.weixin.qq.com/s/4UCZkOetWFrFRHZcAP0fQg)
 * [技术团队里什么样的人会被清除？抢老板的工作干合适吗？](https://mp.weixin.qq.com/s/Q7SDi-ZLA7p-mMp4Xz1L8w)
 * [互联网时代架构师的职责与思考](person-1.md)
+* [免试晋升为研究员，他在阿里十年经历了什么？](https://mp.weixin.qq.com/s/xD7hofy2vhmjvEMp3Ip9GQ)
+* [职场“35岁危机”：这是我看过的最棒建议](https://mp.weixin.qq.com/s/TtOhnf7OcEwMOL5wc3DWqw)
 
-#### 转型提升
+
+
+### 转型提升
 
 * [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)
@@ -28,7 +32,7 @@
 * [从技术 Leader 到产品负责人](https://mp.weixin.qq.com/s/Yx1fXO9RfnLeBGZg_P-g3g)
 
 
-#### 思考
+### 思考
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
 * [给我五分钟，带你走出迷茫！](https://mp.weixin.qq.com/s/L-bLtzThdBj_M2iBvXGlRg)
 * [思维的局限](https://mp.weixin.qq.com/s/ShqzvXI6L28Lxw5X61IfiA)

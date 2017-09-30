@@ -5,6 +5,7 @@
 ### 基础
 
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](bigint类型.md)
+* 	[MySQL 大表优化方案](https://mp.weixin.qq.com/s/BMQC2oJlhLoeBDtveXgHpw)
 
 
 ### 业界动态

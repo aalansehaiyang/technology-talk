@@ -4,6 +4,8 @@
 ### 附录
 
 * [如何面试工程师？](https://mp.weixin.qq.com/s/VDGXJeKZM_U_9tcZOb0q4Q)
+* [阿里面试回来，想和 Java 程序员谈一谈](https://mp.weixin.qq.com/s/2Lne6O6q5cZ43Msdxm-jnQ)
+* [最新阿里-京东-美团-滴滴-面试题及答案](https://mp.weixin.qq.com/s/iKWEoBdt-yYMvomm7NcDyw)
 
 ---
 
