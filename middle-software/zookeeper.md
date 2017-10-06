@@ -4,7 +4,7 @@
 
 ### 附录
 
-* [安装](zookeeper-setup.md)
+* [zk安装](zookeeper-setup.md)
 
 ---
 

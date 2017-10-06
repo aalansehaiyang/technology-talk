@@ -38,3 +38,4 @@
 * [思维的局限](https://mp.weixin.qq.com/s/ShqzvXI6L28Lxw5X61IfiA)
 * [7 年老员工的 6 点离职忠告：浮躁的年轻人请你读完](https://mp.weixin.qq.com/s/Az9y8HzdpGOOfR4JWcIVkA)
 * [阿里前资深副总裁邓康明：BAT之后，人与组织的未来](https://mp.weixin.qq.com/s/42wmdg0VqcYWSgNP9iIGpg)
+* [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
