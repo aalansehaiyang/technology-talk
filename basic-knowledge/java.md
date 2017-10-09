@@ -54,6 +54,7 @@
 * 	[ThreadLocal原理机制](ThreadLocal原理机制.md)
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
 * 	[NIO](NIO.md)
+* 	[Exception](java-exception.md)
 * 	[各种坑](各种坑.md)
 
 * ###### 示例
