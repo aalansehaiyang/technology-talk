@@ -38,3 +38,24 @@
 ##### 数据库
 
 * [内存数据库](http://www.memsql.com/)
+
+##### 项目管理
+
+* [文档管理 --- Confluence](https://baike.baidu.com/item/Confluence)
+* [jira]()
+* [禅道]()
+
+##### 测试、部署、打包
+
+* [持续集成 --- Jenkins](https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000)
+* [静态代码扫描平台 --- SonarQube](http://blog.csdn.net/hunterno4/article/details/11687269)
+* [findbug]()
+* [性能压测 --- jmeter]()
+* [性能压测 --- jprofiler]()
+
+
+##### 杂项
+
+* [商品详情页的静态化 --- FreeMarker](http://blog.csdn.net/wpydaguan/article/details/44984021)
+* [分布式文件存储系统 --- FastDFS](http://www.cnblogs.com/mafly/p/fastdfs.html)
+* [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)

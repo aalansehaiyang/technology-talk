@@ -7,7 +7,7 @@
 * [源码](https://github.com/spring-projects/spring-boot)
 * [SpringBoot 组件接入示例](https://github.com/aalansehaiyang/SpringBoot-Learning)
 * [java autoConfig配置](springboot-javaConfig.md)
-* [开发过程中代码热部署](springboot-hot-reload.md)
+* [代码热部署](springboot-hot-reload.md)
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
 
 #### 学习资料

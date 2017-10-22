@@ -87,3 +87,7 @@ public IDRange getNextRange(String app, String key, int size) {
         return range;
     }
 ```
+
+#### 其它资料
+
+* [分布式ID生成器](https://mp.weixin.qq.com/s/qO84jWhQ5O2mPafsHrh2bA)

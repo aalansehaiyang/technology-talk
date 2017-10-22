@@ -11,6 +11,10 @@
 
 * [jvm堆参数调整](jvm堆参数调整.md)
 
+* [线上服务CPU100%问题快速定位](https://mp.weixin.qq.com/s/fU4i-jDVHgdJfRtWtXaxrQ)
+
+* [线上服务内存OOM问题定位三板斧](https://mp.weixin.qq.com/s/tVvqVVigmvzLfPjnt2oK0g)
+
 
 ### 帮助手册
 

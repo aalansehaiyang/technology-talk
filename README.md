@@ -40,6 +40,7 @@
 * [tomcat](web/tomcat.md)
 * [http协议](web/http协议.md)
 * [CDN](system-architecture/CDN.md)
+* [其它](web/other.md)
 
 
 ### 常用三方工具包
@@ -72,6 +73,7 @@
 
 *   缓存
 	* [redis](open-source-framework/redis.md)
+	* [codis]()
 	* [memcache](http://blog.csdn.net/itomge/article/details/8035197)	
 
 *   搜索
@@ -79,6 +81,7 @@
 
 *   分布式数据框架
 	* [cobar](middle-software/cobar.md)
+	* [Mycat](https://github.com/MyCATApache/Mycat-Server)
 	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
 	* [sharding-jdbc](https://www.slahser.com/2016/06/25/%E5%BD%93%E5%BD%93%E7%9A%84sharding-jdbc%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/)
@@ -99,16 +102,17 @@
 	* [super-diamond](other/super-diamond源码分析.md)
 	* [disconf](https://www.oschina.net/p/disconf)
 	* [apollo](middle-software/apollo.md)
-	
+
+*   分布式文件系统
+	* [FastDFS](middle-software/FastDFS.md)
 
 *  其它
-	* [FastDFS(分布式文件系统)](https://www.oschina.net/p/fastdfs)
-	* [mysql数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
-	* [分布式数据库同步系统](https://github.com/alibaba/otter)
+	* [数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
+	* [数据库同步系统](https://github.com/alibaba/otter)
 
 ### 系统架构 
 
-* [架构经验](system-architecture/架构经验.md)
+* [架构经验](system-architecture/architecture-experience.md)
 * [锁相关](system-architecture/lock.md)
 * [经典案例](system-architecture/经典案例.md)
 * [通用技术方案选型](system-architecture/technology-selection.md)
@@ -123,6 +127,7 @@
 * [代码规范](project-management/代码规范.md)
 * [git常用命令](project-management/git常用命令.md)
 * [ab性能压测](other/ab测试.md)
+* [maven仓库](http://www.mvnrepository.com/open-source/http-clients)
 
 ### 运维
 

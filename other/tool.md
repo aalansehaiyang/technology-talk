@@ -1,4 +1,4 @@
-### 常用软件工具
+## 常用软件工具
 ---
 
 * [Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
@@ -10,3 +10,8 @@
 * [服务器界面式管理终端-------secureCRT]()
 * [编码工具-------intellij idea](intellij.md)
 * [原型设计工具-------Axure](https://www.axure.com.cn/)
+
+
+mac系统
+
+* [Homebrew安装](http://www.jianshu.com/p/d229ac7fe77d)

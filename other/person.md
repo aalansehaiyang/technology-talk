@@ -13,14 +13,12 @@
 * [免试晋升为研究员，他在阿里十年经历了什么？](https://mp.weixin.qq.com/s/xD7hofy2vhmjvEMp3Ip9GQ)
 * [职场“35岁危机”：这是我看过的最棒建议](https://mp.weixin.qq.com/s/TtOhnf7OcEwMOL5wc3DWqw)
 
-
-
-### 转型提升
+---
+### 转型提升-->管理
 
 * [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)
 * [从普通程序员到三百人团队CTO，技术人成长的易与不易](http://mp.weixin.qq.com/s/tyTrBg9vk5Ft16oWEb4-bA)
-* [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)
 * [这二十个问题，可能是你技术人生中已经或即将遭遇的痛点，怎么解？](https://mp.weixin.qq.com/s/lmO4WD7axWqm5DhlFuagzg)
 * [当我们在谈组织效率的时候，我们在谈什么？](https://mp.weixin.qq.com/s/T06ycmFiIoEOMP7xgreMoQ)
 * [技术专家 or 技术管理？程序员职场规划中如何定位？](https://mp.weixin.qq.com/s/v2kIPwjeYWY3JoPzBwQWrg)
@@ -30,10 +28,12 @@
 * [如何成为一个合格的技术Leader？](https://mp.weixin.qq.com/s/LsLH1N6cFTpV_TyIqUqAvA)
 * [技术人员的发展之路](https://mp.weixin.qq.com/s/A2v0gGIl09X6Bwz9L060aw)
 * [从技术 Leader 到产品负责人](https://mp.weixin.qq.com/s/Yx1fXO9RfnLeBGZg_P-g3g)
+* [蘑菇街顶天：真诚与尊重是技术团队的管理要点](https://mp.weixin.qq.com/s/EHh4D22LG-BoksppsZZ2Tg)
 
-
+---
 ### 思考
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
+* [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)
 * [给我五分钟，带你走出迷茫！](https://mp.weixin.qq.com/s/L-bLtzThdBj_M2iBvXGlRg)
 * [思维的局限](https://mp.weixin.qq.com/s/ShqzvXI6L28Lxw5X61IfiA)
 * [7 年老员工的 6 点离职忠告：浮躁的年轻人请你读完](https://mp.weixin.qq.com/s/Az9y8HzdpGOOfR4JWcIVkA)

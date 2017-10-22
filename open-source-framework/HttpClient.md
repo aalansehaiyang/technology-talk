@@ -4,7 +4,7 @@
 
 * [apache官网](http://hc.apache.org/httpcomponents-client-4.5.x/index.html)
 * [httpcomponents-client-4.5.x的接口文档](http://hc.apache.org/httpcomponents-client-4.5.x/httpclient/apidocs/index.html)
-* [一些代码案例](https://github.com/aalansehaiyang/httpclient-example)
+* [一些github代码案例](https://github.com/aalansehaiyang/httpclient-example)
 
 ---
 **简介：**

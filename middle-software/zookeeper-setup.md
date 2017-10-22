@@ -12,25 +12,24 @@ http://zookeeper.apache.org/releases.html#download
 
 ##### 2.解压并配置环境变量
 
-下载后把安装包方放在目录/home/spark/work目录下，用下面命令解压缩ZooKeeper安装包，并把解压后的目录移动到/app/soft目录下：
+下载后把安装包方放在目录/Users/onlyone/software/zookeeper目录下，并解压
 
 ```
-$cd /home/spark/work/
-$tar -zxf zookeeper-3.4.8.tar.gz
-$mv zookeeper-3.4.8 /app/soft
-$ll /app/soft
-```
-为了方便运行zkServer.sh脚本，在集群中的节点中，需要将ZooKeeper的bin路径加入到/etc/profile中，设置如下内容（分发到各节点后，在各节点上做同样设置）：
+$cd /Users/onlyone/software/zookeeper
+$tar -zxvf zookeeper-3.4.8.tar.gz
 
 ```
-export ZOOKEEPER_HOME=/app/soft/zookeeper-3.4.8
+将ZooKeeper的bin路径加入到/Users/onlyone/.bash_profile中，设置如下内容（分发到各节点后，在各节点上做同样设置）：
+
+```
+export ZOOKEEPER_HOME=/Users/onlyone/software/zookeeper/zookeeper-3.4.8
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
 ```
 
 设置完毕后使用如下命令使配置生效：
 
 ```
-$source /etc/profile
+$source .bash_profile
 ```
 
 ##### 3.修改ZooKeeper的配置文件
@@ -38,13 +37,13 @@ $source /etc/profile
 在ZooKeeper的根目录下建立data和log目录用于存放工作数据和日志文件：
 
 ```
-$mkdir /app/soft/zookeeper-3.4.8/data/
-$mkdir /app/soft/zookeeper-3.4.8/log/
+$mkdir /Users/onlyone/software/zookeeper/zookeeper-3.4.8/data/
+$mkdir /Users/onlyone/software/zookeeper/zookeeper-3.4.8/log/
 ```
 在ZooKeeper配置目录下默认情况下，不存在在zoo.cfg文件，需要复制一份，然后进行修改，命令如下：
 
 ```
-$cd /app/soft/zookeeper-3.4.8/conf/
+$cd /Users/onlyone/software/zookeeper/zookeeper-3.4.8/conf/
 $cp zoo_sample.cfg zoo.cfg
 $sudo vi zoo.cfg
 ```
@@ -52,8 +51,8 @@ $sudo vi zoo.cfg
 
 ```
 //用于存放ZooKeeper的数据和日志
-dataDir=/app/soft/zookeeper-3.4.8/data
-dataLogDir=/app/soft/zookeeper-3.4.8/log
+dataDir=/Users/onlyone/software/zookeeper/zookeeper-3.4.8/data
+dataLogDir=/Users/onlyone/software/zookeeper/zookeeper-3.4.8/log
  
 //外部客户端连接端口号，在Kafka中将使用该端口号
 clientPort=2181

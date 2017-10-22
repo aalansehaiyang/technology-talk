@@ -4,7 +4,7 @@
 
 ### 附录
 
-*	[安装及主从复制](redis-master-slave.md)
+*	[安装、主从复制](redis-master-slave.md)
 *	[redis缓存与memcache的区别](redis缓存与memcache的区别.md)
 *	[redis原生命令api](http://www.runoob.com/redis/redis-sorted-sets.html)
 *	[redis 命令参考](http://doc.redisfans.com/index.html)

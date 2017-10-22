@@ -4,6 +4,7 @@
 
 ### 一、基础
 
+
 * 基本语法
 
 	基本数据类型；运算符；表达式；选择与循环语句；类与对象（普通类、抽象类、接口、枚举、Annotation、内部类）；继承与实现；异常；package与jar包；序列化与反序列化；正则表达式；重载与覆盖；
@@ -68,8 +69,8 @@
 
 ### 三、JVM虚拟机
 
+*  	[内存模型](jvm内存结构.md)
 * 	[类加载器](类加载器.md)
-*  	[内存结构](jvm内存结构.md)
 *  	[垃圾回收](java-gc.md)
 *   [jvm参数](jvm性能调优.md)
 *  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
@@ -80,3 +81,8 @@
 *   [JavaEE 7 正式发布](http://www.iteye.com/news/27980)
 *   [Java 的版本历史与特性](https://mp.weixin.qq.com/s/wcF14v11QaS21UFczqGbVg)
 * 	[Java 9 中的新特性](https://mp.weixin.qq.com/s/YalBtZ_dZayMec8aprk6Xw)
+
+### 五、其它
+* 	[随机数生成 --- NativePRNGNonBlocking ](http://hongjiang.info/java8-nativeprng-blocking/)
+* 	[随机token 生成代码](java-random.md)
+* 	[HashMap扩容、散列碰撞](https://yq.aliyun.com/articles/225660?spm=5176.100238.spm-cont-list.1.LYRwKV)
