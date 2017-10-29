@@ -3,7 +3,7 @@
 ---
 ZooKeeper是Apache基金会的一个开源、分布式应用程序协调服务，是Google的Chubby一个开源的实现。它是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。它的目标就是封装好复杂易出错的关键服务，将简单易用的接口和性能高效、功能稳定的系统提供给用户。
 
-### 集群模式（推荐首选）
+### 集群模式（首选推荐，一般用于生产环境）
 
 ##### 1.下载
 ZooKeeper安装包可以在其官网下载页面下载，下载地址如下，为加快下载速度可以选择中国境内的镜像，选择稳定版本zookeeper-3.4.8.tar.gz安装包。
@@ -141,20 +141,94 @@ Connection closed by foreign host.
 集群模式和单机模式下输出的服务器验证信息基本一致，只有Mode属性不一样。
 
 
-### 伪集群模式
+### 伪集群模式（一般用于测试环境）
 
 比如有一台物理机（10核16G内存），如果做为单机模式有点浪费，如果按照集群模式，需要借助硬件的虚拟化技术，把一台物理机转换成几台虚拟机。
 
 伪集群，集群所有的机器都在一台机器上，但是还是以集群的特性对外提供服务。
 
+创建环境目录
+
 ```
-dataDir=/app/soft/zookeeper-3.4.8/data
-dataLogDir=/app/soft/zookeeper-3.4.8/log
+mkdir /Users/onlyone/software/zookeeper/zk-cluster/zk1
+mkdir /Users/onlyone/software/zookeeper/zk-cluster/zk2
+mkdir /Users/onlyone/software/zookeeper/zk-cluster/zk3
+
+
+echo "1" > /Users/onlyone/software/zookeeper/zk-cluster/zk1/data/myid
+echo "2" > /Users/onlyone/software/zookeeper/zk-cluster/zk2/data/myid
+echo "3" > /Users/onlyone/software/zookeeper/zk-cluster/zk3/data/myid
+
+```
+分别修改配置文件
+
+修改：dataDir、dataLogDir、clientPort
+
+增加：集群的实例，server.X，”X”表示每个目录中的myid的值
+
+```
+vi /Users/onlyone/software/zookeeper/zk-cluster/zk1/conf/zoo.cfg
+
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk1/data
+dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk1/log
 clientPort=2181
- 
-server.1=ip1:2888:3888
-server.2=ip1:2889:3889
-server.3=ip1:2890:3890
+server.1=192.168.0.24:2888:3888
+server.2=192.168.0.24:2889:3889
+server.3=192.168.0.24:2890:3890
+
+
+vi /Users/onlyone/software/zookeeper/zk-cluster/zk2/conf/zoo.cfg
+
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk2/data
+dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk2/log
+clientPort=2182
+server.1=192.168.0.24:2888:3888
+server.2=192.168.0.24:2889:3889
+server.3=192.168.0.24:2890:3890
+
+vi /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
+
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk3/data
+dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk3/log
+clientPort=2183
+server.1=192.168.0.24:2888:3888
+server.2=192.168.0.24:2889:3889
+server.3=192.168.0.24:2890:3890
 ```
 
-ip地址相同，但后面的端口配置不一样。
+3个节点配置完成，然后启动集群
+
+```
+/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh start /Users/onlyone/software/zookeeper/zk-cluster/zk1/conf/zoo.cfg
+
+/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh start /Users/onlyone/software/zookeeper/zk-cluster/zk2/conf/zoo.cfg
+
+/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh start /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
+```
+查看节点状态
+
+```
+➜  bin /Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh status /Users/onlyone/software/zookeeper/zk-cluster/zk1/conf/zoo.cfg
+ZooKeeper JMX enabled by default
+Using config: /Users/onlyone/software/zookeeper/zk-cluster/zk1/conf/zoo.cfg
+Mode: follower
+➜  bin /Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh status /Users/onlyone/software/zookeeper/zk-cluster/zk2/conf/zoo.cfg
+ZooKeeper JMX enabled by default
+Using config: /Users/onlyone/software/zookeeper/zk-cluster/zk2/conf/zoo.cfg
+Mode: leader
+➜  bin /Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh status /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
+ZooKeeper JMX enabled by default
+Using config: /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
+Mode: follower 
+```
+可以看出zk2是leader，zk1和zk3是follower
+

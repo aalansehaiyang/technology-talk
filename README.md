@@ -113,8 +113,7 @@
 ### 系统架构 
 
 * [架构经验](system-architecture/architecture-experience.md)
-* [锁相关](system-architecture/lock.md)
-* [经典案例](system-architecture/经典案例.md)
+* [经典案例](system-architecture/architecture-good-case.md)
 * [通用技术方案选型](system-architecture/technology-selection.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
 
@@ -150,6 +149,7 @@
 	* [慕课网](http://www.imooc.com/)
 	* [网易云课堂](http://study.163.com/)
 	* [腾讯课堂](https://ke.qq.com/course/list/spark)
+* 	[github 伯乐在线](https://github.com/jobbole)
 *   [程序员素养](project-management/程序员素养.md)
 
 ### 其它

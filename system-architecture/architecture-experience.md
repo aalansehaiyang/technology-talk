@@ -11,6 +11,7 @@
 	*	[SOA与微服务](SOA与微服务.md)
 	* 	[如何设计高可用的微服务架构？](https://mp.weixin.qq.com/s/W3Vn0EgCjWpjJ365Pv30iw)
 	* 	[微服务的4大设计原则和19个解决方案](https://mp.weixin.qq.com/s/YfXjkMX-eQFmEzjG6Lwvrw)
+	* 	[微服务后如何做一次系统梳理](https://mp.weixin.qq.com/s/ZxVQ7PvK89XVBYhNUoMnMg)
 *	[各大互联网公司架构演进之路汇总](http://blog.fulin.org/2016/03/summary-of-architectures/)
 *	[中小型研发团队架构落地实践18篇，含案例、代码](https://mp.weixin.qq.com/s/AbUGOWN27FEUPWgDQkF_Dw)
 
@@ -18,6 +19,7 @@
 
 *	[数据库架构](数据库架构.md)
 *	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
+*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/0UHMo0SYgyq9Ln_ObZpWKQ)
 
 ### 缓存
 
@@ -48,6 +50,16 @@
 *	[系统性能优化常用手段](http://blog.csdn.net/itomge/article/details/21649489)
 *	[web性能优化14法则](http://blog.csdn.net/itomge/article/details/8712102)
 *	[从代码层面优化系统性能的解决方案](https://mp.weixin.qq.com/s/gtxDbgo_esY4kD_LNoyfPQ)
+
+### 锁相关
+
+* 	[乐观锁&悲观锁](锁机制.md)
+* 分布式锁
+	* [基于redis分布式锁（推荐）](分布式锁.md)
+	* [基于 Redis 的分布式锁到底安全吗?](https://mp.weixin.qq.com/s/ctbcwV4hzdB2MwGqQAA0_A)
+	* [基于zookeeper实现的分布式锁](lock-zk.md)
+	* [基于数据库实现分布式锁（不推荐）](lock-db.md)
+
 
 ### 杂项
 
