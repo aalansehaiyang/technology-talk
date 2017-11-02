@@ -39,7 +39,7 @@
 * [Nginx](web/Nginx.md)
 * [tomcat](web/tomcat.md)
 * [http协议](web/http协议.md)
-* [CDN](system-architecture/CDN.md)
+* [CDN](web/CDN.md)
 * [其它](web/other.md)
 
 
