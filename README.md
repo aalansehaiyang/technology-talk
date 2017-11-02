@@ -35,7 +35,7 @@
 
 ### web容器/协议/网络
 
-* [负载均衡之LVS](system-architecture/LVS.md)
+* [负载均衡](web/load-balance.md)
 * [Nginx](web/Nginx.md)
 * [tomcat](web/tomcat.md)
 * [http协议](web/http协议.md)

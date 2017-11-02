@@ -69,7 +69,7 @@ LVS充当网关的角色，所有的网络报文的进出都要经过LVS
 
 示例：
 
-![image](img/3.png)
+![image](img/11.png)
 
 ```
 注：

@@ -16,6 +16,8 @@
 
 * [dubbo开发者手册](https://dubbo.gitbooks.io/dubbo-dev-book/)
 
+* [Dubbo FAQ](http://dubbo.wangxingrong.com/FAQ.htm)
+
 ---
 #### 简介
 
