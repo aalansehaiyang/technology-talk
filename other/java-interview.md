@@ -5,7 +5,9 @@
 
 * [如何面试工程师？](https://mp.weixin.qq.com/s/VDGXJeKZM_U_9tcZOb0q4Q)
 * [阿里面试回来，想和 Java 程序员谈一谈](https://mp.weixin.qq.com/s/2Lne6O6q5cZ43Msdxm-jnQ)
-* [最新阿里-京东-美团-滴滴-面试题及答案](https://mp.weixin.qq.com/s/iKWEoBdt-yYMvomm7NcDyw)
+* [面试心得与总结：BAT、网易、蘑菇街](https://mp.weixin.qq.com/s/8xB_sxBXZ6a9xoYkXunCQQ)
+* [Java面试题-基础知识](https://mp.weixin.qq.com/s/RtfEPR2oclUAu0tXnYAn4Q)
+* [2017的金秋，派卧底去阿里、京东、美团、滴滴带回来的面试题及答案](https://mp.weixin.qq.com/s/BGo3RY6JLFeg87hH3Y60KA)
 
 ---
 

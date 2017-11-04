@@ -155,7 +155,7 @@
 * [雪球在股市风暴下的高可用架构改造分享](http://mp.weixin.qq.com/s/ZX2lbry5fTq65LEo17YdBg)
 
 ---
-#### 开放平台
+#### 开放平台/网关
 
 * ###### 淘宝
 	* [历经8年双11流量洗礼，淘宝开放平台如何攻克技术难关？](http://www.infoq.com/cn/articles/taobao-open-platform-overcome-technical-difficulties)
@@ -163,6 +163,8 @@
 	* [开放平台回顾与前景展望](http://www.infoq.com/cn/articles/open-platform-review-prospect)
 * ###### 京东
 	* [京东京麦开放平台的高可用架构之路](https://mp.weixin.qq.com/s/vZqzVfWq4zX_bWrZZJdlLw)
+	* [京东双十一大促网关承载十亿调用量背后的架构实践](https://mp.weixin.qq.com/s/jX1Xr9GlqOm2uaGmyJX2RQ)
+	
 * ###### 其它
 	* [专家观点：QCon专访朱念洋，谈腾讯开放平台关键技术](http://www.infoq.com/cn/news/2011/11/znx-tencent-open-platform)
 	* [一个创业公司的API网关落地实践](http://www.infoq.com/cn/news/2017/03/Startups-API-practice)

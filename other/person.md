@@ -12,9 +12,10 @@
 * [互联网时代架构师的职责与思考](person-1.md)
 * [免试晋升为研究员，他在阿里十年经历了什么？](https://mp.weixin.qq.com/s/xD7hofy2vhmjvEMp3Ip9GQ)
 * [职场“35岁危机”：这是我看过的最棒建议](https://mp.weixin.qq.com/s/TtOhnf7OcEwMOL5wc3DWqw)
+* [论三年内快速成长为一名技术专家](https://mp.weixin.qq.com/s/k6QeIzq3uL1pmmdnQB2AFg)
 
 ---
-### 转型提升-->管理
+### 转型 --> 管理
 
 * [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)

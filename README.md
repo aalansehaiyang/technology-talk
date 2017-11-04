@@ -67,7 +67,7 @@
 
 *   MQ消息
 	* [ActiveMQ](https://github.com/apache/activemq)
-	* [RabbitMQ]()
+	* [RabbitMQ](middle-software/RabbitMQ.md)
 	* [Kafka](middle-software/kafka.md)
 	* [RocketMQ](https://github.com/apache/incubator-rocketmq)
 

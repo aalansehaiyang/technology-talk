@@ -72,7 +72,14 @@ Kafka集群会保留所有的消息，无论其被消费与否。两种策略删
  
 总结：如果想保证消息的顺序，那就用一个 partition。 kafka 的每个 partition 只能同时被同一个 group 中的一个 consumer 消费。
 	
-### 参考资料
+### 其它资料
 
 * [Kafka高性能架构之道——Kafka设计解析](http://mp.weixin.qq.com/s/3i51S1jDXbqvi6fv1cuQSg)
-* http://www.infoq.com/cn/articles/kafka-analysis-part-1
+* [Kafka背景及架构介绍](http://www.infoq.com/cn/articles/kafka-analysis-part-1)
+* [kafka性能参数和压力测试揭秘](http://blog.csdn.net/stark_summer/article/details/50203133)
+* [Kafka技术内幕拾遗](http://zqhxuyuan.github.io/2017/12/31/Kafka-Book-Resources/)
+
+
+
+
+
