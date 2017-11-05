@@ -64,10 +64,17 @@ Threads:	74
 ....省略
 
 其它命令：
-top -bH -d 3 -p {pid}
-pstree -p {pid} | wc -l
-pstack {pid} | head -1```
-4、查看所有进程
+top -bH -d 3 -p {pid}```
+* pstree （以树状图的方式展现进程之间的派生关系）
+[Linux命令大全](http://man.linuxde.net/pstree)
+```pstree -p
+pstree -p {pid} | wc -l```* pstack （显示每个进程的栈跟踪），也可以查看一个进程下的线程总数
+
+```
+pstack {pid} 
+// 输出第一行
+pstack {pid} | head -1
+```4、查看所有进程
 ```
 ps -ef
 ps -ef|grep java```
@@ -254,7 +261,7 @@ iostat -k 3
 
 
 ### 四、文件
-1、 lsof
+1、 lsof (一切皆文件)
 当前进程与文件的关系
 ```// 查看sys.log文件被哪个进程打开lsof sys.log ```![image](img/8.png)
 ```// 查看端口被哪个进程占用lsof  -i：端口号         ```![image](img/9.png)```

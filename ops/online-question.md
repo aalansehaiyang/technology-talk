@@ -15,6 +15,7 @@
 
 * [线上服务内存OOM问题定位三板斧](https://mp.weixin.qq.com/s/tVvqVVigmvzLfPjnt2oK0g)
 
+* [教你如何成为Java的OOM Killer](https://mp.weixin.qq.com/s/34GVlaYDOdY1OQ9eZs-iXg)
 
 ### 帮助手册
 

@@ -72,14 +72,18 @@
 *  	[内存模型](jvm内存结构.md)
 * 	[类加载器](类加载器.md)
 *  	[垃圾回收](java-gc.md)
-*   [jvm参数](jvm性能调优.md)
-*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
+* ###### jvm调优
+	*   [jvm参数](jvm-param.md)
+	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
+	* 	[如何优化Java GC](https://mp.weixin.qq.com/s/ydkEkh_Uc1paftJLKIsm0w)
 
 
 ### 四、java 新特性
 
-*   [JavaEE 7 正式发布](http://www.iteye.com/news/27980)
 *   [Java 的版本历史与特性](https://mp.weixin.qq.com/s/wcF14v11QaS21UFczqGbVg)
+*   [JavaEE 7 正式发布](http://www.iteye.com/news/27980)
+*   [Java 8-从持久代到metaspace](https://mp.weixin.qq.com/s/w_Uqi5PBkWCqh7qHq6XaKw)
+*   [Java 8的新特性—终极版](https://mp.weixin.qq.com/s/CWNIRk9xGu2XSbrWELTKNg)
 * 	[Java 9 中的新特性](https://mp.weixin.qq.com/s/YalBtZ_dZayMec8aprk6Xw)
 
 ### 五、其它

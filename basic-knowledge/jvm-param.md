@@ -23,8 +23,8 @@
 4. 当Xms=Xmx，可以使得堆相对稳定，避免不停震荡
 5. 一般来说，MaxPermSize设为64MB可以满足绝大多数的应用了。若依然出现方法区溢出，则可以设为128MB。若128MB还不能满足需求，那么就应该考虑程序优化了，减少**动态类**的产生。#### 二、垃圾回收
 **垃圾回收算法：**
-*	引用计数法：会有循环引用的问题，古老的方法；*	Mark-Sweep：根可达判断，最大的问题是空间碎片（清除垃圾之后剩下不连续的内存空间）；
-*	Copying：对于短命对象来说有用，否则需要复制大量的对象，效率低。**如Java的新生代堆空间中就是使用了它（survivor空间的from和to区）；***	Mark-Compact：对于老年对象来说有用，无需复制，不会产生内存碎片**GC考虑的指标**
+*	引用计数法：会有循环引用的问题，古老的方法；*	Mark-Sweep：标记清除。根可达判断，最大的问题是空间碎片（清除垃圾之后剩下不连续的内存空间）；
+*	Copying：复制算法。对于短命对象来说有用，否则需要复制大量的对象，效率低。**如Java的新生代堆空间中就是使用了它（survivor空间的from和to区）；***	Mark-Compact：标记整理。对于老年对象来说有用，无需复制，不会产生内存碎片**GC考虑的指标**
 *	吞吐量：应用耗时和实际耗时的比值；*	停顿时间：垃圾回收的时候，由于Stop the World，应用程序的所有线程会挂起，造成应用停顿。
 
 ```吞吐量和停顿时间是互斥的。
@@ -38,7 +38,7 @@
 *	-XX:ParallelGCThreads
 指定并行的垃圾回收线程的数量，最好等于CPU数量
 *	-XX:+DisableExplicitGC
-禁用System.gc()，因为它会触发Full GC，这是很浪费性能的，JVM会在需要GC的时候自己触发GC。*	-XX:CMSFullGCsBeforeCompaction 在多少次GC后进行内存压缩，这个是因为并行收集器部队内存空间进行压缩的，所以运行一段时间后会产生很多随便，使得运行效率降低。*	-XX:+CMSParallelRemarkEnabled降低标记停顿*	-XX:+UseCMSCompactAtFullCollection 在Full GC时对老年代压缩，CMS是不会移动内存的，因此会非常容易出现碎片导致内存不够用的*	-XX:+UseCmsInitiatingOccupancyOnly 使用手动触发或者自定义触发cms 收集，同时也会禁止hostspot 自行触发CMS GC*	-XX:CMSInitiatingOccupancyFraction 使用CMS作为垃圾回收，使用70%后开始CMS收集*	-XX:CMSInitiatingPermOccupancyFraction 设置perm gen使用达到多少％比时触发垃圾回收，默认是92%*	-XX:+CMSIncrementalMode 设置为增量模式*	-XX:+CmsClassUnloadingEnabled CMS是不会默认对永久代进行垃圾回收的，设置此参数则是开启*	-XX:+PrintGCDetails开启详细GC日志模式，日志的格式是和所使用的算法有关*	-XX:+PrintGCDateStamps将时间和日期也加入到GC日志中**配置参考：**
+禁用System.gc()，因为它会触发Full GC，这是很浪费性能的，JVM会在需要GC的时候自己触发GC。*	-XX:CMSFullGCsBeforeCompaction 在多少次GC后进行内存压缩，这个是因为并行收集器不对内存空间进行压缩的，所以运行一段时间后会产生很多碎片，使得运行效率降低。*	-XX:+CMSParallelRemarkEnabled降低标记停顿*	-XX:+UseCMSCompactAtFullCollection 在每一次Full GC时对老年代区域碎片整理，因为CMS是不会移动内存的，因此会非常容易出现碎片导致内存不够用的*	-XX:+UseCmsInitiatingOccupancyOnly 使用手动触发或者自定义触发cms 收集，同时也会禁止hostspot 自行触发CMS GC*	-XX:CMSInitiatingOccupancyFraction 使用CMS作为垃圾回收，使用70%后开始CMS收集*	-XX:CMSInitiatingPermOccupancyFraction 设置perm gen使用达到多少％比时触发垃圾回收，默认是92%*	-XX:+CMSIncrementalMode 设置为增量模式*	-XX:+CmsClassUnloadingEnabled CMS是不会默认对永久代进行垃圾回收的，设置此参数则是开启*	-XX:+PrintGCDetails开启详细GC日志模式，日志的格式是和所使用的算法有关*	-XX:+PrintGCDateStamps将时间和日期也加入到GC日志中**配置参考：**
 ![image](img/13.png)
 
 **前同事分享的一个不错案例：**
