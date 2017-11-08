@@ -2,7 +2,10 @@
 
 ---
 
-[https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA](https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA)
+* [JVM内存结构](https://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA)
+* [java8 去除永久代增加元数据区Metaspace](https://www.cnblogs.com/paddix/p/5309550.html)
+
+---
 
 #### 虚拟机运行时的数据区
 

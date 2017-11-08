@@ -37,8 +37,9 @@
 
 ##### 数据库、存储
 
-* [内存数据库](http://www.memsql.com/)
+* [内存数据库 --- memsql](http://www.memsql.com/)
 * [分布式文件存储系统 --- FastDFS](http://www.cnblogs.com/mafly/p/fastdfs.html)
+* [本地缓存、磁盘存储 --- Ehcache](http://raychase.iteye.com/blog/1545906)
 
 ##### 项目管理
 
@@ -60,3 +61,5 @@
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
 * [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
 * [Apache poi 操作 excel、word、pdf](http://www.yiibai.com/apache_poi/)
+* [数据可视化图表 --- ECharts](http://echarts.baidu.com/index.html)
+* [数据可视化图表 --- highcharts](https://www.hcharts.cn/)

@@ -85,7 +85,47 @@ ll /proc/{pid}/
 ```
 ## 可以查看所有的socket连接
 ll /proc/{pid}/fd | grep socket   
-```                  ### 二、内存相关 
+```    
+
+5、ulimit -a （显示当前的各种用户进程限制）
+[linux修改max user processes limits](http://blog.csdn.net/bbaiggey/article/details/51004817)    
+
+```
+ulimit -a
+
+core file size (blocks, -c) 100
+data seg size (kbytes, -d) unlimited
+file size (blocks, -f) unlimited
+pending signals (-i) 15237
+max locked memory (kbytes, -l) 64
+max memory size (kbytes, -m) unlimited
+open files (-n) 1024
+pipe size (512 bytes, -p) 8
+POSIX message queues (bytes, -q) 819200
+stack size (kbytes, -s) 8192
+cpu time (seconds, -t) unlimited
+max user processes (-u) 15237
+virtual memory (kbytes, -v) unlimited
+file locks (-x) unlimited
+```    
+```
+输出的每一行由资源名字、（单位，ulimit命令的参数）、软限制组成。详细解释：
+参数 描述
+core file size core文件的最大值为100 blocks，
+data seg size 进程的数据段可以任意大
+file size 文件可以任意大
+pending signals 最多有15237个待处理的信号
+max locked memory 一个任务锁住的物理内存的最大值为64kB
+max memory size 一个任务的常驻物理内存的最大值
+open files 一个任务最多可以同时打开1024的文件
+pipe size 管道的最大空间为4096字节
+POSIX message queues POSIX的消息队列的最大值为819200字节
+stack size 进程的栈的最大值为8192字节
+cpu time 进程使用的CPU时间
+max user processes 当前用户同时打开的进程(包括线程)的最大个数为15237
+virtual memory 没有限制进程的最大地址空间
+file locks 所能锁住的文件的最大个数没有限制
+```### 二、内存相关 
 1、vmstat
 
 Virtual Memory Statistics，统计进程、内存、io、cpu等的活动信息。对于多CPU系统，vmstat打印的是所有CPU的平均输出
@@ -262,7 +302,9 @@ iostat -k 3
 
 ### 四、文件
 1、 lsof (一切皆文件)
-当前进程与文件的关系
+[命令详情](http://man.linuxde.net/lsof)
+查看你进程开打的文件，打开文件的进程，进程打开的端口(TCP、UDP)
+
 ```// 查看sys.log文件被哪个进程打开lsof sys.log ```![image](img/8.png)
 ```// 查看端口被哪个进程占用lsof  -i：端口号         ```![image](img/9.png)```
 // 查看各个进程打开的文件数量

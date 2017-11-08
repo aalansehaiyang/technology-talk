@@ -130,10 +130,10 @@
 
 ### 运维
 
-* 	[Docker](ops/docker.md)
 *	[快速排查线上问题](ops/online-question.md)
 *	[linux常用命令](ops/linux-commands.md)
 *	[本地代码调试](ops/本地代码调试.md)
+* 	[Docker](ops/docker.md)
 
 ### 个人成长
 
@@ -161,3 +161,9 @@
 	* [大数据面试题](other/bigdata-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
 *   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)
+
+### 写在后面
+
+** 不知不觉，这个项目已经更新两年了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去**
+
+![image](basic-knowledge/img/23.png)

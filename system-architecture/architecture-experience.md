@@ -22,6 +22,7 @@
 *	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
 *	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/0UHMo0SYgyq9Ln_ObZpWKQ)
 *	[为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
+*	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
 
 ### 缓存
 
@@ -53,6 +54,9 @@
 *	[web性能优化14法则](http://blog.csdn.net/itomge/article/details/8712102)
 *	[从代码层面优化系统性能的解决方案](https://mp.weixin.qq.com/s/gtxDbgo_esY4kD_LNoyfPQ)
 
+### 数据一致性
+* 	[并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
+
 ### 锁相关
 
 * 	[乐观锁&悲观锁](锁机制.md)
@@ -62,13 +66,16 @@
 	* [基于 zookeeper实现的分布式锁](lock-zk.md)
 	* [基于数据库实现分布式锁（不推荐）](lock-db.md)
 
+### web系统
+
+*	[分布式 session](https://mp.weixin.qq.com/s/iTdHyODJ12RvTbe6MILg6Q)
+
 ### 技术选型
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
 
 ### 杂项
 
-*	[分布式 session](https://mp.weixin.qq.com/s/iTdHyODJ12RvTbe6MILg6Q)
 *	[架构师之路2016年精选50篇](https://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA)
 *	[架构师之路2017半年精选40篇](https://mp.weixin.qq.com/s/8RM6U8UqWTDp29DB_hiYVQ)
 *	[架构师之路，季度精选40篇](https://mp.weixin.qq.com/s/vLebPT-58Jw-Q7afhkgHSg)

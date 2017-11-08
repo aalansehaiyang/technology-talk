@@ -18,3 +18,4 @@
 * [分布式系统常见的事务处理机制](https://mp.weixin.qq.com/s/ja0VRPkfHL9dtOP_PxwxKw)
 * [微服务架构下处理分布式事务的典型方案](https://mp.weixin.qq.com/s/RKwvfKXIHrrkuCqOGZ4CPw)
 * [解决分布式系统事务一致性的几种方案对比](https://mp.weixin.qq.com/s/kzmTKKH-t6tpJ97fa6TYPg)
+* [多库多事务降低数据不一致概率](https://mp.weixin.qq.com/s/FvB-hOBT13SMfZko5iagAg)

@@ -17,6 +17,9 @@
 
 * [教你如何成为Java的OOM Killer](https://mp.weixin.qq.com/s/34GVlaYDOdY1OQ9eZs-iXg)
 
+* [java.lang.OutOfMemoryError 8种典型案例](https://github.com/cncounter/outofmemoryerror)
+
+
 ### 帮助手册
 
 * [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
