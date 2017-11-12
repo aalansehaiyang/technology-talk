@@ -4,7 +4,8 @@
 
 #### 附录
 
-[官方网站](http://tomcat.apache.org/)
+* [apache tomcat 官网](http://tomcat.apache.org/)
+* [深度解读 Tomcat 中的 NIO 模型](https://mp.weixin.qq.com/s/Nk7gcwsgBhgMWTRkgAFpRA)
 
 ---
 ### tomcat服务器优化

@@ -95,8 +95,71 @@
 * 异常
 * 调用 
 
+6.服务注册不上怎么办？
 
-####  参考资料
+```
+检查暴露服务的 Spring 配置有没有加载
+查看有没有错误日志
+在服务提供者机器上测试与注册中心的网络是否通畅(telnet 172.22.3.94 20880)
+检查与注册中心的连接是否存在(netstat -anp | grep 172.22.3.94)
+```
+
+7.RpcException: No provider available for the service 异常怎么办？
+
+```
+表示没有可用的服务提供者：
+
+检查连接的注册中心地址是否正确(若是 Zookeeper 注册中心，根节点(registry.group)是否一样)
+到监控中心/注册中心查看相应的服务提供者是否存在
+检查服务提供者是否正常运行
+```
+
+8.出现调用超时 TimeoutException 异常怎么办？
+
+```
+通常是业务(提供方)处理太慢，也可能是网络抖动引起。 如果一直超时，可在服务提供方执行：jstack PID > jstack.log 分析线程都卡在哪个方法调用上，这里就是慢的原因。 如果不能调优性能，请将 timeout 设大
+```
+9.出现 RpcException: Forbid consumer xxx access service XxxService from registry 异常怎么办？
+
+```
+该异常表示有服务提供者注册到注册中心，但服务提供者与消费者未匹配。那服务的路由规则是什么？ 默认的路由规则是 服务名=[group/]serviceName[:version]。
+
+检查两边应用的注册中心与服务相关配置是否完全一样：
+
+注册中心：dubbo.registry.address、dubbo.registry.group
+服务：ServiceInterface、group、version
+```
+
+10.Dubbo 服务注册的地址与实际部署的机器地址不一样
+
+```
+某业务同学反馈，在 172.16.47.59 上面部署了一个应用，部署完结果在注册中心显示这个服务的IP不是在实际部署的机器上。 之前没清理dubbo的cache文件显示在 172.16.50.196，清理缓存以后显示在 172.16.47.53 上面。(dubbo-2.5.3)
+
+问题根源：NetUtils.getLocalHost() 调用的 InetAddress.getLocalHost() 返回了一个错误的IP地址。 其原理是通过获取本机的 hostname，然后对此 hostname 做解析，从而获取IP地址。 即机器的 hostname 映射的IP地址不是机器实际的IP地址。
+
+解决方案：
+
+修改 hostname
+在 /etc/hosts 中配置 hostname -> 本机IP地址
+```
+
+11.zookeeper.KeeperException$UnimplementedException: KeeperErrorCode = Unimplemented for {root.path}
+
+Dubbo 应用使用 ZooKeeper 作为注册中心，启动时报该异常。
+
+```
+问题根源：Curator/ZooKeeper的JAR版本不匹配ZooKeeper服务器安装的版本
+```
+
+12.Curator 报 NoSuchMethodError: org.apache.zookeeper.server.quorum.flexible.QuorumMaj.(Ljava/util/Map;)V
+
+Dubbo 应用使用 ZooKeeper 作为注册中心，启动时发生该异常。
+
+```
+问题根源：QuorumMaj类未定义单个Map参数的构造函数，而EnsembleTracker类却引用了它
+```
+
+###  参考资料
 
 [http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l](http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l)
 

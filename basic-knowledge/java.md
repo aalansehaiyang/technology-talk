@@ -54,13 +54,16 @@
 * 	[java的线程状态](java的线程状态.md)
 * 	[ThreadLocal原理机制](ThreadLocal原理机制.md)
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
-* 	[NIO](NIO.md)
 * 	[Exception](java-exception.md)
 * 	[各种坑](各种坑.md)
 
-* ###### 示例
+* ###### NIO
+	* 	[NIO](NIO.md)
+	* 	[深度解读 Tomcat 中的 NIO 模型](https://mp.weixin.qq.com/s/Nk7gcwsgBhgMWTRkgAFpRA)
 	* [epoll 浅析以及 nio 中的 Selector](https://mp.weixin.qq.com/s/RmONdyXuJZa8WyJCu2j7WA)
 	* [Linux IO模式及 select、poll、epoll详解](https://segmentfault.com/a/1190000003063859)
+
+* ###### 示例
 	* [JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介](https://mp.weixin.qq.com/s/FRF-c2t_Un1Krw29yuxyaw)
 
 * ###### netty	
@@ -90,3 +93,4 @@
 * 	[随机数生成 --- NativePRNGNonBlocking ](http://hongjiang.info/java8-nativeprng-blocking/)
 * 	[随机token 生成代码](java-random.md)
 * 	[HashMap扩容、散列碰撞](https://yq.aliyun.com/articles/225660?spm=5176.100238.spm-cont-list.1.LYRwKV)
+* 	[一台Java服务器跑多少个线程](https://mp.weixin.qq.com/s/lQkPltX3yS3bGb9EbxHGAg)
