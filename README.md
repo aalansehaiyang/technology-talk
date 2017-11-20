@@ -41,7 +41,7 @@
 	* [Tomcat](web/tomcat.md)
 * 协议
 	* [HTTP 协议](web/http协议.md)
-	* [TCP 的三次握手与四次分手](http://www.jellythink.com/archives/705)
+	* [TCP 协议](web/tcp.md)
 * [CDN](web/CDN.md)
 * [其它](web/other.md)
 
@@ -84,7 +84,7 @@
 
 *   分布式数据框架
 	* [cobar](middle-software/cobar.md)
-	* [Mycat](https://github.com/MyCATApache/Mycat-Server)
+	* [Mycat](middle-software/mycat.md)
 	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
 	* [sharding-jdbc](https://www.slahser.com/2016/06/25/%E5%BD%93%E5%BD%93%E7%9A%84sharding-jdbc%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/)
@@ -97,7 +97,6 @@
 	* [Spark](middle-software/Spark.md)
 	* [Hadoop](middle-software/Hadoop.md)
 	* [Hive](middle-software/Hive.md)
-	* [Flink](middle-software/Flink.md)
 	* [other框架](middle-software/big-data.md)
 	
 *   配置管理
@@ -124,12 +123,10 @@
 ### 项目管理
 
 * [论需求调研的重要性](project-management/论需求调研的重要性.md)
-* [项目生命周期](project-management/项目生命周期.md)
-* [项目管理案例](project-management/项目管理案例.md)
-* [代码规范](project-management/代码规范.md)
-* [git常用命令](project-management/git常用命令.md)
-* [ab性能压测](other/ab测试.md)
-* [maven仓库](http://www.mvnrepository.com/open-source/http-clients)
+* [项目管理](project-management/项目管理案例.md)
+* [代码管理](project-management/code.md)
+* [测试相关](project-management/test.md)
+
 
 ### 运维
 
@@ -142,17 +139,7 @@
 
 *   [Tom的读书单](other/book.md)
 *   [个人成长与职业规划](other/person.md)
-*   学习网站
-	* [infoQ](http://www.infoq.com/cn/)
-	* [云栖社区](https://yq.aliyun.com/)
-	* [并发编程网](http://ifeve.com/)
-	* [开源中国](http://www.oschina.net/)
-	* [stackoverflow](http://stackoverflow.com/)
-*   视频网站
-	* [慕课网](http://www.imooc.com/)
-	* [网易云课堂](http://study.163.com/)
-	* [腾讯课堂](https://ke.qq.com/course/list/spark)
-* 	[github 伯乐在线](https://github.com/jobbole)
+*   [学习网站](other/study.md)
 *   [程序员素养](project-management/程序员素养.md)
 
 ### 其它

@@ -41,6 +41,10 @@
 * [分布式文件存储系统 --- FastDFS](http://www.cnblogs.com/mafly/p/fastdfs.html)
 * [本地缓存、磁盘存储 --- Ehcache](http://raychase.iteye.com/blog/1545906)
 
+##### 服务治理
+* [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
+
+
 ##### 项目管理
 
 * [文档管理 --- Confluence](https://baike.baidu.com/item/Confluence)
@@ -55,11 +59,14 @@
 * [性能压测 --- jmeter](http://jmeter.apache.org/)
 * [性能压测 --- jprofiler]()
 
+##### 图形、图表、图片
+
+* [数据可视化图表 --- ECharts](http://echarts.baidu.com/index.html)
+* [数据可视化图表 --- highcharts](https://www.hcharts.cn/)
+* [图片压缩、格式转换 --- 智图](https://zhitu.isux.us/)
+
 
 ##### 杂项
 
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
-* [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
 * [Apache poi 操作 excel、word、pdf](http://www.yiibai.com/apache_poi/)
-* [数据可视化图表 --- ECharts](http://echarts.baidu.com/index.html)
-* [数据可视化图表 --- highcharts](https://www.hcharts.cn/)
