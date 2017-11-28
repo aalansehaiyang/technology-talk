@@ -1,6 +1,7 @@
 ## mycat
-
 ---
+
+`Mycat是java编写的！！！`
 
 ### 一、问题
 
@@ -14,7 +15,7 @@
 * mycat如何做到主从切换？
 * 支持哪些分片算法？
 * 查询多张分表，支持结果集合并，如果涉及翻页或排序，需要对合并后的结果做二次加工处理。
-* 
+
 
 
 ### 二、数据相关
@@ -46,7 +47,6 @@
 
 ### 三、Mycat核心组件及配置
 
-**Mycat是java编写的！！！**
 
 #### 核心组件
 
@@ -187,8 +187,42 @@ Mycat核心是拦截用户发过来SQL语句，做一些分析，例如SQL解析
 
 **架构剖析**
 
+* NIO架构
+
+NIOAcceptor负责处理Accept事件，服务端接收客户端的连接事件，NIOAcceptor调用NIOReactor.postRegister进行注册
+
+|事件名|对应值|
+|----|----|
+|服务端接收客户端连接事件|Selection.OP_ACCEPT|
+|客户端连接服务端事件|Selection.OP_CONNECT|
+|读事件|Selection.OP_READ|
+|写事件|Selection.OP_WRITE|
+
+* 多线程架构
+
+维护一个线程池 NameableExecutor，继承自ThreadPoolExecutor。mycat内部有两大线程池：timerExectuor和businessExecutor。
+
+```
+timerExectuor：
+定时更新任务、处理器定时检查任务，数据节点定时心跳检测，主要是后勤工作。
+
+businessExecutor:
+处理业务请求，比如执行SQL语句，SQL拦截，数据合并，查询结果
+```
+* 内存管理及缓存架构
+
+缓冲区采用java.io.ByteBuffer，缓冲区分为直接缓冲区（操作系统内存）和非直接缓冲区（JVM内存）。
 
 
+* 连接池
+
+* 分布式事务
+
+* sql路由实现
+
+* 跨库join实现
+
+* 数据汇聚、数据排序
 
 
 ### 六、Mycat安装
@@ -209,6 +243,8 @@ Mycat核心是拦截用户发过来SQL语句，做一些分析，例如SQL解析
 ```
 
 ### 七、Mycat实战
+
+* [入门指南、开发指南、生产部署、设计文档](https://github.com/MyCATApache/Mycat-doc)
 
 #### 1.搭建读写分离
 

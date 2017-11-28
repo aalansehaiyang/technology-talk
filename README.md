@@ -27,7 +27,6 @@
 * 	[事务](data-base/transaction.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
-* 	[DAO层接口性能监控](data-base/DAO层接口性能监控.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
 * 	[sql技巧](data-base/sql技巧.md)
 * 	[其它](data-base/other.md)

@@ -56,12 +56,18 @@
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
 * 	[Exception](java-exception.md)
 * 	[各种坑](各种坑.md)
+* 	[IO类型](java-io.md)
 
 * ###### NIO
 	* 	[NIO](NIO.md)
 	* 	[深度解读 Tomcat 中的 NIO 模型](https://mp.weixin.qq.com/s/Nk7gcwsgBhgMWTRkgAFpRA)
 	* [epoll 浅析以及 nio 中的 Selector](https://mp.weixin.qq.com/s/RmONdyXuJZa8WyJCu2j7WA)
 	* [Linux IO模式及 select、poll、epoll详解](https://segmentfault.com/a/1190000003063859)
+
+* ###### 多线程
+	* [Java 多线程知识汇总(1)](https://mp.weixin.qq.com/s/D3TIYMaCSGtY5Dv38vMHpA)
+	* [Java 多线程知识汇总(2)](https://mp.weixin.qq.com/s/e9avHfZtfiQ4v3fhVHIcAA)
+	* [Java 多线程知识汇总(3)](https://mp.weixin.qq.com/s/s6UvYe1CP8zigR7E6mK9Og)
 
 * ###### 示例
 	* [JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介](https://mp.weixin.qq.com/s/FRF-c2t_Un1Krw29yuxyaw)

@@ -18,7 +18,6 @@
 
 * [Elastic-Job](https://github.com/dangdangdotcom/elastic-job)
 * [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
-* [pt-goodjob](https://github.com/wacai/pt-goodjob)
 
 
 ##### 流量分发
@@ -40,6 +39,7 @@
 * [内存数据库 --- memsql](http://www.memsql.com/)
 * [分布式文件存储系统 --- FastDFS](http://www.cnblogs.com/mafly/p/fastdfs.html)
 * [本地缓存、磁盘存储 --- Ehcache](http://raychase.iteye.com/blog/1545906)
+* [kv存储 --- levelDB](https://github.com/google/leveldb)
 
 ##### 服务治理
 * [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
@@ -65,8 +65,12 @@
 * [数据可视化图表 --- highcharts](https://www.hcharts.cn/)
 * [图片压缩、格式转换 --- 智图](https://zhitu.isux.us/)
 
+##### ETL
+* [ETL工具 --- kettle](http://blog.csdn.net/eason_oracle/article/details/53535173)
 
 ##### 杂项
 
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
 * [Apache poi 操作 excel、word、pdf](http://www.yiibai.com/apache_poi/)
+* [Java 生成 PDF](https://mp.weixin.qq.com/s/Zxxarev-HwAH2MUzB4QbBA)
+* [基于规则路由和处理的引擎 --- Apache Camel](http://blog.csdn.net/yinwenjie/article/details/51692340)

@@ -1,7 +1,7 @@
-### java8函数编程（lambda表达式）
+## java8函数编程（lambda表达式）
 ---
 
-###简介：
+### 简介
 
 面向对象编程是对数据进行抽象；函数式编程是对行为进行抽象。
 
@@ -9,10 +9,13 @@
 
 对核心类库的改进主要包括集合类的API和新引入的流Stream。流使程序员可以站在更高的抽象层次上对集合进行操作。
 
+### 示例
 
-###分类：
+* [Lambda 表达式的 10 个示例](https://mp.weixin.qq.com/s/Xhr9aNEMr0fIUWh27mH1pw)
 
-#####1.惰性求值方法
+### 分类
+
+##### 1.惰性求值方法
 
 ```
 lists.stream().filter(f -> f.getName().equals("p1"))
@@ -21,7 +24,7 @@ lists.stream().filter(f -> f.getName().equals("p1"))
 
 如果是多个条件组合，可以通过代码块{}
 
-#####2.及早求值方法
+##### 2.及早求值方法
 
 ```
 List<Persion> list2 = lists.stream().filter(f -> f.getName().equals("p1")).collect(Collectors.toList());
@@ -34,7 +37,7 @@ List<Persion> list2 = lists.stream().filter(f -> f.getName().equals("p1")).colle
 
 ### 常用方法
 
-#####1.collect(Collectors.toList())
+##### 1.collect(Collectors.toList())
 Stream流生成一个List列表
 
 Collectors.toSet() ，生成set集合。
@@ -47,15 +50,15 @@ Function.identity() 表示遍历的对象
 
 Collectors里提供了很多方法，比如字符串拼接。
 
-#####2.map
+##### 2.map
 将一种类型转换成另外一种类型
 
-####3.filter
+#### 3.filter
 对Stream流中的元素过滤。
 
 true：保留；false：扔掉。
 
-#####4.flatMap
+##### 4.flatMap
 将多个Stream连接成一个Stream
 
 ```
@@ -63,11 +66,11 @@ true：保留；false：扔掉。
  ```
  结果： [1, 3, 5, 6]
  
-#####5.distinct
+##### 5.distinct
 去重
-#####6.count
+##### 6.count
 计总数
-#####7.min,max
+##### 7.min,max
 最小值，最大值
 
 ```
@@ -94,7 +97,7 @@ System.out.println(a.getId());
  }).get();
  ```
 
-###代码调试
+### 代码调试
 
 可以使用peek方法，peek方法可只包含一个空的方法体，只要能设置断点即可，但有些IDE不允许空，可以如下文示例，简单写一个打印逻辑。
 
@@ -120,7 +123,7 @@ System.out.println(list2);
 
 
 
-###一些例子
+### 一些例子
 
 * 集合--》取元素的一个属性--》去重---》组装成List--》返回
 

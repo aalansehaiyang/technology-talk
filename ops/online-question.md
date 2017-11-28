@@ -33,3 +33,5 @@
 * [java系统诊断命令行工具--HouseMD](https://github.com/CSUG/HouseMD)
 
 * [java系统诊断命令行工具--anatomy](anatomy.md)
+
+* [一些常用的shell脚本](https://github.com/oldratlee/useful-scripts)
