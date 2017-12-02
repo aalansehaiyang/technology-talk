@@ -1,6 +1,8 @@
-## sql技巧
+## SQL调优
 
 ---
+
+### 一、SQL技巧
 
 * insert ignore 
 
@@ -10,3 +12,8 @@ insert ignore 与insert into的区别就是insert ignore 会忽略数据库中�
 
 replace into 跟 insert 功能类似，不同点在于：replace into 首先尝试插入数据到表中， 1. 如果发现表中已经有此行数据（根据主键或者唯一索引判断）则先删除此行数据，然后插入新的数据。 2. 否则，直接插入新数据。
 
+### 二、SQL优化
+
+
+
+TODO。。。

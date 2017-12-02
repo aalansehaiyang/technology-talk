@@ -28,7 +28,7 @@
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id生成器.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
-* 	[sql技巧](data-base/sql技巧.md)
+* 	[SQL调优](data-base/sql-optimize.md)
 * 	[其它](data-base/other.md)
 
 
@@ -156,4 +156,4 @@
 **不知不觉，这个项目已经更新两年了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去**
 
 
-![image](basic-knowledge/img/24.png)
+![image](basic-knowledge/img/25.png)
