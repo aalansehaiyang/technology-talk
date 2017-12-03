@@ -10,3 +10,4 @@
 * [Oceanbase](https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4)
 * [Oozie]()
 * [kettle]()
+* [ApacheBeam](http://blog.csdn.net/dashenghuahua/article/details/53462604)

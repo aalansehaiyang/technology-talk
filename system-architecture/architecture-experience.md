@@ -29,6 +29,7 @@
 * 	[cache相关](cache相关.md)
 *	[缓存架构之防雪崩设计](缓存架构之防雪崩设计.md)
 *	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
+*	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
 
 ### 高并发
 

@@ -16,14 +16,14 @@
 
 ##### 分布式任务调度框架
 
-* [Elastic-Job](https://github.com/dangdangdotcom/elastic-job)
+* [Elastic-Job](https://github.com/elasticjob/elastic-job)
 * [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
-
 
 ##### 流量分发
 
 * [跟我学Nginx+Lua开发](http://www.iteye.com/blogs/subjects/nginx-lua)
 * [OpenResty官网](https://openresty.org/cn/)
+* [企业服务总线 --- UltraESB](https://www.adroitlogic.com/)
 
 ##### GateWay网关
 
@@ -34,12 +34,13 @@
 * [阿里鹰眼]()
 * [Zipkin](https://github.com/openzipkin/zipkin)
 
-##### 数据库、存储
+##### 数据库、缓存、文件存储
 
 * [内存数据库 --- memsql](http://www.memsql.com/)
 * [分布式文件存储系统 --- FastDFS](http://www.cnblogs.com/mafly/p/fastdfs.html)
 * [本地缓存、磁盘存储 --- Ehcache](http://raychase.iteye.com/blog/1545906)
 * [kv存储 --- levelDB](https://github.com/google/leveldb)
+* [若干缓存框架汇总](http://www.open-open.com/13.htm)
 
 ##### 服务治理
 * [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
@@ -67,6 +68,9 @@
 
 ##### ETL
 * [ETL工具 --- kettle](http://blog.csdn.net/eason_oracle/article/details/53535173)
+
+##### 通用型
+* [Java生态圈框架汇总---可能会有满足你的](https://github.com/jobbole/awesome-java-cn)
 
 ##### 杂项
 
