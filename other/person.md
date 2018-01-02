@@ -15,7 +15,7 @@
 * [论三年内快速成长为一名技术专家](https://mp.weixin.qq.com/s/k6QeIzq3uL1pmmdnQB2AFg)
 
 ---
-### 转型 --> 管理
+### 转型（P） --> 管理（M）
 
 * [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)
@@ -30,6 +30,7 @@
 * [技术人员的发展之路](https://mp.weixin.qq.com/s/A2v0gGIl09X6Bwz9L060aw)
 * [从技术 Leader 到产品负责人](https://mp.weixin.qq.com/s/Yx1fXO9RfnLeBGZg_P-g3g)
 * [蘑菇街顶天：真诚与尊重是技术团队的管理要点](https://mp.weixin.qq.com/s/EHh4D22LG-BoksppsZZ2Tg)
+* [年轻技术管理者的涅槃重生之路](https://mp.weixin.qq.com/s/lkDiaEbFKAGcxeq8WLF3hg)
 
 ---
 ### 思考

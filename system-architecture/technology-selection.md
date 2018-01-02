@@ -76,5 +76,7 @@
 
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
 * [Apache poi 操作 excel、word、pdf](http://www.yiibai.com/apache_poi/)
+* [java 解析HTML页面 --- jsoup](jsoup.md)
 * [Java 生成 PDF](https://mp.weixin.qq.com/s/Zxxarev-HwAH2MUzB4QbBA)
 * [基于规则路由和处理的引擎 --- Apache Camel](http://blog.csdn.net/yinwenjie/article/details/51692340)
+* [汉字转拼音](pinyin.md)

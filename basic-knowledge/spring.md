@@ -26,4 +26,8 @@
 
 ### 其它
 
+
+* annotation 重试配置
+	* [Spring重试支持Spring Retry](http://blog.csdn.net/jiesa/article/details/76549381)
+	* [https://stackoverflow.com/questions/38212471/springboot-retryable-not-retrying](https://stackoverflow.com/questions/38212471/springboot-retryable-not-retrying)
 * [Spring、Spring MVC、MyBatis 整合文件配置详解](https://mp.weixin.qq.com/s/8-XvEOA4WzrZwytOXpHHyw)

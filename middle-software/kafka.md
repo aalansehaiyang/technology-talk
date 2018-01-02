@@ -2,6 +2,11 @@
 
 ---
 
+* [Apache Kafaka源码剖析](kafka-sourcecode.md)
+* [kafka环境搭建](kafka-setup.md)
+
+---
+
 
 Kafka是由LinkedIn开发的一个开源分布式基于发布/订阅的消息系统，Scala编写。
 Producer向broker push消息；Consumer从broker pull消息（pull模式则可以根据Consumer的消费能力以适当的速率消费消息）
