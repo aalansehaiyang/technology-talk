@@ -8,6 +8,7 @@
 *	[redis缓存与memcache的区别](redis缓存与memcache的区别.md)
 *	[redis原生命令api](http://www.runoob.com/redis/redis-sorted-sets.html)
 *	[redis 命令参考](http://doc.redisfans.com/index.html)
+*	[网上资料](redis-online-information.md)
 
 ---
 

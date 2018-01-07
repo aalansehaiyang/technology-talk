@@ -12,6 +12,7 @@
 	* [从淘宝到云端的高可用架构演进](http://mp.weixin.qq.com/s/_n1zSJ0uv9gNctXD9tyGsg)
 	* [阿里研究员玄难：如何做电商业务中台](http://mp.weixin.qq.com/s/WBdSWR9N6sp-UooewzVa3Q)
 	* [解密阿里巴巴高可用架构技术——“异地多活”](http://mp.weixin.qq.com/s/Osggn2PFSySsrqCyW2Dtmw)
+	* [揭秘2017双11背后的网络－双11的网络产品和技术概览](https://mp.weixin.qq.com/s/BDLPoresSJJ_uv2PBvYsYA)
 * ###### 1号店
 	* [1号店大型电商微服务实践](http://mp.weixin.qq.com/s/_2Rw-4h4F4843c89tz-Z2Q)
 	* [1号店交易系统架构如何向「高并发高可用」演进](http://mp.weixin.qq.com/s/lzRZNWMx2KxeIyKXggl58w)
@@ -27,10 +28,12 @@
 	* [苏宁六年企业IT架构的演进之路](https://mp.weixin.qq.com/s/kBblUtVUvWDFDy9cqrUH5Q)
 * ###### 库存	
 	* [库存系统难破题？京东到家来分享](https://mp.weixin.qq.com/s/aIzdMG1y0a5cWOS4lx6IuQ)
-* [订单系统分库分表实践](http://mp.weixin.qq.com/s/kauO45XNQaV40hxmSc3BpA)
-* [盘点电商大战背后的技术力量支撑](http://mp.weixin.qq.com/s/01rmXXkEz-cQaLBe7eGeQA)
-* [乐视电商云的整体架构与技术实现](http://mp.weixin.qq.com/s/gbVMGGneiSD7mhXtTH6QOg)
-* [海淘平台架构实践](http://mp.weixin.qq.com/s/DMee9gp70ReIR8jRRhLYCA)
+* ###### 其它
+	* [订单系统分库分表实践](http://mp.weixin.qq.com/s/kauO45XNQaV40hxmSc3BpA)
+	* [盘点电商大战背后的技术力量支撑](http://mp.weixin.qq.com/s/01rmXXkEz-cQaLBe7eGeQA)
+	* [乐视电商云的整体架构与技术实现](http://mp.weixin.qq.com/s/gbVMGGneiSD7mhXtTH6QOg)
+	* [海淘平台架构实践](http://mp.weixin.qq.com/s/DMee9gp70ReIR8jRRhLYCA)
+	* [电商系统之订单系统](https://mp.weixin.qq.com/s/cV-iDCkrTx86TKbHA3U2Sw)
 
 
 ---
@@ -41,6 +44,7 @@
 	* [余额宝技术架构及演进](http://mp.weixin.qq.com/s/D3MAYfr4BpX8dONUfJ7LhQ)
 	* [蚂蚁金服CTO程立：金融级分布式交易的技术路径](http://mp.weixin.qq.com/s/RFkYydSU_IuAIbNqcMIoRw)
 	* [蚂蚁金服11.11：支付宝和蚂蚁花呗的技术架构及实践](http://mp.weixin.qq.com/s/UgOmJ2R82D9xTcISAFbxtg)
+	* [完整的支付系统整体架构！](https://mp.weixin.qq.com/s/O1akcIZ9ZMngQr-UzJ22Fg)
 * ###### 去哪
 	* [去哪儿网支付系统架构演进全历程](http://mp.weixin.qq.com/s/9V1VC2Fe9HdGzdvQ2A7wiA)
 	* [基于文档模型的交易系统](https://mp.weixin.qq.com/s/JT_hkmY8HcIF8UUvPa228A)
@@ -145,9 +149,12 @@
 ---
 #### 互联网金融
 
-* [区块链技术与微服务架构之间有什么关系](http://mp.weixin.qq.com/s/9aFoptoI88n7hgZtxOe4Aw)
-* [《区块链》都火了两年多了，你还不知道它是什么？](https://mp.weixin.qq.com/s/BRrrhe1xFpDTp2DG6Khpkg)
-* [200 行代码实现一个简单的区块链](http://mp.weixin.qq.com/s/cqi6mNVh2ZFZdNFIAQynjw)
+* ###### 区块链
+	* [区块链技术与微服务架构之间有什么关系](http://mp.weixin.qq.com/s/9aFoptoI88n7hgZtxOe4Aw)
+	* [《区块链》都火了两年多了，你还不知道它是什么？](https://mp.weixin.qq.com/s/BRrrhe1xFpDTp2DG6Khpkg)
+	* [200 行代码实现一个简单的区块链](http://mp.weixin.qq.com/s/cqi6mNVh2ZFZdNFIAQynjw)
+	* [通俗讲解比特币的原理及运作机制](https://mp.weixin.qq.com/s/-2jXpGcZEF37ex0jiIe3DA)
+	* [什么是区块链？](https://mp.weixin.qq.com/s/9kgxbjntTJiWDsmc856V-A)
 * [如何构建用于检测信用卡诈骗的机器学习模型？](http://mp.weixin.qq.com/s/aMQ6gpbkMn57WNKDL0OlOQ)
 * [智能问答在金融领域中的实践与应用](http://mp.weixin.qq.com/s/4a8hGw-E73FVoGsAW0UWHQ)
 * [微博众筹的架构设计](http://mp.weixin.qq.com/s/3GZaaLHsMSDFTJ0n7hzw1A)
@@ -172,10 +179,13 @@
 ---
 #### 直播 Live
 
-* [淘宝直播在双11的互动实践](http://mp.weixin.qq.com/s/WcHvukClRSLA4KczRjDVaw)
-* [常见的几种直播连麦方案](http://mp.weixin.qq.com/s/Ej4QHRvF7e0i5d78hETrwg)
-* [如何开发10万在线级别的直播弹幕技术？](http://mp.weixin.qq.com/s/U4SKJbXSkd6JOx0R7yK-5g)
-* [视频私有云实战：基于 Docker 构建点播私有云平台](http://mp.weixin.qq.com/s/OXzYMM14ag2k9sh9WidV2w)
+* ###### IM
+	* [现代IM系统中消息推送和存储架构的实现（Timeline）](https://mp.weixin.qq.com/s/sYRchf1-8ZpD7Q3UYx_KLQ)
+* ###### 其它
+	* [淘宝直播在双11的互动实践](http://mp.weixin.qq.com/s/WcHvukClRSLA4KczRjDVaw)
+	* [常见的几种直播连麦方案](http://mp.weixin.qq.com/s/Ej4QHRvF7e0i5d78hETrwg)
+	* [如何开发10万在线级别的直播弹幕技术？](http://mp.weixin.qq.com/s/U4SKJbXSkd6JOx0R7yK-5g)
+	* [视频私有云实战：基于 Docker 构建点播私有云平台](http://mp.weixin.qq.com/s/OXzYMM14ag2k9sh9WidV2w)
 
 ---
 #### 共享单车

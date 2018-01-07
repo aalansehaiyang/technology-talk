@@ -1,7 +1,7 @@
 ## 个人成长与职业规划
 ---
 
-### 个人成长
+### 技术提升
 
 * [程序员不能错过的28份技术知识图谱，你的进阶路上必备](https://mp.weixin.qq.com/s/trcK2J_a8h3C4fqPaKSc6g)
 * [8年开发经验，网易Java开发工程师的成长感悟](http://mp.weixin.qq.com/s/Ck71qeyACk0Zn5j3ro87YQ)
@@ -13,9 +13,10 @@
 * [免试晋升为研究员，他在阿里十年经历了什么？](https://mp.weixin.qq.com/s/xD7hofy2vhmjvEMp3Ip9GQ)
 * [职场“35岁危机”：这是我看过的最棒建议](https://mp.weixin.qq.com/s/TtOhnf7OcEwMOL5wc3DWqw)
 * [论三年内快速成长为一名技术专家](https://mp.weixin.qq.com/s/k6QeIzq3uL1pmmdnQB2AFg)
+* [快速成长为一名技术专家](https://mp.weixin.qq.com/s/a3X1J-TkJ3ThTdc0YCyIKw)
 
 ---
-### 转型（P） --> 管理（M）
+### 技术（P） --> 管理（M）
 
 * [从开发人员到管理者，我学到了什么](http://www.infoq.com/cn/news/2015/08/developer-to-manager)
 * [从纯技术到技术管理，那些跌宕起伏的转型经历](http://mp.weixin.qq.com/s/FWrhT2jl1TUq80d8gNinww)
@@ -33,6 +34,11 @@
 * [年轻技术管理者的涅槃重生之路](https://mp.weixin.qq.com/s/lkDiaEbFKAGcxeq8WLF3hg)
 
 ---
+### 软能力
+
+* [工作10年才懂的道理，早知道职位比现在高两级](https://mp.weixin.qq.com/s/ejD1susXEn8uncmAusPW2w)
+
+---
 ### 思考
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
 * [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)
@@ -41,3 +47,4 @@
 * [7 年老员工的 6 点离职忠告：浮躁的年轻人请你读完](https://mp.weixin.qq.com/s/Az9y8HzdpGOOfR4JWcIVkA)
 * [阿里前资深副总裁邓康明：BAT之后，人与组织的未来](https://mp.weixin.qq.com/s/42wmdg0VqcYWSgNP9iIGpg)
 * [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
+

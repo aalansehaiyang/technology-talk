@@ -4,7 +4,9 @@
 
 #### 附录
 
+* [佛系程序员的月薪五万指南](https://mp.weixin.qq.com/s/N00rWLkkLjV7zQnzxBVKaA)
 * [论架构师的自我修养](http://mp.weixin.qq.com/s/tc3hWHPw2JvqdnhXnWEGbQ)
+
 
 ---
 

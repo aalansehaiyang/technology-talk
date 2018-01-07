@@ -138,8 +138,8 @@
 
 *   [Tom的读书单](other/book.md)
 *   [个人成长与职业规划](other/person.md)
+*   [程序员素养](other/programer.md)
 *   [学习网站](other/study.md)
-*   [程序员素养](project-management/程序员素养.md)
 
 ### 其它
 
