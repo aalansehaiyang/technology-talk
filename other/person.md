@@ -14,6 +14,7 @@
 * [职场“35岁危机”：这是我看过的最棒建议](https://mp.weixin.qq.com/s/TtOhnf7OcEwMOL5wc3DWqw)
 * [论三年内快速成长为一名技术专家](https://mp.weixin.qq.com/s/k6QeIzq3uL1pmmdnQB2AFg)
 * [快速成长为一名技术专家](https://mp.weixin.qq.com/s/a3X1J-TkJ3ThTdc0YCyIKw)
+* [美丽联合集团VP顶天：总结这一年，我们在技术上的变与不变](https://mp.weixin.qq.com/s/zMneLwJkhJ0jA96cIzxLKw)
 
 ---
 ### 技术（P） --> 管理（M）

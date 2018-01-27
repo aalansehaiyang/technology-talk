@@ -71,7 +71,7 @@
 	* [ActiveMQ](https://github.com/apache/activemq)
 	* [RabbitMQ](middle-software/RabbitMQ.md)
 	* [Kafka](middle-software/kafka.md)
-	* [RocketMQ](https://github.com/apache/incubator-rocketmq)
+	* [RocketMQ](middle-software/RocketMQ.md)	
 
 *   缓存
 	* [redis](open-source-framework/redis.md)

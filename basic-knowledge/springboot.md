@@ -10,14 +10,15 @@
 * [代码热部署](springboot-hot-reload.md)
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
 
-#### 学习资料
+#### 资料
 
 * http://www.ityouknow.com/spring-boot
 * https://github.com/JeffLi1993/springboot-learning-example
 * https://github.com/spring-projects/spring-boot
 * http://www.jianshu.com/collection/f0cf6eae1754
 * http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/
-* 《SpringBoot揭秘--快速构建微服务体系》* 
+* 《SpringBoot揭秘--快速构建微服务体系》
+* [Spring干货汇总](https://mp.weixin.qq.com/s/VFHmOIp-H4lgh4gQE-cj5A)
 
 
 ---

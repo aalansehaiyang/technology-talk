@@ -56,6 +56,7 @@
 	* [点融支付系统架构的演进](https://mp.weixin.qq.com/s/823bGuLkU0uX-vHUYkr5jg)
 	* [易宝支付日志中心平台建设](https://mp.weixin.qq.com/s/Lsw_Ygyp50IJnqjzHxpGWg)
 	* [高并发支付场景分析及设计](https://mp.weixin.qq.com/s/syKnlmu_noyp0C4LeGp9Tw)
+	* [中小型研发团队架构实践之企业支付网关](https://mp.weixin.qq.com/s/rfeFWOq--0FXRa6r1eritQ)
 
 
 ---
@@ -222,6 +223,11 @@
 * ###### 微博
 	* [新浪微博混合云架构如何轻松应对热点事件的高峰值流量](https://mp.weixin.qq.com/s/6tSbQFgSff07VIZRHpfTQg)
 
+---
+#### 杂项
+
+* ###### 会员、注册、登录
+	* [单点登录怎么实现？](https://mp.weixin.qq.com/s/ZT1B6ziSSRW41FN33xA3ZA)
 
 ---
 #### 其它

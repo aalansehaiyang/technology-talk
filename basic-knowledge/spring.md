@@ -13,21 +13,21 @@
 
 
 
-**简介：**
+#### 简介
 
 一个应用非常广泛的java开源框架。主要分为两大块：IOC和AOP。
 
 
 `无论是技术类书籍或者网上资料、学习手册，非常多，此处就不详细列举`
 
-### 事务
+#### 文档
 
-* [Spring事务传播性与隔离性](https://mp.weixin.qq.com/s/u4NLJ3I2vkeZHWBpgHsdEA)
-
-### 其它
-
+* 事务
+	* [Spring事务传播性与隔离性](https://mp.weixin.qq.com/s/u4NLJ3I2vkeZHWBpgHsdEA)
 
 * annotation 重试配置
 	* [Spring重试支持Spring Retry](http://blog.csdn.net/jiesa/article/details/76549381)
 	* [https://stackoverflow.com/questions/38212471/springboot-retryable-not-retrying](https://stackoverflow.com/questions/38212471/springboot-retryable-not-retrying)
-* [Spring、Spring MVC、MyBatis 整合文件配置详解](https://mp.weixin.qq.com/s/8-XvEOA4WzrZwytOXpHHyw)
+
+*  框架配置
+	* [Spring、Spring MVC、MyBatis 整合文件配置详解](https://mp.weixin.qq.com/s/8-XvEOA4WzrZwytOXpHHyw)

@@ -27,9 +27,12 @@
 ### 缓存
 
 * 	[cache相关](cache相关.md)
+*	[cache经验总结](cache-summary.md)
 *	[缓存架构之防雪崩设计](缓存架构之防雪崩设计.md)
 *	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
 *	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
+*	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
+*	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
 
 ### 高并发
 
@@ -87,3 +90,4 @@
 *	[好的架构是逐步演化过来的](http://mp.weixin.qq.com/s/KsFVTqDhYcO3Jws6oOoa4g)
 *	[技术不应成为业务的工具](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650993402&idx=1&sn=f79a2e2cd75bf7ca539149addb6e7c21)
 * [创业公司如何打造高效的研发体系？](http://mp.weixin.qq.com/s/iGTJy98Fj_qT0gBMHxzH1g)
+* [那么贵的技术会议，真的能学到东西吗？](https://mp.weixin.qq.com/s/pf-2pw0W4vKch7IDGTyzBw)
