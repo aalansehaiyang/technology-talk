@@ -40,6 +40,7 @@
 	* [LinkedHashMap](https://mp.weixin.qq.com/s/m2XfI2A2jJqFLAI_iNZI-g)
 	* [ConcurrentHashMap(上)](https://mp.weixin.qq.com/s/1GJ4Vd2iHgyvjMFLv7sO2A)
 	* [ConcurrentHashMap(下)](https://mp.weixin.qq.com/s/rPa30_MslGTz56UTxE0WAA)
+	* ConcurrentHashMap，Java 7为实现并行访问，引入了Segment这一结构，实现了分段锁，理论上最大并发度与Segment个数相等。Java 8为进一步提高并发性，摒弃了分段锁的方案，而是直接使用一个大的数组。同时为了提高哈希碰撞下的寻址性能，Java 8在链表长度超过一定阈值（8）时将链表（寻址时间复杂度为O(N)）转换为红黑树（寻址时间复杂度为O(long(N))），[原文链接](http://www.jasongj.com/java/concurrenthashmap/)
 
 
 ### 二、进阶

@@ -6,15 +6,18 @@
 
 *   [架构思想](架构思想.md)
 *	[大型网站技术架构](大型网站技术架构.md)
-*	微服务
-	*	[微服务介绍](microservice-introduce.md)
-	*	[SOA与微服务](SOA与微服务.md)
-	* 	[如何设计高可用的微服务架构？](https://mp.weixin.qq.com/s/W3Vn0EgCjWpjJ365Pv30iw)
-	* 	[微服务的4大设计原则和19个解决方案](https://mp.weixin.qq.com/s/YfXjkMX-eQFmEzjG6Lwvrw)
-	* 	[微服务后如何做一次系统梳理](https://mp.weixin.qq.com/s/ZxVQ7PvK89XVBYhNUoMnMg)
 *	[各大互联网公司架构演进之路汇总](http://blog.fulin.org/2016/03/summary-of-architectures/)
 *	[中小型研发团队架构落地实践18篇，含案例、代码](https://mp.weixin.qq.com/s/AbUGOWN27FEUPWgDQkF_Dw)
 *	[互联网分层架构，为啥要前后端分离](https://mp.weixin.qq.com/s/Nhyo969WnEwyCWpr34ECcA)
+
+### 微服务
+
+*	[微服务介绍](microservice-introduce.md)
+*	[SOA与微服务](SOA与微服务.md)
+* 	[如何设计高可用的微服务架构？](https://mp.weixin.qq.com/s/W3Vn0EgCjWpjJ365Pv30iw)
+* 	[微服务的4大设计原则和19个解决方案](https://mp.weixin.qq.com/s/YfXjkMX-eQFmEzjG6Lwvrw)
+* 	[微服务后如何做一次系统梳理](https://mp.weixin.qq.com/s/ZxVQ7PvK89XVBYhNUoMnMg)
+*   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
 
 ### 数据库
 

@@ -11,6 +11,7 @@
 * [服务器界面式管理终端-------secureCRT]()
 * [编码工具-------intellij idea](intellij.md)
 * [原型设计工具-------Axure](https://www.axure.com.cn/)
+* [亿图-------EdrawMax]()
 
 
 mac系统

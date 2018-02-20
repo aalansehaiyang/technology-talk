@@ -65,7 +65,7 @@
 	* [dubbox](https://www.oschina.net/p/dubbox)
 	* [motan](https://github.com/weibocom/motan)
 	* [Thrift](https://github.com/apache/thrift)
-	* [RPC框架性能比较](http://mp.weixin.qq.com/s/iw9-UaZZl3gCqKAw2Mxz6A)
+	* [RPC框架性能比较](middle-software/rpc-compare.md)
 
 *   MQ消息
 	* [ActiveMQ](https://github.com/apache/activemq)

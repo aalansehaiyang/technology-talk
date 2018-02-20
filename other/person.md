@@ -33,6 +33,7 @@
 * [从技术 Leader 到产品负责人](https://mp.weixin.qq.com/s/Yx1fXO9RfnLeBGZg_P-g3g)
 * [蘑菇街顶天：真诚与尊重是技术团队的管理要点](https://mp.weixin.qq.com/s/EHh4D22LG-BoksppsZZ2Tg)
 * [年轻技术管理者的涅槃重生之路](https://mp.weixin.qq.com/s/lkDiaEbFKAGcxeq8WLF3hg)
+* [想从技术转管理？这些坑你可要注意了！](https://mp.weixin.qq.com/s/Xq4zjEzaRGGOjghUHxLYFw)
 
 ---
 ### 软能力

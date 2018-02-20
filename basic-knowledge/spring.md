@@ -23,6 +23,7 @@
 #### 文档
 
 * 事务
+	* [深入理解 Spring 事务原理](http://www.codeceo.com/article/spring-transactions.html)
 	* [Spring事务传播性与隔离性](https://mp.weixin.qq.com/s/u4NLJ3I2vkeZHWBpgHsdEA)
 
 * annotation 重试配置
