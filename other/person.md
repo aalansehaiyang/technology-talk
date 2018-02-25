@@ -41,6 +41,10 @@
 * [工作10年才懂的道理，早知道职位比现在高两级](https://mp.weixin.qq.com/s/ejD1susXEn8uncmAusPW2w)
 
 ---
+### 团队
+* [技术牛人告诉你，什么才是真正的工程师文化？](https://mp.weixin.qq.com/s/WIWclRDVTcpUICwSS7lpIg)
+
+---
 ### 思考
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
 * [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)
@@ -49,4 +53,5 @@
 * [7 年老员工的 6 点离职忠告：浮躁的年轻人请你读完](https://mp.weixin.qq.com/s/Az9y8HzdpGOOfR4JWcIVkA)
 * [阿里前资深副总裁邓康明：BAT之后，人与组织的未来](https://mp.weixin.qq.com/s/42wmdg0VqcYWSgNP9iIGpg)
 * [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
+* [程序员增加收入实用指南](https://mp.weixin.qq.com/s/ZcxxugWNpzL_WHT8GfVGZQ)
 

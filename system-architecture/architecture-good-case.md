@@ -231,6 +231,7 @@
 
 * ###### 会员、注册、登录
 	* [单点登录怎么实现？](https://mp.weixin.qq.com/s/ZT1B6ziSSRW41FN33xA3ZA)
+	* [深入了解Token认证的来龙去脉](https://mp.weixin.qq.com/s/DkwfpZibKdllfm0lpxukWg)
 
 ---
 #### 其它

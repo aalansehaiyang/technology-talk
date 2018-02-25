@@ -86,7 +86,7 @@
 	* [Mycat](middle-software/mycat.md)
 	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
-	* [sharding-jdbc](https://www.slahser.com/2016/06/25/%E5%BD%93%E5%BD%93%E7%9A%84sharding-jdbc%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/)
+	* [sharding-jdbc](middle-software/sharding-jdbc.md)
 
 *	分布式协调服务
 	* [zookeeper](middle-software/zookeeper.md)
