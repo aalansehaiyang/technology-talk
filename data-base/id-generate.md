@@ -2,6 +2,13 @@
 
 ---
 
+### 资料
+
+* [分布式ID生成器](https://mp.weixin.qq.com/s/qO84jWhQ5O2mPafsHrh2bA)
+* [通用的ID产生器--Vesta](https://gitee.com/robertleepeak/vesta-id-generator)
+
+
+---
 如果单表，可以借助于mysql自带的id生成器每次自增+1的方式来生成主键id。
 
 如果分库分表，需要提前在外部生成id，然后将记录插入到对应的分表中。
@@ -88,6 +95,3 @@ public IDRange getNextRange(String app, String key, int size) {
     }
 ```
 
-#### 其它资料
-
-* [分布式ID生成器](https://mp.weixin.qq.com/s/qO84jWhQ5O2mPafsHrh2bA)

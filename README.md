@@ -26,7 +26,7 @@
 *	[连接池](data-base/数据库连接池.md)
 * 	[事务](data-base/transaction.md)
 * 	[分库分表](data-base/分库分表.md)
-* 	[id生成器](data-base/id生成器.md)
+* 	[id生成器](data-base/id-generate.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
 * 	[SQL调优](data-base/sql-optimize.md)
 * 	[其它](data-base/other.md)
@@ -87,17 +87,11 @@
 	* [tsharding](middle-software/tsharding.md)
 	* [tddl](https://github.com/alibaba/tb_tddl)
 	* [sharding-jdbc](middle-software/sharding-jdbc.md)
+	* [dbsplit](https://gitee.com/robertleepeak/dbsplit)
 
 *	分布式协调服务
 	* [zookeeper](middle-software/zookeeper.md)
-	
-*   大数据
-	* [Hbase](middle-software/Hbase.md)
-	* [Spark](middle-software/Spark.md)
-	* [Hadoop](middle-software/Hadoop.md)
-	* [Hive](middle-software/Hive.md)
-	* [other框架](middle-software/big-data.md)
-	
+		
 *   配置管理
 
 	* [super-diamond](other/super-diamond源码分析.md)
@@ -106,6 +100,19 @@
 
 *   分布式文件系统
 	* [FastDFS](middle-software/FastDFS.md)
+
+*   分布式任务调度框架
+
+	* [Elastic-Job](https://github.com/elasticjob/elastic-job)
+	* [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
+	* [TBSchedule](http://blog.csdn.net/taosir_zhang/article/details/50728362)
+
+*   大数据
+	* [Hbase](middle-software/Hbase.md)
+	* [Spark](middle-software/Spark.md)
+	* [Hadoop](middle-software/Hadoop.md)
+	* [Hive](middle-software/Hive.md)
+	* [other框架](middle-software/big-data.md)
 
 *  其它
 	* [数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
@@ -122,7 +129,7 @@
 ### 项目管理
 
 * [论需求调研的重要性](project-management/论需求调研的重要性.md)
-* [项目管理](project-management/项目管理案例.md)
+* [项目管理](project-management/project-management.md)
 * [代码管理](project-management/code.md)
 * [测试相关](project-management/test.md)
 

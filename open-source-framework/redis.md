@@ -9,6 +9,7 @@
 *	[redis原生命令api](http://www.runoob.com/redis/redis-sorted-sets.html)
 *	[redis 命令参考](http://doc.redisfans.com/index.html)
 *	[网上资料](redis-online-information.md)
+* 	[redis为什么是单线程？](http://blog.csdn.net/world6/article/details/79381682)
 
 ---
 

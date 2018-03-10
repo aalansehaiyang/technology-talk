@@ -36,6 +36,7 @@
 *	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
 *	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
 *	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
+*	[分布式缓存的25个优秀实践与线上案例](https://mp.weixin.qq.com/s/foQZSZ0xx0YYPHGawshc3g)
 
 ### 高并发
 
@@ -81,11 +82,13 @@
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
 
-### 杂项
+### 架构汇总
 
 *	[架构师之路2016年精选50篇](https://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA)
 *	[架构师之路2017半年精选40篇](https://mp.weixin.qq.com/s/8RM6U8UqWTDp29DB_hiYVQ)
 *	[架构师之路，季度精选40篇](https://mp.weixin.qq.com/s/vLebPT-58Jw-Q7afhkgHSg)
+*	[架构师之路17年精选80篇](https://mp.weixin.qq.com/s/CIPosICgva9haqstMDIHag)
+*	[阿里巴巴十年Java架构师分享](https://maimai.cn/article/detail?fid=282107496&from=headline&share_user=http://i9.taou.com/maimai/p/3621/990_45_u1AK5tPDEjhwhh-a160)
 
 ### 思考
 

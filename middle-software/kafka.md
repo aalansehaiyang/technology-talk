@@ -3,7 +3,8 @@
 ---
 
 * [Apache Kafaka源码剖析](kafka-sourcecode.md)
-* [kafka环境搭建](kafka-setup.md)
+* [kafka安装](kafka-setup.md)
+* [Kafka Java客户端---KClient](https://gitee.com/robertleepeak/kclient)
 
 ---
 

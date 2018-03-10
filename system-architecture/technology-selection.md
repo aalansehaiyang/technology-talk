@@ -14,10 +14,6 @@
 * [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 * [OAuth 2.0系列教程](http://ifeve.com/oauth2-tutorial-all/)
 
-##### 分布式任务调度框架
-
-* [Elastic-Job](https://github.com/elasticjob/elastic-job)
-* [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
 
 ##### 流量分发
 
@@ -28,6 +24,12 @@
 ##### GateWay网关
 
 * [spring cloud 实现服务发现、网关路由、负载均衡](http://blog.csdn.net/zeb_perfect/article/details/52008192)
+
+##### 搜索
+
+* 经纬度查询
+	* [mongoDB查询某个经纬度附近的用户](http://blog.csdn.net/medea_yang/article/details/53436460)
+	* [结合MongoDB开发LBS应用](http://blog.csdn.net/huangrunqing/article/details/9112227)
 
 ##### 链路跟踪
 
@@ -80,3 +82,4 @@
 * [Java 生成 PDF](https://mp.weixin.qq.com/s/Zxxarev-HwAH2MUzB4QbBA)
 * [基于规则路由和处理的引擎 --- Apache Camel](http://blog.csdn.net/yinwenjie/article/details/51692340)
 * [汉字转拼音](pinyin.md)
+* 

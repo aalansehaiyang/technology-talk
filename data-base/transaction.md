@@ -23,3 +23,4 @@
 #### 开源框架
 
 * [tcc-transaction是TCC型事务java实现](https://github.com/changmingxie/tcc-transaction)
+* [GTS来了！阿里微服务架构下的分布式事务解决方案](https://mp.weixin.qq.com/s/bUtu2nTs0bybnTvk-iLt6Q)
