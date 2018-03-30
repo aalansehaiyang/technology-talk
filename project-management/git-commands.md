@@ -74,7 +74,21 @@ git push -u origin master
 	git push -f origin 分支名 
 	
 	强制提交到远程服务器，此时回退了3个版本，git服务器的提交log也会清掉。
-		
+
+
+*  已经commit 了N次，需要退回到某一版本
+
+```
+git reset <commit-id>  #默认就是-mixed参数。
+修改代码 或者  git checkout 撤销修改
+git push -f 强制提交
+
+ps：查看git log，会发现原来已经提交过的log也会被删除
+
+```	
+
+
+
 *	git branch 
 
 	查看所有本地分支，带*为当前分支	
