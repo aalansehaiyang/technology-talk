@@ -1,7 +1,8 @@
 ## spring boot
 
 ---
-#### 附录
+
+### 一、资料
 
 
 * [源码](https://github.com/spring-projects/spring-boot)
@@ -18,3 +19,7 @@
 	* 《SpringBoot揭秘--快速构建微服务体系》
 * 
 
+
+### 二、前沿
+
+* [Spring Boot 2.0正式发布，新特性解读](https://mp.weixin.qq.com/s/lsJU_XFmI3dPpkWndrsAuw)

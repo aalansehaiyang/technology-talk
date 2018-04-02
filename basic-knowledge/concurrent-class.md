@@ -2,6 +2,14 @@
 
 ---
 
+#### 资料
+
+* [并发编程 ：Concurrent 用户指南 ( 上 )](https://mp.weixin.qq.com/s/sF1xZY9ZrLVOXvTD4jiHRA)
+* [并发编程 ：Concurrent 用户指南 ( 中 )](https://mp.weixin.qq.com/s/BrI7y7gKaBTDdtLm15ezzw)
+* [并发编程 ：Concurrent 用户指南 ( 下 )](https://mp.weixin.qq.com/s/XxTazsHStb7BwjUxKflpdA)
+
+---
+
 
 * ConcurrentHashMap
 
@@ -226,9 +234,4 @@ ReadLock   readLock=lock.readLock();
 
 ![image](img/Snip20160628_32.png)
 
-#### 资料
-
-* [并发编程 ：Concurrent 用户指南 ( 上 )](https://mp.weixin.qq.com/s/sF1xZY9ZrLVOXvTD4jiHRA)
-* [并发编程 ：Concurrent 用户指南 ( 中 )](https://mp.weixin.qq.com/s/BrI7y7gKaBTDdtLm15ezzw)
-* [并发编程 ：Concurrent 用户指南 ( 下 )](https://mp.weixin.qq.com/s/XxTazsHStb7BwjUxKflpdA)
 

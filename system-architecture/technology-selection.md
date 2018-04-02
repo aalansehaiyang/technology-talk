@@ -82,4 +82,7 @@
 * [Java 生成 PDF](https://mp.weixin.qq.com/s/Zxxarev-HwAH2MUzB4QbBA)
 * [基于规则路由和处理的引擎 --- Apache Camel](http://blog.csdn.net/yinwenjie/article/details/51692340)
 * [汉字转拼音](pinyin.md)
+* 字符串表达式动态求值
+	* [aviator](https://github.com/killme2008/aviator/wiki)
+	* [MVEL](http://blog.csdn.net/sunnyyoona/article/details/75244442)
 * 

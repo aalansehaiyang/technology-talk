@@ -15,6 +15,7 @@
 * [论三年内快速成长为一名技术专家](https://mp.weixin.qq.com/s/k6QeIzq3uL1pmmdnQB2AFg)
 * [快速成长为一名技术专家](https://mp.weixin.qq.com/s/a3X1J-TkJ3ThTdc0YCyIKw)
 * [美丽联合集团VP顶天：总结这一年，我们在技术上的变与不变](https://mp.weixin.qq.com/s/zMneLwJkhJ0jA96cIzxLKw)
+* [架构经验老司机的技术选型哲学](https://mp.weixin.qq.com/s/PJeCdbpILQiOc9gpQEQ9rA)
 
 ---
 ### 技术（P） --> 管理（M）
@@ -34,6 +35,9 @@
 * [蘑菇街顶天：真诚与尊重是技术团队的管理要点](https://mp.weixin.qq.com/s/EHh4D22LG-BoksppsZZ2Tg)
 * [年轻技术管理者的涅槃重生之路](https://mp.weixin.qq.com/s/lkDiaEbFKAGcxeq8WLF3hg)
 * [想从技术转管理？这些坑你可要注意了！](https://mp.weixin.qq.com/s/Xq4zjEzaRGGOjghUHxLYFw)
+* [双面管理者：雷霆手段，菩萨心肠](https://mp.weixin.qq.com/s/LZ5mUUv1jnb1TAvpQs_F3Q)
+* [作为部门领导，自己天天撸代码忙成狗，下属却没事干，怎么办？](https://mp.weixin.qq.com/s/rSbFfzVT10OLwJy0QOaGpQ)
+
 
 ---
 ### 软能力
@@ -54,4 +58,5 @@
 * [阿里前资深副总裁邓康明：BAT之后，人与组织的未来](https://mp.weixin.qq.com/s/42wmdg0VqcYWSgNP9iIGpg)
 * [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
 * [程序员增加收入实用指南](https://mp.weixin.qq.com/s/ZcxxugWNpzL_WHT8GfVGZQ)
+* [程序员必看—程序员如何高效提升自己？](https://mp.weixin.qq.com/s/BnkmICaK2duAu6URlNuKLg)
 

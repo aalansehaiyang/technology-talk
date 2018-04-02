@@ -5,6 +5,7 @@
 ### 基础
 
 * 	[mysql中bigint、int、mediumint、smallint 和 tinyint的取值范围](bigint类型.md)
+* 	[mysql中int长度的意义](http://blog.csdn.net/qmhball/article/details/51544484)
 * 	[DAO层接口性能监控](DAO层接口性能监控.md)
 * 	[MySQL主从复制详解与实践](http://blog.csdn.net/wangyuanjun008/article/details/79420131)
 

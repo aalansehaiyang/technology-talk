@@ -16,10 +16,17 @@
 
 
 ### 优秀博客
-* [github 伯乐在线](https://github.com/jobbole)
 * [酷 壳](https://coolshell.cn/articles/18140.html)
+* [芋道源码解读](http://www.iocoder.cn/)
+* [芋道源码（github）](https://github.com/YunaiV/Blog)
+  * 涉及RocketMQ、Sharding-JDBC、MyCAT、TCC-Transaction、 Elastic-Job、Eureka、Dubbo、Spring Cloud、Disconf 等框架源码分析解读。
+* 
 
 
-### 资料集
 
+### github资料集（强烈推荐）
+
+* [github 伯乐在线](https://github.com/jobbole)
 * [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)
+* [成为专业程序员路上用到的各种优秀资料、神器及框架](https://github.com/stanzhai/be-a-professional-programmer)
+* [收集了Github上的优秀工具,框架,知识合集](https://github.com/taojintianxia/github-bookmark)

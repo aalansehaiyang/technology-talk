@@ -50,7 +50,6 @@
 * 	[常见锁](java-lock.md)
 * 	[常用java类库](常用java类.md)
 *	[java的System.getProperty()方法使用](http://blog.csdn.net/itomge/article/details/9098207)
-* 	[jdk并发包里常用的类](concurrent-class.md)
 * 	[java8函数编程（lambda表达式）](java8-stream.md)
 * 	[java的线程状态](java的线程状态.md)
 * 	[ThreadLocal原理机制](ThreadLocal原理机制.md)
@@ -70,6 +69,14 @@
 	* [Java 多线程知识汇总(2)](https://mp.weixin.qq.com/s/e9avHfZtfiQ4v3fhVHIcAA)
 	* [Java 多线程知识汇总(3)](https://mp.weixin.qq.com/s/s6UvYe1CP8zigR7E6mK9Og)
 
+* ###### java并发包
+	* 	[jdk并发包里常用的类](concurrent-class.md)
+	*	[Java 并发源码合集](https://mp.weixin.qq.com/s/x-tNNuyqZ7AcWc01lCbuFg)
+	*	[CyclicBarrier](https://mp.weixin.qq.com/s/Y9IcHAwa4VkJN02_U1fDWg)
+	* 	[CountDownLatch](https://mp.weixin.qq.com/s/UA8hoHiJj5vzb2-c08lpDA)
+	
+
+
 * ###### 示例
 	* [JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介](https://mp.weixin.qq.com/s/FRF-c2t_Un1Krw29yuxyaw)
 
@@ -88,16 +95,18 @@
 	* 	[如何优化Java GC](https://mp.weixin.qq.com/s/ydkEkh_Uc1paftJLKIsm0w)
 
 
-### 四、java 新特性
+### 四、前沿
 
 *   [Java 的版本历史与特性](https://mp.weixin.qq.com/s/wcF14v11QaS21UFczqGbVg)
 *   [JavaEE 7 正式发布](http://www.iteye.com/news/27980)
 *   [Java 8-从持久代到metaspace](https://mp.weixin.qq.com/s/w_Uqi5PBkWCqh7qHq6XaKw)
 *   [Java 8的新特性—终极版](https://mp.weixin.qq.com/s/CWNIRk9xGu2XSbrWELTKNg)
 * 	[Java 9 中的新特性](https://mp.weixin.qq.com/s/YalBtZ_dZayMec8aprk6Xw)
+* 	[Java 10正式发布，带来了这些新特性](https://mp.weixin.qq.com/s/UX_tP95fTR99B53DYgHNJQ)
 
 ### 五、其它
 * 	[随机数生成 --- NativePRNGNonBlocking ](http://hongjiang.info/java8-nativeprng-blocking/)
 * 	[随机token 生成代码](java-random.md)
 * 	[HashMap扩容、散列碰撞](https://yq.aliyun.com/articles/225660?spm=5176.100238.spm-cont-list.1.LYRwKV)
 * 	[一台Java服务器跑多少个线程](https://mp.weixin.qq.com/s/lQkPltX3yS3bGb9EbxHGAg)
+* 	[【死磕Java并发】—- 深入分析CAS](https://mp.weixin.qq.com/s/--AMdl0GZQkY1MWIWQ-HHA)

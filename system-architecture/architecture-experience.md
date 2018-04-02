@@ -23,9 +23,10 @@
 
 *	[数据库架构](数据库架构.md)
 *	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
-*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/0UHMo0SYgyq9Ln_ObZpWKQ)
+*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
 *	[为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
 *	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
+*	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
 
 ### 缓存
 
@@ -37,6 +38,7 @@
 *	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
 *	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
 *	[分布式缓存的25个优秀实践与线上案例](https://mp.weixin.qq.com/s/foQZSZ0xx0YYPHGawshc3g)
+*	[缓存在大型分布式系统中的最佳应用](https://mp.weixin.qq.com/s/f-K0lPjBPcYFK0hbZJF99Q)
 
 ### 高并发
 
@@ -47,9 +49,10 @@
 *	[如何设计API的限流](如何设计API的限流.md)
 *	[接口鉴权（数字签名）](数字签名.md)
 
-### 异步消息
+### MQ消息
 
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
+*	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 
 ### 系统容量
 
@@ -89,6 +92,8 @@
 *	[架构师之路，季度精选40篇](https://mp.weixin.qq.com/s/vLebPT-58Jw-Q7afhkgHSg)
 *	[架构师之路17年精选80篇](https://mp.weixin.qq.com/s/CIPosICgva9haqstMDIHag)
 *	[阿里巴巴十年Java架构师分享](https://maimai.cn/article/detail?fid=282107496&from=headline&share_user=http://i9.taou.com/maimai/p/3621/990_45_u1AK5tPDEjhwhh-a160)
+*	[芋道源码的周八（2018.03.04）](https://mp.weixin.qq.com/s/VlJjfJHcedO5sIdGaHCoxg)
+*	[芋道源码的周八（2018.03.18）](https://mp.weixin.qq.com/s/QqcY-9Y7miheTcu65ZEY4A?from=groupmessage&isappinstalled=0)
 
 ### 思考
 

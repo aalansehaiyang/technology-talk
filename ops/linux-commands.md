@@ -374,6 +374,18 @@ rpm -qa
 env                     
 ```
 
+3、Mac 删除git文件夹，删除svn文件夹
+
+```
+cd到该文件夹
+
+//删除文件夹下的所有 .svn 文件
+find . -name ".svn" | xargs rm -Rf
+
+//删除文件夹下的所有 .git 文件
+find . -name ".git" | xargs rm -Rf
+```
+
 
 ---
 ### 更多资料：
