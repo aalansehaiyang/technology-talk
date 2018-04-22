@@ -15,4 +15,5 @@
 * [Intellij Idea 12 生成serialVersionUID的方法](https://blog.csdn.net/ichsonx/article/details/42005665)* 
 * sout --->  System.out.println();
 * [IDEA插件配置之Eclipse Code Formatter](https://blog.csdn.net/z4ever/article/details/53339925)
-* 
+* [自动定位类在工程中的位置](https://zhidao.baidu.com/question/244544584549976524.html)
+* [idea 行号栏太宽以及显示一些图标问题解决](https://blog.csdn.net/qq_33547169/article/details/76618329)

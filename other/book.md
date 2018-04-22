@@ -41,6 +41,14 @@
 *	《Apache Kafka源码剖析》
 *	《Docker从入门到实战》
 *	《Tomcat架构解析》
+*	《Java 8实战》
+*	《分布式服务架构：原理、设计与实战》
+*	《疯狂Spring Cloud微服务架构实战》
+*	《深入理解Spring Cloud与微服务构建》
+*	《Python+Spark 2.0+Hadoop机器学习与大数据实战》
+*	《深入分布式缓存：从原理到实践》
+*	《可伸缩服务架构：框架与中间件》
+
 
 
 #### 2. DB、大数据 
@@ -51,6 +59,8 @@
 *	《Redis实战》
 *	《Redis设计与实现》
 *	《HBase企业应用开发实战》
+*	《HBase应用架构》
+*	《HBase不睡觉书》
 *	《Storm实战》
 *	**《Spark Streaming:实时流处理入门与精通》**
 *	**《Spark大数据分析:核心概念、技术及实践》**

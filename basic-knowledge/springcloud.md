@@ -12,7 +12,7 @@ spring --> spring boot --> spring cloud
 * [中文社区](http://bbs.springcloud.com.cn/)
 * [源码分析](http://www.jianshu.com/u/6a622d516e32)
 * [推荐博客](http://www.ityouknow.com/springcloud/2016/12/30/springcloud-collect.html)
-* [Spring Cloud 构建微服务示例](https://github.com/aalansehaiyang/spring-cloud-example)
+* [Spring Cloud 构建微服务示例](https://github.com/aalansehaiyang/SpringCloud-Learning)
 * [spring Cloud 核心组件](https://github.com/ityouknow/spring-cloud-examples)
 
 	* [注册中心 Eureka](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)
@@ -33,6 +33,8 @@ spring --> spring boot --> spring cloud
 		* 创建接口并用注解来配置它即可完成对Web服务接口的绑定。它具备可插拔的注解支持，包括Feign注解、JAX-RS注解。它也支持可插拔的编码器和解码器。Spring Cloud Feign还扩展了对Spring MVC注解的支持，同时还整合了Ribbon和Eureka来提供均衡负载的HTTP客户端实现。
 	* config
 		* 分布式配置管理
+* 配置参数
+	* [SpringCloud Eureka参数配置项详解](http://www.cnblogs.com/chry/p/7992885.html)
 
 ### 二、博客
 
@@ -41,7 +43,7 @@ spring --> spring boot --> spring cloud
 * [【github】SpringCloud-Learning](https://github.com/dyc87112/SpringCloud-Learning)
 * [【github】SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 * [【文档】SpringCloud.cc](https://springcloud.cc/spring-cloud-dalston.html)
-* [【github】spring-cloud-example](https://github.com/aalansehaiyang/spring-cloud-example)
+* [【github】SpringCloud-Learning](https://github.com/aalansehaiyang/SpringCloud-Learning)
 
 
 ### 三、闲谈

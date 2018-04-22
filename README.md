@@ -23,7 +23,7 @@
 ### 数据库
 目前使用最多还是mysql，虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群，可以有强大的输出能力。
 
-*	[连接池](data-base/数据库连接池.md)
+*	[连接池](data-base/database-connection-pool.md)
 * 	[事务](data-base/transaction.md)
 * 	[分库分表](data-base/分库分表.md)
 * 	[id生成器](data-base/id-generate.md)
@@ -161,8 +161,17 @@
 
 ### 写在后面
 
-**不知不觉，这个项目已经更新两年了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎微信扫码打赏表扬，你的赞赏会激励作者一直更新下去**
+**不知不觉，这个项目已经更新两年了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去，谢谢支持！**
 
-`微信二维码`
 
-![image](basic-knowledge/img/26.png)
+
+![image](basic-knowledge/img/27.png)
+![image](basic-knowledge/img/30.png)
+
+### 联系作者
+
+Email：aalansehaiyang52@126.com
+
+### Lisence
+
+Lisenced under [Apache 2.0 lisence](http://opensource.org/licenses/Apache-2.0)

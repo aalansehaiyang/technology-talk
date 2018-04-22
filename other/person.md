@@ -43,6 +43,7 @@
 ### 软能力
 
 * [工作10年才懂的道理，早知道职位比现在高两级](https://mp.weixin.qq.com/s/ejD1susXEn8uncmAusPW2w)
+* [程序员怎样快速成长？](https://mp.weixin.qq.com/s/TPViDjviDPuitjyaTf9I3g)
 
 ---
 ### 团队

@@ -74,6 +74,7 @@
 	*	[Java 并发源码合集](https://mp.weixin.qq.com/s/x-tNNuyqZ7AcWc01lCbuFg)
 	*	[CyclicBarrier](https://mp.weixin.qq.com/s/Y9IcHAwa4VkJN02_U1fDWg)
 	* 	[CountDownLatch](https://mp.weixin.qq.com/s/UA8hoHiJj5vzb2-c08lpDA)
+	* 	[Semaphore](https://mp.weixin.qq.com/s/i_-seey2Du-99SyLSC9OiQ)
 	
 
 
@@ -86,14 +87,14 @@
 
 ### 三、JVM虚拟机
 
-*  	[内存模型](jvm内存结构.md)
-* 	[类加载器](类加载器.md)
+*  	[内存结构](jvm内存结构.md)
+* 	[类加载机制](类加载器.md)
 *  	[垃圾回收](java-gc.md)
 * ###### jvm调优
 	*   [jvm参数](jvm-param.md)
 	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
 	* 	[如何优化Java GC](https://mp.weixin.qq.com/s/ydkEkh_Uc1paftJLKIsm0w)
-
+* [Jvm知识汇总](https://mp.weixin.qq.com/s/4c9K5eYMFGVV2WyKaYXVBA)
 
 ### 四、前沿
 

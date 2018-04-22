@@ -27,6 +27,7 @@
 *	[为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
 *	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
 *	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
+*	[关于分库分表](https://mp.weixin.qq.com/s/eOaVRyCTKHeAWG4UXcGjQQ)
 
 ### 缓存
 
@@ -51,6 +52,7 @@
 
 ### MQ消息
 
+* 	[消息中间件选型分析](https://mp.weixin.qq.com/s/Zwd1USlOCkQvsG96eSwvpg)
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
 *	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 

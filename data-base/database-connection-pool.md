@@ -24,6 +24,8 @@
 
 Druid首先是一个数据库连接池，但它不仅仅是一个数据库连接池，它还包含一个ProxyDriver，一系列内置的JDBC组件库，一个SQL Parser。
 
+[https://mp.weixin.qq.com/s/SRB0yruUIdmG9z8lXnJ-Ag](https://mp.weixin.qq.com/s/SRB0yruUIdmG9z8lXnJ-Ag)
+
 **附加功能**：
 
 * 监控，比如打印每一条sql详情，统计慢sql
