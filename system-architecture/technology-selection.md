@@ -43,9 +43,17 @@
 * [本地缓存、磁盘存储 --- Ehcache](http://raychase.iteye.com/blog/1545906)
 * [kv存储 --- levelDB](https://github.com/google/leveldb)
 * [若干缓存框架汇总](http://www.open-open.com/13.htm)
+* 通用缓存 JetCache
+	* [通用缓存访问JetCache介绍](https://mp.weixin.qq.com/s/qzS6fPUj70MW7LuMbefWZQ)
+	* [JetCache的异步API访问Redis缓存](https://mp.weixin.qq.com/s/HvJwP5mWegDZYUO6TAeJ1g)
+* [时间序列数据库 --- InfluxDB](InfluxDB.md)
 
 ##### 服务治理
 * [主从心跳检测 --- Keepalived](http://blog.csdn.net/xyang81/article/details/52556886)
+
+##### 模块化、隔离
+
+* [基于JAVA的模块化开发框架 --- JarsLink](https://mp.weixin.qq.com/s/AhNIvlKNba8ls9loM1CZ-w)
 
 
 ##### 项目管理
@@ -68,6 +76,10 @@
 * [数据可视化图表 --- highcharts](https://www.hcharts.cn/)
 * [图片压缩、格式转换 --- 智图](https://zhitu.isux.us/)
 
+##### 网站性能优化
+
+* [网站优化工具 --- Yslow](https://www.cnblogs.com/wajika/p/6278825.html)
+
 ##### ETL
 * [ETL工具 --- kettle](http://blog.csdn.net/eason_oracle/article/details/53535173)
 
@@ -85,4 +97,4 @@
 * 字符串表达式动态求值
 	* [aviator](https://github.com/killme2008/aviator/wiki)
 	* [MVEL](http://blog.csdn.net/sunnyyoona/article/details/75244442)
-* 
+*

@@ -6,7 +6,7 @@
 
 * [分布式ID生成器](https://mp.weixin.qq.com/s/qO84jWhQ5O2mPafsHrh2bA)
 * [通用的ID产生器--Vesta](https://gitee.com/robertleepeak/vesta-id-generator)
-
+* [twitter的全局唯一ID生成器---snowflake](https://github.com/twitter/snowflake)
 
 ---
 如果单表，可以借助于mysql自带的id生成器每次自增+1的方式来生成主键id。

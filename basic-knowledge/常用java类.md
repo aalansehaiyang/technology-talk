@@ -22,6 +22,9 @@ Runtime.getRuntime().addShutdownHook(new Thread() {
 
         });
  ```
+ 
+ [ShutdownHook - java中优雅地停止服务](https://mp.weixin.qq.com/s/z5bfW8OJOYMK-fzSzDOkdg)
+ 
  * 获取JVM的内存空间信息
  
 ####2. 字符串操作

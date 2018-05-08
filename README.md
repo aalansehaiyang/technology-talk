@@ -73,11 +73,15 @@
 	* [Kafka](middle-software/kafka.md)
 	* [RocketMQ](middle-software/RocketMQ.md)	
 
-*   缓存
+*   分布式缓存
 	* [redis](open-source-framework/redis.md)
 	* [codis]()
-	* [memcache](http://blog.csdn.net/itomge/article/details/8035197)	
+	* [memcache](http://blog.csdn.net/itomge/article/details/8035197)
 
+*   本地缓存
+	* [Guava](middle-software/Guava.md)
+	* [ehcache](middle-software/ehcache.md)
+	 	
 *   搜索
 	* [Elasticsearch](middle-software/elasticsearch.md)
 
@@ -117,6 +121,7 @@
 *  其它
 	* [数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 	* [数据库同步系统](https://github.com/alibaba/otter)
+	* [TCC-Transaction](middle-software/TCC-Transaction.md)
 
 ### 系统架构 
 
@@ -144,7 +149,7 @@
 ### 个人成长
 
 *   [学习网站](other/study.md)
-*   [Tom的读书单](other/book.md)
+*   [Tom哥的读书单](other/book.md)
 *   [个人成长与职业规划](other/person.md)
 *   [程序员素养](other/programer.md)
 

@@ -28,12 +28,14 @@
 	* [苏宁六年企业IT架构的演进之路](https://mp.weixin.qq.com/s/kBblUtVUvWDFDy9cqrUH5Q)
 * ###### 库存	
 	* [库存系统难破题？京东到家来分享](https://mp.weixin.qq.com/s/aIzdMG1y0a5cWOS4lx6IuQ)
+	* [京东到家库存系统架构设计](https://mp.weixin.qq.com/s/-9fvfJ6KT3xSRQZnlTBBhA)
 * ###### 其它
 	* [订单系统分库分表实践](http://mp.weixin.qq.com/s/kauO45XNQaV40hxmSc3BpA)
 	* [盘点电商大战背后的技术力量支撑](http://mp.weixin.qq.com/s/01rmXXkEz-cQaLBe7eGeQA)
 	* [乐视电商云的整体架构与技术实现](http://mp.weixin.qq.com/s/gbVMGGneiSD7mhXtTH6QOg)
 	* [海淘平台架构实践](http://mp.weixin.qq.com/s/DMee9gp70ReIR8jRRhLYCA)
 	* [电商系统之订单系统](https://mp.weixin.qq.com/s/cV-iDCkrTx86TKbHA3U2Sw)
+	* [交易系统 - 领域驱动设计浅析](https://mp.weixin.qq.com/s/CJmOaxTv0Ksll3CvCIXcnA)
 
 
 ---
@@ -151,6 +153,8 @@
 	* [回复的楼层号如何控制并发？](案例-贴子楼层号.md)
 * ###### timeline
 	* [几个大型网站的Feeds(Timeline)设计简单对比](https://mp.weixin.qq.com/s/MFFJtRixz9Cr3WFh33h__Q)
+	* [《深入分布式缓存---第12章，社交场景架构进化：从数据库到缓存》]()
+	* [《深入分布式缓存---第13章，缓存在社交网络Feed系统中的架构实践》]()
 
 
 
@@ -163,6 +167,8 @@
 	* [200 行代码实现一个简单的区块链](http://mp.weixin.qq.com/s/cqi6mNVh2ZFZdNFIAQynjw)
 	* [通俗讲解比特币的原理及运作机制](https://mp.weixin.qq.com/s/-2jXpGcZEF37ex0jiIe3DA)
 	* [什么是区块链？](https://mp.weixin.qq.com/s/9kgxbjntTJiWDsmc856V-A)
+* ###### 宜人贷
+	* [从宜人贷系统架构看互联网高并发对金融系统架构的挑战](https://mp.weixin.qq.com/s/GZsFhq7-3ZhRiyNodbv0lg)
 * [如何构建用于检测信用卡诈骗的机器学习模型？](http://mp.weixin.qq.com/s/aMQ6gpbkMn57WNKDL0OlOQ)
 * [智能问答在金融领域中的实践与应用](http://mp.weixin.qq.com/s/4a8hGw-E73FVoGsAW0UWHQ)
 * [微博众筹的架构设计](http://mp.weixin.qq.com/s/3GZaaLHsMSDFTJ0n7hzw1A)
@@ -214,10 +220,6 @@
 * [去哪儿网机票搜索系统的高并发架构设计](http://mp.weixin.qq.com/s/HErVN8x-s6MzgW-3XMvvAA)
 * [聊聊基于Lucene的搜索引擎核心技术实践](https://mp.weixin.qq.com/s/uIlNuutCRVPrZeJ_u1AtnA)
 
----
-#### 缓存相关
-
-* [携程开源其Redis多数据中心解决方案XPipe](http://mp.weixin.qq.com/s/YhrJprLWjoZa2tU3qY8XZw)
 
 ---
 #### 系统稳定性
@@ -239,6 +241,10 @@
 * ###### 会员、注册、登录
 	* [单点登录怎么实现？](https://mp.weixin.qq.com/s/ZT1B6ziSSRW41FN33xA3ZA)
 	* [深入了解Token认证的来龙去脉](https://mp.weixin.qq.com/s/DkwfpZibKdllfm0lpxukWg)
+* ###### 短信
+	* [如何设计短信验证码防刷机制](https://blog.csdn.net/u011277123/article/details/77519910)
+	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
+
 
 ---
 #### 其它

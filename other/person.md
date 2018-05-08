@@ -1,7 +1,7 @@
 ## 个人成长与职业规划
 ---
 
-### 技术提升
+### 技术提升（高P）
 
 * [程序员不能错过的28份技术知识图谱，你的进阶路上必备](https://mp.weixin.qq.com/s/trcK2J_a8h3C4fqPaKSc6g)
 * [8年开发经验，网易Java开发工程师的成长感悟](http://mp.weixin.qq.com/s/Ck71qeyACk0Zn5j3ro87YQ)
@@ -44,6 +44,7 @@
 
 * [工作10年才懂的道理，早知道职位比现在高两级](https://mp.weixin.qq.com/s/ejD1susXEn8uncmAusPW2w)
 * [程序员怎样快速成长？](https://mp.weixin.qq.com/s/TPViDjviDPuitjyaTf9I3g)
+* [阿里P9技术专家：程序员的技术实力是什么？](https://mp.weixin.qq.com/s/h-32WUi1far1WAchf-X_PQ)
 
 ---
 ### 团队

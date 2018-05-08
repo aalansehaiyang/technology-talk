@@ -287,3 +287,7 @@ com.alibaba.dubbo.remoting.Client
 https://github.com/alibaba/dubbo/wiki/user-guide-sample#%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1
 
 http://dubbo.io/Developer+Guide-zh.htm#DeveloperGuide-zh-%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B%E7%BB%86%E8%8A%82
+
+[Dubbo 源码解析 —— 简单原理、与spring融合](https://mp.weixin.qq.com/s/pN39RfZ4qKRLRScJ7LVfGQ)
+
+
