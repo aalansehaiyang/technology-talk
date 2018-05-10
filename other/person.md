@@ -45,6 +45,7 @@
 * [工作10年才懂的道理，早知道职位比现在高两级](https://mp.weixin.qq.com/s/ejD1susXEn8uncmAusPW2w)
 * [程序员怎样快速成长？](https://mp.weixin.qq.com/s/TPViDjviDPuitjyaTf9I3g)
 * [阿里P9技术专家：程序员的技术实力是什么？](https://mp.weixin.qq.com/s/h-32WUi1far1WAchf-X_PQ)
+* [成为一名优秀架构师有标准吗？这12点或许能带给你一些启发](https://mp.weixin.qq.com/s/3obF9ltx_l28ZFU1z3jcCw)
 
 ---
 ### 团队
