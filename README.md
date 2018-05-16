@@ -79,7 +79,7 @@
 	* [memcache](http://blog.csdn.net/itomge/article/details/8035197)
 
 *   本地缓存
-	* [Guava](middle-software/Guava.md)
+	* [Guava](middle-software/guava.md)
 	* [ehcache](middle-software/ehcache.md)
 	 	
 *   搜索

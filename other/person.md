@@ -52,6 +52,11 @@
 * [技术牛人告诉你，什么才是真正的工程师文化？](https://mp.weixin.qq.com/s/WIWclRDVTcpUICwSS7lpIg)
 
 ---
+### HR技能
+
+* [从管人到管人才，一个年薪80w的HRBP到底是什么样？](https://mp.weixin.qq.com/s/FqYlDf0mz3-AOgkjT3ittg)
+
+---
 ### 思考
 * [创业大神马斯克和蔡文胜都用过的第一性原理，到底是啥东东？](https://mp.weixin.qq.com/s/7OL6rO2D9hIJ68uPEBco3Q)
 * [8年创业反思：技术人应该如何选择创业项目？](http://mp.weixin.qq.com/s/UZx3HYA6JdQYBxfS8wbfLA)
