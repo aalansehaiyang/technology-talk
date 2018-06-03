@@ -13,3 +13,8 @@
 
 
 ### HAProxy
+
+
+### 其它
+
+* [分布式架构下的“负载均衡”](https://mp.weixin.qq.com/s/vg7XusGchg09nXmRh5DU7A)

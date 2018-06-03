@@ -59,6 +59,7 @@
 	* [易宝支付日志中心平台建设](https://mp.weixin.qq.com/s/Lsw_Ygyp50IJnqjzHxpGWg)
 	* [高并发支付场景分析及设计](https://mp.weixin.qq.com/s/syKnlmu_noyp0C4LeGp9Tw)
 	* [中小型研发团队架构实践之企业支付网关](https://mp.weixin.qq.com/s/rfeFWOq--0FXRa6r1eritQ)
+	* [支付平台架构设计评审核心要点与最佳实践](https://mp.weixin.qq.com/s/c-jlnScSTLSGNFLlNBWeow)
 
 
 ---
@@ -191,12 +192,14 @@
 	* [一个创业公司的API网关落地实践](http://www.infoq.com/cn/news/2017/03/Startups-API-practice)
 
 ---
-#### 直播 Live
+#### 直播 Live、客服
 
 * ###### IM
 	* [现代IM系统中消息推送和存储架构的实现（Timeline）](https://mp.weixin.qq.com/s/sYRchf1-8ZpD7Q3UYx_KLQ)
 * ###### 答题
 	* [直播答题系统在技术上难实现吗？挑战有多大？](https://mp.weixin.qq.com/s/Tp7K4g3DxmEiU0iYrmR8Mw)
+* ###### 智能客服
+	* [阿里千亿级购物节背后，淘宝智能客服架构演进之路](https://mp.weixin.qq.com/s/tiGxIeY9sDRdbMvKxcOS7w)
 * ###### 其它
 	* [淘宝直播在双11的互动实践](http://mp.weixin.qq.com/s/WcHvukClRSLA4KczRjDVaw)
 	* [常见的几种直播连麦方案](http://mp.weixin.qq.com/s/Ej4QHRvF7e0i5d78hETrwg)
@@ -236,6 +239,24 @@
 	* [新浪微博混合云架构如何轻松应对热点事件的高峰值流量](https://mp.weixin.qq.com/s/6tSbQFgSff07VIZRHpfTQg)
 
 ---
+#### 风控
+
+* ###### 金融
+	* [互联网小贷：一个从繁盛到衰退，又在管制中蜕变成长的类金融机构](https://mp.weixin.qq.com/s/X634-KXzwBLkrmrT_OTxbQ)
+
+---
+#### 日志系统
+* [百亿级日志系统架构设计及优化](https://mp.weixin.qq.com/s/AZ_ucwyF1v7KelhfxQRLkQ)
+
+
+---
+#### 爬虫
+
+* [搭建一个基于Java的分布式爬虫系统](https://mp.weixin.qq.com/s/E0xEqPSbi5IEYV-IFfn5vw)
+* [一次架构设计心得体会](https://mp.weixin.qq.com/s/-3AmP_yMFY75Bdnke4Vmzw)
+
+
+---
 #### 杂项
 
 * ###### 会员、注册、登录
@@ -244,7 +265,6 @@
 * ###### 短信
 	* [如何设计短信验证码防刷机制](https://blog.csdn.net/u011277123/article/details/77519910)
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
-
 
 ---
 #### 其它

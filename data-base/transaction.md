@@ -27,3 +27,4 @@
 * [分布式事务 TCC-Transaction 源码分析 —— 项目实战](https://mp.weixin.qq.com/s/vPr4yMUzurtVkW3BGXit5g)
 * [GTS来了！阿里微服务架构下的分布式事务解决方案](https://mp.weixin.qq.com/s/bUtu2nTs0bybnTvk-iLt6Q)
 * [Atomikos](https://yq.aliyun.com/articles/39054)
+* [微服务架构下分布式事务解决方案 —— 阿里GTS](https://mp.weixin.qq.com/s/BWrGw5dkRfR7gws2XY8vHQ)

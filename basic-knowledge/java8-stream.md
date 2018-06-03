@@ -12,6 +12,7 @@
 ### 示例
 
 * [Lambda 表达式的 10 个示例](https://mp.weixin.qq.com/s/Xhr9aNEMr0fIUWh27mH1pw)
+* [learn-java8](https://github.com/biezhi/learn-java8)
 
 ### 分类
 

@@ -26,6 +26,7 @@ spring --> spring boot --> spring cloud
 	* [服务网关 Zuul](https://mp.weixin.qq.com/s/5PQ9iyPfYCEcJ5W7q0T2oQ)
 		* 通过一个API网关根据请求的url，路由到相应的服务
 		* [服务网关zuul初级篇](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
+		* [Netflix正式开源其API网关Zuul 2](https://mp.weixin.qq.com/s/wh_7duo4God8_9awPJBJbQ)
 	* [客户端负载均衡 Ribbon](http://blog.didispace.com/spring-cloud-starter-dalston-2-2/)
 		* 通过在客户端中配置ribbonServerList来设置服务端列表去轮询访问以达到均衡负载的作用。
 	* [客户端负载均衡 Feign](http://blog.didispace.com/spring-cloud-starter-dalston-2-3/)	

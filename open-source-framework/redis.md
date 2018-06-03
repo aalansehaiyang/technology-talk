@@ -14,15 +14,21 @@
 * [redis为什么是单线程？](http://blog.csdn.net/world6/article/details/79381682)
 * [Redis为什么这么快？一文深入了解Redis内存模型！](https://mp.weixin.qq.com/s/m-RdJQdG-qW-BLquorhMlQ)
 * [3台机器轻松搭建一个高可用Redis服务架构](https://mp.weixin.qq.com/s/vxJCG0Nk4csbZ1axLy0bfQ)
+* [Redis 内存为什么不宜过大](https://mp.weixin.qq.com/s/fpupqLp-wjR8fQvYSQhVLg)
 
 业务应用：
 
 * [同程凤凰缓存系统基于Redis的设计与实践](https://mp.weixin.qq.com/s/2FEbkas_m1WnYUqjVpMkWw)
 * [携程开源其Redis多数据中心解决方案XPipe](http://mp.weixin.qq.com/s/YhrJprLWjoZa2tU3qY8XZw)
 
+前沿：
+
+* [redis不同版本新特性](redis-new-feature.md)
+
+
 ---
 
-redis服务器是核心业务采用单线程模式，无锁竞争且基于内存操作，执行效率非常高。
+redis采用C编写，redis服务器是核心业务采用单线程模式，无锁竞争且基于内存操作，执行效率非常高。
 
 如果开启备份机制，会fork子线程来处理。
 

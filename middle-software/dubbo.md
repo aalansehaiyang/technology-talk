@@ -20,6 +20,9 @@
 
 * [dubbo monitor](https://www.cnblogs.com/xbq8080/p/6813579.html)
 
+#### 前沿
+
+* [独家专访阿里高级技术专家北纬：Dubbo开源重启半年来的快意江湖](https://mp.weixin.qq.com/s/2AQMrV7hFTJt3SpXONT_uQ)
 
 ---
 #### 简介

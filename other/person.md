@@ -16,6 +16,8 @@
 * [快速成长为一名技术专家](https://mp.weixin.qq.com/s/a3X1J-TkJ3ThTdc0YCyIKw)
 * [美丽联合集团VP顶天：总结这一年，我们在技术上的变与不变](https://mp.weixin.qq.com/s/zMneLwJkhJ0jA96cIzxLKw)
 * [架构经验老司机的技术选型哲学](https://mp.weixin.qq.com/s/PJeCdbpILQiOc9gpQEQ9rA)
+* [一个NB架构师的必备素质](https://mp.weixin.qq.com/s/CCYJ4TmAM5ht_DSZMWB5ow)
+* [你写的代码，是别人的噩梦吗？](https://mp.weixin.qq.com/s/6ePpYgwm8t1EY2PtFOX5rg)
 
 ---
 ### 技术（P） --> 管理（M）
@@ -51,11 +53,13 @@
 ### 团队
 * [技术牛人告诉你，什么才是真正的工程师文化？](https://mp.weixin.qq.com/s/WIWclRDVTcpUICwSS7lpIg)
 * [最出色的员工往往最先离职，原因却不是因为钱](https://mp.weixin.qq.com/s/lYqPNQ2ngfiQlEBVNnwXhA)
+* [如果你是技术leader，团队成员不停向你抱怨时你会怎么做？](https://mp.weixin.qq.com/s/gKbMkreF50w0u5m4BuFjZA)
 
 ---
 ### HR技能
 
 * [从管人到管人才，一个年薪80w的HRBP到底是什么样？](https://mp.weixin.qq.com/s/FqYlDf0mz3-AOgkjT3ittg)
+* [阿里Job model](http://www.360doc.com/content/17/0705/12/35463569_669039203.shtml)
 
 ---
 ### 思考
