@@ -39,5 +39,5 @@
 * [我的收藏](https://yq.aliyun.com/users/1797606532614586/mark?spm=a2c4e.11153940.headeruserinfo.8.216553abfSjHdd)
 * [利用Phoenix为HBase创建二级索引](https://blog.csdn.net/u011491148/article/details/45749807)
 * [Phoenix Secondary Index](https://blog.csdn.net/mt0803/article/details/38513271)
-
+* [高手如何实践HBase？不容错过的滴滴内部技巧](https://yq.aliyun.com/articles/601722?spm=a2c4e.11157919.spm-cont-list.1.146c27aesRwAXc)
 
