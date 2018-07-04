@@ -8,6 +8,7 @@
 * [并发编程网](http://ifeve.com/)
 * [开源中国](http://www.oschina.net/)
 * [stackoverflow](http://stackoverflow.com/)
+* [w3cschool](https://www.w3cschool.cn/)
 
 ### 视频网站
 * [慕课网](http://www.imooc.com/)

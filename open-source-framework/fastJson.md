@@ -39,6 +39,12 @@ com.alibaba.fastjson.JSON.parseObject(String, Class<ForumCache>)
 <ForumCache> List<ForumCache> com.alibaba.fastjson.JSONArray.parseArray(String text, Class<ForumCache> clazz)
 ```
 
-**参考资料：**
+### 三、手册
 
-https://github.com/alibaba/fastjson
+* [Fastjson的常用API使用例子](https://www.w3cschool.cn/fastjson/fastjson-jsonpath.html)
+* [源码 Fork分支](https://github.com/aalansehaiyang/fastjson)
+
+
+
+
+

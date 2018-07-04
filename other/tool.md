@@ -1,7 +1,6 @@
 ## 常用软件工具
 ---
 
-* [Lombok安装](http://www.blogjava.net/fancydeepin/archive/2012/07/12/382933.html)
 * [类反编译 --- JD-GUI](http://www.pc6.com/mac/152875.html)
 * [HTTPS 抓包工具-----charles](http://blog.vetcafe.net/2013/12/charlesproxyiphonehttps.html)
 * [自动生成Restful api接口规范文档-----swagger](swagger.md)

@@ -30,7 +30,7 @@
 *	[连接池](data-base/database-connection-pool.md)
 * 	[事务](data-base/transaction.md)
 * 	[分库分表](data-base/分库分表.md)
-* 	[id生成器](data-base/id-generate.md)
+* 	[全局表 ID生成器](data-base/id-generate.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
 * 	[SQL调优](data-base/sql-optimize.md)
 * 	[其它](data-base/other.md)
@@ -43,7 +43,7 @@
 	* [Nginx](web/Nginx.md)
 	* [Tomcat](web/tomcat.md)
 * 协议
-	* [HTTP 协议](web/http协议.md)
+	* [HTTP 协议](web/http.md)
 	* [TCP 协议](web/tcp.md)
 * [CDN](web/CDN.md)
 * [其它](web/other.md)
@@ -60,6 +60,7 @@
 * [Quartz](open-source-framework/Quartz.md)
 * [HttpClient](open-source-framework/HttpClient.md)
 * [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
+* [lombok](open-source-framework/lombok.md)
 
 
 ### 中间件
@@ -76,15 +77,15 @@
 	* [RabbitMQ](middle-software/RabbitMQ.md)
 	* [Kafka](middle-software/kafka.md)
 	* [RocketMQ](middle-software/RocketMQ.md)	
+	* [MQ框架性能比较](middle-software/mq-compare.md)
 
 *   分布式缓存
 	* [redis](open-source-framework/redis.md)
-	* [codis]()
 	* [memcache](http://blog.csdn.net/itomge/article/details/8035197)
 
 *   本地缓存
 	* [Guava](middle-software/guava.md)
-	* [ehcache](middle-software/ehcache.md)
+	* [Ehcache](middle-software/ehcache.md)
 	 	
 *   搜索
 	* [Elasticsearch](middle-software/elasticsearch.md)
@@ -120,13 +121,14 @@
 	* [Spark](middle-software/Spark.md)
 	* [Hadoop](middle-software/Hadoop.md)
 	* [Hive](middle-software/Hive.md)
-	* [other框架](middle-software/big-data.md)
+	* [other框架](middle-software/big-data.md)	
 
 *  其它
 	* [数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 	* [数据库同步系统](https://github.com/alibaba/otter)
 	* [TCC-Transaction](middle-software/TCC-Transaction.md)
 	* [Netty](middle-software/Netty.md)
+	* [OpenResty](middle-software/openresty.md)
 
 ### 系统架构 
 
@@ -134,6 +136,7 @@
 * [经典案例](system-architecture/architecture-good-case.md)
 * [通用技术方案选型](system-architecture/technology-selection.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
+* [软硬件性能](system-architecture/software-performance.md)
 
 
 ### 项目管理

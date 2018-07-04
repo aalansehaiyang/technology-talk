@@ -8,8 +8,13 @@
 *	[大型网站技术架构](大型网站技术架构.md)
 *	[各大互联网公司架构演进之路汇总](http://blog.fulin.org/2016/03/summary-of-architectures/)
 *	[中小型研发团队架构落地实践18篇，含案例、代码](https://mp.weixin.qq.com/s/AbUGOWN27FEUPWgDQkF_Dw)
-*	[互联网分层架构，为啥要前后端分离](https://mp.weixin.qq.com/s/Nhyo969WnEwyCWpr34ECcA)
+* 	前后端分离
+	* [互联网分层架构，为啥要前后端分离](https://mp.weixin.qq.com/s/Nhyo969WnEwyCWpr34ECcA)
+	* [前后端API交互如何保证数据安全性？](https://mp.weixin.qq.com/s/On98tXDEpnx1n7sqgZYWzA)
+* [高可用系统架构](https://mp.weixin.qq.com/s/5vVXBXkd-Ilh7zk5G6Wxcg)
+* [看京东系统架构师如何让笨重的架构变得灵巧](https://mp.weixin.qq.com/s/-wIC6yPifSEfT_Yybi4pTg)
 
+---
 ### 微服务
 
 *	[微服务介绍](microservice-introduce.md)
@@ -20,8 +25,12 @@
 *   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
 *   分布式事务
 	* [资料](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
-
-
+*   其它
+	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
+* [微服务2.0技术栈选型手册](https://mp.weixin.qq.com/s/OloZhn2pwfIrOQit_8jefA)
+   
+---
 ### 数据库
 
 *	[数据库架构](数据库架构.md)
@@ -37,6 +46,7 @@
 	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
 	* [如何不停机完成单表拆分](split-table.md)
 
+---
 ### 缓存
 
 * 	[cache相关](cache相关.md)
@@ -51,35 +61,42 @@
 *	数据迁移	
 	* [分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
 
-### 高并发
-
-* 	[究竟啥才是互联网架构“高并发”](https://mp.weixin.qq.com/s/th2PyARAdLOLElieQjNSSA)
-
-### 稳定性
-
-*	[如何设计API的限流](如何设计API的限流.md)
-*	[接口鉴权（数字签名）](数字签名.md)
-
+---
 ### MQ消息
 
 * 	[消息中间件选型分析](https://mp.weixin.qq.com/s/Zwd1USlOCkQvsG96eSwvpg)
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
 *	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 
-### 系统容量
 
-*	[如何进行容量设计](https://mp.weixin.qq.com/s/wxSN47UNtEG_4vEl5lw31g)
+---
+### 稳定性
 
-### 性能优化
+* 系统容量
+	* 	[如何进行容量设计](https://mp.weixin.qq.com/s/wxSN47UNtEG_4vEl5lw31g)
+* 限流
+	* [如何设计API的限流](如何设计API的限流.md)
+	* [分布式限流](https://mp.weixin.qq.com/s/VXu82MgWwn993n8fSlaNtg)
+* 容灾
+* 隔离
+* 异地双活
 
-* 	[性能优化之QPS](性能优化之Qps.md)
-*	[系统性能优化常用手段](http://blog.csdn.net/itomge/article/details/21649489)
-*	[web性能优化14法则](http://blog.csdn.net/itomge/article/details/8712102)
-*	[从代码层面优化系统性能的解决方案](https://mp.weixin.qq.com/s/gtxDbgo_esY4kD_LNoyfPQ)
+---
+### 高并发
 
+* 	[究竟啥才是互联网架构“高并发”](https://mp.weixin.qq.com/s/th2PyARAdLOLElieQjNSSA)
+
+---
+### 安全
+
+*	[接口鉴权（数字签名）](数字签名.md)
+
+	
+---
 ### 数据一致性
 * 	[并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 
+---
 ### 锁相关
 
 * 	[乐观锁&悲观锁](锁机制.md)
@@ -89,14 +106,25 @@
 	* [基于 zookeeper实现的分布式锁](lock-zk.md)
 	* [基于数据库实现分布式锁（不推荐）](lock-db.md)
 
-### web系统
+---
+### 性能优化
+
+* 	[性能优化之QPS](性能优化之Qps.md)
+*	[系统性能优化常用手段](http://blog.csdn.net/itomge/article/details/21649489)
+*	[web性能优化14法则](http://blog.csdn.net/itomge/article/details/8712102)
+*	[从代码层面优化系统性能的解决方案](https://mp.weixin.qq.com/s/gtxDbgo_esY4kD_LNoyfPQ)
+
+---
+### WEB 系统
 
 *	[分布式 session](https://mp.weixin.qq.com/s/iTdHyODJ12RvTbe6MILg6Q)
 
+---
 ### 技术选型
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
 
+---
 ### 架构汇总
 
 *	[架构师之路2016年精选50篇](https://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA)
@@ -107,6 +135,7 @@
 *	[芋道源码的周八（2018.03.04）](https://mp.weixin.qq.com/s/VlJjfJHcedO5sIdGaHCoxg)
 *	[芋道源码的周八（2018.03.18）](https://mp.weixin.qq.com/s/QqcY-9Y7miheTcu65ZEY4A?from=groupmessage&isappinstalled=0)
 
+---
 ### 思考
 
 *	[架构师的职责与思考](架构师的职责与思考.md)
