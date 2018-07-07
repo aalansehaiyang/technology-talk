@@ -19,6 +19,7 @@
 * [微服务架构下处理分布式事务的典型方案](https://mp.weixin.qq.com/s/RKwvfKXIHrrkuCqOGZ4CPw)
 * [解决分布式系统事务一致性的几种方案对比](https://mp.weixin.qq.com/s/kzmTKKH-t6tpJ97fa6TYPg)
 * [多库多事务降低数据不一致概率](https://mp.weixin.qq.com/s/FvB-hOBT13SMfZko5iagAg)
+* [蚂蚁技术专家：一篇文章带你学习分布式事务](https://mp.weixin.qq.com/s/abjDjGGz5RUoCNCdnoxOjQ)
 
 #### 开源框架
 

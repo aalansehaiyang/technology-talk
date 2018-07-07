@@ -2,7 +2,7 @@
 
 ---
 
-####  附录
+###  附录
 
 * [源码](https://github.com/alibaba/dubbo)
 
@@ -20,7 +20,15 @@
 
 * [dubbo monitor](https://www.cnblogs.com/xbq8080/p/6813579.html)
 
-#### 前沿
+### 资料
+
+* [http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l](http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l)
+* [http://dubbo.io/User+Guide-zh.htm](http://dubbo.io/User+Guide-zh.htm)
+* [《可伸缩服务架构--框架与中间件》（第8章 Dubbo实战及源码分析）]()
+
+
+
+### 前沿
 
 * [独家专访阿里高级技术专家北纬：Dubbo开源重启半年来的快意江湖](https://mp.weixin.qq.com/s/2AQMrV7hFTJt3SpXONT_uQ)
 
@@ -165,9 +173,3 @@ Dubbo 应用使用 ZooKeeper 作为注册中心，启动时发生该异常。
 问题根源：QuorumMaj类未定义单个Map参数的构造函数，而EnsembleTracker类却引用了它
 ```
 
-###  参考资料
-
-[http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l](http://www.oschina.net/search?q=dubbo&scope=project&fromerr=OSwWxF3l)
-
-
-[http://dubbo.io/User+Guide-zh.htm](http://dubbo.io/User+Guide-zh.htm)

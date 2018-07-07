@@ -60,6 +60,7 @@
 	* [高并发支付场景分析及设计](https://mp.weixin.qq.com/s/syKnlmu_noyp0C4LeGp9Tw)
 	* [中小型研发团队架构实践之企业支付网关](https://mp.weixin.qq.com/s/rfeFWOq--0FXRa6r1eritQ)
 	* [支付平台架构设计评审核心要点与最佳实践](https://mp.weixin.qq.com/s/c-jlnScSTLSGNFLlNBWeow)
+	* [解密支付平台建设资金底线防火墙的杀手级设计方案](https://mp.weixin.qq.com/s/G_unHPP6P3q0guZR8x0UMg)
 
 
 ---
@@ -91,6 +92,7 @@
 	* [秒杀系统架构分析与实战](http://mp.weixin.qq.com/s/1BnygFm6ukEZcpakyEi9-Q)
 	* [秒杀系统的架构解决之道](http://mp.weixin.qq.com/s/58y6YE2tQnQCugNJu9xOGA)
 	* [揭秘红包场景下的高性能本地存储架构设计](http://mp.weixin.qq.com/s/N9Eha8lsy0N7PeXQxOgqAA)
+	* [秒杀架构实践](https://mp.weixin.qq.com/s/OAN9DXmdYaxCUbt6cOn9cw)
 
 ---
 

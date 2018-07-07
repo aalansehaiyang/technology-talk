@@ -2,7 +2,7 @@
 
 ---
 
-#### SQL生命周期：
+### SQL生命周期：
 
 1. 应用服务器与数据库服务器建立一个连接
 2. 数据库进程拿到请求sql
@@ -20,7 +20,7 @@
 
 		
 
-#### 推荐开源框架：
+### 推荐开源框架：
 
 Druid首先是一个数据库连接池，但它不仅仅是一个数据库连接池，它还包含一个ProxyDriver，一系列内置的JDBC组件库，一个SQL Parser。
 
@@ -71,8 +71,10 @@ Druid首先是一个数据库连接池，但它不仅仅是一个数据库连接
 http://tool.oschina.net/apidocs/apidoc?api=druid0.26
 
 
-**参考资料：**
+### 其它
 
-http://www.iteye.com/magazines/90
+* [数据库连接池极简教程](https://mp.weixin.qq.com/s/tLysIX9KChNioJ-fMMimxw)
+
+* [阿里巴巴开源项目 Druid 负责人温少访谈](http://www.iteye.com/magazines/90)
 
 
