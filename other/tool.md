@@ -16,3 +16,5 @@
 mac系统
 
 * [Homebrew安装](http://www.jianshu.com/p/d229ac7fe77d)
+* [终极 Shell——ZSH](https://zhuanlan.zhihu.com/p/19556676)
+* [Mac下切换zsh和bash](https://blog.csdn.net/a19891024/article/details/53869574)

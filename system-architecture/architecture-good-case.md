@@ -61,7 +61,8 @@
 	* [中小型研发团队架构实践之企业支付网关](https://mp.weixin.qq.com/s/rfeFWOq--0FXRa6r1eritQ)
 	* [支付平台架构设计评审核心要点与最佳实践](https://mp.weixin.qq.com/s/c-jlnScSTLSGNFLlNBWeow)
 	* [解密支付平台建设资金底线防火墙的杀手级设计方案](https://mp.weixin.qq.com/s/G_unHPP6P3q0guZR8x0UMg)
-
+* ###### 结算
+	* [联营结算平台建设之路](https://mp.weixin.qq.com/s/FHTB8eKwIWnMxNraXghqvA)
 
 ---
 #### 物流
@@ -134,6 +135,7 @@
 	* [从分布式管理到多租户实现，企业级大数据系统如何利用开源生态构建？](https://mp.weixin.qq.com/s/LF8kem9bTVlMpGbpmhWtUA)
 	* [spark sql 在饿了么的应用实践](https://mp.weixin.qq.com/s/UiOIP7eOEQ-o9F8ej3Lb9g)
 	* [蚂蜂窝大数据多维分析 DRUID 引擎实践](https://mp.weixin.qq.com/s/mZkivs8_BHEbHny3SG0vFA)
+	* [Flume+Kafka+Storm+Redis构建大数据实时处理系统](https://mp.weixin.qq.com/s/unbRSelVZBBAoz2d8SdZYQ)
 
 ---
 #### 社区、社交互动
@@ -267,6 +269,8 @@
 * ###### 短信
 	* [如何设计短信验证码防刷机制](https://blog.csdn.net/u011277123/article/details/77519910)
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
+* ###### 消息推送、push
+	* [如何用Redis平衡海量信息推送的实效与体量](https://mp.weixin.qq.com/s/tLFOFEWBUfjjO_YInDxpJw)
 
 ---
 #### 其它

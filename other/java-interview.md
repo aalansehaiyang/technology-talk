@@ -17,3 +17,7 @@
 * [线程与进程的区别](https://mp.weixin.qq.com/s/xHOSVG5tGzj1RzpEutH_wg)
 * [线程池的成长之路](https://mp.weixin.qq.com/s/5dexEENTqJWXN_17c6Lz6A)
 * [一次惊险的跳槽面试经历（阿里/美团/头条/网易/有赞...)](https://mp.weixin.qq.com/s/aizEy6vOrb4LPKD3qeajiw)
+* [有赞面试经历](https://mp.weixin.qq.com/s/wDDsa5na4b3MSdsIgh3upw)
+* [关于 MySQL 的知识点与面试常见问题都在这里](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
+* [Java架构师面试题全分享](https://mp.weixin.qq.com/s/md2r34uwVC13KSeROmuZDg)
+* [Java-Interview（出自github）](https://github.com/crossoverJie/Java-Interview)

@@ -115,6 +115,7 @@
 	* [Elastic-Job](https://github.com/elasticjob/elastic-job)
 	* [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
 	* [TBSchedule](http://blog.csdn.net/taosir_zhang/article/details/50728362)
+	* [xxl-job](https://github.com/xuxueli/xxl-job)
 
 *   大数据
 	* [Hbase](middle-software/Hbase.md)

@@ -2,6 +2,11 @@
 
 ---
 
+
+* [Java多线程之隔离技术ThreadLocal源码详解](https://mp.weixin.qq.com/s/mo3-y-45_ao54b5T7ez7iA)
+
+---
+
 **简介：**
 
 ThreadLocal存取的数据，总是与当前线程相关，也就是说，JVM 为每个运行的线程，绑定了私有的本地实例存取空间，从而为多线程环境常出现的并发访问问题提供了一种隔离机制。
@@ -57,9 +62,12 @@ void set(T value)
     }
 ```
 
+
 * remove
 
 ```
 void remove()
 ```
 有助于减少线程局部变量的存储需求。
+
+

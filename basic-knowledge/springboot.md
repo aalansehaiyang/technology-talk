@@ -11,6 +11,7 @@
 * [java autoConfig配置](springboot-javaConfig.md)
 * [代码热部署](springboot-hot-reload.md)
 * [eclipse中如何跑spring boot的单元测试](springboot-unit.md)
+* [异步调用Async](https://blog.csdn.net/v2sking/article/details/72795742)
 
 
 ### 二、资料集

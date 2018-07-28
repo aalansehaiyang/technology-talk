@@ -34,6 +34,7 @@ spring --> spring boot --> spring cloud
 		* 创建接口并用注解来配置它即可完成对Web服务接口的绑定。它具备可插拔的注解支持，包括Feign注解、JAX-RS注解。它也支持可插拔的编码器和解码器。Spring Cloud Feign还扩展了对Spring MVC注解的支持，同时还整合了Ribbon和Eureka来提供均衡负载的HTTP客户端实现。
 	* config
 		* 分布式配置管理
+		* [Spring Cloud Config采用数据库存储配置内容](https://mp.weixin.qq.com/s/cQ7iSBv9YZZMH95Zot7JLg)
 * 配置参数
 	* [SpringCloud Eureka参数配置项详解](http://www.cnblogs.com/chry/p/7992885.html)
 

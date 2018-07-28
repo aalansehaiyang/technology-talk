@@ -60,6 +60,8 @@
 *	[缓存在大型分布式系统中的最佳应用](https://mp.weixin.qq.com/s/f-K0lPjBPcYFK0hbZJF99Q)
 *	数据迁移	
 	* [分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
+* [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
+* [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
 
 ---
 ### MQ消息
@@ -105,6 +107,7 @@
 	* [基于 redis 的分布式锁到底安全吗?](https://mp.weixin.qq.com/s/ctbcwV4hzdB2MwGqQAA0_A)
 	* [基于 zookeeper实现的分布式锁](lock-zk.md)
 	* [基于数据库实现分布式锁（不推荐）](lock-db.md)
+* [我们该使用哪种分布式锁？](https://mp.weixin.qq.com/s/0wmVSfrkFq7BfpUvydr-ug)
 
 ---
 ### 性能优化
