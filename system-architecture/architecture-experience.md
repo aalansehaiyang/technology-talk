@@ -79,6 +79,8 @@
 * 限流
 	* [如何设计API的限流](如何设计API的限流.md)
 	* [分布式限流](https://mp.weixin.qq.com/s/VXu82MgWwn993n8fSlaNtg)
+	* [探索常见的几种限流策略和实现](https://mp.weixin.qq.com/s/GEu7UVO7s_HX88T_DmBmnQ)
+	
 * 容灾
 * 隔离
 * 异地双活

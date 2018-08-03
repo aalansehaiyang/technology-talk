@@ -7,6 +7,7 @@
 #### 快捷键
 
 * [将intellij idea的快捷键与Eclipse的快捷键设置成一样](http://blog.csdn.net/boot_strap/article/details/21729143)
+* [快捷键---IntelliJ IDEA全局内容搜索和替换](https://blog.csdn.net/gnail_oug/article/details/78281354)
 * [如何打开Intellij IDEA的代码提示功能](https://jingyan.baidu.com/article/36d6ed1f62e9821bcf4883af.html)
 * [IntelliJ IDEA 设置选中标识符高亮](http://blog.csdn.net/wskinght/article/details/43052407)
 * [IDEA提示方法的注释](https://www.oschina.net/question/100896_83213)
@@ -22,3 +23,4 @@
 
 #### 常见问题
 * [修改IntelliJ IDEA中Maven项目的默认JDK版](https://blog.csdn.net/geekun/article/details/51325510)
+* [idea的环境变量设置(Enviroment variables)](https://www.cnblogs.com/gradven/p/7228142.html)
