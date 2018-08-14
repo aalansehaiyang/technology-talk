@@ -1,9 +1,10 @@
 ## Nginx
 
 ---
-##### 附录：
+### 附录：
 
-[nginx+lua](http://jinnianshilongnian.iteye.com/blog/2186448)
+* [nginx+lua](http://jinnianshilongnian.iteye.com/blog/2186448)
+* [Nginx配置文件及模块](https://mp.weixin.qq.com/s/YrC8aPZHtDlDL2Fqku2fbA)
 
 ---
 

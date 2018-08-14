@@ -7,7 +7,7 @@
 * [笔记](Hbase-note1.md)
 * [Hbase安装](http://blog.csdn.net/itomge/article/details/9970833)
 * 《HBase企业应用开发实战》
-* [Hbase官网](http://hbase.apache.org/)
+* [Hbase官网](https://hbase.apache.org/book.html)
 * [Hbase官方文档中文版](http://abloz.com/hbase/book.html)
 * [Hbase视频课程](https://edu.aliyun.com/course/73/learn?spm=0.0.0.0.k89hlH#lesson/978)
 * [HBase 深入浅出](https://www.ibm.com/developerworks/cn/analytics/library/ba-cn-bigdata-hbase/index.html)

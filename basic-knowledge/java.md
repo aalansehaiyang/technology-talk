@@ -52,7 +52,7 @@
 *	[java的System.getProperty()方法使用](http://blog.csdn.net/itomge/article/details/9098207)
 * 	[java8函数编程（lambda表达式）](java8-stream.md)
 * 	[java的线程状态](java的线程状态.md)
-* 	[ThreadLocal原理机制](ThreadLocal原理机制.md)
+* 	[ThreadLocal原理机制](ThreadLocal.md)
 * 	[HashMap的扩容机制](HashMap的扩容机制.md)
 * 	[Exception](java-exception.md)
 * 	[各种坑](各种坑.md)
@@ -90,12 +90,14 @@
 *  	[内存结构](jvm内存结构.md)
 * 	[类加载机制](类加载器.md)
 *  	[垃圾回收](java-gc.md)
-* ###### jvm调优
+* ###### JVM 调优
 	*   [jvm参数](jvm-param.md)
 	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
 	* 	[如何优化Java GC](https://mp.weixin.qq.com/s/ydkEkh_Uc1paftJLKIsm0w)
-* [Jvm知识汇总](https://mp.weixin.qq.com/s/4c9K5eYMFGVV2WyKaYXVBA)
-* ###### jvm调优工具
+	* 	[大型跨境电商 JVM 调优经历](https://mp.weixin.qq.com/s/bOarreWhQJmS6VTZfFcsZw)
+	*   [Jvm知识汇总](https://mp.weixin.qq.com/s/4c9K5eYMFGVV2WyKaYXVBA)
+	*   [海量连接服务端jvm参数调优杂记](https://mp.weixin.qq.com/s/jt_BCAo8krxPAhLhhLdIrg)
+* ###### JVM 调优工具
 	* 	[XXFox](http://xxfox.perfma.com/)
 
 ### 四、前沿

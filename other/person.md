@@ -54,6 +54,11 @@
 * [技术牛人告诉你，什么才是真正的工程师文化？](https://mp.weixin.qq.com/s/WIWclRDVTcpUICwSS7lpIg)
 * [最出色的员工往往最先离职，原因却不是因为钱](https://mp.weixin.qq.com/s/lYqPNQ2ngfiQlEBVNnwXhA)
 * [如果你是技术leader，团队成员不停向你抱怨时你会怎么做？](https://mp.weixin.qq.com/s/gKbMkreF50w0u5m4BuFjZA)
+* [张雪峰：创业团队极速发展过程中的分分合合](https://mp.weixin.qq.com/s/pRlzJQ4SEmkKPBX52EmZLA)
+* 沟通
+	* [带团队，强势真是好事么？](https://mp.weixin.qq.com/s/waTzuYQFOQmkC33AO3sywQ)
+	* [带团队，要不要言传身教？](https://mp.weixin.qq.com/s/Fio662OSxpCgaCxQKNEICA)
+	* [带团队，不要轻易放弃任何一个队友](https://mp.weixin.qq.com/s/k0j8LkV7XVZflYIXJm5zYg)
 
 ---
 ### HR技能

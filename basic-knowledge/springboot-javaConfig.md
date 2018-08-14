@@ -71,6 +71,14 @@ public class PersonProperties {
 	private int age;
 }
 ```
+
+* @EnableConfigurationProperties
+
+用 @EnableConfigurationProperties注解使 @ConfigurationProperties生效，并从IOC容器中获取bean。
+
+https://blog.csdn.net/u010502101/article/details/78758330
+
+
 * @RestController
 
 组合@Controller和@ResponseBody，当你开发一个和页面交互数据的控制时，比如bbs-web的api接口需要此注解
@@ -173,6 +181,14 @@ public class TestController {
 
 路由网关的主要目的是为了让所有的微服务对外只有一个接口，我们只需访问一个网关地址，即可由网关将所有的请求代理到不同的服务中。Spring Cloud是通过Zuul来实现的，支持自动路由映射到在Eureka Server上注册的服务。Spring Cloud提供了注解@EnableZuulProxy来启用路由代理。
 
+* Autowired
+
+在默认情况下使用 @Autowired 注释进行自动注入时，Spring 容器中匹配的候选 Bean 数目必须有且仅有一个。当找不到一个匹配的 Bean 时，Spring 容器将抛出 BeanCreationException 异常，并指出必须至少拥有一个匹配的 Bean。
+
+当不能确定 Spring 容器中一定拥有某个类的 Bean 时，可以在需要自动注入该类 Bean 的地方可以使用 @Autowired(required = false)，这等于告诉 Spring：在找不到匹配 Bean 时也不报错
+
+[@Autowired注解注入map、list与@Qualifier](https://blog.csdn.net/ethunsex/article/details/66475792)
+
 
 * @Configuration
 
@@ -220,3 +236,57 @@ public class CDPlayerConfig {
     }
 }
 ```
+
+* @Order
+
+@Order(1)，值越小优先级超高，越先运行
+
+* @ConditionalOnExpression
+
+```
+@Configuration
+@ConditionalOnExpression("${enabled:false}")
+public class BigpipeConfiguration {
+    @Bean
+    public OrderMessageMonitor orderMessageMonitor(ConfigContext configContext) {
+        return new OrderMessageMonitor(configContext);
+    }
+}
+```
+
+开关为true的时候才实例化bean
+
+* @ConditionalOnProperty
+
+这个注解能够控制某个 @Configuration 是否生效。具体操作是通过其两个属性name以及havingValue来实现的，其中name用来从application.properties中读取某个属性值，如果该值为空，则返回false;如果值不为空，则将该值与havingValue指定的值进行比较，如果一样则返回true;否则返回false。如果返回值为false，则该configuration不生效；为true则生效。
+
+https://blog.csdn.net/dalangzhonghangxing/article/details/78420057
+
+* @ConditionalOnClass
+
+该注解的参数对应的类必须存在，否则不解析该注解修饰的配置类
+
+```
+@Configuration
+@ConditionalOnClass({Gson.class})
+public class GsonAutoConfiguration {
+    public GsonAutoConfiguration() {
+    }
+
+    @Bean
+    @ConditionalOnMissingBean
+    public Gson gson() {
+        return new Gson();
+    }
+}
+
+```
+
+* @ConditionalOnMisssingClass({ApplicationManager.class})
+
+如果存在它修饰的类的bean，则不需要再创建这个bean；
+
+
+* @ConditionOnMissingBean(name = "example")
+
+表示如果name为“example”的bean存在，该注解修饰的代码块不执行。
