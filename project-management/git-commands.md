@@ -87,8 +87,10 @@ ps：查看git log，会发现原来已经提交过的log也会被删除
 
 ```	
 
-
-
+*  git stash
+   
+   多分支开发，本地缓存。https://www.cnblogs.com/tocy/p/git-stash-reference.html
+ 
 *	git branch 
 
 	查看所有本地分支，带*为当前分支	

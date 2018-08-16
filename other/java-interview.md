@@ -21,4 +21,5 @@
 * [关于 MySQL 的知识点与面试常见问题都在这里](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
 * [Java架构师面试题全分享](https://mp.weixin.qq.com/s/md2r34uwVC13KSeROmuZDg)
 * [Java-Interview（出自github）](https://github.com/crossoverJie/Java-Interview)
+* [Java-Guide（出自github）](https://github.com/Snailclimb/Java-Guide)
 * [作为面试官，我是怎么快速判断程序员能力的？](https://mp.weixin.qq.com/s/SodWSw-3zSWRYmxZNvjlgA)

@@ -57,7 +57,8 @@
 * [commons-io](open-source-framework/commons-io.md)
 * [Quartz](open-source-framework/Quartz.md)
 * [HttpClient](open-source-framework/HttpClient.md)
-* [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
+* [okhttp](open-source-framework/okhttp.md)
+* [Javassist](open-source-framework/Javassist.md)
 * [lombok](open-source-framework/lombok.md)
 
 
@@ -170,6 +171,7 @@
 	* [大数据面试题](other/bigdata-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
 *   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)
+* 	[其它](other/other.md)
 
 ### 写在后面
 

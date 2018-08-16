@@ -13,6 +13,8 @@
 
 * [Lambda 表达式的 10 个示例](https://mp.weixin.qq.com/s/Xhr9aNEMr0fIUWh27mH1pw)
 * [learn-java8](https://github.com/biezhi/learn-java8)
+* [java8-tutorial](https://github.com/aalansehaiyang/java8-tutorial)
+* [一文让你明白lambda用法与源码分析](https://mp.weixin.qq.com/s/9mgD2aV6gML57RAPIEbZeQ)
 
 ### 分类
 

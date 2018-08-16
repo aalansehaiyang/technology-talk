@@ -115,3 +115,4 @@
 * 	[HashMap扩容、散列碰撞](https://yq.aliyun.com/articles/225660?spm=5176.100238.spm-cont-list.1.LYRwKV)
 * 	[一台Java服务器跑多少个线程](https://mp.weixin.qq.com/s/lQkPltX3yS3bGb9EbxHGAg)
 * 	[【死磕Java并发】—- 深入分析CAS](https://mp.weixin.qq.com/s/--AMdl0GZQkY1MWIWQ-HHA)
+* 	[深入探索 Java 热部署](https://www.ibm.com/developerworks/cn/java/j-lo-hotdeploy/index.html)

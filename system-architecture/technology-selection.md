@@ -89,6 +89,10 @@
 ##### 通用型
 * [Java生态圈框架汇总---可能会有满足你的](https://github.com/jobbole/awesome-java-cn)
 
+##### 动态管理Class字节码
+* [Javassist]()
+* [groovy](groovy.md)
+
 ##### 杂项
 
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
