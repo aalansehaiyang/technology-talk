@@ -64,6 +64,7 @@
 	* [分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
 * [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
 * [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
+* [你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
 
 ---
 ### MQ消息
@@ -83,6 +84,7 @@
 	* [分布式限流](https://mp.weixin.qq.com/s/VXu82MgWwn993n8fSlaNtg)
 	* [探索常见的几种限流策略和实现](https://mp.weixin.qq.com/s/GEu7UVO7s_HX88T_DmBmnQ)
 	* [阿里巴巴宣布开源限流降级中间件——Sentinel](https://mp.weixin.qq.com/s/s-4JeeATl9NpkxUIeBHvSw?utm_source=tuicool&utm_medium=referral)
+	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
 	
 * 容灾
 * 隔离

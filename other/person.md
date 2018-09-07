@@ -18,6 +18,8 @@
 * [架构经验老司机的技术选型哲学](https://mp.weixin.qq.com/s/PJeCdbpILQiOc9gpQEQ9rA)
 * [一个NB架构师的必备素质](https://mp.weixin.qq.com/s/CCYJ4TmAM5ht_DSZMWB5ow)
 * [你写的代码，是别人的噩梦吗？](https://mp.weixin.qq.com/s/6ePpYgwm8t1EY2PtFOX5rg)
+* [论架构师的自我修养](http://mp.weixin.qq.com/s/tc3hWHPw2JvqdnhXnWEGbQ)
+* [佛系程序员的月薪五万指南](https://mp.weixin.qq.com/s/N00rWLkkLjV7zQnzxBVKaA)
 
 ---
 ### 技术（P） --> 管理（M）
@@ -39,6 +41,7 @@
 * [想从技术转管理？这些坑你可要注意了！](https://mp.weixin.qq.com/s/Xq4zjEzaRGGOjghUHxLYFw)
 * [双面管理者：雷霆手段，菩萨心肠](https://mp.weixin.qq.com/s/LZ5mUUv1jnb1TAvpQs_F3Q)
 * [作为部门领导，自己天天撸代码忙成狗，下属却没事干，怎么办？](https://mp.weixin.qq.com/s/rSbFfzVT10OLwJy0QOaGpQ)
+* [好不容易当上技术管理者，却时常担心被下属diss技术水平，怎么办？](https://mp.weixin.qq.com/s/LtrgO4aY5w9ykMfW61czzg)
 
 
 ---
@@ -61,6 +64,7 @@
 	* [带团队，强势真是好事么？](https://mp.weixin.qq.com/s/waTzuYQFOQmkC33AO3sywQ)
 	* [带团队，要不要言传身教？](https://mp.weixin.qq.com/s/Fio662OSxpCgaCxQKNEICA)
 	* [带团队，不要轻易放弃任何一个队友](https://mp.weixin.qq.com/s/k0j8LkV7XVZflYIXJm5zYg)
+	* [这些年，leader教我的那些事](https://mp.weixin.qq.com/s/l8P1JfNtFVBA9MDOlfsdFA)
 
 ---
 ### HR技能
@@ -79,4 +83,5 @@
 * [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
 * [程序员增加收入实用指南](https://mp.weixin.qq.com/s/ZcxxugWNpzL_WHT8GfVGZQ)
 * [程序员必看—程序员如何高效提升自己？](https://mp.weixin.qq.com/s/BnkmICaK2duAu6URlNuKLg)
+
 

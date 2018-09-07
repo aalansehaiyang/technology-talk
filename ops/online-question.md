@@ -19,10 +19,13 @@
 
 * [java.lang.OutOfMemoryError 8种典型案例](https://github.com/cncounter/outofmemoryerror)
 
+* [一次内存溢出的排查经历](https://mp.weixin.qq.com/s/RnHfphZp3wmS2b78RZFugw)
+
+
 
 ### 帮助手册
 
-* [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
+* [JDK内置命令](http://blog.csdn.net/itomge/article/details/9904555)
 
 * [JDK内置工具补充](JDK内置工具补充.md)
 

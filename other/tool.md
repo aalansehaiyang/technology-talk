@@ -18,3 +18,5 @@ mac系统
 * [Homebrew安装](http://www.jianshu.com/p/d229ac7fe77d)
 * [终极 Shell——ZSH](https://zhuanlan.zhihu.com/p/19556676)
 * [Mac下切换zsh和bash](https://blog.csdn.net/a19891024/article/details/53869574)
+* [终端利器 ---- iTerm2](https://www.cnblogs.com/xishuai/p/mac-iterm2.html)
+* [远程服务器文件下载工具 --- ZOC](zoc.md)

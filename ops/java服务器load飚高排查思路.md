@@ -72,3 +72,53 @@ grep RUNNABLE stack.log  -a1
 less a.log |awk '{FS="java.lang.Thread.State:";print $2}'|sort |uniq -c |sort -nr  
 ```
 ![image](img/20130812130234781.jpeg)
+
+
+7、查看当前jvm内存各堆区的占比
+
+jmap -heap 8002
+
+```
+Heap Configuration:
+   MinHeapFreeRatio         = 40
+   MaxHeapFreeRatio         = 70
+   MaxHeapSize              = 2147483648 (2048.0MB)
+   NewSize                  = 786432000 (750.0MB)
+   MaxNewSize               = 786432000 (750.0MB)
+   OldSize                  = 1361051648 (1298.0MB)
+   NewRatio                 = 2
+   SurvivorRatio            = 8
+   MetaspaceSize            = 39845888 (38.0MB)
+   CompressedClassSpaceSize = 1073741824 (1024.0MB)
+   MaxMetaspaceSize         = 398458880 (380.0MB)
+   G1HeapRegionSize         = 0 (0.0MB)
+
+Heap Usage:
+New Generation (Eden + 1 Survivor Space):
+   capacity = 707788800 (675.0MB)
+   used     = 383204272 (365.4520721435547MB)
+   free     = 324584528 (309.5479278564453MB)
+   54.14104772497107% used
+Eden Space:
+   capacity = 629145600 (600.0MB)
+   used     = 334989624 (319.4710006713867MB)
+   free     = 294155976 (280.5289993286133MB)
+   53.24516677856445% used
+From Space:
+   capacity = 78643200 (75.0MB)
+   used     = 48214648 (45.98107147216797MB)
+   free     = 30428552 (29.01892852783203MB)
+   61.30809529622396% used
+To Space:
+   capacity = 78643200 (75.0MB)
+   used     = 0 (0.0MB)
+   free     = 78643200 (75.0MB)
+   0.0% used
+concurrent mark-sweep generation:
+   capacity = 1361051648 (1298.0MB)
+   used     = 985748664 (940.0831832885742MB)
+   free     = 375302984 (357.9168167114258MB)
+   72.4255148912615% used
+
+49647 interned Strings occupying 5512480 bytes.
+```

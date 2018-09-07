@@ -43,6 +43,7 @@ com.alibaba.fastjson.JSON.parseObject(String, Class<ForumCache>)
 
 * [Fastjson的常用API使用例子](https://www.w3cschool.cn/fastjson/fastjson-jsonpath.html)
 * [源码 Fork分支](https://github.com/aalansehaiyang/fastjson)
+* [SerializerFeature详解](https://blog.csdn.net/u010246789/article/details/52539576)
 
 
 
