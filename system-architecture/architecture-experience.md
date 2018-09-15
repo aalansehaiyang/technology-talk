@@ -23,14 +23,14 @@
 * 	[微服务的4大设计原则和19个解决方案](https://mp.weixin.qq.com/s/YfXjkMX-eQFmEzjG6Lwvrw)
 * 	[微服务后如何做一次系统梳理](https://mp.weixin.qq.com/s/ZxVQ7PvK89XVBYhNUoMnMg)
 *   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
-*   分布式事务
-	* [资料](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
-*   其它
-	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
 * [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
 * [微服务2.0技术栈选型手册](https://mp.weixin.qq.com/s/OloZhn2pwfIrOQit_8jefA)
 * [微服务架构在千万级别日调用量、亿级别海量数据场景下的应用实践](https://mp.weixin.qq.com/s/fqOOkMMPwXTNG8PHJ_yUAw)
-   
+*   分布式事务
+	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
+*   其它
+	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+	
 ---
 ### 数据库
 

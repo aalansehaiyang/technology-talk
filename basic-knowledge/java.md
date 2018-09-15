@@ -89,7 +89,7 @@
 
 *  	[内存结构](jvm内存结构.md)
 * 	[类加载机制](类加载器.md)
-*  	[垃圾回收](java-gc.md)
+*  	[GC垃圾回收](java-gc.md)
 * ###### JVM 调优
 	*   [jvm参数](jvm-param.md)
 	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)

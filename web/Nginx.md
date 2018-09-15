@@ -5,6 +5,7 @@
 
 * [nginx+lua](http://jinnianshilongnian.iteye.com/blog/2186448)
 * [Nginx配置文件及模块](https://mp.weixin.qq.com/s/YrC8aPZHtDlDL2Fqku2fbA)
+* [全面了解 Nginx 到底能做什么](https://mp.weixin.qq.com/s/-tbku61HLKWXPoKypXGFHg)
 
 ---
 

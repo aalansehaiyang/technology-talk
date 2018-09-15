@@ -24,6 +24,7 @@
 	* [Spring Boot 简书](http://www.jianshu.com/collection/f0cf6eae1754)
 	* [Spring干货汇总](https://mp.weixin.qq.com/s/VFHmOIp-H4lgh4gQE-cj5A)
 	* 《SpringBoot揭秘--快速构建微服务体系》
+* [给你一份SpringBoot知识清单](https://mp.weixin.qq.com/s/weh1bwsxBXQC1sbBo7_nwQ)
 
 ### 三、前沿
 

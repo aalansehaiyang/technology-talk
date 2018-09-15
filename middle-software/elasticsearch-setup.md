@@ -107,7 +107,7 @@ Elasticsearch 提供了官方客户端，支持市面上象java、javaScript、G
 
 #### 入门级案例
 
-https://www.elastic.co/guide/cn/elasticsearch/guide/current/_full_text_search.html
+https://www.elastic.co/guide/cn/elasticsearch/guide/current/running-elasticsearch.html
 
 ![image](img/12.png)
 

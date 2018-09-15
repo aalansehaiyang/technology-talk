@@ -2,6 +2,8 @@
 
 ---
 
+原文地址：https://github.com/aalansehaiyang/technology-talk
+
 ### 前言
 
 有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作，成长为资深研发工程师、技术专家、甚至成为小团队的Team Leader，其实并不难。
@@ -137,6 +139,7 @@
 * [通用技术方案选型](system-architecture/technology-selection.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
 * [软硬件性能](system-architecture/software-performance.md)
+* [技术大纲](system-architecture/knowledge-outline.md)
 
 
 ### 项目管理

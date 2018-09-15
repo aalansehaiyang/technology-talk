@@ -258,6 +258,9 @@
 
 * [搭建一个基于Java的分布式爬虫系统](https://mp.weixin.qq.com/s/E0xEqPSbi5IEYV-IFfn5vw)
 * [一次架构设计心得体会](https://mp.weixin.qq.com/s/-3AmP_yMFY75Bdnke4Vmzw)
+* github
+	* [web垂直爬虫框架](https://github.com/java-webbee/web-bee)
+	* [如何写一个垂直爬虫并抓取知乎用户20万数据](https://github.com/pkwenda/blog/issues/8)
 
 
 ---
@@ -266,6 +269,7 @@
 * ###### 会员、注册、登录
 	* [单点登录怎么实现？](https://mp.weixin.qq.com/s/ZT1B6ziSSRW41FN33xA3ZA)
 	* [深入了解Token认证的来龙去脉](https://mp.weixin.qq.com/s/DkwfpZibKdllfm0lpxukWg)
+	* [单点登录原理与简单实现](https://mp.weixin.qq.com/s/89YtsPX4cPLluWbM8JSNXQ)
 * ###### 短信
 	* [如何设计短信验证码防刷机制](https://blog.csdn.net/u011277123/article/details/77519910)
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)

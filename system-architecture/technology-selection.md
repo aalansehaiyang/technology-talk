@@ -72,6 +72,8 @@
 * [findbug]()
 * [性能压测 --- jmeter](http://jmeter.apache.org/)
 * [性能压测 --- jprofiler]()
+* 自动化
+	* [自动化测试工具 --- selenium](http://www.selenium.org.cn/)
 
 ##### 图形、图表、图片
 
@@ -104,4 +106,4 @@
 * 字符串表达式动态求值
 	* [aviator](https://github.com/killme2008/aviator/wiki)
 	* [MVEL](http://blog.csdn.net/sunnyyoona/article/details/75244442)
-*
+* [无头浏览器 --- HtmlUnit](https://www.cnblogs.com/zerotomax/p/7255950.html)

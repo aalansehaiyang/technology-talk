@@ -29,3 +29,4 @@
 * [GTS来了！阿里微服务架构下的分布式事务解决方案](https://mp.weixin.qq.com/s/bUtu2nTs0bybnTvk-iLt6Q)
 * [Atomikos](https://yq.aliyun.com/articles/39054)
 * [微服务架构下分布式事务解决方案 —— 阿里GTS](https://mp.weixin.qq.com/s/BWrGw5dkRfR7gws2XY8vHQ)
+* [ByteJTA是一个兼容JTA规范的基于XA/2PC的分布式事务管理器](https://github.com/liuyangming/ByteJTA)
