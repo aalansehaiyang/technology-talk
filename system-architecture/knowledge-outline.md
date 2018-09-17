@@ -33,6 +33,8 @@
 * 微服务架构--分布式事务解决方案
 * 微服务划分的粒度
 * 微服务的高可用怎么保证的？
+* 什么场景应该拆分系统，什么场景应该合并系统
+
 
 
 ### 性能调优
@@ -56,12 +58,15 @@
 
 * java
 	* String、StringBuffer与StringBuilder的区别
+	* try catch finally，try里面有return，finally还执行吗？
+	* Thread 和 Runnable区别？
 	* 关键字 volatile、transient、final
 	* Object 的 equals方法重写了，hashCode 方法必须重写 [link](https://blog.csdn.net/u013679744/article/details/57074669/) [link](https://github.com/Snailclimb/JavaGuide/blob/master/%E9%9D%A2%E8%AF%95%E5%BF%85%E5%A4%87/%E6%9C%80%E6%9C%80%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84Java%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/%E7%AC%AC%E4%B8%80%E5%91%A8%EF%BC%882018-8-7%EF%BC%89.md)
-	* HashMap，为什么线程不安全 [link](https://mp.weixin.qq.com/s/RtfEPR2oclUAu0tXnYAn4Q)
+	* ThreadLocal 内部原理？
+	* HashMap，为什么线程不安全 [link](https://mp.weixin.qq.com/s/RtfEPR2oclUAu0tXnYAn4Q)	
 	* HashMap 怎么解决碰撞问题？
 	* Concurrenthashmap 是怎么做到线程安全的？
-	* 线程有哪些状态？ BLOCKED和WAITING有什么区别? [link](https://blog.csdn.net/longly_me/article/details/61414268) [link](https://www.cnblogs.com/lcplcpjava/p/6896904.html)
+	* 线程有哪些状态？ blocked 和 wait 有什么区别? [link](https://blog.csdn.net/longly_me/article/details/61414268) [link](https://www.cnblogs.com/lcplcpjava/p/6896904.html)
 	* JDK 中有哪几个线程池？拒绝策略？ [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/concurrent-class.md) [link](https://mp.weixin.qq.com/s/5dexEENTqJWXN_17c6Lz6A)
 	* 如何保证线程安全问题？
 	* JVM如何加载字节码文件
@@ -73,8 +78,10 @@
 	* OOM 出现的有哪些场景？
 	* JUC 常用的类 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/concurrent-class.md) [link](https://mp.weixin.qq.com/s/K8y6wMNDLwsmU7EFRx7Dsw)
 	* JAVA并发编程艺术
-	* java8的新特性
+	* java8的新特性 [link](https://github.com/biezhi/30-seconds-of-java8)
 	* NIO
+	* 看过哪些JDK源码
+	
 
 * spring
 	* 为什么要使用Spring，Spring的优缺点有哪些
@@ -82,7 +89,7 @@
 	* Spring Bean 的生命周期 [link](https://blog.csdn.net/itomge/article/details/8656942)
 	* Spring AOP实现原理
 	* SpringMVC模式
-	* Spring Boot 与 Spring 的区别
+	* Spring Boot 与 Spring 的区别 [link](https://mp.weixin.qq.com/s/lsJU_XFmI3dPpkWndrsAuw)
 	* Spring cloud了解过哪些
 	
 
@@ -90,9 +97,19 @@
 	* 表级锁和行级锁对比 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
 	* MySQL 事务特性，有哪几种事务隔离级别 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
 	* 分布式事务，两阶段提交
-	* SQL 优化的常见方法有哪些
 	* 当MySQL单表记录数过大时，数据库的CRUD性能会明显下降，一些常见的优化措施 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
+	* SQL 优化的常见方法有哪些
 
+
+* redis
+	* 为什么要用Redis，Redis有哪些优缺点？Redis如何实现扩容？
+	* 10个redis常见问题 [link](https://mp.weixin.qq.com/s/Z4a8wbWvPDGFTkKJH0X9VQ)
+		* Redis有哪些数据结构？
+		* 使用过Redis分布式锁么，代码怎么写？
+		* 假如Redis里面有1亿个key，其中有10w个key是以某个固定的已知的前缀开头的，如果将它们全部找出来？	
+		* Redis如何做持久化的？
+		* Pipeline有什么好处，为什么要用pipeline？
+		* Redis的同步机制了解么？	
 * kafka
 	* Kafka的整体架构
 * netty
@@ -141,7 +158,6 @@
 
 * 一致性Hash算法
 * 看过哪些开源框架的源码
-* 为什么要用Redis，Redis有哪些优缺点？Redis如何实现扩容？
 * 消息中间件是如何实现的，技术难点有哪些
 * 工作案例。怎么提高研发效率。
 * HttpClient 讲下里面的具体实现，（涉及了哪些东西）
@@ -150,7 +166,13 @@
 * 怎么防止订单重复提交?
 * ORM框架用过哪些？
 * hibernate 和 IBatis 的区别？
+* 抽象能力，乐高模式，怎么提高研发效率
+* 什么情况用接口，什么情况用消息
 * 
+
+
+
+
 
 
 
