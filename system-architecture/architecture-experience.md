@@ -83,7 +83,7 @@
 	* [如何设计API的限流](如何设计API的限流.md)
 	* [分布式限流](https://mp.weixin.qq.com/s/VXu82MgWwn993n8fSlaNtg)
 	* [探索常见的几种限流策略和实现](https://mp.weixin.qq.com/s/GEu7UVO7s_HX88T_DmBmnQ)
-	* [阿里巴巴宣布开源限流降级中间件——Sentinel](https://mp.weixin.qq.com/s/s-4JeeATl9NpkxUIeBHvSw?utm_source=tuicool&utm_medium=referral)
+	* [阿里巴巴宣布开源限流降级中间件——Sentinel](https://mp.weixin.qq.com/s/s-4JeeATl9NpkxUIeBHvSw?utm_source=tuicool&utm_medium=referral) [Link2](https://mp.weixin.qq.com/s/VcnJDuYgsqrGNrOsrpUmpw)
 	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
 	
 * 容灾
