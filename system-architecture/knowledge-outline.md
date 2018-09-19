@@ -3,10 +3,6 @@
 ---
 
 
-https://mp.weixin.qq.com/s/HmSs77icimyQCPu6WNMzrw
-
-https://mp.weixin.qq.com/s/u4Azg27wPtdbVtoi38EAiA
-
 ### 系统架构
 
 * 前端浏览器地址的一个 http 请求到后端整个流程
@@ -29,6 +25,7 @@ https://mp.weixin.qq.com/s/u4Azg27wPtdbVtoi38EAiA
 * 缓存
 	* 搭建Redis缓存高可用集群
 	* 高并发下如何正确优雅的使用缓存
+	* 设计缓存要注意什么
 	* 本地缓存用过哪些框架？Guava
 	* 分布式缓存：缓存一致性、缓存命中率、缓存冗余
 * 分布式数据库
@@ -96,13 +93,14 @@ https://mp.weixin.qq.com/s/u4Azg27wPtdbVtoi38EAiA
 		* 熟悉哪些jvm 命令，jstack、jmap、jstat?
 		* jvm调优经验
 	* 其它
+		* 动态代理与Cglib实现的区别 [link](https://www.cnblogs.com/leifei/p/8263448.html)
 		* 看过哪些JDK源码
 		* JAVA并发编程艺术
 		* java8的新特性 [link](https://github.com/biezhi/30-seconds-of-java8)
 		* lambda表达式、Stream API
 		* HotSpot 即时编译器、编译优化 [link](http://www.sohu.com/a/169704040_464084)
 		* CPU缓存，L1，L2，L3和伪共享 [link](https://blog.csdn.net/zero__007/article/details/54089730)
-		* Java 9，Reactive Streams [link](https://www.cnblogs.com/IcanFixIt/p/7245377.html)
+		* Java 9，Reactive Streams [link](https://www.cnblogs.com/IcanFixIt/p/7245377.html)		
 	
 
 * spring
@@ -183,6 +181,7 @@ https://mp.weixin.qq.com/s/u4Azg27wPtdbVtoi38EAiA
 * 如果有几十亿的白名单，每天白天需要高并发查询，晚上需要更新一次，如何设计这个功能
 * 双十一电商秒杀系统性能优化实战
 * 电商网站，如何保证一件商品不被超卖
+* 让您做一个电商平台，您如何设置一个在买家下订单后的”第60秒“发短信通知卖家发货，您需要考虑的是 像淘宝一样的大并发量的订单 [link](https://mp.weixin.qq.com/s/u4Azg27wPtdbVtoi38EAiA)
 
 
 ### 其它

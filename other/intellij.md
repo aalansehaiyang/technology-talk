@@ -9,7 +9,7 @@
 * [将intellij idea的快捷键与Eclipse的快捷键设置成一样](http://blog.csdn.net/boot_strap/article/details/21729143)
 * [快捷键---IntelliJ IDEA全局内容搜索和替换](https://blog.csdn.net/gnail_oug/article/details/78281354)
 * [如何打开Intellij IDEA的代码提示功能](https://jingyan.baidu.com/article/36d6ed1f62e9821bcf4883af.html)
-* [IntelliJ IDEA 设置选中标识符高亮](http://blog.csdn.net/wskinght/article/details/43052407)
+* [IntelliJ IDEA 设置选中标识符高亮](https://blog.csdn.net/qq465235530/article/details/78900863)
 * [IDEA提示方法的注释](https://www.oschina.net/question/100896_83213)
 * [Intellij IDEA打开多项目窗口](https://blog.csdn.net/u012050154/article/details/53535637)
 * [查看一个类的父子依赖关系](https://blog.csdn.net/qq_27093465/article/details/52857307)
