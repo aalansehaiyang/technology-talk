@@ -2,7 +2,10 @@
 
 ---
 
-原文地址：https://github.com/aalansehaiyang/technology-talk，转发请注明来源！
+原文地址：https://github.com/aalansehaiyang/technology-talk
+
+`版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
+
 
 ### 前言
 

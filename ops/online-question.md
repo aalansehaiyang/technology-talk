@@ -37,7 +37,7 @@
 
 * [java系统诊断命令行工具--anatomy](anatomy.md)
 
-* [【推荐】Alibaba Java诊断利器 --- Arthas ](https://github.com/alibaba/arthas)
+* [【推荐】Alibaba Java诊断利器 --- Arthas ](https://github.com/alibaba/arthas)    [Link2](https://mp.weixin.qq.com/s/VcnJDuYgsqrGNrOsrpUmpw)
 
 * [一些常用的shell脚本](https://github.com/oldratlee/useful-scripts)
 
