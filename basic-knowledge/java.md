@@ -116,3 +116,12 @@
 * 	[一台Java服务器跑多少个线程](https://mp.weixin.qq.com/s/lQkPltX3yS3bGb9EbxHGAg)
 * 	[【死磕Java并发】—- 深入分析CAS](https://mp.weixin.qq.com/s/--AMdl0GZQkY1MWIWQ-HHA)
 * 	[深入探索 Java 热部署](https://www.ibm.com/developerworks/cn/java/j-lo-hotdeploy/index.html)
+* 	signal 信号
+	* [jvm与系统信号(2)](http://hongjiang.info/jvm-and-signals-2/)
+	* [kill 命令详解 系统信号](https://www.cnblogs.com/MYSQLZOUQI/p/5258898.html)
+	* [Linux系统下如何优雅地关闭Java进程方法](http://www.kgc.cn/bbs/post/90262.shtml)
+	* [signal信号捕捉](https://blog.csdn.net/aa4790139/article/details/8584931)
+	* drools-demo 代码示例，java工程优雅关闭（kill pid , 默认信号 15）
+* 
+	
+	

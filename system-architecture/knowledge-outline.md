@@ -6,14 +6,14 @@
 ### 系统架构
 
 * 前端浏览器地址的一个 http 请求到后端整个流程
-* 常用的设计模式，23种
 * 哪些设计模式可以增加系统的可扩展性
 * 如果AB两个系统互相依赖，如何解除依赖？
 * 什么场景应该拆分系统，什么场景应该合并系统？
-* 常用的设计模式 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+* 常用的设计模式，23种  [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 * 如何构建高可用系统？ [link](https://mp.weixin.qq.com/s/TuOMlzXRtDJSCgYGMPbpjw)
 * 性能优化：使用单例、使用Future模式、使用线程池、选择就绪、减少上下文切换、减少锁粒度、数据压缩、结果缓存
-* Nginx负载均衡
+* Nginx负载均衡 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/web/load-balance.md)
+* 一个系统如何优雅关闭。signal信号捕捉 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/java.md)
 
 
 
@@ -76,11 +76,12 @@
 		* Concurrenthashmap 是怎么做到线程安全的？
 	* 线程
 		* 线程有哪些状态？ blocked 和 wait 有什么区别? [link](https://blog.csdn.net/longly_me/article/details/61414268) [link](https://www.cnblogs.com/lcplcpjava/p/6896904.html)
+		* sleep() 和 wait() 的区别 [link](https://blog.csdn.net/xyh269/article/details/52613507)
 		* JDK 中有哪几个线程池？拒绝策略？ [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/concurrent-class.md) [link](https://mp.weixin.qq.com/s/5dexEENTqJWXN_17c6Lz6A)
 		* 如何保证线程安全问题？
 		* JUC 常用的类 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/concurrent-class.md) [link](https://mp.weixin.qq.com/s/K8y6wMNDLwsmU7EFRx7Dsw)
 	* IO
-		* bio、nio和aio的区别、三种IO的用法与原理
+		* BIO、NIO和AIO的区别，三种IO的用法与原理
 	* JVM
 		* JVM如何加载字节码文件
 		* 双亲委派，Bootstrap ClassLoader、Extension ClassLoader、ApplicationClassLoader
@@ -115,13 +116,14 @@
 	
 
 * mysql
+	* 数据库主备搭建 [link](https://www.cnblogs.com/fan-yuan/p/7249249.html) [link](https://blog.csdn.net/zimu002/article/details/72843260)
 	* 表级锁和行级锁对比 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
 	* 事务特性，有哪几种事务隔离级别 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
 	* 分布式事务，两阶段提交
 	* 当MySQL单表记录数过大时，数据库的CRUD性能会明显下降，一些常见的优化措施 [link](https://mp.weixin.qq.com/s/ENQZii1xgxlsIbR-oMseKw)
-	* SQL 优化的常见方法有哪些
+	* SQL 优化的常见方法有哪些 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/sql-optimize.md)
 	* 如何查看执行计划，如何根据执行计划进行SQL优化 [link](https://blog.csdn.net/taojin12/article/details/81489234)
-	* 数据库主备搭建
+	* MyISAM与InnoDB区别 [link](https://www.cnblogs.com/lyl2016/p/5797519.html)
 
 
 * redis
@@ -172,6 +174,8 @@
 	* 分段和分页
 	* 虚拟内存与主存
 	* Linux 库函数与系统调用的关系与区别 [link](https://www.cnblogs.com/liwei0526vip/p/8998751.html)
+	* 调度算法
+	* select 、poll和epoll
 * 进程和线程的区别 [link](https://mp.weixin.qq.com/s/xHOSVG5tGzj1RzpEutH_wg)
  
 
@@ -186,7 +190,7 @@
 
 ### 其它
 
-* 一致性Hash算法
+* 一致性Hash算法 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/other/%E4%B8%80%E8%87%B4%E6%80%A7hash.md)
 * 看过哪些开源框架的源码
 * 消息中间件是如何实现的，技术难点有哪些
 * 工作案例。怎么提高研发效率。
@@ -198,7 +202,7 @@
 * hibernate 和 IBatis 的区别？
 * 抽象能力，乐高模式，怎么提高研发效率
 * 什么情况用接口，什么情况用消息
-* 加密与解密：MD5，SHA1、DES、AES、RSA、DSA
+* 加密与解密：MD5，SHA1、DES、AES、RSA、DSA [link](https://github.com/aalansehaiyang/sort-algorithm/blob/master/doc/encry.md)
 
 
 

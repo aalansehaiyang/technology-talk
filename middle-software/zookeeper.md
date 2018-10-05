@@ -62,6 +62,9 @@ zk支持单机、集群两种模式。
 *	ZkClient
 *	[Curator](http://blog.csdn.net/dc_726/article/details/46475633)
 
+**监控：**
+
+*	[ZooInspector](https://blog.csdn.net/liubowin/article/details/77966868?locationNum=6&fps=1) 
 
 #### ZkClient 介绍
 
