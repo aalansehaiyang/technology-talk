@@ -8,11 +8,13 @@
 *	[大型网站技术架构](大型网站技术架构.md)
 *	[各大互联网公司架构演进之路汇总](http://blog.fulin.org/2016/03/summary-of-architectures/)
 *	[中小型研发团队架构落地实践18篇，含案例、代码](https://mp.weixin.qq.com/s/AbUGOWN27FEUPWgDQkF_Dw)
+* [高可用系统架构](https://mp.weixin.qq.com/s/5vVXBXkd-Ilh7zk5G6Wxcg)
+* [看京东系统架构师如何让笨重的架构变得灵巧](https://mp.weixin.qq.com/s/-wIC6yPifSEfT_Yybi4pTg)
 * 	前后端分离
 	* [互联网分层架构，为啥要前后端分离](https://mp.weixin.qq.com/s/Nhyo969WnEwyCWpr34ECcA)
 	* [前后端API交互如何保证数据安全性？](https://mp.weixin.qq.com/s/On98tXDEpnx1n7sqgZYWzA)
-* [高可用系统架构](https://mp.weixin.qq.com/s/5vVXBXkd-Ilh7zk5G6Wxcg)
-* [看京东系统架构师如何让笨重的架构变得灵巧](https://mp.weixin.qq.com/s/-wIC6yPifSEfT_Yybi4pTg)
+* 	网关	
+	* [Gateway](Gateway.md)
 
 ---
 ### 微服务
@@ -28,6 +30,8 @@
 * [微服务架构在千万级别日调用量、亿级别海量数据场景下的应用实践](https://mp.weixin.qq.com/s/fqOOkMMPwXTNG8PHJ_yUAw)
 *   分布式事务
 	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
+*   注册中心
+	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
 *   其它
 	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
 	

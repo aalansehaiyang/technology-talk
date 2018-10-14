@@ -11,6 +11,7 @@
 * [编码工具-------intellij idea](intellij.md)
 * [原型设计工具-------Axure](https://www.axure.com.cn/)
 * [亿图-------EdrawMax]()
+* [gitbook](https://www.jianshu.com/p/421cc442f06c)
 
 
 mac系统

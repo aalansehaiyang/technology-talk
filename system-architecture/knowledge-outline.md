@@ -50,11 +50,11 @@
 ### 锁相关
 
 * 死锁定义；如何避免死锁 [link](https://blog.csdn.net/ls5718/article/details/51896159)
-* synchronized和 ReentrantLock 的区别？
-* java读写锁，读写锁设计主要解决什么问题？
-* 乐观锁，悲观锁，使用场景？
-* 设计一个分布式锁
+* 乐观锁，悲观锁，使用场景？ [link](https://github.com/aalansehaiyang/technology-talk/blob/master/system-architecture/%E9%94%81%E6%9C%BA%E5%88%B6.md)
+* 设计一个分布式锁 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/system-architecture/architecture-experience.md)
 * 常见的锁有哪些？ [link](https://github.com/aalansehaiyang/Lock-Learning)
+* java读写锁，读写锁设计主要解决什么问题？ [link](http://ifeve.com/read-write-locks/)
+* synchronized和 ReentrantLock 的区别？ [link](https://www.cnblogs.com/fanguangdexiaoyuer/p/5313653.html)
 * 不用synchronized和lock，实现线程安全的单例模式？[link](https://blog.csdn.net/w372426096/article/details/80938895)
 
 
@@ -83,15 +83,15 @@
 	* IO
 		* BIO、NIO和AIO的区别，三种IO的用法与原理
 	* JVM
-		* JVM如何加载字节码文件
+		* JVM 内存结构 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/basic-knowledge/java.md)
+		* JVM如何加载字节码文件 
 		* 双亲委派，Bootstrap ClassLoader、Extension ClassLoader、ApplicationClassLoader
 		* 内存分配策略、垃圾收集器（G1）、GC算法、GC参数、对象存活的判定 
 		* 什么情况会出现young GC，什么情况会出现Full GC
 		* 怎样判断Full GC是否正常？ [link](https://mp.weixin.qq.com/s/TuOMlzXRtDJSCgYGMPbpjw)
-		* 内存泄露原因？如何排查？
+		* 内存泄露原因？如何排查？ [link](https://github.com/aalansehaiyang/technology-talk/blob/master/ops/online-question.md)
 		* OOM 出现的有哪些场景？
-		* JVM 内存结构
-		* 熟悉哪些jvm 命令，jstack、jmap、jstat?
+		* 熟悉哪些jvm 命令，jstack、jmap、jstat? [link](https://blog.csdn.net/itomge/article/details/9904555)
 		* jvm调优经验
 	* 其它
 		* 动态代理与Cglib实现的区别 [link](https://www.cnblogs.com/leifei/p/8263448.html)
@@ -127,7 +127,7 @@
 
 
 * redis
-	* 为什么要用Redis，Redis有哪些优缺点？Redis如何实现扩容？
+	* 为什么要用Redis，Redis有哪些优缺点？Redis如何实现扩容？ [link](https://mp.weixin.qq.com/s/FqMScRBFwdwF2n3QJkNLRA)
 	* 10个redis常见问题 [link](https://mp.weixin.qq.com/s/Z4a8wbWvPDGFTkKJH0X9VQ)
 		* Redis有哪些数据结构？
 		* 使用过Redis分布式锁么，代码怎么写？
@@ -155,7 +155,7 @@
 * OSI模型分为哪几层？
 * TCP
 	* TCP 和 UDP 的区别？TCP 数据传输过程中怎么做到可靠的？
-	* TCP 三次握手、四次挥手过程
+	* TCP 三次握手、四次挥手过程 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/web/tcp.md)
 	* TCP拥塞控制 [link](https://www.cnblogs.com/hupp/p/4856134.html)
 * http
 	* Cookie和Session的区别

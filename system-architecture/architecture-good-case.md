@@ -69,6 +69,8 @@
 
 * ###### 菜鸟
 	* [谈笔1000亿的生意：揭秘菜鸟全球智能仓配技术实践](https://mp.weixin.qq.com/s/igH0UwkvP9WiVTkFX-IrLA)
+* ###### 达达配送
+	* [高性能服务端优化之路](https://mp.weixin.qq.com/s/0lMiU_rZpoT3wqwVHyCpDw)
 * ###### 京东
 	* [京东物流系统架构演进中的最佳实践](http://mp.weixin.qq.com/s/2HVkQCaXQQEQIqTrJZ01wA)
 	* [大数据构建京东智慧物流](https://mp.weixin.qq.com/s/G1l3lRZezV6_h-4CpdofvA)
@@ -275,6 +277,8 @@
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
 * ###### 消息推送、push
 	* [如何用Redis平衡海量信息推送的实效与体量](https://mp.weixin.qq.com/s/tLFOFEWBUfjjO_YInDxpJw)
+* ###### 分布式任务
+	* [点我达分布式任务调度系统-DaJob](https://mp.weixin.qq.com/s/DfGligz50B_x6Y_S-DyU9w?from=groupmessage&isappinstalled=0)
 
 ---
 #### 其它
