@@ -5,6 +5,8 @@
 
 * [HTTP/2到底是什么？](https://mp.weixin.qq.com/s/MNbjdnSeoeSlTwuXokaXMQ)
 * [彻底弄懂 HTTP 缓存机制及原理](https://mp.weixin.qq.com/s/qnBExJ0sjVmhk8UTxAPK1Q)
+* [Http中Content-Type的详解](https://blog.csdn.net/danielzhou888/article/details/72861097)
+
 
 ---
 HTTP协议是指计算机通信网络中两台计算机之间进行通信所必须共同遵守的规定或规则，超文本传输协议(HTTP)是一种通信协议，它允许将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器。
