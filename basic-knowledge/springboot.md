@@ -14,6 +14,13 @@
 * [异步调用Async](https://blog.csdn.net/v2sking/article/details/72795742)
 
 
+#### 接口扩展
+
+* [ApplicationListener](https://my.oschina.net/spinachgit/blog/1635218?nocache=1522203306031)
+* 拦截器
+	* [ClientHttpRequestInterceptor]()
+	* [HandlerInterceptor](https://blog.csdn.net/qq_27905183/article/details/79079762)
+
 ### 二、资料集
 
 * [Spring Boot 系列文章](http://www.ityouknow.com/spring-boot.html)

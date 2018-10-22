@@ -87,9 +87,10 @@
 
 ### 三、JVM虚拟机
 
-*  	[内存结构](jvm内存结构.md)
-* 	[类加载机制](类加载器.md)
+*  	[内存模型](jvm内存结构.md)
+* 	[类加载](类加载器.md)
 *  	[GC垃圾回收](java-gc.md)
+* 	[强引用、软引用、弱引用、幻象引用](java-class-reference.md)
 * ###### JVM 调优
 	*   [jvm参数](jvm-param.md)
 	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
