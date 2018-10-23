@@ -17,6 +17,9 @@
 #### 接口扩展
 
 * [ApplicationListener](https://my.oschina.net/spinachgit/blog/1635218?nocache=1522203306031)
+* [ApplicationObjectSupport](https://blog.csdn.net/huangbo_embed/article/details/50342669)
+* [FactoryBean]()
+* [InitializingBean]()
 * 拦截器
 	* [ClientHttpRequestInterceptor]()
 	* [HandlerInterceptor](https://blog.csdn.net/qq_27905183/article/details/79079762)

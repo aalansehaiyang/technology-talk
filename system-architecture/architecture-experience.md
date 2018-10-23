@@ -95,10 +95,10 @@
 	* [限流降级神器-哨兵(sentinel)原理分析](https://mp.weixin.qq.com/s/g2hyp9CquEAvTe8QmPO-3g)
 	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
 	* [限流系统如何发现系统的热点](https://mp.weixin.qq.com/s/wRKiEKT_Qe05Ie8XWgkaXQ)
-* 降级	
+* 降级
+	* [降级](demotion.md)
 * 熔断
-	* [熔断设计]()
-* 容灾
+	* [熔断器](fusing.md)
 * 隔离
 	* [隔离设计](isolate.md)
 * 幂等
