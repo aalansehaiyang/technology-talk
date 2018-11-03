@@ -254,7 +254,14 @@ public class BigpipeConfiguration {
 }
 ```
 
-开关为true的时候才实例化bean
+开关为true的时候才实例化bean，后面是默认值
+
+* ConditionalOnWebApplication
+
+当前项目是WEB项目的条件下
+
+https://www.jianshu.com/p/23f504713b94
+
 
 * @ConditionalOnProperty
 

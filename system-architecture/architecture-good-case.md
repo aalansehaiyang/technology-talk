@@ -279,6 +279,8 @@
 	* [如何用Redis平衡海量信息推送的实效与体量](https://mp.weixin.qq.com/s/tLFOFEWBUfjjO_YInDxpJw)
 * ###### 分布式任务
 	* [点我达分布式任务调度系统-DaJob](https://mp.weixin.qq.com/s/DfGligz50B_x6Y_S-DyU9w?from=groupmessage&isappinstalled=0)
+* ###### 智能流量调度
+	* [京东到家订单派发的技术实战](https://mp.weixin.qq.com/s/tNMDImzKPJmkMBrssSl5yw)
 
 ---
 #### 其它

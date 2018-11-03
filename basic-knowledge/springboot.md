@@ -21,8 +21,8 @@
 * [FactoryBean]()
 * [InitializingBean]()
 * 拦截器
-	* [ClientHttpRequestInterceptor]()
-	* [HandlerInterceptor](https://blog.csdn.net/qq_27905183/article/details/79079762)
+	* [HandlerInterceptor、WebMvcConfigurerAdapter](https://blog.csdn.net/qq_27905183/article/details/79079762)
+	* [ClientHttpRequestInterceptor、RestTemplate](https://www.jianshu.com/p/deb5e5efb724)
 
 ### 二、资料集
 

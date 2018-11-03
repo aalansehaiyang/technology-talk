@@ -58,8 +58,8 @@
 ---
 ### 缓存
 
-* 	[cache相关](cache相关.md)
 *	[cache经验总结](cache-summary.md)
+*	[缓存杂谈](cache-talk.md)
 *	[缓存架构之防雪崩设计](缓存架构之防雪崩设计.md)
 *	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
 *	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
@@ -72,6 +72,7 @@
 * [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
 * [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
 * [你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
+* [cache相关](cache相关.md)
 
 ---
 ### MQ消息
