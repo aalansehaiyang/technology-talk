@@ -65,17 +65,20 @@
 	* [联营结算平台建设之路](https://mp.weixin.qq.com/s/FHTB8eKwIWnMxNraXghqvA)
 
 ---
-#### 物流
+#### 物流、外卖
 
 * ###### 菜鸟
 	* [谈笔1000亿的生意：揭秘菜鸟全球智能仓配技术实践](https://mp.weixin.qq.com/s/igH0UwkvP9WiVTkFX-IrLA)
-* ###### 达达配送
-	* [高性能服务端优化之路](https://mp.weixin.qq.com/s/0lMiU_rZpoT3wqwVHyCpDw)
+	* [菜鸟下一代分布式体系架构的设计理念](https://mp.weixin.qq.com/s/1NhflDbO6CKYNSQcdM9ekg)
 * ###### 京东
 	* [京东物流系统架构演进中的最佳实践](http://mp.weixin.qq.com/s/2HVkQCaXQQEQIqTrJZ01wA)
 	* [大数据构建京东智慧物流](https://mp.weixin.qq.com/s/G1l3lRZezV6_h-4CpdofvA)
 * ###### 顺丰
 	* [顺丰IT基础架构运维的焦虑与进化](https://mp.weixin.qq.com/s/vK2VRyLtcH1qYtO1VbllOw)
+* ###### 达达配送
+	* [高性能服务端优化之路](https://mp.weixin.qq.com/s/0lMiU_rZpoT3wqwVHyCpDw)
+* ###### 外卖
+	* [从下单到享用，外卖背后的分布式架构设计](https://mp.weixin.qq.com/s/vdxhbPTlYFftAQkNhfFufA)
 * ###### 其它
 	* [大数据在物流企业中的应用](https://mp.weixin.qq.com/s/X-0qIcxnGhV_PTnXTR1IuA)
 
@@ -277,10 +280,15 @@
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
 * ###### 消息推送、push
 	* [如何用Redis平衡海量信息推送的实效与体量](https://mp.weixin.qq.com/s/tLFOFEWBUfjjO_YInDxpJw)
-* ###### 分布式任务
-	* [点我达分布式任务调度系统-DaJob](https://mp.weixin.qq.com/s/DfGligz50B_x6Y_S-DyU9w?from=groupmessage&isappinstalled=0)
 * ###### 智能流量调度
 	* [京东到家订单派发的技术实战](https://mp.weixin.qq.com/s/tNMDImzKPJmkMBrssSl5yw)
+
+---
+#### 技术点
+* ###### 异步非阻塞
+	* [Servlet的异步和非堵塞](https://www.jdon.com/idea/javaee7/servlet21.html)
+* ###### 分布式任务
+	* [点我达分布式任务调度系统-DaJob](https://mp.weixin.qq.com/s/DfGligz50B_x6Y_S-DyU9w?from=groupmessage&isappinstalled=0)
 
 ---
 #### 其它
@@ -295,4 +303,5 @@
 * [Java高效开发12个精品库](https://mp.weixin.qq.com/s/jy-tpDbbhC9EuUGN3mzWqg)
 * [Google最热门60款开源项目](https://mp.weixin.qq.com/s/1jvK89iRtX_aofCww34G1w)
 * [今日头条Go语言构建日请求千亿级微服务的最佳实践](https://mp.weixin.qq.com/s/iEULJ6aGXezPjZTAq1-qCg)
+* [亿级流量系统架构之如何设计承载百亿流量的高性能架构](https://mp.weixin.qq.com/s/FuIlEl4VIsMfLvDGhgMDVQ)
 

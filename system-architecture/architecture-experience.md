@@ -32,10 +32,13 @@
 	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
 *   注册中心
 	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
+* 	负载均衡
+	* [常用算法](load-balance.md)
 *  Spring Cloud
 	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
 *	Service Mesh	
 	* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
+	* [Service Mesh 及其主流开源实现解析](https://mp.weixin.qq.com/s/fdByrlbKmA0H1ccEBL0NAw)
 	
 	
 ---
