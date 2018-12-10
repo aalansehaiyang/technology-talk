@@ -19,8 +19,10 @@
 * ###### 蘑菇街
 	* [蘑菇街电商交易平台服务架构及改造优化历程](http://mp.weixin.qq.com/s/wQH7Zz6o88pj-v1E2rGJEw)
 * ###### 有赞
-	* [有赞的交易系统架构困局以及破局之道](http://mp.weixin.qq.com/s/XLWq01U0mOWpGEmXeri2TQ)
+	* [交易系统架构困局以及破局之道](http://mp.weixin.qq.com/s/XLWq01U0mOWpGEmXeri2TQ)
 	* [团队和工程管理取舍的经验之谈](https://mp.weixin.qq.com/s/4W3WVssWXu4ViXFhBPc_SQ)
+	* [订单导出的配置化实践](https://mp.weixin.qq.com/s/enawjPibzmwXJ9MTVLSPxQ)
+	* [订单管理的三生三世与“十面埋伏”](https://mp.weixin.qq.com/s/pkPVYmrUTywSiswZz_YqKw)
 * ###### O2O外卖	
 	* [美团外卖订单中心的演进](http://mp.weixin.qq.com/s/nmRG5tyj28-pS_dho2NOqg)
 	* [饿了么：日订单量超900万的架构设计及演进之路](https://mp.weixin.qq.com/s/DvQszWAr89XjWodJUjVTjw)
