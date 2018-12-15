@@ -39,24 +39,6 @@
 *	Service Mesh	
 	* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
 	* [Service Mesh 及其主流开源实现解析](https://mp.weixin.qq.com/s/fdByrlbKmA0H1ccEBL0NAw)
-	
-	
----
-### 数据库
-
-*	[数据库架构](数据库架构.md)
-*	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
-*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
-*	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
-*	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
-*	中间件
-	* [为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
-*	分库分表
-	* [关于分库分表](https://mp.weixin.qq.com/s/eOaVRyCTKHeAWG4UXcGjQQ)
-	* [也谈分库分表在实际应用的实践](https://mp.weixin.qq.com/s/Wn_Ox3617uUkzIJJJoUrjw)
-	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
-	* [如何不停机完成单表拆分](split-table.md)
-* [InnoDB，5项最佳实践，知其所以然？](https://mp.weixin.qq.com/s/JEJcgD36dpKgbUi7xo6DzA)
 
 ---
 ### 缓存
@@ -75,7 +57,25 @@
 * [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
 * [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
 * [你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
-* [cache相关](cache相关.md)
+* [cache相关](cache相关.md)	
+	
+---
+### 数据库
+
+*	[数据库架构](数据库架构.md)
+*	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
+*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
+*	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
+*	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
+*	中间件
+	* [为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
+*	分库分表
+	* [关于分库分表](https://mp.weixin.qq.com/s/eOaVRyCTKHeAWG4UXcGjQQ)
+	* [也谈分库分表在实际应用的实践](https://mp.weixin.qq.com/s/Wn_Ox3617uUkzIJJJoUrjw)
+	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
+	* [如何不停机完成单表拆分](split-table.md)
+* [InnoDB，5项最佳实践，知其所以然？](https://mp.weixin.qq.com/s/JEJcgD36dpKgbUi7xo6DzA)
+
 
 ---
 ### MQ消息
@@ -84,6 +84,10 @@
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
 *	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 
+---
+### 配置管理
+
+* [分布式配置中心](https://mp.weixin.qq.com/s/MI_vtOo4EFAWm_e379uPUg?from=groupmessage&isappinstalled=0)
 
 ---
 ### 稳定性
@@ -162,6 +166,11 @@
 ### 技术选型
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
+
+---
+### 开源
+
+* [2018年阿里巴巴重要开源项目汇总](https://yq.aliyun.com/articles/676140)
 
 ---
 ### 架构汇总
