@@ -117,6 +117,7 @@
 	* [隔离设计](isolate.md)
 * 幂等
 	* [幂等性设计](idempotent.md)
+	* [并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 * 重试
 	* [重试设计](re-try.md)
 * 异地双活
@@ -139,9 +140,6 @@
 *	[接口鉴权（数字签名）](数字签名.md)
 
 	
----
-### 数据一致性
-* 	[并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 
 ---
 ### 锁相关
