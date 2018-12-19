@@ -16,6 +16,16 @@
 * 	网关	
 	* [Gateway](Gateway.md)
 	* [微服务网关Zuul迁移到Spring Cloud Gateway](https://mp.weixin.qq.com/s/Qnxec7w26AX6jRl0KRHVHg)
+	* [Spring Cloud 终于按捺不住推出了自己的服务网关 Gateway](https://mp.weixin.qq.com/s/qySjzQ8f-pYwWKPE_8BhVg)
+*   分布式事务
+	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
+*   注册中心
+	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
+* 	负载均衡
+	* [常用算法](load-balance.md)
+*  Spring Cloud
+	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+	
 
 ---
 ### 微服务
@@ -28,17 +38,11 @@
 *   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
 * [微服务2.0技术栈选型手册](https://mp.weixin.qq.com/s/OloZhn2pwfIrOQit_8jefA)
 * [微服务架构在千万级别日调用量、亿级别海量数据场景下的应用实践](https://mp.weixin.qq.com/s/fqOOkMMPwXTNG8PHJ_yUAw)
-*   分布式事务
-	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
-*   注册中心
-	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
-* 	负载均衡
-	* [常用算法](load-balance.md)
-*  Spring Cloud
-	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+* [微服务架构设计基础之立方体模型](https://mp.weixin.qq.com/s/dY2xmz3J735Etb7DtX-9hQ)
 *	Service Mesh	
 	* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
 	* [Service Mesh 及其主流开源实现解析](https://mp.weixin.qq.com/s/fdByrlbKmA0H1ccEBL0NAw)
+	* [蚂蚁金服 Service Mesh](https://skyao.io/#about)
 
 ---
 ### 缓存
@@ -103,10 +107,12 @@
 	* [限流降级神器-哨兵(sentinel)原理分析](https://mp.weixin.qq.com/s/g2hyp9CquEAvTe8QmPO-3g)
 	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
 	* [限流系统如何发现系统的热点](https://mp.weixin.qq.com/s/wRKiEKT_Qe05Ie8XWgkaXQ)
+	* [想通关「限流」？只要这一篇](https://mp.weixin.qq.com/s/EpDh2j8eKaObVcE7a1F4jg)
 * 降级
 	* [降级](demotion.md)
 * 熔断
 	* [熔断器](fusing.md)
+	* [如何在到处是“雷”的系统中「明哲保身」](https://mp.weixin.qq.com/s/txh8-N_VEVh11Rc4oQGfqw)
 * 隔离
 	* [隔离设计](isolate.md)
 * 幂等

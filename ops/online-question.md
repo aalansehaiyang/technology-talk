@@ -42,3 +42,5 @@
 * [一些常用的shell脚本](https://github.com/oldratlee/useful-scripts)
 
 * [唯品会的排查线上问题的一些封装工具](https://github.com/vipshop/vjtools)
+
+* [史上最全的高可用服务系统线上问题排查工具单（一）](https://mp.weixin.qq.com/s/d_Tl6eiTmpde6eGT5pTaCg)

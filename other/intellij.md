@@ -30,7 +30,13 @@
 
 
 
-#### 其它
+#### 插件
 
 * [Java程序员必备的Intellij插件](https://mp.weixin.qq.com/s/b994EvxMRZIvPedHi8x2Yw)
 * [Intellij 插件下载](https://plugins.jetbrains.com/)
+* [推荐几个IDEA插件](https://mp.weixin.qq.com/s/3hRv1VspB4wSogjajZb_ZA)
+
+#### 其它
+
+* [IntelliJ IDEA 使用教程(2019图文版) -- 从入门到上瘾](https://mp.weixin.qq.com/s/sxsFa8bWJn2sVSscW0uV2A)
+
