@@ -106,15 +106,19 @@ zk支持单机部署，只要启动一台zk机器，就可以提供正常服务
 
 单机模式的部署步骤和集群模式的部署步骤基本一致，只是在zoo.cfg文件的配置上有些差异。
 
+进入目录中的conf目录，有一个zoo_sample.cfg文件，将其重命名为zoo.cfg，然后打开，在最后添加
+
 ```
-dataDir=/app/soft/zookeeper-3.4.8/data
-dataLogDir=/app/soft/zookeeper-3.4.8/log
+dataDir=/Users/onlyone/software/zookeeper/zookeeper-3.4.8/data
+dataLogDir=/Users/onlyone/software/zookeeper/zookeeper-3.4.8/log
 clientPort=2181
- 
-server.1=ip1:2888:3888
 ```
 
-和集群模式唯区别就在机器列表上，只有server.1这一项。修改完这个文件后，就可以启动服务器了。
+启动
+
+```
+/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkServer.sh start 
+```
 
 ```
 ➜  zookeeper-3.4.8 telnet 127.0.0.1 2181                
@@ -175,9 +179,9 @@ syncLimit=5
 dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk1/data
 dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk1/log
 clientPort=2181
-server.1=192.168.0.24:2888:3888
-server.2=192.168.0.24:2889:3889
-server.3=192.168.0.24:2890:3890
+server.1=192.168.0.14:2888:3888
+server.2=192.168.0.14:2889:3889
+server.3=192.168.0.14:2890:3890
 
 
 vi /Users/onlyone/software/zookeeper/zk-cluster/zk2/conf/zoo.cfg
@@ -188,9 +192,9 @@ syncLimit=5
 dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk2/data
 dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk2/log
 clientPort=2182
-server.1=192.168.0.24:2888:3888
-server.2=192.168.0.24:2889:3889
-server.3=192.168.0.24:2890:3890
+server.1=192.168.0.14:2888:3888
+server.2=192.168.0.14:2889:3889
+server.3=192.168.0.14:2890:3890
 
 vi /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
 
@@ -200,10 +204,12 @@ syncLimit=5
 dataDir=/Users/onlyone/software/zookeeper/zk-cluster/zk3/data
 dataLogDir=/Users/onlyone/software/zookeeper/zk-cluster/zk3/log
 clientPort=2183
-server.1=192.168.0.24:2888:3888
-server.2=192.168.0.24:2889:3889
-server.3=192.168.0.24:2890:3890
+server.1=192.168.0.14:2888:3888
+server.2=192.168.0.14:2889:3889
+server.3=192.168.0.14:2890:3890
 ```
+注意：本地启动，要注意更改ip
+
 
 3个节点配置完成，然后启动集群
 

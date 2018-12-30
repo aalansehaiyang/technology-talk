@@ -2,9 +2,13 @@
 
 ---
 
+* [安装](kafka-setup.md)
 * [Apache Kafaka源码剖析](kafka-sourcecode.md)
-* [kafka安装](kafka-setup.md)
 * [Kafka Java客户端---KClient](https://gitee.com/robertleepeak/kclient)
+
+管理工具：
+
+* [kafka-manager](kafka-manager-setup.md)
 
 ---
 

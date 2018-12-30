@@ -5,10 +5,10 @@
 * 通过客户端连接ZooKeeper的集群
 
 ```
-/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkCli.sh -server 192.168.0.24:2181
+/Users/onlyone/software/zookeeper/zookeeper-3.4.8/bin/zkCli.sh -server 192.168.0.14:2181
 ```
 
-* help打印命令行帮助
+* help 打印命令行帮助
 
 ```
 [zk: 192.168.0.24:2181(CONNECTED) 0] help

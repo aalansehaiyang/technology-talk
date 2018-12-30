@@ -1,0 +1,505 @@
+2018-12-30 18:37:03,551 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /Users/onlyone/software/zookeeper/zk-cluster/zk3/conf/zoo.cfg
+2018-12-30 18:37:03,567 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:03,567 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:03,568 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:03,568 [myid:] - INFO  [main:QuorumPeerConfig@331] - Defaulting to majority quorums
+2018-12-30 18:37:03,573 [myid:3] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2018-12-30 18:37:03,573 [myid:3] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2018-12-30 18:37:03,573 [myid:3] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2018-12-30 18:37:03,582 [myid:3] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2018-12-30 18:37:03,600 [myid:3] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2183
+2018-12-30 18:37:03,609 [myid:3] - INFO  [main:QuorumPeer@1019] - tickTime set to 2000
+2018-12-30 18:37:03,609 [myid:3] - INFO  [main:QuorumPeer@1039] - minSessionTimeout set to -1
+2018-12-30 18:37:03,609 [myid:3] - INFO  [main:QuorumPeer@1050] - maxSessionTimeout set to -1
+2018-12-30 18:37:03,609 [myid:3] - INFO  [main:QuorumPeer@1065] - initLimit set to 10
+2018-12-30 18:37:03,619 [myid:3] - INFO  [main:FileSnap@83] - Reading snapshot /Users/onlyone/software/zookeeper/zk-cluster/zk3/data/version-2/snapshot.1500000000
+2018-12-30 18:37:03,664 [myid:3] - INFO  [ListenerThread:QuorumCnxManager$Listener@534] - My election bind port: /172.16.104.200:3890
+2018-12-30 18:37:03,667 [myid:3] - ERROR [/172.16.104.200:3890:QuorumCnxManager$Listener@547] - Exception while listening
+java.net.BindException: Can't assign requested address
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.bind(ServerSocket.java:329)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener.run(QuorumCnxManager.java:537)
+2018-12-30 18:37:03,673 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@774] - LOOKING
+2018-12-30 18:37:03,674 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@818] - New election. My id =  3, proposed zxid=0x15000000c3
+2018-12-30 18:37:04,673 [myid:3] - INFO  [/172.16.104.200:3890:QuorumCnxManager$Listener@534] - My election bind port: /172.16.104.200:3890
+2018-12-30 18:37:04,674 [myid:3] - ERROR [/172.16.104.200:3890:QuorumCnxManager$Listener@547] - Exception while listening
+java.net.BindException: Can't assign requested address
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.bind(ServerSocket.java:329)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener.run(QuorumCnxManager.java:537)
+2018-12-30 18:37:05,678 [myid:3] - INFO  [/172.16.104.200:3890:QuorumCnxManager$Listener@534] - My election bind port: /172.16.104.200:3890
+2018-12-30 18:37:05,679 [myid:3] - ERROR [/172.16.104.200:3890:QuorumCnxManager$Listener@547] - Exception while listening
+java.net.BindException: Can't assign requested address
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.bind(ServerSocket.java:329)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener.run(QuorumCnxManager.java:537)
+2018-12-30 18:37:06,681 [myid:3] - INFO  [/172.16.104.200:3890:QuorumCnxManager$Listener@560] - Leaving listener
+2018-12-30 18:37:06,681 [myid:3] - ERROR [/172.16.104.200:3890:QuorumCnxManager$Listener@562] - As I'm leaving the listener thread, I won't be able to participate in leader election any longer: /172.16.104.200:3890
+2018-12-30 18:37:08,676 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:745)
+2018-12-30 18:37:08,677 [myid:3] - INFO  [WorkerSender[myid=3]:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:12,763 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:62130
+2018-12-30 18:37:12,832 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@827] - Processing srvr command from /127.0.0.1:62130
+2018-12-30 18:37:12,835 [myid:3] - INFO  [Thread-1:NIOServerCnxn@1008] - Closed socket connection for client /127.0.0.1:62130 (no session established for client)
+2018-12-30 18:37:13,681 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:13,682 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:13,682 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 400
+2018-12-30 18:37:18,687 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:745)
+2018-12-30 18:37:18,688 [myid:3] - INFO  [WorkerSender[myid=3]:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:18,688 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x15000000c3 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x1b (n.peerEpoch) LOOKING (my state)
+2018-12-30 18:37:23,692 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:23,693 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:28,698 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:28,698 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:28,699 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 800
+2018-12-30 18:37:34,504 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:34,505 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:39,507 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apach2018-12-30 18:37:40,084 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPla2018-12-30 18:37:46,111 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:46,112 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:37:51,113 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apach2018-12-30 18:37:53,296 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPla2018-12-30 18:37:59,323 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:37:59,323 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:38:04,325 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apach2018-12-30 18:38:09,713 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPla2018-12-30 18:38:15,732 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:38:15,732 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:38:20,735 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache2018-12-30 18:38:32,521 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPla2018-12-30 18:38:38,540 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:38:38,541 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:38:43,543 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache2018-12-30 18:39:08,133 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPla2018-12-30 18:39:14,146 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:39:14,146 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:39:19,146 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:39:19,147 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:39:19,147 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 51200
+2018-12-30 18:40:15,354 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:40:15,355 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:40:20,357 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:40:20,358 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:40:20,358 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:41:25,363 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:41:25,364 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:41:30,368 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:41:30,368 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:41:30,369 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:42:35,373 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:42:35,373 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:42:40,377 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:42:40,377 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:42:40,377 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:43:45,385 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 1 at election address /172.16.104.200:3888
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:43:45,385 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:43:50,389 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:43:50,389 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:43:50,389 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:39:01,219 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:63037
+2018-12-30 18:39:01,220 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@827] - Processing srvr command from /127.0.0.1:63037
+2018-12-30 18:39:01,221 [myid:1] - INFO  [Thread-2:NIOServerCnxn@1008] - Closed socket connection for client /127.0.0.1:63037 (no session established for client)
+2018-12-30 18:39:53,394 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:39:53,395 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:39:58,396 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /172.16.104.200:3890
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:39:58,397 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:39:58,397 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:41:03,403 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:41:03,404 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:41:08,405 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /172.16.104.200:3890
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:41:08,405 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:41:08,406 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:42:13,411 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:42:13,412 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:42:18,417 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /172.16.104.200:3890
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:42:18,417 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:42:18,417 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 60000
+2018-12-30 18:42:20,956 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:64544
+2018-12-30 18:42:20,956 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@827] - Processing srvr command from /127.0.0.1:64544
+2018-12-30 18:42:20,957 [myid:1] - INFO  [Thread-3:NIOServerCnxn@1008] - Closed socket connection for client /127.0.0.1:64544 (no session established for client)
+2018-12-30 18:43:23,425 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /172.16.104.200:3889
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:43:23,426 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:43:28,431 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /172.16.104.200:3890
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:822)
+2018-12-30 18:43:28,432 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@149] - Resolved hostname: 172.16.104.200 to address: /172.16.104.200
+2018-12-30 18:43:28,432 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 60000

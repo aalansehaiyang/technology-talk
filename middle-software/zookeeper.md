@@ -5,8 +5,8 @@
 ### 附录
 
 * [安装](zookeeper-setup.md)
-* [适用场景](zookeeper-application-scene.md)
 * [命令行操作](zookeeper-command-operation.md)
+* [适用场景](zookeeper-application-scene.md)
 * [leader选举、数据同步](zookeeper-leader-election-and-data-synchronous.md)
 
 ---
