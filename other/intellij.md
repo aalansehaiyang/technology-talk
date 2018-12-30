@@ -27,6 +27,7 @@
 #### 常见问题
 * [修改IntelliJ IDEA中Maven项目的默认JDK版](https://blog.csdn.net/geekun/article/details/51325510)
 * [idea的环境变量设置(Enviroment variables)](https://www.cnblogs.com/gradven/p/7228142.html)
+* [IDEA设置Maven下载source、document](https://blog.csdn.net/u014653854/article/details/80700408)
 
 
 

@@ -28,6 +28,7 @@
 	* 设计缓存要注意什么
 	* 本地缓存用过哪些框架？Guava
 	* 分布式缓存：缓存一致性、缓存命中率、缓存冗余
+	* 缓存和数据库，如何实现一致性？[link](https://mp.weixin.qq.com/s/-Kvj8TPVvZE-rbtult_ozA?from=groupmessage&isappinstalled=0)
 * 分布式数据库
 	* 怎样打造一个分布式数据库？什么时候需要分布式数据库、mycat、otter、HBase
 * 网关框架了解过哪些？能为后端服务带来哪些好处？
@@ -54,8 +55,8 @@
 * 设计一个分布式锁 [link](https://github.com/aalansehaiyang/technology-talk/blob/master/system-architecture/architecture-experience.md)
 * 常见的锁有哪些？ [link](https://github.com/aalansehaiyang/Lock-Learning)
 * java读写锁，读写锁设计主要解决什么问题？ [link](http://ifeve.com/read-write-locks/)
-* synchronized和 ReentrantLock 的区别？ [link](https://www.cnblogs.com/fanguangdexiaoyuer/p/5313653.html)
-* 不用synchronized和lock，实现线程安全的单例模式？[link](https://blog.csdn.net/w372426096/article/details/80938895)
+* synchronized和 ReentrantLock 的区别？ [link](https://www.cnblogs.com/fanguangdexiaoyuer/p/5313653.html) [link](outline/2.md)
+* 不用synchronized和lock，实现线程安全的单例模式？[link](https://blog.csdn.net/w372426096/article/details/80938895) 
 
 
 
@@ -90,7 +91,7 @@
 		* 什么情况会出现young GC，什么情况会出现Full GC
 		* 怎样判断Full GC是否正常？ [link](https://mp.weixin.qq.com/s/TuOMlzXRtDJSCgYGMPbpjw)
 		* 内存泄露原因？如何排查？ [link](https://github.com/aalansehaiyang/technology-talk/blob/master/ops/online-question.md)
-		* OOM 出现的有哪些场景？
+		* OOM 出现的有哪些场景？ [link](https://mp.weixin.qq.com/s/34GVlaYDOdY1OQ9eZs-iXg) [link](outline/3.md)
 		* 熟悉哪些jvm 命令，jstack、jmap、jstat? [link](https://blog.csdn.net/itomge/article/details/9904555)
 		* jvm调优经验
 	* 其它
@@ -149,6 +150,11 @@
 * tomcat
 	* Tomcat 调优
 	* Servlet线程安全问题 [link](https://blog.csdn.net/i_will_try/article/details/62215633)
+	
+* 其它
+
+	* HttpClient 内部实现？ [link](https://www.jianshu.com/p/14c005e9287c)
+
 
 ### HTTP 协议
 
@@ -163,7 +169,7 @@
 	* HTTP 301 、302有啥区别
 	* HTTP连接池实现原理
 	* Http怎么处理长连接
-
+*  谈谈对 Http 和 RPC 的理解？ [link](outline/4.md)
 
 ### OS系统
 
