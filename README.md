@@ -4,8 +4,7 @@
 
 原文地址：https://github.com/aalansehaiyang/technology-talk
 
-`版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
-
+##### 新申请了一个微信公众号----微观技术，沉淀一些技术心得，文章最后有二维码，欢迎大家关注，共同探讨技术！！
 
 ### 前言
 
@@ -193,5 +192,6 @@
 ![image](basic-knowledge/img/27.png)
 
 
+`版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
 
 
