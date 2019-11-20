@@ -4,6 +4,9 @@
 
 原文地址：https://github.com/aalansehaiyang/technology-talk
 
+<font color="red"> Java架构技术资料：</font> https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ 
+
+
 ##### 新申请了一个微信公众号----微观技术，沉淀一些技术心得，文章最后有二维码，欢迎大家关注，共同探讨技术！！
 
 ### 前言
