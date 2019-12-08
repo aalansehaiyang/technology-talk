@@ -5,7 +5,7 @@
 原文地址：https://github.com/aalansehaiyang/technology-talk
 
 
-[读者福利：Java架构资料免费领取！](https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ)
+读者福利：[2019最新Java进阶资料分享](https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ)
 
 
 ##### 新申请了一个微信公众号----微观技术，沉淀一些技术心得，文章最后有二维码，欢迎大家关注，共同探讨技术！！
