@@ -4,9 +4,9 @@
 
 原文地址：https://github.com/aalansehaiyang/technology-talk
 
-<a href="https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ"><img src="basic-knowledge/img/20191226162717.gif" width=800></img></a>
 
 ##### 新申请了一个微信公众号----微观技术，沉淀一些技术心得，文章最后有二维码，欢迎大家关注，共同探讨技术！！
+
 
 ### 前言
 
@@ -19,6 +19,8 @@
 言归正传，本文会列举工作中常用的一些技术，以及如何锻炼提升自己的架构能力。
 
 由于每块技术市场上基本都有对应的网络资料或书籍，所以本文只是少篇幅列举工作中用到的核心知识点，抛砖引玉，属于进阶型，不适用初学者。
+
+<a href="https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ"><img src="basic-knowledge/img/20191226162717.gif" width=900></img></a>
 
 ### 基础知识
 * 	[java](basic-knowledge/java.md)
