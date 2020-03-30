@@ -17,7 +17,6 @@
 
 由于每块技术市场上基本都有对应的网络资料或书籍，所以本文只是少篇幅列举工作中用到的核心知识点，抛砖引玉，属于进阶型，不适用初学者。
 
-<a href="https://mp.weixin.qq.com/s/BrLtdactBKn2aMWKvLuJKQ"><img src="basic-knowledge/img/20191226162717.gif" width=900></img></a>
 
 ### 基础知识
 * 	[java](basic-knowledge/java.md)
