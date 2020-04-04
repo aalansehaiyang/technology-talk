@@ -184,7 +184,7 @@
 
 **新开了个微信公众号：微观技术，分享各个行业优秀的架构设计方案、技术心得、心路历程等，欢迎各位技术达人关注、经验交流**
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X2pwZy8zT2htNldIaWJlWEp4RTJLT1VMQ0FlMkJRZlVmY2Q5TGYya3FpYkJmZEpyR1dGUEJkb2lhbFdKQWlhRzhGUGljUjE1alczczc1dGZTMWhLTks5VGRxZFlqaWNBZy82NDA?x-oss-process=image/format,png)
+![image](https://i.niupic.com/images/2020/04/04/7hig.jpg)
 
 
 `版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
