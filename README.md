@@ -188,6 +188,6 @@
 ![image](https://i.niupic.com/images/2020/04/04/7hig.jpg)
 
 
-`版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
+`商务合作，请发邮件到 aalansehaiyang52@126.com`
 
 
