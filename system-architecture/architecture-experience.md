@@ -53,15 +53,26 @@
 *	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
 *	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
 *	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
+*	[Redis热点Key发现及常见解决方案！](https://mp.weixin.qq.com/s/Jlobo2CrW7YfWJhYoYbVqg)
 *	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
 *	[分布式缓存的25个优秀实践与线上案例](https://mp.weixin.qq.com/s/foQZSZ0xx0YYPHGawshc3g)
 *	[缓存在大型分布式系统中的最佳应用](https://mp.weixin.qq.com/s/f-K0lPjBPcYFK0hbZJF99Q)
-*	数据迁移	
-	* [分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
-* [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
-* [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
-* [你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
-* [cache相关](cache相关.md)	
+* 	[数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
+* 	[缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
+* 	[你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
+* 	[cache相关](cache相关.md)	
+* 	[缓存架构设计，从此不再发愁](https://mp.weixin.qq.com/s/c1mOxGeoJzlWC1YkkbDRgA)
+*	[缓存三大问题及解决方案](https://mp.weixin.qq.com/s/ZoNLGTLSFZ8_ZLpmSmUeZg)
+* 	[微服务架构下静态数据通用缓存机制](https://mp.weixin.qq.com/s/QVILVNB9l7zKKkhPxo9CyA)
+
+数据迁移	
+
+* 	[分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
+
+工程案例
+
+*	[有赞多级缓存解决方案怎么做的，你知道吗？【热点数据采用本地缓存来扛秒杀压力】](https://mp.weixin.qq.com/s/ZprlLe3L6pWG6tvrRP231g)
+	
 	
 ---
 ### 数据库
