@@ -186,8 +186,9 @@
 *   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)
 * 	[其它](other/other.md)
 
-### 写在最好
 
-`版权所有，转发请注明来源。答疑解惑及商务合作，请发邮件到 aalansehaiyang52@126.com`
+### 写在最后
+
+`商务合作，请发邮件到 aalansehaiyang52@126.com`
 
 
