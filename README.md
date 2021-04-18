@@ -9,10 +9,13 @@
 **近期整理多个技术专栏，发布在微信公众号：** [微观技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI5NDAwMzM0MA==&action=getalbum&album_id=1722799145553330176#wechat_redirect) **。欢迎扫描下方↓↓↓ 二维码 关注**
 
 
-* 【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata，等几十个常用开源框架
-* 【电商会员营销】几十种营销活动的扩展性玩法如何架构
-* 【团队管理】组团打怪升级，需要具备哪些管理技能
-* 【性能架构】“三高”系统的各种架构设计经验
+1、【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata，等几十个常用开源框架
+
+2、【电商会员营销】几十种营销活动的扩展性玩法如何架构
+
+3、【团队管理】组团打怪升级，需要具备哪些管理技能
+
+4、【性能架构】“三高”系统的各种架构设计经验
 
 ![image](https://i.niupic.com/images/2020/04/04/7hig.jpg)
 
