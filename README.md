@@ -193,5 +193,7 @@
 
 4、【性能架构】“三高”系统的各种架构设计经验
 
-![image](weiguanjishu.jpg)
+![image](1.jpg)
+
+
 
