@@ -193,7 +193,7 @@
 
 4、【性能架构】“三高”系统的各种架构设计经验
 
-<img src="1.jpg" width=450>
+<img src="https://raw.githubusercontent.com/aalansehaiyang/technology-talk/master/1.jpg" width=400>
 
 
 
