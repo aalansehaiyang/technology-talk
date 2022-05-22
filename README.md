@@ -186,17 +186,6 @@
 多次参加**淘宝双11**大促活动，架构经验丰富。作为团队负责人，面试过 **500多**位候选人，如果你想去**一线大厂**，关注下方公众号回复「 **大厂** 」，领取大厂面试资料，成为offer收割机
 
 
-**近期整理多个技术专栏，发布在微信公众号：** [微观技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NzYyNjQzNg==&action=getalbum&album_id=1874600102896467974#wechat_redirect) **。欢迎扫描下方↓↓↓ 二维码 关注**
-
-
-1、【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含  Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata，等几十个常用开源框架
-
-2、【电商会员营销】几十种营销活动的扩展性玩法如何架构
-
-3、【团队管理】组团打怪升级，需要具备哪些管理技能
-
-4、【性能架构】“三高”系统的各种架构设计经验
-
 <img src="https://raw.githubusercontent.com/aalansehaiyang/technology-talk/master/1.jpg" width=400>
 
 
