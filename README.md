@@ -180,12 +180,16 @@
 
 ### 写在最后
 
-计算机专业出身，研究僧，阿里架构师。写过专利，竞赛拿过奖，CSDN博客专家。负责过电商交易、社区团购、营销、金融等业务。多年团队管理经验，爱思考，热衷把工作沉淀写成文章
+
+作者 **Tom哥**，计算机研究生，**阿里 P7 技术专家**，拿过 百度、华为、中兴、腾讯 等6家大厂offer，出过**专利**。
+
+多次参加**淘宝双11**大促活动，架构经验丰富。作为团队负责人，面试过 **500多**位候选人，如果你想去**一线大厂**，关注下方公众号回复「 **大厂** 」，领取大厂面试资料，成为offer收割机
+
 
 **近期整理多个技术专栏，发布在微信公众号：** [微观技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NzYyNjQzNg==&action=getalbum&album_id=1874600102896467974#wechat_redirect) **。欢迎扫描下方↓↓↓ 二维码 关注**
 
 
-1、【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含  [Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NzYyNjQzNg==&action=getalbum&album_id=1874600102896467974#wechat_redirect)，等几十个常用开源框架
+1、【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含  Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata，等几十个常用开源框架
 
 2、【电商会员营销】几十种营销活动的扩展性玩法如何架构
 
