@@ -1,0 +1,33 @@
+{
+    "name": "vuepress-plugin-code-copy",
+    "version": "1.0.6",
+    "description": "A Vuepress plugin that adds copy code buttons to all code blocks.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/znicholasbrown/vuepress-plugin-code-copy"
+    },
+    "keywords": [
+        "vuepress",
+        "code copy",
+        "copy",
+        "clipboard",
+        "vuepress plugin",
+        "plugin"
+    ],
+    "author": "Nicholas Brown",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/znicholasbrown/vuepress-plugin-code-copy/issues"
+    },
+    "homepage": "https://github.com/znicholasbrown/vuepress-plugin-code-copy#readme",
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "buffer-json",
+  "version": "2.0.0",
+  "description": "JSON.stringify & JSON.parse which can encode/decode buffers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/buffer-json.git"
+  },
+  "keywords": [
+    "JSON",
+    "parse",
+    "stringify",
+    "buffer",
+    "reviver",
+    "replacer",
+    "base64"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/buffer-json/issues"
+  },
+  "homepage": "https://github.com/jprichardson/buffer-json#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  }
+}

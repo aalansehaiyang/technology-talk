@@ -1,0 +1,44 @@
+.vssue-header
+  padding-bottom 10px
+  border-bottom 1px solid $vssue-border-color
+  margin-bottom 10px
+  overflow hidden
+  .vssue-header-powered-by
+    float left
+
+.vssue-comments
+  .vssue-comment
+    .vssue-comment-avatar
+      float right
+    .vssue-comment-body
+      @media screen and (max-width $vssue-breakpoint-mobile)
+        margin-right 60px
+      @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+        margin-right 70px
+    .vssue-comment-header
+      .vssue-comment-created-at
+        float left
+    .vssue-comment-footer
+      .vssue-comment-operations
+        float left
+        .vssue-comment-operation
+          margin-right 8px
+
+.vssue-new-comment
+  .vssue-comment-avatar
+    float right
+  .vssue-new-comment-body
+    position relative
+    @media screen and (max-width $vssue-breakpoint-mobile)
+      margin-right 60px
+    @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+      margin-right 70px
+
+  .vssue-new-comment-footer
+    @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+      margin-right 70px
+      text-align left
+      .vssue-current-user
+        float right
+      .vssue-new-comment-operations
+        float left

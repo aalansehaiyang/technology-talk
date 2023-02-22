@@ -1,0 +1,30 @@
+{
+    "name": "@types/tapable",
+    "version": "1.0.8",
+    "description": "TypeScript definitions for tapable",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/tapable",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "e-cloud",
+            "url": "https://github.com/e-cloud",
+            "githubUsername": "e-cloud"
+        },
+        {
+            "name": "John Reilly",
+            "url": "https://github.com/johnnyreilly",
+            "githubUsername": "johnnyreilly"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/tapable"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "14ebc399c2b0cbceb7a2266ba4eff57b8eaeb39dafafa3b208ec3a10fd3ccc47",
+    "typeScriptVersion": "3.6"
+}

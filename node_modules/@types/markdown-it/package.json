@@ -1,0 +1,39 @@
+{
+    "name": "@types/markdown-it",
+    "version": "10.0.3",
+    "description": "TypeScript definitions for markdown-it",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "York Yao",
+            "url": "https://github.com/plantain-00",
+            "githubUsername": "plantain-00"
+        },
+        {
+            "name": "Robert Coie",
+            "url": "https://github.com/rapropos",
+            "githubUsername": "rapropos"
+        },
+        {
+            "name": "duduluu",
+            "url": "https://github.com/duduluu",
+            "githubUsername": "duduluu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/markdown-it"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/highlight.js": "^9.7.0",
+        "@types/linkify-it": "*",
+        "@types/mdurl": "*",
+        "highlight.js": "^9.7.0"
+    },
+    "typesPublisherContentHash": "94053f2b6f017e8cc6dc9ebb548be8a73b125512f2c8d319eb1e65c679982df3",
+    "typeScriptVersion": "3.2"
+}

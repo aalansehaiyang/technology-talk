@@ -1,0 +1,6 @@
+dist/autocomplete.js -diff
+dist/autocomplete.min.js -diff
+dist/autocomplete.jquery.js -diff
+dist/autocomplete.jquery.min.js -diff
+dist/autocomplete.angular.js -diff
+dist/autocomplete.angular.min.js -diff

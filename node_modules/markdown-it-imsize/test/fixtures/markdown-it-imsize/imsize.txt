@@ -1,0 +1,304 @@
+Regression tests for link backtracking optimizations:
+.
+[[some unrelated text [link]
+
+[link]: foo
+.
+<p>[[some unrelated text <a href="foo">link</a></p>
+.
+
+
+This is not a valid emphasis, because \n considered a whitespace:
+.
+**test
+**
+
+**
+test**
+
+**
+test
+**
+.
+<p>**test
+**</p>
+<p>**
+test**</p>
+<p>**
+test
+**</p>
+.
+
+
+Link label has priority over emphasis (not covered by commonmark tests):
+.
+[**link]()**
+
+**[link**]()
+.
+<p><a href="">**link</a>**</p>
+<p>**<a href="">link**</a></p>
+.
+
+
+Issue #55:
+.
+![test]
+
+![test](foo bar)
+.
+<p>![test]</p>
+<p>![test](foo bar)</p>
+.
+
+
+Issue #35. `<` shoud work as punctuation
+.
+an **(:**<br>
+.
+<p>an <strong>(:</strong><br></p>
+.
+
+
+Should unescape only needed things in link destinations/titles:
+.
+[test](<\f\o\o\>\\>)
+.
+<p><a href="%5Cf%5Co%5Co%3E%5C">test</a></p>
+.
+
+.
+[test](foo "\\\"\b\a\r")
+.
+<p><a href="foo" title="\&quot;\b\a\r">test</a></p>
+.
+
+
+Not a closing tag
+.
+</ 123>
+.
+<p>&lt;/ 123&gt;</p>
+.
+
+
+Not a list item
+.
+1.list
+.
+<p>1.list</p>
+.
+
+
+Normalize link destination, but not text inside it:
+.
+<http://example.com/α%CE%B2γ%CE%B4>
+.
+<p><a href="http://example.com/%CE%B1%CE%B2%CE%B3%CE%B4">http://example.com/αβγδ</a></p>
+.
+
+
+Autolinks do not allow escaping:
+.
+<http://example.com/\[\>
+.
+<p><a href="http://example.com/%5C%5B%5C">http://example.com/\[\</a></p>
+.
+
+
+Multiline title in definitions:
+.
+[foo]: test '
+1
+2
+3
+'
+
+[foo]
+.
+<p><a href="test" title="
+1
+2
+3
+">foo</a></p>
+.
+
+
+Coverage. Directive can terminate paragraph.
+.
+a
+<?php
+.
+<p>a</p>
+<?php
+.
+
+
+Coverage. Nested email autolink (silent mode)
+.
+*<foo@bar.com>*
+.
+<p><em><a href="mailto:foo@bar.com">foo@bar.com</a></em></p>
+.
+
+
+Coverage. Unpaired nested backtick (silent mode)
+.
+*`foo*
+.
+<p><em>`foo</em></p>
+.
+
+
+Coverage. Entities.
+.
+*&*
+
+*&#x20;*
+
+*&amp;*
+.
+<p><em>&amp;</em></p>
+<p><em> </em></p>
+<p><em>&amp;</em></p>
+.
+
+
+Coverage. Escape.
+.
+*\a*
+.
+<p><em>\a</em></p>
+.
+
+
+Coverage. parseLinkDestination
+.
+[foo](<
+bar>)
+
+[foo](<bar)
+.
+<p>[foo](&lt;
+bar&gt;)</p>
+<p>[foo](&lt;bar)</p>
+.
+
+
+Coverage. parseLinkTitle
+.
+[foo](bar "ba)
+
+[foo](bar "ba\
+z")
+.
+<p>[foo](bar &quot;ba)</p>
+<p><a href="bar" title="ba\
+z">foo</a></p>
+.
+
+
+Coverage. Image
+.
+![test]( x )
+.
+<p><img src="x" alt="test"></p>
+.
+.
+![test][foo]
+
+[bar]: 123
+.
+<p>![test][foo]</p>
+.
+.
+![test][[[
+
+[bar]: 123
+.
+<p>![test][[[</p>
+.
+.
+![test](
+.
+<p>![test](</p>
+.
+.
+![test]( x =100x200)
+.
+<p><img src="x" alt="test" width="100" height="200"></p>
+.
+.
+![test]( x =x)
+.
+<p><img src="x" alt="test"></p>
+.
+.
+![test]( x =100x)
+.
+<p><img src="x" alt="test" width="100"></p>
+.
+.
+![test]( x =x200)
+.
+<p><img src="x" alt="test" height="200"></p>
+.
+.
+![test]( x "title" =100x200)
+.
+<p><img src="x" alt="test" title="title" width="100" height="200"></p>
+.
+.
+![test]( x =WxH )
+.
+<p>![test]( x =WxH )</p>
+.
+.
+![test]( x = 100x200 )
+.
+<p>![test]( x = 100x200 )</p>
+.
+.
+![test]( x =aaaxbbb )
+.
+<p>![test]( x =aaaxbbb )</p>
+.
+.
+![test](http://this.is.test.jpg =100x200)
+.
+<p><img src="http://this.is.test.jpg" alt="test" width="100" height="200"></p>
+.
+.
+![test](<x =100x200)
+.
+<p>![test](&lt;x =100x200)</p>
+.
+.
+![test](<x> =100x200)
+.
+<p><img src="x" alt="test" width="100" height="200"></p>
+.
+.
+![test](test =100%x)
+.
+<p><img src="test" alt="test" width="100%"></p>
+.
+
+Coverage. Link
+.
+[test](
+.
+<p>[test](</p>
+.
+
+Coverage. Reference
+.
+[
+test\
+]: 123
+foo
+bar
+.
+<p>foo
+bar</p>
+.

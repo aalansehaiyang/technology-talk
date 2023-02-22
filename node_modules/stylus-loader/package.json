@@ -1,0 +1,53 @@
+{
+  "name": "stylus-loader",
+  "version": "3.0.2",
+  "description": "Stylus loader for webpack",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "testem ci",
+    "test-dev": "testem -l firefox",
+    "test-one": "testem ci -l firefox",
+    "test-build": "webpack --config test/webpack.config.js --output-path=test/tmp --output-filename=bundle.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shama/stylus-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/stylus-loader/issues"
+  },
+  "dependencies": {
+    "loader-utils": "^1.0.2",
+    "lodash.clonedeep": "^4.5.0",
+    "when": "~3.6.x"
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "css-loader": "^0.14.0",
+    "mocha": "~2.1.0",
+    "mocha-loader": "^1.0.0",
+    "nib": "^1.0.4",
+    "node-libs-browser": "^0.5.2",
+    "raw-loader": "~0.5.1",
+    "should": "~4.6.1",
+    "style-loader": "^0.12.2",
+    "stylus": ">=0.52.4",
+    "testem": "^0.8.3",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.0.0"
+  },
+  "peerDependencies": {
+    "stylus": ">=0.52.4"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "stylus"
+  ]
+}

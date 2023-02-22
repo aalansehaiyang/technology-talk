@@ -1,0 +1,40 @@
+{
+  "name": "to-factory",
+  "version": "1.0.0",
+  "description": "Convert classes into factory functions so they can be called with or without new.",
+  "main": "to-factory.js",
+  "scripts": {
+    "prepublish": "make prepublish",
+    "test": "make test",
+    "clean": "make clean"
+  },
+  "keywords": [
+    "class",
+    "babel",
+    "es6",
+    "inheritance",
+    "new",
+    "function",
+    "functions",
+    "instance",
+    "inherit"
+  ],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.1.13",
+    "tape": "^4.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timoxley/to-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/to-factory/issues"
+  },
+  "homepage": "https://github.com/timoxley/to-factory#readme"
+}

@@ -1,0 +1,12 @@
+{
+  "en-US": {
+    "author": "author",
+    "beforeAuthor": "Copyright © ",
+    "afterAuthor": "\nLink: "
+  },
+  "zh-CN": {
+    "author": "作者",
+    "beforeAuthor": "著作权归",
+    "afterAuthor": "所有。\n链接："
+  }
+}

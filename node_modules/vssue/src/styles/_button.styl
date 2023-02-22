@@ -1,0 +1,23 @@
+.vssue-button
+  outline none
+  cursor pointer
+  padding 10px 20px
+  font-size 1.05
+  font-weight bold
+  color $vssue-theme-color
+  background-color transparent
+  border 2px solid $vssue-theme-color
+  border-radius 10px
+  &:disabled
+    cursor not-allowed
+    color $vssue-border-color
+    border-color $vssue-border-color
+    .vssue-icon
+      fill $vssue-border-color
+  &:not(:disabled)
+    &.vssue-button-default
+      color $vssue-text-light-color
+      border-color $vssue-text-light-color
+    &.vssue-button-primary
+      color $vssue-theme-color
+      border-color $vssue-theme-color

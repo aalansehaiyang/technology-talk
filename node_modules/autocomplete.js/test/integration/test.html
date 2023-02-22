@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <!--[if lte IE 8]>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <![endif]-->
+    <script src="../../dist/autocomplete.jquery.js"></script>
+
+    <style>
+      .container {
+        width: 800px;
+        margin: 50px auto;
+      }
+
+      .autocomplete-wrapper {
+        display: block;
+        margin: 50px 0;
+      }
+
+      .aa-dropdown-menu {
+        background-color: #fff;
+        border: 1px solid #000;
+      }
+
+      .aa-suggestion.aa-cursor {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="/where" method="GET">
+        <div class="autocomplete-wrapper">
+          <input id="states" name="states" type="text">
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var states = [
+        'Alabama',
+        'Alaska',
+        'Arizona',
+        'Arkansas',
+        'California',
+        'Colorado',
+        'Connecticut',
+        'Delaware',
+        'Florida',
+        'Georgia',
+        'Hawaii',
+        'Idaho',
+        'Illinois',
+        'Indiana',
+        'Iowa',
+        'Kansas',
+        'Kentucky',
+        'Louisiana',
+        'Maine',
+        'Maryland',
+        'Massachusetts',
+        'Michigan',
+        'Minnesota',
+        'Mississippi',
+        'Missouri',
+        'Montana',
+        'Nebraska',
+        'Nevada',
+        'New Hampshire',
+        'New Jersey',
+        'New Mexico',
+        'New York',
+        'North Carolina',
+        'North Dakota',
+        'Ohio',
+        'Oklahoma',
+        'Oregon',
+        'Pennsylvania',
+        'Rhode Island',
+        'South Carolina',
+        'South Dakota',
+        'Tennessee',
+        'Texas',
+        'Utah',
+        'Vermont',
+        'Virginia',
+        'Washington',
+        'West Virginia',
+        'Wisconsin',
+        'Wyoming',
+        'this is a very long value so deal with it otherwise you gonna have a hard time'
+      ];
+
+      function buildAutocomplete (options) {
+        if (options === undefined) options = { };
+        if (window.autocomplete) {
+          window.autocomplete.autocomplete.destroy();
+          window.autocomplete = null;
+        }
+        window.autocomplete = $('#states').autocomplete(options, [
+          {
+            displayKey: 'name',
+            source: function(q, cb) {
+              var res = [];
+              if (!q) {
+                cb([]);
+                return;
+              }
+              for (var i = 0; i < states.length; ++i) {
+                if (states[i].toLowerCase().indexOf(q.toLowerCase()) === 0) {
+                  res.push({ name: states[i] });
+                }
+              }
+              cb(res);
+            }
+          }
+        ]);
+      }
+
+      buildAutocomplete();
+    </script>
+  </body>
+</html>

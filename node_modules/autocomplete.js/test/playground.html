@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="playground.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <div class="autocomplete-wrapper">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <h4>Simple auto-complete</h4>
+              <div class="input-group">
+                <input id="contacts" name="contacts" class="form-control" type="text">
+                <input id="contacts1" name="contacts1" class="form-control" type="text">
+                <span class="input-group-addon">Go</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h4>Multi-sections auto-complete</h4>
+              <div class="input-group">
+                <input id="contacts2" name="contacts2" class="form-control" type="text" placeholder="Search actors in movie types">
+                <span class="input-group-addon">Go</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h4>Simple auto-complete with debounce</h4>
+              <div class="input-group">
+                <input id="contacts3" name="contacts3" class="form-control" type="text" placeholder="Search actors">
+                <span class="input-group-addon">Go</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="../dist/autocomplete.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script type="text/template" id="my-custom-menu-template">
+      <div class="my-custom-menu">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="aa-dataset-contacts1"></div>
+          </div>
+          <div class="col-sm-6">
+            <div class="aa-dataset-contacts2"></div>
+            <div class="aa-dataset-contacts3"></div>
+          </div>
+        </div>
+      </div>
+    </script>
+    <script>
+      var client = algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76');
+      var index = client.initIndex('contacts');
+      var actors = client.initIndex('actors');
+      var movies = client.initIndex('movies');
+
+      autocomplete('#contacts, #contacts1', { debug: true, hint: false, templates: { empty: 'empty' }, autoselect: true, appendTo: 'body' }, [
+        {
+          source: autocomplete.sources.hits(index),
+          displayKey: 'name',
+          templates: {
+            footer: function(o, content) {
+              return '<div class="aa-info-results">' + content.nbHits + ' results</div>';
+            },
+            suggestion: function(suggestion) {
+              return '<div>' + suggestion._highlightResult.name.value + '</div>';
+            }
+          }
+        }
+      ]).on('autocomplete:selected', function(event, suggestion, dataset, context) {
+        console.log('selected', suggestion, dataset, context);
+      }).on('autocomplete:cursorchanged', function(event, suggestion, dataset) {
+        console.log('cursorchanged', suggestion, dataset);
+      });
+
+      autocomplete('#contacts2', {
+        debug: true,
+        keyboardShortcuts: [191, 's'],
+        hint: false,
+        appendTo: 'h4',
+        templates: {
+          empty: function(data) {
+            return 'No results for "<strong>' + data.query.replace(/[^-_'a-zA-Z0-9 ]/, ' ') + '</strong>"';
+          }
+        }
+      }, [
+        {
+          source: autocomplete.sources.popularIn(
+            actors,
+            { hitsPerPage: 3 },
+            {
+              index: movies,
+              source: 'name',
+              facets: 'genre',
+              maxValuesPerFacet: 3
+            }
+          ),
+          templates: {
+            header: '<span class="aa-category-title">Actors</span>',
+            suggestion: function(suggestion) {
+              var v = suggestion._highlightResult.name.value;
+              if (suggestion.facet) {
+                v += ' in <b>' + suggestion.facet.value + '</b>';
+              }
+              return v;
+            }
+          }
+        },
+        {
+          source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+          displayKey: 'name',
+          templates: {
+            header: '<span class="aa-category-title">Contacts</span>',
+            footer: function(o, content) {
+              return '<div class="aa-info-results">' + content.nbHits + ' results</div>';
+            },
+            suggestion: function(suggestion) {
+              return '<div>' + suggestion._highlightResult.name.value + '</div>';
+            }
+          }
+        }
+      ]).on('autocomplete:selected', function(even, suggestion, dataset) {
+        console.log('selected', suggestion, dataset);
+      }).on('autocomplete:shown', function() {
+        console.log('shown');
+      });
+
+      autocomplete('#contacts3', { debug: true, hint: false, templates: { empty: 'empty' }, autoselect: true, appendTo: 'body' }, [
+        {
+          debounce: 1000,
+          source: autocomplete.sources.hits(actors),
+          displayKey: 'name',
+          templates: {
+            footer: function(o, content) {
+              return '<div class="aa-info-results">' + content.nbHits + ' results</div>';
+            },
+            suggestion: function(suggestion) {
+              return '<div>' + suggestion._highlightResult.name.value + '</div>';
+            }
+          }
+        }
+      ]).on('autocomplete:selected', function(even, suggestion, dataset) {
+        console.log('selected', suggestion, dataset);
+      }).on('autocomplete:cursorchanged', function(even, suggestion, dataset) {
+        console.log('cursorchanged', suggestion, dataset);
+      });
+    </script>
+  </body>
+</html>

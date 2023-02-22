@@ -1,0 +1,45 @@
+{
+  "name": "@vuepress/theme-default",
+  "version": "1.9.8",
+  "description": "Default theme for VuePress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "vue",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuejs/vuepress/blob/master/packages/@vuepress/theme-default#readme",
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuepress.git",
+    "directory": "packages/@vuepress/theme-default"
+  },
+  "license": "MIT",
+  "author": "Evan You",
+  "maintainers": [
+    {
+      "name": "ULIVZ",
+      "email": "chl814@foxmail.com"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "1.9.8",
+    "@vuepress/plugin-nprogress": "1.9.8",
+    "@vuepress/plugin-search": "1.9.8",
+    "@vuepress/types": "1.9.8",
+    "docsearch.js": "^2.5.2",
+    "lodash": "^4.17.15",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vuepress-plugin-container": "^2.0.2",
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "cb87096d4c13ac3c81709a92a01c3506b4d4bd03"
+}

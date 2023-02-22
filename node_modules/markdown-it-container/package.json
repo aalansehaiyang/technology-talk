@@ -1,0 +1,26 @@
+{
+  "name": "markdown-it-container",
+  "version": "2.0.0",
+  "description": "Plugin to create block-level custom containers for markdown-it markdown parser",
+  "repository": "markdown-it/markdown-it-container",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown"
+  ],
+  "devDependencies": {
+    "browserify": "*",
+    "coveralls": "^2.11.2",
+    "eslint": "0.13.0",
+    "eslint-plugin-nodeca": "^1.0.0",
+    "istanbul": "*",
+    "markdown-it": "markdown-it/markdown-it",
+    "markdown-it-testgen": "~0.1.0",
+    "mocha": "*",
+    "uglify-js": "*"
+  }
+}

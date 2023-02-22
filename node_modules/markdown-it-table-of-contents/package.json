@@ -1,0 +1,35 @@
+{
+  "license": "MIT",
+  "version": "0.4.4",
+  "name": "markdown-it-table-of-contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test; mocha test --recursive"
+  },
+  "engines": {
+    "node": ">6.4.0"
+  },
+  "description": "A Markdown-it plugin for adding a table of contents to markdown documents",
+  "homepage": "https://github.com/Oktavilla/markdown-it-table-of-contents",
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "toc",
+    "table of contents",
+    "markdown-it-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oktavilla/markdown-it-table-of-contents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oktavilla/markdown-it-table-of-contents/issues"
+  },
+  "author": "Oktavilla <https://github.com/Oktavilla>",
+  "contributors": "Listed at <https://github.com/Oktavilla/markdown-it-table-of-contents/contributors>",
+  "devDependencies": {
+    "mocha": "~5.2.0",
+    "markdown-it": "~8.1.0",
+    "markdown-it-anchor": "~5.0.1"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+      .algolia-autocomplete {
+        width: 100%;
+      }
+      .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+        width: 100%;
+      }
+      .algolia-autocomplete .aa-hint {
+        color: #999;
+      }
+      .algolia-autocomplete .aa-dropdown-menu {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #999;
+        border-top: none;
+      }
+      .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+        cursor: pointer;
+        padding: 5px 4px;
+      }
+      .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+        background-color: #B2D7FF;
+      }
+      .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+        font-weight: bold;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body ng-controller="searchController">
+    <div class="container">
+      <form action="#">
+        <div class="autocomplete-wrapper">
+          <input id="contacts" name="contacts" type="text" ng-model="q" autocomplete aa-datasets="getDatasets()" />
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.angular.min.js"></script>
+    <script>
+    angular.module('myApp', ['algoliasearch', 'algolia.autocomplete']).controller('searchController', ['$scope', 'algolia', function($scope, algolia) {
+      $scope.q = '';
+      var client = algolia.Client('latency', '6be0576ff61c053d5f9a3225e2a90f76');
+      var index = client.initIndex('contacts');
+
+      $scope.getDatasets = function() {
+        return {
+          source: function(q, cb) {
+            index.search(q, { hitsPerPage: 5 }, function(error, content) {
+              if (error) {
+                cb([]);
+                return;
+              }
+              cb(content.hits);
+            });
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              return suggestion._highlightResult.name.value;
+            }
+          }
+        };
+      };
+
+      $scope.$watch('q', function(v) {
+        console.log(v);
+      });
+
+      $scope.$on('autocomplete:selected', function(event, suggestion, dataset) {
+        console.log(suggestion, dataset);
+      });
+    }]);
+    </script>
+  </body>
+</html>

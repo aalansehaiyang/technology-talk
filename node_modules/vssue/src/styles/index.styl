@@ -1,0 +1,39 @@
+@import '_variables'
+@import '_helpers'
+
+.vssue
+  @import '_button'
+  @import '_icon'
+  @import '_transitions'
+
+  @import '_notice'
+  @import '_status'
+  @import '_header'
+  @import '_new-comment'
+  @import '_comments'
+  @import '_pagination'
+
+  width 100%
+  color $vssue-text-color
+  font-size $vssue-font-size
+  font-family $vssue-font-family
+  padding 10px
+  &, *
+    box-sizing border-box
+  :not(.vssue-comment-content)
+    a
+      cursor pointer
+      font-weight 500
+      color $vssue-theme-color
+      text-decoration none
+    hr
+      display block
+      height 1px
+      border 0
+      border-top 1px solid $vssue-border-color
+      margin 1.2rem 0
+      padding 0
+
+  if $vssue-direction == rtl
+    direction rtl
+    @import "_rtl"

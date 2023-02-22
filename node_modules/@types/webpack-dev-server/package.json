@@ -1,0 +1,81 @@
+{
+    "name": "@types/webpack-dev-server",
+    "version": "3.11.6",
+    "description": "TypeScript definitions for webpack-dev-server",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-dev-server",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "maestroh",
+            "url": "https://github.com/maestroh",
+            "githubUsername": "maestroh"
+        },
+        {
+            "name": "Dave Parslow",
+            "url": "https://github.com/daveparslow",
+            "githubUsername": "daveparslow"
+        },
+        {
+            "name": "Zheyang Song",
+            "url": "https://github.com/ZheyangSong",
+            "githubUsername": "ZheyangSong"
+        },
+        {
+            "name": "Alan Agius",
+            "url": "https://github.com/alan-agius4",
+            "githubUsername": "alan-agius4"
+        },
+        {
+            "name": "Artur Androsovych",
+            "url": "https://github.com/arturovt",
+            "githubUsername": "arturovt"
+        },
+        {
+            "name": "Dave Cardwell",
+            "url": "https://github.com/davecardwell",
+            "githubUsername": "davecardwell"
+        },
+        {
+            "name": "Katsuya Hino",
+            "url": "https://github.com/dobogo",
+            "githubUsername": "dobogo"
+        },
+        {
+            "name": "Billy Le",
+            "url": "https://github.com/billy-le",
+            "githubUsername": "billy-le"
+        },
+        {
+            "name": "Chris Paterson",
+            "url": "https://github.com/chrispaterson",
+            "githubUsername": "chrispaterson"
+        },
+        {
+            "name": "Piotr Błażejewicz",
+            "url": "https://github.com/peterblazejewicz",
+            "githubUsername": "peterblazejewicz"
+        },
+        {
+            "name": "William Artero",
+            "url": "https://github.com/wwmoraes",
+            "githubUsername": "wwmoraes"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/webpack-dev-server"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/connect-history-api-fallback": "*",
+        "@types/express": "*",
+        "@types/serve-static": "*",
+        "@types/webpack": "^4",
+        "http-proxy-middleware": "^1.0.0"
+    },
+    "typesPublisherContentHash": "b26879d2ad462235fdbf98cc2065b6df144275c80abeaee0a09d4409d5c110b2",
+    "typeScriptVersion": "3.8"
+}

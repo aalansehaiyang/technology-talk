@@ -1,0 +1,19 @@
+root: true
+
+extends:
+  - plugin:vue/essential
+  - standard
+
+rules:
+  comma-dangle: 
+    - error
+    - always-multiline
+  indent:
+    - error
+    - 2
+    - MemberExpression: off
+  no-undef: error
+  no-unused-vars: off
+  operator-linebreak:
+    - error
+    - before

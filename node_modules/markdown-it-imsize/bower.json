@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it-imsize",
+  "version": "2.0.0",
+  "authors": [
+    "tatsy <tatsy.mail@gmail.com>"
+  ],
+  "description": "Markdown-it plugin to specify image size",
+  "main": "index.js",
+  "kewords": [
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "helpers",
+    "Makefile",
+    "lib"
+  ]
+}

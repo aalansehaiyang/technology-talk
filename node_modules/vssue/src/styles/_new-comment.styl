@@ -1,0 +1,70 @@
+.vssue-new-comment
+  border-bottom 1px solid $vssue-border-color
+  margin-top 10px
+  margin-bottom 10px
+  .vssue-comment-avatar
+    float left
+    width 50px
+    height 50px
+    img
+      width 50px
+      height 50px
+    .vssue-icon
+      cursor pointer
+      padding 5px
+      font-size 50px
+      fill darken($vssue-text-light-color, 25%)
+  .vssue-new-comment-body
+    position relative
+    @media screen and (max-width $vssue-breakpoint-mobile)
+      margin-left 60px
+    @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+      margin-left 70px
+    .vssue-new-comment-loading
+      position absolute
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+  .vssue-new-comment-footer
+    @extend .clearfix
+
+    margin-top 10px
+    margin-bottom 10px
+
+    .vssue-current-user
+      color $vssue-text-light-color
+      .vssue-logout
+        cursor pointer
+        text-decoration underline
+        color $vssue-text-light-color
+        font-weight normal
+
+    @media screen and (max-width $vssue-breakpoint-mobile)
+      text-align center
+      .vssue-new-comment-operations
+        margin-top 10px
+    @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+      margin-left 70px
+      text-align right
+      .vssue-current-user
+        float left
+
+  .vssue-new-comment-input
+    resize none
+    outline none
+    width 100%
+    padding 15px
+    font-size $vssue-font-size
+    font-family $vssue-font-family
+    background-color lighten($vssue-theme-color, 95%)
+    border 1px solid $vssue-border-color
+    border-radius 5px
+    &:disabled
+      cursor not-allowed
+      background-color lighten($vssue-border-color, 30%)
+    &:focus
+      background-color #ffffff
+      border-color lighten($vssue-theme-color, 50%)
+      box-shadow 0 0 1px 1px lighten($vssue-theme-color, 50%)
+    &::placeholder
+      color $vssue-text-light-color

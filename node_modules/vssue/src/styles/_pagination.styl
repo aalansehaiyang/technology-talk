@@ -1,0 +1,46 @@
+.vssue-pagination
+  cursor default
+  display flex
+  padding 5px
+  color $vssue-text-light-color
+  @media screen and (max-width $vssue-breakpoint-mobile)
+    flex-direction column
+    justify-content center
+    text-align center
+  .vssue-pagination-per-page
+    flex 1
+  .vssue-pagination-loading
+    flex 1
+  .vssue-pagination-page
+    flex 1
+    @media screen and (max-width $vssue-breakpoint-mobile)
+      margin-top 10px
+    @media screen and (min-width $vssue-breakpoint-mobile + 1px)
+      text-align right
+
+  .vssue-pagination-select
+    outline none
+    appearance none
+    border 1px solid lighten($vssue-theme-color, 50%)
+    padding-left 0.2rem
+    padding-right 1rem
+    background-color transparent
+    background-image url("data:image/svg+xml;charset=utf8,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle/%3E%3C/defs%3E%3Cpath d='M676.395 432.896a21.333 21.333 0 0 0-30.166 0L511.061 568.021 377.728 434.645a21.333 21.333 0 0 0-30.165 30.166l148.394 148.48a21.419 21.419 0 0 0 30.208 0l150.23-150.187a21.333 21.333 0 0 0 0-30.208'/%3E%3C/svg%3E")
+    background-repeat no-repeat
+    background-position center right
+    &:disabled
+      cursor not-allowed
+    &:focus
+      background-color #ffffff
+      box-shadow 0 0 0.2px 0.2px lighten($vssue-theme-color, 50%)
+
+  .vssue-pagination-link
+    display inline-block
+    min-width 1em
+    text-align center
+    &.disabled
+      pointer-events none
+    &:not(.disabled)
+      color $vssue-theme-color
+      font-weight 500
+      cursor pointer

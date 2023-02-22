@@ -1,0 +1,19 @@
+Option to autofill image size
+.
+![lena]( test/img/lena.bmp )
+.
+<p><img src="test/img/lena.bmp" alt="lena" width="128" height="128"></p>
+.
+.
+![lena]( test/img/lena.bmp =200x )
+.
+<p><img src="test/img/lena.bmp" alt="lena" width="200"></p>
+.
+
+
+Ignore invalid pass
+.
+![test]( invalid.bmp )
+.
+<p><img src="invalid.bmp" alt="test"></p>
+.

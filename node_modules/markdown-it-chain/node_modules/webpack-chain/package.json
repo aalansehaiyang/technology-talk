@@ -1,0 +1,40 @@
+{
+  "name": "webpack-chain",
+  "version": "4.12.1",
+  "main": "src/Config.js",
+  "repository": "neutrinojs/webpack-chain",
+  "keywords": [
+    "webpack",
+    "config",
+    "chain",
+    "fluent",
+    "api"
+  ],
+  "files": [
+    "src"
+  ],
+  "author": "Eli Perelman <eli@eliperelman.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "test": "ava test",
+    "lint": "eslint --cache --report-unused-disable-directives --format codeframe \".*.js\" src test",
+    "changelog": "auto-changelog --remote upstream --commit-limit false",
+    "version": "yarn changelog --package && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "deepmerge": "^1.5.2",
+    "javascript-stringify": "^1.6.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.8.0",
+    "ava": "^0.25.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-ava": "^5.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3",
+    "webpack": "^4.20.2"
+  }
+}

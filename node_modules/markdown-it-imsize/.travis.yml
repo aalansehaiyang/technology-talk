@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '0.10'
+  - '0.11'
+  - '0.12'
+after_success:
+  - make test-ci
+sudo: false
+deploy:
+  provider: npm
+  email: tatsy.mail@gmail.com
+  api_key:
+    secure: NPmR0/0uUF3sL6PI7rhO7pNOxa0doCcp7MXbRvOcenw9mF6CVFJNSfCJmCST59gGCVarYxzR8s3oGsTGvNB7i3WF6mv4WcH3lS7ZY/8PPWEiCzFu7H6J/faULO3zj2ZarxGSEesilWZYs8dF0Dkkxe+cafiEMVnU3wK9WfR4t10=
+  on:
+    tags: true
+    repo: tatsy/markdown-it-imsize
+    all_branches: true
