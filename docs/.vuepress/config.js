@@ -182,23 +182,30 @@ module.exports = {
                 lastUpdated: "上次更新",
                 nav: [
                     {
-                        text: 'Java', link: ''
+                        text: 'Java', link: '/'
                     },
                     {
-                        text: 'Spring全家桶', link: ''
+                        text: '大厂面试专栏', link: '/md/interview/JAVA 基础那点破事.md'
+                    },
+                    {
+                        text: 'Spring全家桶', link: '/'
                     },
                     {
                         text: '中间件',
                         items: [
                             {
                                 text: 'Redis',
-                                link: ''
+                                link: '/'
                             },
                             {
                                 text: 'MySQL',
-                                link: ''
+                                link: '/'
                             }
                         ]
+                    },
+
+                    {
+                        text: '我的书单', link: '/md/about/book/读书单.md'
                     },
 
                     {
@@ -209,6 +216,7 @@ module.exports = {
                     }
                 ],
                 sidebar: {
+                    "/md/interview/": genInterview(),
                     "/md/about/": genAbout()
                 }
             }
@@ -217,22 +225,32 @@ module.exports = {
 };
 
 
-// About page
+// 大厂面试专栏
+function genInterview() {
+    return [
+        {
+            title: "面试专题",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "JAVA 基础那点破事.md",
+                "JAVA 集合那点破事.md"
+            ]
+        }
+    ];
+}
+
+// 关于自己
 function genAbout() {
     return [
         {
             title: "关于自己",
-            collapsable: false,
-            sidebarDepth: 0,
+            collapsable: true,
+            sidebarDepth: 1,
             children: [
                 "me/about-me.md",
-                "me/me-2022.md",
+                "book/读书单.md"
             ]
-        },
-        {
-            title: "关于学习",
-            collapsable: false,
-            sidebarDepth: 0,
         }
     ];
 }
