@@ -1,7 +1,7 @@
 # 程序员技术导航
 
 
-### 前言
+## 前言
 
 有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。
 
@@ -12,6 +12,46 @@
 言归正传，本文会列举工作中常用的一些技术，以及如何锻炼提升自己的架构能力。
 
 由于每块技术市场上基本都有对应的网络资料或书籍，所以本文只是少篇幅列举工作中用到的核心知识点，抛砖引玉，属于进阶型，不适用初学者。
+
+
+## 主流中间件
+
+### Redis
+
+* [亿级系统的Redis缓存如何设计](docs/md/middleware/redis/亿级系统的Redis缓存如何设计.md)
+* [什么是布隆过滤器？如何解决高并发缓存穿透问题？](docs/md/middleware/redis/什么是布隆过滤器？如何解决高并发缓存穿透问题？.md)
+* [为什么 Redis Cluster 是16384个槽位?](docs/md/middleware/redis/为什么Redis%20Cluster是16384个槽位.md)
+* [Redis主节点的Key已过期，但Client访问从节点依然可以读到过期数据， 为什么？](docs/md/middleware/redis/Redis主节点的Key已过期，但Client访问从节点依然可以读到过期数据.md)
+* [Redis 宕机，数据丢了，老板要辞退我](docs/md/middleware/redis/Redis%20宕机，数据丢了，老板要辞退我.md)
+* [Redis 大长图一文打尽 Redis 核心技术，并配有每个知识点的详解...](docs/md/middleware/redis/2米的大长图一文打尽%20Redis%20核心技术.md)
+* [Redis主节点宕机，要如何处理？](docs/md/middleware/redis/Redis主节点宕机，要如何处理？.md)
+* [秒杀活动技术方案，Redis申请32个G，被技术总监挑战了](docs/md/middleware/redis/秒杀活动技术方案，Redis申请32个G，被技术总监挑战了.md)
+* [一下说出了 Redis 16 个常见使用场景，惊呆面试官](docs/md/middleware/redis/一下说出了%20Redis%2016%20个常见使用场景，惊呆面试官.md)
+* [Redis Cluster集群，当master宕机，主从切换，客户端报错 timed out](docs/md/middleware/redis/Redis%20Cluster集群，当master宕机，主从切换，客户端报错%20timed%20out.md)
+* [如何解决 Redis 数据倾斜、热点等问题](docs/md/middleware/redis/如何解决%20Redis%20数据倾斜、热点等问题.md)
+
+
+
+### MySQL
+
+* [mysql 一棵 B+ 树能存多少条数据？](docs/md/middleware/mysql/mysql%20一棵%20B+%20树能存多少条数据？.md)
+* [一张千万级的数据表，删除了一半的数据，你觉得B+树索引文件会不会变小？](docs/md/middleware/mysql/一张千万级的数据表，删除了一半的数据，你觉得B+树索引文件会不会变小？.md)
+* [SQL 语句明明命中了索引，为什么执行很慢？](docs/md/middleware/mysql/SQL%20语句明明命中了索引，为什么执行很慢？.md)
+* [跑了4个实验，实战讲解 MySQL的行锁、间隙锁...​](docs/md/middleware/mysql/跑了4个实验，实战讲解%20MySQL的行锁、间隙锁.md)
+* [讲一讲 MySQL 数据备份杀手锏 binlog](docs/md/middleware/mysql/讲一讲%20MySQL%20数据备份杀手锏%20binlog.md)
+* [拉取 binlog，自动同步数据](docs/md/middleware/mysql/拉取%20binlog，自动同步数据.md)
+* [MySQL 主备延迟有哪些坑？主备切换策略](docs/md/middleware/mysql/MySQL%20主备延迟有哪些坑？主备切换策略.md)
+* [MySQL 主从延迟 7 种解决方案](docs/md/middleware/mysql/%20MySQL%20主从延迟%207%20种解决方案.md)
+* [SQL 优化有哪些技巧？](docs/md/middleware/mysql/SQL%20优化有哪些技巧.md)
+
+
+### MQ 消息队列
+
+* [聊聊 Kafka 那点破事](docs/md/middleware/mq/聊聊%20Kafka%20那点破事.md)
+* [Kafka 如何解决消息不丢失？](docs/md/middleware/mq/Kafka%20如何解决消息不丢失？.md)
+* [如何保证 MQ消息是有序的？](md/middleware/mq/如何保证%20MQ消息是有序的？.md)
+* [关于消息队列，面试官喜欢考察哪些问题？](docs/md/middleware/mq/关于消息队列，面试官一般都会问哪些.md)
+
 
 
 ### 基础知识
