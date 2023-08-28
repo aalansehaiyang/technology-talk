@@ -1,0 +1,33 @@
+{
+  "name": "technology-talk",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-tags": "^1.0.2",
+    "watchpack": "^1.7.5",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "@vuepress/core": "^1.8.2",
+    "browserslist": "^4.16.3",
+    "caniuse-lite": "^1.0.30001196",
+    "screenfull": "^5.1.0",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-table-of-contents": "^1.1.7"
+  }
+}

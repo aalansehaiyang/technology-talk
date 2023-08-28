@@ -1,6 +1,5 @@
-## 技术心得
+# 程序员技术导航
 
----
 
 ### 前言
 
@@ -186,7 +185,4 @@
 多次参加**淘宝双11**大促活动，架构经验丰富。作为团队负责人，面试过 **500多**位候选人，如果你想去**一线大厂**，关注下方公众号回复「 **大厂** 」，领取大厂面试资料，成为offer收割机
 
 
-<img src="https://raw.githubusercontent.com/aalansehaiyang/technology-talk/master/1.jpg" width=400>
-
-
-
+<img src="docs/.vuepress/public/images/about/me/1.png" width=400>
