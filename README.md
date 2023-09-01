@@ -13,6 +13,8 @@
 > **当然，如果想在职场走的快一点、顺一点，欢迎加入Tom哥的知识星球，大佬带你飞！**
 
 
+Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书单】**](https://offercome.cn/md/about/book/%E8%AF%BB%E4%B9%A6%E5%8D%95.html)
+
 ## 大厂面试专栏
 
 
@@ -36,6 +38,21 @@
 * [第十八篇：Docker ！容器、虚拟机、镜像、分层](docs/md/interview/tech/Docker%20那点破事.md)
 * [第十九篇：Kubernetes ！容器编排、Pod、自动扩容、资源调度](docs/md/interview/tech/Kubernetes%20那点破事.md)
 * [第二十篇：Nginx ！反向代理、正向代理、高并发、负载均衡](docs/md/interview/tech/Nginx%20那点破事.md)
+
+
+## 面试通关技巧（付费）
+
+* [开篇：了解面试规则，人人都是 offer 收割机](https://offercome.cn/md/pay/interview/introductory.html)
+* [第 1 讲：找工作有哪些渠道？](https://offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
+* [第 2 讲：如何挑选心仪公司？](https://offercome.cn/md/pay/interview/%E7%AC%AC%202%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E5%BF%83%E4%BB%AA%E5%85%AC%E5%8F%B8%EF%BC%9F.html)
+* [第 3 讲：JD 不是摆设，教你看懂岗位](https://offercome.cn/md/pay/interview/%E7%AC%AC%203%20%E8%AE%B2%EF%BC%9AJD%20%E4%B8%8D%E6%98%AF%E6%91%86%E8%AE%BE%EF%BC%8C%E6%95%99%E4%BD%A0%E7%9C%8B%E6%87%82%E5%B2%97%E4%BD%8D.html)
+* [第 4 讲：什么时候跳槽最合适？](https://offercome.cn/md/pay/interview/%E7%AC%AC%204%20%E8%AE%B2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%B7%B3%E6%A7%BD%E6%9C%80%E5%90%88%E9%80%82%EF%BC%9F.html)
+* [第 5 讲：设计让面试官眼前一亮的简历？](https://offercome.cn/md/pay/interview/%E7%AC%AC%205%20%E8%AE%B2%EF%BC%9A%E8%AE%BE%E8%AE%A1%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9C%BC%E5%89%8D%E4%B8%80%E4%BA%AE%E7%9A%84%E7%AE%80%E5%8E%86%EF%BC%9F.html)
+* [第 6 讲：怎么让面试官喜欢你？](https://offercome.cn/md/pay/interview/%E7%AC%AC%206%20%E8%AE%B2%EF%BC%9A%E6%80%8E%E4%B9%88%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E5%96%9C%E6%AC%A2%E4%BD%A0%EF%BC%9F.html)
+* [第 7 讲：面试中遇到不会的问题怎么办？](https://offercome.cn/md/pay/interview/%E7%AC%AC%207%20%E8%AE%B2%EF%BC%9A%E9%9D%A2%E8%AF%95%E4%B8%AD%E9%81%87%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
+* [第 8 讲：HR环节一般喜欢问哪些问题？](https://offercome.cn/md/pay/interview/%E7%AC%AC%208%20%E8%AE%B2%EF%BC%9AHR%E7%8E%AF%E8%8A%82%E4%B8%80%E8%88%AC%E5%96%9C%E6%AC%A2%E9%97%AE%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98%EF%BC%9F.html)
+* [第 9 讲：如何挑选最适合自己的 offer？](https://offercome.cn/md/pay/interview/%E7%AC%AC%209%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E6%9C%80%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%20offer%EF%BC%9F.html)
+* [第 10 讲：如何争取更高薪资？](https://offercome.cn/md/pay/interview/%E7%AC%AC%2010%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BA%89%E5%8F%96%E6%9B%B4%E9%AB%98%E8%96%AA%E8%B5%84%EF%BC%9F.html)
 
 
 
@@ -198,24 +215,18 @@
 * [稳定性：系统高可用的 11 个方案技巧](https://offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E7%B3%BB%E7%BB%9F%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%2011%20%E4%B8%AA%E6%96%B9%E6%A1%88%E6%8A%80%E5%B7%A7.html)
 
 
+## 团队管理
 
-## 面试通关技巧（付费）
-
-* [开篇：了解面试规则，人人都是 offer 收割机](https://offercome.cn/md/pay/interview/introductory.html)
-* [第 1 讲：找工作有哪些渠道？](https://offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
-* [第 2 讲：如何挑选心仪公司？](https://offercome.cn/md/pay/interview/%E7%AC%AC%202%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E5%BF%83%E4%BB%AA%E5%85%AC%E5%8F%B8%EF%BC%9F.html)
-* [第 3 讲：JD 不是摆设，教你看懂岗位](https://offercome.cn/md/pay/interview/%E7%AC%AC%203%20%E8%AE%B2%EF%BC%9AJD%20%E4%B8%8D%E6%98%AF%E6%91%86%E8%AE%BE%EF%BC%8C%E6%95%99%E4%BD%A0%E7%9C%8B%E6%87%82%E5%B2%97%E4%BD%8D.html)
-* [第 4 讲：什么时候跳槽最合适？](https://offercome.cn/md/pay/interview/%E7%AC%AC%204%20%E8%AE%B2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%B7%B3%E6%A7%BD%E6%9C%80%E5%90%88%E9%80%82%EF%BC%9F.html)
-* [第 5 讲：设计让面试官眼前一亮的简历？](https://offercome.cn/md/pay/interview/%E7%AC%AC%205%20%E8%AE%B2%EF%BC%9A%E8%AE%BE%E8%AE%A1%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9C%BC%E5%89%8D%E4%B8%80%E4%BA%AE%E7%9A%84%E7%AE%80%E5%8E%86%EF%BC%9F.html)
-* [第 6 讲：怎么让面试官喜欢你？](https://offercome.cn/md/pay/interview/%E7%AC%AC%206%20%E8%AE%B2%EF%BC%9A%E6%80%8E%E4%B9%88%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E5%96%9C%E6%AC%A2%E4%BD%A0%EF%BC%9F.html)
-* [第 7 讲：面试中遇到不会的问题怎么办？](https://offercome.cn/md/pay/interview/%E7%AC%AC%207%20%E8%AE%B2%EF%BC%9A%E9%9D%A2%E8%AF%95%E4%B8%AD%E9%81%87%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
-* [第 8 讲：HR环节一般喜欢问哪些问题？](https://offercome.cn/md/pay/interview/%E7%AC%AC%208%20%E8%AE%B2%EF%BC%9AHR%E7%8E%AF%E8%8A%82%E4%B8%80%E8%88%AC%E5%96%9C%E6%AC%A2%E9%97%AE%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98%EF%BC%9F.html)
-* [第 9 讲：如何挑选最适合自己的 offer？](https://offercome.cn/md/pay/interview/%E7%AC%AC%209%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E6%9C%80%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%20offer%EF%BC%9F.html)
-* [第 10 讲：如何争取更高薪资？](https://offercome.cn/md/pay/interview/%E7%AC%AC%2010%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BA%89%E5%8F%96%E6%9B%B4%E9%AB%98%E8%96%AA%E8%B5%84%EF%BC%9F.html)
+* [团队管理那点破事！OKR绩效、核心人才、面试、技术分享、研发流程....](docs/md/team/manage/团队管理那点破事.md)
+* [第一次带团队，感觉很慌怎么办？](docs/md/team/manage/第一次带团队感觉很慌.md)
+* [管理者一定会遇到的那些事](docs/md/team/manage/管理者一定会遇到的那些事.md)
+* [如何打造一个高效的研发团队](docs/md/team/manage/如何打造一个高效的研发团队.md)
+* [作为技术团队TL，如何运用OKR提高团队产出](docs/md/team/manage/作为技术团队TL，如何运用OKR提高团队产出.md)
+* [教你几招，如何快速把一个团队搞垮？](docs/md/team/manage/教你几招，如何快速把一个团队搞垮.md)
 
 
 
-## 职场锦囊（付费）
+## 职场锦囊
 
 * [001 | 职场遭遇老板 PUA，怎么办？](https://offercome.cn/md/pay/job/001%20%7C%20%20%E8%81%8C%E5%9C%BA%E9%81%AD%E9%81%87%E8%80%81%E6%9D%BF%20PUA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
 * [002 | 与同事发生冲突怎么办？](https://offercome.cn/md/pay/job/002%20%7C%20%20%E4%B8%8E%E5%90%8C%E4%BA%8B%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%81%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
@@ -227,6 +238,15 @@
 * [008 | 空降领导如何做，才能平稳着陆?](https://offercome.cn/md/pay/job/008%20%7C%20%20%E7%A9%BA%E9%99%8D%E9%A2%86%E5%AF%BC%E5%A6%82%E4%BD%95%E5%81%9A%EF%BC%8C%E6%89%8D%E8%83%BD%E5%B9%B3%E7%A8%B3%E7%9D%80%E9%99%86%EF%BC%9F.html)
 * [009 | 修炼心态，避免职场内耗！](https://offercome.cn/md/pay/job/009%20%7C%20%20%E4%BF%AE%E7%82%BC%E5%BF%83%E6%80%81%EF%BC%8C%E9%81%BF%E5%85%8D%E8%81%8C%E5%9C%BA%E5%86%85%E8%80%97%EF%BC%81.html)
 * [010 | 为什么程序员要修炼自己对外「沟通」能力？](https://offercome.cn/md/pay/job/010%20%7C%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%8F%E5%91%98%E8%A6%81%E4%BF%AE%E7%82%BC%E8%87%AA%E5%B7%B1%E5%AF%B9%E5%A4%96%E3%80%8C%E6%B2%9F%E9%80%9A%E3%80%8D%E8%83%BD%E5%8A%9B%EF%BC%9F.html)
+
+
+## 个人成长
+
+* [Tom哥的读书单](docs/md/about/book/读书单.md)
+* [我是这么用 Google 搜索引擎的....](docs/md/about/grow_up/google_search.md)
+* [知识改变命运，读书改变生活](docs/md/about/grow_up/知识改变命运，读书改变生活.md)
+* [提高「程序员」的思维方式](docs/md/about/grow_up/提高「程序员」的思维方式.md)
+* [入职一家新公司，如何快速熟悉代码？](docs/md/about/grow_up/入职一家新公司，如何快速熟悉代码？.md)
 
 
 ## 写在最后
