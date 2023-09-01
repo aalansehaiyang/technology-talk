@@ -1,17 +1,19 @@
 # 技术导航
 ---
 
-## 介绍
+推荐你通过网站在线阅读，体验更佳！网址：[https://offercome.cn/](https://offercome.cn/)
 
-小伙伴们好：
 
-我是 **Tom哥**，计算机研究生，**阿里 P7 技术专家**，拿过 百度、华为、腾讯 等6家大厂offer，出过**专利**，**CSDN博客专家**。
+<img src="">
 
-有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。
+[<img src="docs/md/img/星球介绍.jpg" style="width:850px;margin: 0 auto" />](https://mp.weixin.qq.com/s?__biz=Mzg2NzYyNjQzNg==&mid=2247510327&idx=1&sn=8a2b6a24cbbb9a39ba96cc2d7dbe2f6e&chksm=ceba559cf9cddc8aa1ba2d1729ee2664f63d0107a2c23edabe0ce601a7ce5a906861c6dacc87&scene=25#wechat_redirect)
 
-其实不然，大多数人成为某领域顶级专家可能会有些难度。但应对日常工作，**成长为资深研发工程师、技术专家、甚至成为小团队的Team Leader，并不难**
 
-Tom哥有着多年的中大厂经验，做过电商交易、社区生鲜、流量营销等，在 `系统架构`、`微服务`、`高并发`、`高性能`、`高可用`、`DDD` 等有着丰富的项目实战经验。这里整理一些技术心得，希望能帮到你!
+我是 **Tom哥**，**阿里 P7 技术专家**，拿过 百度、华为、腾讯 等6家大厂offer，出过**专利**，**CSDN博客专家**。
+
+有着多年的大厂架构经验，在 `系统架构`、`微服务`、`高并发`、`高性能`、`领域驱动` 等有着丰富的项目实战经验。这里整理一些技术心得，希望能帮到你!
+
+**当然，如果想在职场走的快一点、顺一点，欢迎加入Tom哥的知识星球，大佬带你飞！**
 
 
 ## 大厂面试专栏
@@ -170,9 +172,8 @@ Tom哥有着多年的中大厂经验，做过电商交易、社区生鲜、流�
 * [学会这10个设计原则，离架构师又进了一步！！！](docs/md/arch/designmodel/学会这10个设计原则，离架构师又进了一步.md)
 
 
-## 付费专栏
 
-### 系统架构与优化
+## 系统架构与优化（付费）
 
 * [开篇：关于系统架构与优化](https://offercome.cn/md/pay/arch/optimize.html)
 * [基础篇：为什么流量入口要部署网关？](https://offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B5%81%E9%87%8F%E5%85%A5%E5%8F%A3%E8%A6%81%E9%83%A8%E7%BD%B2%E7%BD%91%E5%85%B3%EF%BC%9F.html)
@@ -200,7 +201,8 @@ Tom哥有着多年的中大厂经验，做过电商交易、社区生鲜、流�
 * [稳定性：系统高可用的 11 个方案技巧](https://offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E7%B3%BB%E7%BB%9F%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%2011%20%E4%B8%AA%E6%96%B9%E6%A1%88%E6%8A%80%E5%B7%A7.html)
 
 
-### 面试通关技巧
+
+## 面试通关技巧（付费）
 
 * [开篇：了解面试规则，人人都是 offer 收割机](https://offercome.cn/md/pay/interview/introductory.html)
 * [第 1 讲：找工作有哪些渠道？](https://offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
@@ -215,7 +217,8 @@ Tom哥有着多年的中大厂经验，做过电商交易、社区生鲜、流�
 * [第 10 讲：如何争取更高薪资？](https://offercome.cn/md/pay/interview/%E7%AC%AC%2010%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BA%89%E5%8F%96%E6%9B%B4%E9%AB%98%E8%96%AA%E8%B5%84%EF%BC%9F.html)
 
 
-### 职场锦囊
+
+## 职场锦囊（付费）
 
 * [001 | 职场遭遇老板 PUA，怎么办？](https://offercome.cn/md/pay/job/001%20%7C%20%20%E8%81%8C%E5%9C%BA%E9%81%AD%E9%81%87%E8%80%81%E6%9D%BF%20PUA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
 * [002 | 与同事发生冲突怎么办？](https://offercome.cn/md/pay/job/002%20%7C%20%20%E4%B8%8E%E5%90%8C%E4%BA%8B%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%81%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
