@@ -3,17 +3,14 @@
 
 推荐你通过网站在线阅读，体验更佳！网址：[https://offercome.cn/](https://offercome.cn/)
 
-
-<img src="">
-
 [<img src="docs/md/img/星球介绍.jpg" style="width:850px;margin: 0 auto" />](https://mp.weixin.qq.com/s?__biz=Mzg2NzYyNjQzNg==&mid=2247510327&idx=1&sn=8a2b6a24cbbb9a39ba96cc2d7dbe2f6e&chksm=ceba559cf9cddc8aa1ba2d1729ee2664f63d0107a2c23edabe0ce601a7ce5a906861c6dacc87&scene=25#wechat_redirect)
 
 
-我是 **Tom哥**，**阿里 P7 技术专家**，拿过 百度、华为、腾讯 等6家大厂offer，出过**专利**，**CSDN博客专家**。
+> 我是 **Tom哥**，**阿里 P7 技术专家**，拿过 百度、华为、腾讯 等6家大厂offer，出过**专利**，**CSDN博客专家**。
 
-有着多年的大厂架构经验，在 `系统架构`、`微服务`、`高并发`、`高性能`、`领域驱动` 等有着丰富的项目实战经验。这里整理一些技术心得，希望能帮到你!
+> 有着多年的大厂架构经验，在 `系统架构`、`微服务`、`高并发`、`高性能`、`领域驱动` 等有着丰富的项目实战经验。这里整理一些技术心得，希望能帮到你!
 
-**当然，如果想在职场走的快一点、顺一点，欢迎加入Tom哥的知识星球，大佬带你飞！**
+> **当然，如果想在职场走的快一点、顺一点，欢迎加入Tom哥的知识星球，大佬带你飞！**
 
 
 ## 大厂面试专栏
