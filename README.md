@@ -18,7 +18,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 <br/>
 
-## 大厂面试专栏
+## ✈️ 大厂面试专栏
 
 
 * [第一篇：JAVA 基础那点破事！反射、泛型、IO模型、重载、非阻塞](docs/md/interview/tech/JAVA基础那点破事.md)
@@ -43,7 +43,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [第二十篇：Nginx ！反向代理、正向代理、高并发、负载均衡](docs/md/interview/tech/Nginx%20那点破事.md)
 
 
-## 面试通关技巧（付费）
+## 🚀 面试通关技巧（付费）
 
 * [开篇：了解面试规则，人人都是 offer 收割机](https://offercome.cn/md/pay/interview/introductory.html)
 * [第 1 讲：找工作有哪些渠道？](https://offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
@@ -60,7 +60,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 
 
-## 中间件
+## 🏡 中间件
 
 ### Redis
 
@@ -100,7 +100,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 
 
-## Spring 家族系列
+## 🏡 Spring 家族系列
 
 
 ### Spring
@@ -144,7 +144,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [讲一讲 Spring、SpringMVC、SpringBoot、SpringCloud 之间的关系？](docs/md/spring/springcloud/spring-frame-compare.md)
 
 
-## 分布式架构
+## 🏡 分布式架构
 
 
 ### 系统架构
@@ -191,7 +191,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 
 
-## 系统架构与优化（付费）
+## 🚀 系统架构与优化（付费）
 
 * [开篇：关于系统架构与优化](https://offercome.cn/md/pay/arch/optimize.html)
 * [基础篇：为什么流量入口要部署网关？](https://offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B5%81%E9%87%8F%E5%85%A5%E5%8F%A3%E8%A6%81%E9%83%A8%E7%BD%B2%E7%BD%91%E5%85%B3%EF%BC%9F.html)
@@ -219,7 +219,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [稳定性：系统高可用的 11 个方案技巧](https://offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E7%B3%BB%E7%BB%9F%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%2011%20%E4%B8%AA%E6%96%B9%E6%A1%88%E6%8A%80%E5%B7%A7.html)
 
 
-## 团队管理
+## 🎡 团队管理
 
 * [团队管理那点破事！OKR绩效、核心人才、面试、技术分享、研发流程....](docs/md/team/manage/团队管理那点破事.md)
 * [第一次带团队，感觉很慌怎么办？](docs/md/team/manage/第一次带团队感觉很慌.md)
@@ -230,7 +230,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 
 
-## 职场锦囊
+## 🚅 职场锦囊
 
 * [001 | 职场遭遇老板 PUA，怎么办？](https://offercome.cn/md/pay/job/001%20%7C%20%20%E8%81%8C%E5%9C%BA%E9%81%AD%E9%81%87%E8%80%81%E6%9D%BF%20PUA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
 * [002 | 与同事发生冲突怎么办？](https://offercome.cn/md/pay/job/002%20%7C%20%20%E4%B8%8E%E5%90%8C%E4%BA%8B%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%81%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
@@ -244,7 +244,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [010 | 为什么程序员要修炼自己对外「沟通」能力？](https://offercome.cn/md/pay/job/010%20%7C%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%8F%E5%91%98%E8%A6%81%E4%BF%AE%E7%82%BC%E8%87%AA%E5%B7%B1%E5%AF%B9%E5%A4%96%E3%80%8C%E6%B2%9F%E9%80%9A%E3%80%8D%E8%83%BD%E5%8A%9B%EF%BC%9F.html)
 
 
-## 个人成长
+## ✈️ 个人成长
 
 * [Tom哥的读书单](docs/md/about/book/读书单.md)
 * [我是这么用 Google 搜索引擎的....](docs/md/about/grow_up/google_search.md)
@@ -253,7 +253,7 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [入职一家新公司，如何快速熟悉代码？](docs/md/about/grow_up/入职一家新公司，如何快速熟悉代码？.md)
 
 
-## 写在最后
+## ⚓ 写在最后
 
 
 Tom哥 多次参加**淘宝双11**大促活动，架构经验丰富。作为团队负责人，面试过 **500多**位候选人，如果你想去**一线大厂**，关注下方公众号回复「 **大厂** 」，领取大厂面试资料，成为offer收割机
