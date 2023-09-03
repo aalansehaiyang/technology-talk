@@ -309,6 +309,7 @@ function genArch() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "business/拆解零售商品架构的底层逻辑.md",
                 "business/电商系统架构， 常见的 9 个大坑.md",
                 "business/万级并发电商库存扣减如何设计？不超卖！.md",
                 "business/电商订单自动确认收货的N种实现.md",
