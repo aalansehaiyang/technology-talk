@@ -1,7 +1,7 @@
 # 技术导航
 ---
 
-推荐你通过网站在线阅读，体验更佳！网址：[https://offercome.cn/](https://offercome.cn/)
+推荐你通过网站在线阅读，体验更佳！网址：[https://www.offercome.cn/](https://www.offercome.cn/)
 
 [<img src="docs/md/img/星球介绍.jpg" style="width:850px;margin: 0 auto" />](https://mp.weixin.qq.com/s?__biz=Mzg2NzYyNjQzNg==&mid=2247510327&idx=1&sn=8a2b6a24cbbb9a39ba96cc2d7dbe2f6e&chksm=ceba559cf9cddc8aa1ba2d1729ee2664f63d0107a2c23edabe0ce601a7ce5a906861c6dacc87&scene=25#wechat_redirect)
 
@@ -14,7 +14,7 @@
 
 <br/>
 
-Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书单】**](https://offercome.cn/md/about/book/%E8%AF%BB%E4%B9%A6%E5%8D%95.html)
+Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书单】**](https://www.offercome.cn/md/about/book/%E8%AF%BB%E4%B9%A6%E5%8D%95.html)
 
 <br/>
 
@@ -25,8 +25,8 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 * [第二篇：JAVA 集合那点破事！集合、扩容、数组、链表](docs/md/interview/tech/JAVA集合那点破事.md)
 * [第三篇：JAVA 并发！JUC、死锁、CAS、线程池](docs/md/interview/tech/JAVA%20并发那点破事.md)
 * [第四篇：JVM 那点破事！内存结构、垃圾收集、OOM、双亲委派](docs/md/interview/tech/JVM%20那点破事.md)
-* [第五篇：项目亮点！DDD、系统架构、分库分表、高性能、吞吐量](https://offercome.cn/md/interview/tech/%E9%A1%B9%E7%9B%AE%E4%BA%AE%E7%82%B9.html)
-* [第六篇：面试那点破事！面试技巧、职业规划、谈薪资](https://offercome.cn/md/interview/tech/%E9%9D%A2%E8%AF%95%E9%82%A3%E7%82%B9%E7%A0%B4%E4%BA%8B.html)
+* [第五篇：项目亮点！DDD、系统架构、分库分表、高性能、吞吐量](https://www.offercome.cn/md/interview/tech/%E9%A1%B9%E7%9B%AE%E4%BA%AE%E7%82%B9.html)
+* [第六篇：面试那点破事！面试技巧、职业规划、谈薪资](https://www.offercome.cn/md/interview/tech/%E9%9D%A2%E8%AF%95%E9%82%A3%E7%82%B9%E7%A0%B4%E4%BA%8B.html)
 * [第七篇：Redis 缓存那点破事 ！单线程、数据类型、淘汰机制、集群模式](docs/md/interview/tech/Redis%20缓存那点破事.md)
 * [第八篇：MySQL 那点破事！索引、SQL调优、事务、B+树、分库分表](docs/md/interview/tech/MySQL%20那点破事.md)
 * [第九篇：Mybatis 那点破事！ ORM，动态SQL、动态代理](docs/md/interview/tech/Mybatis%20那点破事.md)
@@ -45,17 +45,17 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 ## 🚀 二、面试通关技巧（付费）
 
-* [开篇：了解面试规则，人人都是 offer 收割机](https://offercome.cn/md/pay/interview/introductory.html)
-* [第 1 讲：找工作有哪些渠道？](https://offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
-* [第 2 讲：如何挑选心仪公司？](https://offercome.cn/md/pay/interview/%E7%AC%AC%202%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E5%BF%83%E4%BB%AA%E5%85%AC%E5%8F%B8%EF%BC%9F.html)
-* [第 3 讲：JD 不是摆设，教你看懂岗位](https://offercome.cn/md/pay/interview/%E7%AC%AC%203%20%E8%AE%B2%EF%BC%9AJD%20%E4%B8%8D%E6%98%AF%E6%91%86%E8%AE%BE%EF%BC%8C%E6%95%99%E4%BD%A0%E7%9C%8B%E6%87%82%E5%B2%97%E4%BD%8D.html)
-* [第 4 讲：什么时候跳槽最合适？](https://offercome.cn/md/pay/interview/%E7%AC%AC%204%20%E8%AE%B2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%B7%B3%E6%A7%BD%E6%9C%80%E5%90%88%E9%80%82%EF%BC%9F.html)
-* [第 5 讲：设计让面试官眼前一亮的简历？](https://offercome.cn/md/pay/interview/%E7%AC%AC%205%20%E8%AE%B2%EF%BC%9A%E8%AE%BE%E8%AE%A1%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9C%BC%E5%89%8D%E4%B8%80%E4%BA%AE%E7%9A%84%E7%AE%80%E5%8E%86%EF%BC%9F.html)
-* [第 6 讲：怎么让面试官喜欢你？](https://offercome.cn/md/pay/interview/%E7%AC%AC%206%20%E8%AE%B2%EF%BC%9A%E6%80%8E%E4%B9%88%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E5%96%9C%E6%AC%A2%E4%BD%A0%EF%BC%9F.html)
-* [第 7 讲：面试中遇到不会的问题怎么办？](https://offercome.cn/md/pay/interview/%E7%AC%AC%207%20%E8%AE%B2%EF%BC%9A%E9%9D%A2%E8%AF%95%E4%B8%AD%E9%81%87%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
-* [第 8 讲：HR环节一般喜欢问哪些问题？](https://offercome.cn/md/pay/interview/%E7%AC%AC%208%20%E8%AE%B2%EF%BC%9AHR%E7%8E%AF%E8%8A%82%E4%B8%80%E8%88%AC%E5%96%9C%E6%AC%A2%E9%97%AE%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98%EF%BC%9F.html)
-* [第 9 讲：如何挑选最适合自己的 offer？](https://offercome.cn/md/pay/interview/%E7%AC%AC%209%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E6%9C%80%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%20offer%EF%BC%9F.html)
-* [第 10 讲：如何争取更高薪资？](https://offercome.cn/md/pay/interview/%E7%AC%AC%2010%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BA%89%E5%8F%96%E6%9B%B4%E9%AB%98%E8%96%AA%E8%B5%84%EF%BC%9F.html)
+* [开篇：了解面试规则，人人都是 offer 收割机](https://www.offercome.cn/md/pay/interview/introductory.html)
+* [第 1 讲：找工作有哪些渠道？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%201%20%E8%AE%B2%EF%BC%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%E6%B8%A0%E9%81%93.html)
+* [第 2 讲：如何挑选心仪公司？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%202%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E5%BF%83%E4%BB%AA%E5%85%AC%E5%8F%B8%EF%BC%9F.html)
+* [第 3 讲：JD 不是摆设，教你看懂岗位](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%203%20%E8%AE%B2%EF%BC%9AJD%20%E4%B8%8D%E6%98%AF%E6%91%86%E8%AE%BE%EF%BC%8C%E6%95%99%E4%BD%A0%E7%9C%8B%E6%87%82%E5%B2%97%E4%BD%8D.html)
+* [第 4 讲：什么时候跳槽最合适？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%204%20%E8%AE%B2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%B7%B3%E6%A7%BD%E6%9C%80%E5%90%88%E9%80%82%EF%BC%9F.html)
+* [第 5 讲：设计让面试官眼前一亮的简历？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%205%20%E8%AE%B2%EF%BC%9A%E8%AE%BE%E8%AE%A1%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9C%BC%E5%89%8D%E4%B8%80%E4%BA%AE%E7%9A%84%E7%AE%80%E5%8E%86%EF%BC%9F.html)
+* [第 6 讲：怎么让面试官喜欢你？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%206%20%E8%AE%B2%EF%BC%9A%E6%80%8E%E4%B9%88%E8%AE%A9%E9%9D%A2%E8%AF%95%E5%AE%98%E5%96%9C%E6%AC%A2%E4%BD%A0%EF%BC%9F.html)
+* [第 7 讲：面试中遇到不会的问题怎么办？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%207%20%E8%AE%B2%EF%BC%9A%E9%9D%A2%E8%AF%95%E4%B8%AD%E9%81%87%E5%88%B0%E4%B8%8D%E4%BC%9A%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
+* [第 8 讲：HR环节一般喜欢问哪些问题？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%208%20%E8%AE%B2%EF%BC%9AHR%E7%8E%AF%E8%8A%82%E4%B8%80%E8%88%AC%E5%96%9C%E6%AC%A2%E9%97%AE%E5%93%AA%E4%BA%9B%E9%97%AE%E9%A2%98%EF%BC%9F.html)
+* [第 9 讲：如何挑选最适合自己的 offer？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%209%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8C%91%E9%80%89%E6%9C%80%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%20offer%EF%BC%9F.html)
+* [第 10 讲：如何争取更高薪资？](https://www.offercome.cn/md/pay/interview/%E7%AC%AC%2010%20%E8%AE%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BA%89%E5%8F%96%E6%9B%B4%E9%AB%98%E8%96%AA%E8%B5%84%EF%BC%9F.html)
 
 
 
@@ -193,30 +193,30 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 ## 🚀 六、系统架构与优化（付费）
 
-* [开篇：关于系统架构与优化](https://offercome.cn/md/pay/arch/optimize.html)
-* [基础篇：为什么流量入口要部署网关？](https://offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B5%81%E9%87%8F%E5%85%A5%E5%8F%A3%E8%A6%81%E9%83%A8%E7%BD%B2%E7%BD%91%E5%85%B3%EF%BC%9F.html)
-* [基础篇：负载均衡常用的 7 种算法](https://offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%B8%B8%E7%94%A8%E7%9A%84%207%20%E7%A7%8D%E7%AE%97%E6%B3%95.html)
-* [架构篇：10 个架构原则，离架构师又进了一步](https://offercome.cn/md/pay/arch/%E6%9E%B6%E6%9E%84%E7%AF%87%EF%BC%9A10%20%E4%B8%AA%E6%9E%B6%E6%9E%84%E5%8E%9F%E5%88%99%EF%BC%8C%E7%A6%BB%E6%9E%B6%E6%9E%84%E5%B8%88%E5%8F%88%E8%BF%9B%E4%BA%86%E4%B8%80%E6%AD%A5.html)
-* [架构篇：DDD如何指导微服务落地](https://offercome.cn/md/pay/arch/%E6%9E%B6%E6%9E%84%E7%AF%87%EF%BC%9ADDD%E5%A6%82%E4%BD%95%E6%8C%87%E5%AF%BC%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%90%BD%E5%9C%B0.html)
-* [中间件：4 种主流 RPC 框架](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A4%20%E7%A7%8D%E4%B8%BB%E6%B5%81%20RPC%20%E6%A1%86%E6%9E%B6.html)
-* [中间件：注册中心的 5 种技术选型](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83%E7%9A%84%205%20%E7%A7%8D%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.html)
-* [中间件：缓存是性能优化的首选利器](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E7%BC%93%E5%AD%98%E6%98%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%E9%A6%96%E9%80%89%E5%88%A9%E5%99%A8.html)
-* [中间件：缓存的 7 大经典问题](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E7%BC%93%E5%AD%98%E7%9A%84%207%20%E5%A4%A7%E7%BB%8F%E5%85%B8%E9%97%AE%E9%A2%98.html)
-* [中间件：通过消息队列分担系统压力](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E5%88%86%E6%8B%85%E7%B3%BB%E7%BB%9F%E5%8E%8B%E5%8A%9B.html)
-* [中间件：消息队列必问的 6 个经典问题](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E5%BF%85%E9%97%AE%E7%9A%84%206%20%E4%B8%AA%E7%BB%8F%E5%85%B8%E9%97%AE%E9%A2%98.html)
-* [中间件：ElasticSearch 解决复杂条件查询](https://offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9AElasticSearch%20%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2.html)
-* [数据库：海量数据业务有哪些方案](https://offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B8%9A%E5%8A%A1%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B9%E6%A1%88.html)
-* [数据库：分布式主键 id 的 7 种生成策略](https://offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%BB%E9%94%AE%20id%20%E7%9A%84%207%20%E7%A7%8D%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5.html)
-* [数据库：分布式事务的 7 种技术方案](https://offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E7%9A%84%207%20%E7%A7%8D%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88.html)
-* [数据库：SQL 优化 7 条经验总结](https://offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9ASQL%20%E4%BC%98%E5%8C%96%207%20%E6%9D%A1%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html)
-* [代码篇：接口性能优化的 15 个技巧](https://offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E6%8E%A5%E5%8F%A3%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%2015%20%E4%B8%AA%E6%8A%80%E5%B7%A7.html)
-* [代码篇：接口幂等性的 8 种解决方案](https://offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E6%8E%A5%E5%8F%A3%E5%B9%82%E7%AD%89%E6%80%A7%E7%9A%84%208%20%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html)
-* [代码篇：学会13 种锁，从此不再为“锁”心烦](https://offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E5%AD%A6%E4%BC%9A13%20%E7%A7%8D%E9%94%81%EF%BC%8C%E4%BB%8E%E6%AD%A4%E4%B8%8D%E5%86%8D%E4%B8%BA%E2%80%9C%E9%94%81%E2%80%9D%E5%BF%83%E7%83%A6.html)
-* [代码篇：异步编程的 7 种实现方式](https://offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%207%20%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F.html)
-* [提升篇：通过链路追踪优化慢请求](https://offercome.cn/md/pay/arch/%E6%8F%90%E5%8D%87%E7%AF%87%EF%BC%9A%E9%80%9A%E8%BF%87%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA%E4%BC%98%E5%8C%96%E6%85%A2%E8%AF%B7%E6%B1%82.html)
-* [提升篇：通过Arthas快速定位线上问题](https://offercome.cn/md/pay/arch/%E6%8F%90%E5%8D%87%E7%AF%87%EF%BC%9A%E9%80%9A%E8%BF%87Arthas%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98.html)
-* [稳定性：限流的 4 种策略方案](https://offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E9%99%90%E6%B5%81%E7%9A%84%204%20%E7%A7%8D%E7%AD%96%E7%95%A5%E6%96%B9%E6%A1%88.html)
-* [稳定性：系统高可用的 11 个方案技巧](https://offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E7%B3%BB%E7%BB%9F%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%2011%20%E4%B8%AA%E6%96%B9%E6%A1%88%E6%8A%80%E5%B7%A7.html)
+* [开篇：关于系统架构与优化](https://www.offercome.cn/md/pay/arch/optimize.html)
+* [基础篇：为什么流量入口要部署网关？](https://www.offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B5%81%E9%87%8F%E5%85%A5%E5%8F%A3%E8%A6%81%E9%83%A8%E7%BD%B2%E7%BD%91%E5%85%B3%EF%BC%9F.html)
+* [基础篇：负载均衡常用的 7 种算法](https://www.offercome.cn/md/pay/arch/%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%9A%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%B8%B8%E7%94%A8%E7%9A%84%207%20%E7%A7%8D%E7%AE%97%E6%B3%95.html)
+* [架构篇：10 个架构原则，离架构师又进了一步](https://www.offercome.cn/md/pay/arch/%E6%9E%B6%E6%9E%84%E7%AF%87%EF%BC%9A10%20%E4%B8%AA%E6%9E%B6%E6%9E%84%E5%8E%9F%E5%88%99%EF%BC%8C%E7%A6%BB%E6%9E%B6%E6%9E%84%E5%B8%88%E5%8F%88%E8%BF%9B%E4%BA%86%E4%B8%80%E6%AD%A5.html)
+* [架构篇：DDD如何指导微服务落地](https://www.offercome.cn/md/pay/arch/%E6%9E%B6%E6%9E%84%E7%AF%87%EF%BC%9ADDD%E5%A6%82%E4%BD%95%E6%8C%87%E5%AF%BC%E5%BE%AE%E6%9C%8D%E5%8A%A1%E8%90%BD%E5%9C%B0.html)
+* [中间件：4 种主流 RPC 框架](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A4%20%E7%A7%8D%E4%B8%BB%E6%B5%81%20RPC%20%E6%A1%86%E6%9E%B6.html)
+* [中间件：注册中心的 5 种技术选型](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83%E7%9A%84%205%20%E7%A7%8D%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.html)
+* [中间件：缓存是性能优化的首选利器](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E7%BC%93%E5%AD%98%E6%98%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%E9%A6%96%E9%80%89%E5%88%A9%E5%99%A8.html)
+* [中间件：缓存的 7 大经典问题](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E7%BC%93%E5%AD%98%E7%9A%84%207%20%E5%A4%A7%E7%BB%8F%E5%85%B8%E9%97%AE%E9%A2%98.html)
+* [中间件：通过消息队列分担系统压力](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E5%88%86%E6%8B%85%E7%B3%BB%E7%BB%9F%E5%8E%8B%E5%8A%9B.html)
+* [中间件：消息队列必问的 6 个经典问题](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9A%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E5%BF%85%E9%97%AE%E7%9A%84%206%20%E4%B8%AA%E7%BB%8F%E5%85%B8%E9%97%AE%E9%A2%98.html)
+* [中间件：ElasticSearch 解决复杂条件查询](https://www.offercome.cn/md/pay/arch/%E4%B8%AD%E9%97%B4%E4%BB%B6%EF%BC%9AElasticSearch%20%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2.html)
+* [数据库：海量数据业务有哪些方案](https://www.offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B8%9A%E5%8A%A1%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B9%E6%A1%88.html)
+* [数据库：分布式主键 id 的 7 种生成策略](https://www.offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%BB%E9%94%AE%20id%20%E7%9A%84%207%20%E7%A7%8D%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5.html)
+* [数据库：分布式事务的 7 种技术方案](https://www.offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9A%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E7%9A%84%207%20%E7%A7%8D%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88.html)
+* [数据库：SQL 优化 7 条经验总结](https://www.offercome.cn/md/pay/arch/%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9ASQL%20%E4%BC%98%E5%8C%96%207%20%E6%9D%A1%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html)
+* [代码篇：接口性能优化的 15 个技巧](https://www.offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E6%8E%A5%E5%8F%A3%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%2015%20%E4%B8%AA%E6%8A%80%E5%B7%A7.html)
+* [代码篇：接口幂等性的 8 种解决方案](https://www.offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E6%8E%A5%E5%8F%A3%E5%B9%82%E7%AD%89%E6%80%A7%E7%9A%84%208%20%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html)
+* [代码篇：学会13 种锁，从此不再为“锁”心烦](https://www.offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E5%AD%A6%E4%BC%9A13%20%E7%A7%8D%E9%94%81%EF%BC%8C%E4%BB%8E%E6%AD%A4%E4%B8%8D%E5%86%8D%E4%B8%BA%E2%80%9C%E9%94%81%E2%80%9D%E5%BF%83%E7%83%A6.html)
+* [代码篇：异步编程的 7 种实现方式](https://www.offercome.cn/md/pay/arch/%E4%BB%A3%E7%A0%81%E7%AF%87%EF%BC%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%207%20%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F.html)
+* [提升篇：通过链路追踪优化慢请求](https://www.offercome.cn/md/pay/arch/%E6%8F%90%E5%8D%87%E7%AF%87%EF%BC%9A%E9%80%9A%E8%BF%87%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA%E4%BC%98%E5%8C%96%E6%85%A2%E8%AF%B7%E6%B1%82.html)
+* [提升篇：通过Arthas快速定位线上问题](https://www.offercome.cn/md/pay/arch/%E6%8F%90%E5%8D%87%E7%AF%87%EF%BC%9A%E9%80%9A%E8%BF%87Arthas%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98.html)
+* [稳定性：限流的 4 种策略方案](https://www.offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E9%99%90%E6%B5%81%E7%9A%84%204%20%E7%A7%8D%E7%AD%96%E7%95%A5%E6%96%B9%E6%A1%88.html)
+* [稳定性：系统高可用的 11 个方案技巧](https://www.offercome.cn/md/pay/arch/%E7%A8%B3%E5%AE%9A%E6%80%A7%EF%BC%9A%E7%B3%BB%E7%BB%9F%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%2011%20%E4%B8%AA%E6%96%B9%E6%A1%88%E6%8A%80%E5%B7%A7.html)
 
 
 ## 🎡 七、团队管理
@@ -232,16 +232,16 @@ Tom哥平时喜欢读一些书，给大家分享下我的 [**【Tom哥的读书�
 
 ## 🚅 八、职场锦囊
 
-* [001 | 职场遭遇老板 PUA，怎么办？](https://offercome.cn/md/pay/job/001%20%7C%20%20%E8%81%8C%E5%9C%BA%E9%81%AD%E9%81%87%E8%80%81%E6%9D%BF%20PUA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
-* [002 | 与同事发生冲突怎么办？](https://offercome.cn/md/pay/job/002%20%7C%20%20%E4%B8%8E%E5%90%8C%E4%BA%8B%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%81%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
-* [003 | 职场不相信眼泪，千万不要玻璃心 ？](https://offercome.cn/md/pay/job/003%20%7C%20%20%E8%81%8C%E5%9C%BA%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA%EF%BC%8C%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E7%8E%BB%E7%92%83%E5%BF%83%20%EF%BC%9F.html)
-* [04 | 入职一家新公司，如何快速熟悉代码](https://offercome.cn/md/pay/job/004%20%7C%20%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%AE%B6%E6%96%B0%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E7%86%9F%E6%82%89%E4%BB%A3%E7%A0%81.html)
-* [005 | 工作中，同事不配合怎么办？](https://offercome.cn/md/pay/job/005%20%7C%20%20%E5%B7%A5%E4%BD%9C%E4%B8%AD%EF%BC%8C%E5%90%8C%E4%BA%8B%E4%B8%8D%E9%85%8D%E5%90%88%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
-* [06 | 要想职场混的好，向上管理很重要](https://offercome.cn/md/pay/job/006%20%7C%20%20%E8%A6%81%E6%83%B3%E8%81%8C%E5%9C%BA%E6%B7%B7%E7%9A%84%E5%A5%BD%EF%BC%8C%E5%90%91%E4%B8%8A%E7%AE%A1%E7%90%86%E5%BE%88%E9%87%8D%E8%A6%81.html)
-* [007 | 离职后，一定要立刻找到新工作吗？](https://offercome.cn/md/pay/job/007%20%7C%20%20%E7%A6%BB%E8%81%8C%E5%90%8E%EF%BC%8C%E4%B8%80%E5%AE%9A%E8%A6%81%E7%AB%8B%E5%88%BB%E6%89%BE%E5%88%B0%E6%96%B0%E5%B7%A5%E4%BD%9C%E5%90%97%EF%BC%9F.html)
-* [008 | 空降领导如何做，才能平稳着陆?](https://offercome.cn/md/pay/job/008%20%7C%20%20%E7%A9%BA%E9%99%8D%E9%A2%86%E5%AF%BC%E5%A6%82%E4%BD%95%E5%81%9A%EF%BC%8C%E6%89%8D%E8%83%BD%E5%B9%B3%E7%A8%B3%E7%9D%80%E9%99%86%EF%BC%9F.html)
-* [009 | 修炼心态，避免职场内耗！](https://offercome.cn/md/pay/job/009%20%7C%20%20%E4%BF%AE%E7%82%BC%E5%BF%83%E6%80%81%EF%BC%8C%E9%81%BF%E5%85%8D%E8%81%8C%E5%9C%BA%E5%86%85%E8%80%97%EF%BC%81.html)
-* [010 | 为什么程序员要修炼自己对外「沟通」能力？](https://offercome.cn/md/pay/job/010%20%7C%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%8F%E5%91%98%E8%A6%81%E4%BF%AE%E7%82%BC%E8%87%AA%E5%B7%B1%E5%AF%B9%E5%A4%96%E3%80%8C%E6%B2%9F%E9%80%9A%E3%80%8D%E8%83%BD%E5%8A%9B%EF%BC%9F.html)
+* [001 | 职场遭遇老板 PUA，怎么办？](https://www.offercome.cn/md/pay/job/001%20%7C%20%20%E8%81%8C%E5%9C%BA%E9%81%AD%E9%81%87%E8%80%81%E6%9D%BF%20PUA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
+* [002 | 与同事发生冲突怎么办？](https://www.offercome.cn/md/pay/job/002%20%7C%20%20%E4%B8%8E%E5%90%8C%E4%BA%8B%E5%8F%91%E7%94%9F%E5%86%B2%E7%AA%81%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
+* [003 | 职场不相信眼泪，千万不要玻璃心 ？](https://www.offercome.cn/md/pay/job/003%20%7C%20%20%E8%81%8C%E5%9C%BA%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA%EF%BC%8C%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E7%8E%BB%E7%92%83%E5%BF%83%20%EF%BC%9F.html)
+* [04 | 入职一家新公司，如何快速熟悉代码](https://www.offercome.cn/md/pay/job/004%20%7C%20%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%AE%B6%E6%96%B0%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E7%86%9F%E6%82%89%E4%BB%A3%E7%A0%81.html)
+* [005 | 工作中，同事不配合怎么办？](https://www.offercome.cn/md/pay/job/005%20%7C%20%20%E5%B7%A5%E4%BD%9C%E4%B8%AD%EF%BC%8C%E5%90%8C%E4%BA%8B%E4%B8%8D%E9%85%8D%E5%90%88%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F.html)
+* [06 | 要想职场混的好，向上管理很重要](https://www.offercome.cn/md/pay/job/006%20%7C%20%20%E8%A6%81%E6%83%B3%E8%81%8C%E5%9C%BA%E6%B7%B7%E7%9A%84%E5%A5%BD%EF%BC%8C%E5%90%91%E4%B8%8A%E7%AE%A1%E7%90%86%E5%BE%88%E9%87%8D%E8%A6%81.html)
+* [007 | 离职后，一定要立刻找到新工作吗？](https://www.offercome.cn/md/pay/job/007%20%7C%20%20%E7%A6%BB%E8%81%8C%E5%90%8E%EF%BC%8C%E4%B8%80%E5%AE%9A%E8%A6%81%E7%AB%8B%E5%88%BB%E6%89%BE%E5%88%B0%E6%96%B0%E5%B7%A5%E4%BD%9C%E5%90%97%EF%BC%9F.html)
+* [008 | 空降领导如何做，才能平稳着陆?](https://www.offercome.cn/md/pay/job/008%20%7C%20%20%E7%A9%BA%E9%99%8D%E9%A2%86%E5%AF%BC%E5%A6%82%E4%BD%95%E5%81%9A%EF%BC%8C%E6%89%8D%E8%83%BD%E5%B9%B3%E7%A8%B3%E7%9D%80%E9%99%86%EF%BC%9F.html)
+* [009 | 修炼心态，避免职场内耗！](https://www.offercome.cn/md/pay/job/009%20%7C%20%20%E4%BF%AE%E7%82%BC%E5%BF%83%E6%80%81%EF%BC%8C%E9%81%BF%E5%85%8D%E8%81%8C%E5%9C%BA%E5%86%85%E8%80%97%EF%BC%81.html)
+* [010 | 为什么程序员要修炼自己对外「沟通」能力？](https://www.offercome.cn/md/pay/job/010%20%7C%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%8F%E5%91%98%E8%A6%81%E4%BF%AE%E7%82%BC%E8%87%AA%E5%B7%B1%E5%AF%B9%E5%A4%96%E3%80%8C%E6%B2%9F%E9%80%9A%E3%80%8D%E8%83%BD%E5%8A%9B%EF%BC%9F.html)
 
 
 ## ✈️ 九、个人成长

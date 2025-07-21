@@ -6,7 +6,7 @@ title: Spring Boot 集成 ElasticSearch
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -14,7 +14,7 @@ title: Spring Boot 集成 ElasticSearch
 
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/8-5.jpg" width="600px">
+    <img src="https://www.offercome.cn/images/spring/springboot/8-5.jpg" width="600px">
 </div>
 
 
@@ -154,13 +154,13 @@ public interface OrderRepository extends ElasticsearchRepository<OrderModel, Lon
 `ElasticsearchRepository` 是 `Spring boot Elasticsearch` 框架预留的扩展接口，内部的类依赖关系如下图所示：
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/8-1.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/8-1.jpg" width="700px">
 </div>
 
 `ElasticsearchRepository` 接口内提供常用的操作ES的方法，如：新增、修改、删除、各种维度条件查询及分页等，详细方法内容如下：
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/8-2.jpg" width="800px">
+    <img src="https://www.offercome.cn/images/spring/springboot/8-2.jpg" width="800px">
 </div>
 
 > save() 方法是创建索引，如果索引document已经存在，后面的 `save` 方法则是对之前的数据覆盖。也就是说新增和修改都可以通过 `save` 方法 实现。
@@ -209,7 +209,7 @@ public void test2() {
 可以看到刚才执行单元测试，创建的索引记录。
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/8-3.jpg" width="800px">
+    <img src="https://www.offercome.cn/images/spring/springboot/8-3.jpg" width="800px">
 </div>
 
 

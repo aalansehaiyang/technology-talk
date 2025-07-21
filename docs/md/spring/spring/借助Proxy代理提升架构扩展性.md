@@ -6,7 +6,7 @@ title: 如何借助Proxy代理，提升架构扩展性
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -19,7 +19,7 @@ title: 如何借助Proxy代理，提升架构扩展性
 同理，服务器也有状态之分，取决于服务器是否有存储数据，还是纯计算节点
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/spring/3-1.jpg" width="600px">
+    <img src="https://www.offercome.cn/images/spring/spring/3-1.jpg" width="600px">
 </div>
 
 ## 业务场景
@@ -39,7 +39,7 @@ title: 如何借助Proxy代理，提升架构扩展性
 我们想到了RPC框架，比如 `Dubbo`，对于开发者而言，调用一个远程服务跟调用本地方法一样，简单方便。
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/spring/3-3.jpg" width="600px">
+    <img src="https://www.offercome.cn/images/spring/spring/3-3.jpg" width="600px">
 </div>
 
 ## 如何来设计这个框架层
@@ -365,7 +365,7 @@ Redis cluster有固定的**16384**个hash slot，对每个key计算**CRC16**值�
 基于重定向的客户端，大部分情况下，可能都会出现一次请求重定向，才能找到正确的节点，非常消耗网络IO。有什么解决方案吗？
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/spring/3-2.jpg" width="600px">
+    <img src="https://www.offercome.cn/images/spring/spring/3-2.jpg" width="600px">
 </div>
 
 可以了解下 `JedisCluster`

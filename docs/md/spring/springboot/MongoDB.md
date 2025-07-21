@@ -6,7 +6,7 @@ title: Spring Boot 集成 MongoDB
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -95,7 +95,7 @@ spring:
 工程结构如图所示：
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/18-1.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/18-1.jpg" width="700px">
 </div>
 
 ### 定义实体对象
@@ -142,7 +142,7 @@ public interface UserRepository extends MongoRepository<User, String> {
 `UserRepository` 接口继承 `MongoRepository `，默认提供很多实现，比如 CRUD 和列表查询参数相关的实现。`MongoRepository` 接口默认实现如下：
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/18-2.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/18-2.jpg" width="700px">
 </div>
 
 ## 操作演示
@@ -183,7 +183,7 @@ http://localhost:9071/queryByAge?age=27
 Navicat Premium 验证数据
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/18-3.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/18-3.jpg" width="700px">
 </div>
 
 也支持命令行的方式验证数据
@@ -206,7 +206,7 @@ db.user.find().pretty()
 
 ```
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/18-4.jpg" width="500px">
+    <img src="https://www.offercome.cn/images/spring/springboot/18-4.jpg" width="500px">
 </div>
 
 ## 项目源码

@@ -6,7 +6,7 @@ title: 分布式配置中心选型，为什么选择 Apollo？
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -20,13 +20,13 @@ title: 分布式配置中心选型，为什么选择 Apollo？
 例如：淘宝每年都要举办双十一活动，带来上千亿的GMV，流量非常大。为了系统的稳定性，通常会做各种演练演习、压测，制定上千个降级预案。如果遇到突发情况，要打开哪个开关，启动对应的紧急处理措施。如果按上面的玩法，每次都要走一次发布流程，一个集群上千台服务器，发布完了，半个小时也没了，这的损失多少钱。
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/11-2.jpg" width="500px">
+    <img src="https://www.offercome.cn/images/spring/springboot/11-2.jpg" width="500px">
 </div>
 
 **资损先不算了，但是你的年度考核 3.25 肯定是没得跑了，年终奖泡汤，赢取白富美，走上人生巅峰。。。。兄弟醒醒。。。**
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/11-4.jpg" width="600px">
+    <img src="https://www.offercome.cn/images/spring/springboot/11-4.jpg" width="600px">
 </div>
 
 学学人家德芙，能不能搞个丝滑般的 `Features` ，不用走发布流程，也能动态感知配置变更
@@ -84,7 +84,7 @@ Apollo用户管理以及权限管理做的比较好和全面，适合做部门�
 
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/11-5.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/11-5.jpg" width="700px">
 </div>
 
 
@@ -179,7 +179,7 @@ public class ApolloConfig {
 http://localhost:8070/config.html?#/appid=spring-boot-bulking-apollo
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/11-1.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/11-1.jpg" width="700px">
 </div>
 
 控制台多次修改`user.timeout`的值，客户端系统能实时接收到配置变更。

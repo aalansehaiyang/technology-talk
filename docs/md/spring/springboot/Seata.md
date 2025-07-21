@@ -6,7 +6,7 @@ title: 业务无侵入框架 Seata， 解决分布式事务
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -57,7 +57,7 @@ Seata 的 JDBC 数据源代理通过对业务 SQL 的解析，把业务数据在
 ## Seata 流程
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/25-4.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/25-4.jpg" width="700px">
 </div>
 
 ### 组成部分
@@ -123,7 +123,7 @@ docker run --name  seata-server -p 8091:8091  seataio/seata-server
 各系统间的交互如下图所示：
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/25-3.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/25-3.jpg" width="700px">
 </div>
 
 
@@ -267,13 +267,13 @@ public class RestTemplateInterceptor implements ClientHttpRequestInterceptor {
 Seata事务无论成功或者回滚，都会物理删除`undo_log`表里的记录，为了验证中间过程，我们在下游Order系统里的`com.weiguanjishu.service.OrderService#create`设置个断点，临时中断请求，然后查看各个表的数据变化
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/25-1.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/25-1.jpg" width="700px">
 </div>
 
 然后将断点放开，请求处理成功，再来看下各表的数据情况
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/25-2.jpg" width="700px">
+    <img src="https://www.offercome.cn/images/spring/springboot/25-2.jpg" width="700px">
 </div>
 
 **写在最后**

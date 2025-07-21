@@ -6,7 +6,7 @@ title: 高性能本地缓存组件 Caffeine Cache
 
 > 作者：Tom哥
 > <br/>公众号：微观技术
-> <br/> 博客：[https://offercome.cn](https://offercome.cn)
+> <br/> 博客：[https://www.offercome.cn](https://www.offercome.cn)
 > <br/> 人生理念：知道的越多，不知道的越多，努力去学
 
 
@@ -26,7 +26,7 @@ Spring Boot 1.x版本中的默认本地缓存是Guava Cache。在 Spring5 (sprin
 为什么Spring会这样做呢？其实在Caffeine的Benchmarks里给出了非常靓的数据，针对读和写场景，与其他几个缓存框架进行了比较，Caffeine的性能表现非常突出。
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/7-2.jpg" width="800px">
+    <img src="https://www.offercome.cn/images/spring/springboot/7-2.jpg" width="800px">
 </div>
 
 
@@ -88,7 +88,7 @@ public static LoadingCache<Long, User> loadingCache = Caffeine.newBuilder()
 **构造LoadingCache对象，里面提供了很多方法来操作缓存，比如 `getIfPresent` 、`put`、`invalidate`等，详细可以参考下图：**
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/7-1.jpg" width="800px">
+    <img src="https://www.offercome.cn/images/spring/springboot/7-1.jpg" width="800px">
 </div>
 
 关于Caffine Cache 的各种参数设置，以及常用的API在各种场景下如何使用演示测试
@@ -227,7 +227,7 @@ Caffeine提供了三种定时驱逐策略：
 我们可以将缓存的驱逐配置成基于垃圾回收器。为此，我们可以将key 和 value 配置为弱引用或只将值配置成软引用。
 
 <div align="left">
-    <img src="https://offercome.cn/images/spring/springboot/7-3.jpg" width="800px">
+    <img src="https://www.offercome.cn/images/spring/springboot/7-3.jpg" width="800px">
 </div>
 
 > 注意：AsyncLoadingCache不支持弱引用和软引用。
